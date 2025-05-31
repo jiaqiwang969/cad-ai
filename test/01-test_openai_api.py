@@ -5,29 +5,41 @@ OpenAI API 访问测试脚本
 """
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from openai import OpenAI
+from config import get_openai_config, get_masked_api_key, validate_config
 
 def test_openai_api():
     """测试OpenAI API访问"""
     
-    # 设置API配置
-    api_key = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-    base_url = "https://ai.pumpkinai.online"
-    model = "gpt-4o-mini"
+    # 从环境变量加载API配置
+    try:
+        config = get_openai_config()
+        if not validate_config(config):
+            return False
+    except Exception as e:
+        print(f"❌ 配置加载失败: {e}")
+        return False
+    
+    api_key = config["api_key"]
+    base_url = config["base_url"] 
+    model = config["model"]
     
     print("=" * 50)
     print("OpenAI API 访问测试")
     print("=" * 50)
     print(f"Base URL: {base_url}")
     print(f"Model: {model}")
-    print(f"API Key: {api_key[:10]}...")
+    print(f"API Key: {get_masked_api_key(api_key)}")
     print("-" * 50)
     
     try:
         # 创建OpenAI客户端
         client = OpenAI(
             api_key=api_key,
-            base_url=base_url + "/v1"  # 添加v1路径
+            base_url=base_url
         )
         
         print("✅ OpenAI客户端创建成功")
@@ -76,12 +88,8 @@ def test_with_environment_variables():
     print("使用环境变量测试")
     print("=" * 50)
     
-    # 设置环境变量
-    os.environ["OPENAI_API_KEY"] = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-    os.environ["OPENAI_BASE_URL"] = "https://ai.pumpkinai.online/v1"
-    
     try:
-        # 使用环境变量创建客户端
+        # 直接使用环境变量创建客户端（OpenAI SDK会自动读取环境变量）
         client = OpenAI()
         
         response = client.chat.completions.create(
@@ -98,6 +106,7 @@ def test_with_environment_variables():
         
     except Exception as e:
         print(f"❌ 环境变量方式失败: {str(e)}")
+        print("提示：请确保已设置 OPENAI_API_KEY 和 OPENAI_BASE_URL 环境变量")
         return False
 
 if __name__ == "__main__":

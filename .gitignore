@@ -193,4 +193,6 @@ cads_tmp/
 config.json
 secrets.json
 api_keys.txt
+.env
 .env.local
+.env.production

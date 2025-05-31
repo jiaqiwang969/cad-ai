@@ -19,6 +19,7 @@ import time
 import argparse
 import logging
 from pathlib import Path
+from datetime import datetime
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -58,6 +59,12 @@ def login(driver: "webdriver.Chrome", email: str, password: str) -> bool:
         return True
     except Exception as e:
         LOG.error("登录失败: %s", e)
+        debug_dir = Path("results/login_debug")
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        driver.save_screenshot(str(debug_dir / f"login_test_fail_{ts}.png"))
+        with open(debug_dir / f"login_test_fail_{ts}.html", "w", encoding="utf-8") as f:
+            f.write(driver.page_source)
         return False
 
 

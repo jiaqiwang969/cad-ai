@@ -29,6 +29,7 @@ from utils.traceparts_session import build_driver, ensure_login
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
 
 CAPTCHA_DIR = Path("results/captcha_samples")
 CAPTCHA_DIR.mkdir(parents=True, exist_ok=True)
@@ -41,6 +42,14 @@ def trigger_captcha(driver, url: str):
     driver.get(url)
     # 先尝试关闭 cookie 许可弹窗，避免遮挡
     accept_cookie_consent(driver)
+    # 尝试切换到 CAD models 选项卡（部分产品页可能默认即显示）
+    open_cad_models_tab(driver)
+
+    # 选择 CAD 格式（默认优先 STL）
+    if not choose_cad_format(driver):
+        print("⚠️ 未能选择 CAD 格式（可能已默认选定）")
+        time.sleep(0.5)
+
     # 等首条 CAD 按钮出现并点击
     try:
         btn = find_and_click_cad_button(driver)
@@ -55,20 +64,48 @@ def trigger_captcha(driver, url: str):
         return None
     # 验证码弹窗：等待 img 出现
     try:
-        img = WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "img[src*='captcha' i]")))
-        src = img.get_attribute("src")
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         out_path = CAPTCHA_DIR / f"captcha_{ts}.png"
-        if src.startswith("data:image"):
-            # base64 格式
-            header, b64data = src.split(",", 1)
-            with open(out_path, "wb") as f:
-                f.write(base64.b64decode(b64data))
-        else:
-            # 普通 URL，直接截图该元素
-            img.screenshot(str(out_path))
-        print("✅ 验证码已保存 =>", out_path)
-        return out_path
+
+        try:
+            # 1) 优先找 <img src*='captcha'>
+            img = WebDriverWait(driver, 12).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "img[src*='captcha' i], img[class*='captcha' i], img[alt*='captcha' i]"))
+            )
+            src = img.get_attribute("src")
+            if src and src.startswith("data:image"):
+                header, b64data = src.split(",", 1)
+                with open(out_path, "wb") as f:
+                    f.write(base64.b64decode(b64data))
+            else:
+                img.screenshot(str(out_path))
+            print("✅ 验证码已保存 =>", out_path)
+            return out_path
+        except Exception:
+            pass
+
+        try:
+            # 2) 其次找 canvas 或 div[class*=captcha]
+            capt_el = WebDriverWait(driver, 12).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "canvas[id*='captcha' i], canvas[class*='captcha' i], div[class*='captcha' i]"))
+            )
+            capt_el.screenshot(str(out_path))
+            print("✅ (canvas/div) 验证码已截图 =>", out_path)
+            return out_path
+        except Exception:
+            pass
+
+        try:
+            # 3) 最后：根据输入框 placeholder 定位
+            input_el = WebDriverWait(driver, 8).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "input[placeholder*='captcha' i], input[name*='captcha' i]"))
+            )
+            container = input_el.find_element(By.XPATH, "ancestor::form[1]")
+            container.screenshot(str(out_path))
+            print("✅ (form) 验证码已截图 =>", out_path)
+            return out_path
+        except Exception:
+            pass
     except Exception as e:
         print("❌ 未捕获到验证码", e)
         # 保存失败页面 HTML
@@ -119,6 +156,13 @@ def find_and_click_cad_button(driver):
         "a[class*='btn-download' i]",
         "button[id*='cad' i]",
         "a[id*='cad' i]",
+        # 格式选择后出现的圆形下载箭头
+        "button[aria-label*='download' i]",
+        "a[aria-label*='download' i]",
+        "button[class*='download' i]",
+        "a[class*='download' i]",
+        "button[title*='download' i]",
+        "a[title*='download' i]",
     ]
     for sel in selectors:
         try:
@@ -143,7 +187,70 @@ def find_and_click_cad_button(driver):
                 return e
     except Exception:
         pass
+    # 若全部失败，保存 HTML 供诊断
+    html_path = CAPTCHA_DIR / "debug_no_download_btn.html"
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(driver.page_source)
+    print("📝 未定位到下载按钮，已保存页面源码 =>", html_path)
     return None
+
+
+def open_cad_models_tab(driver):
+    """若当前未处于 CAD models 选项卡，则点击切换过去"""
+    try:
+        tab = driver.find_element(By.XPATH, "//a[contains(translate(text(),'CAD MODELS','cad models'),'cad models') or contains(@href,'cad-models')]")
+        if tab and tab.is_displayed():
+            tab.click()
+            time.sleep(1.5)
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def choose_cad_format(driver, preferred=("stl", "step", "iges", "sat")) -> bool:
+    """在 CAD 模型卡片中选择一个格式（优先 ST L），返回是否成功"""
+    # 1) 尝试原生 select
+    try:
+        select_el = driver.find_element(By.XPATH, "//select[option[contains(translate(text(),'PLEASE SELECT','please select'),'please select')]] | //select[@title='Please select']")
+        sel = Select(select_el)
+        for idx, opt in enumerate(sel.options):
+            txt = opt.text.lower()
+            if any(ext in txt for ext in preferred):
+                sel.select_by_index(idx)
+                time.sleep(0.8)
+                return True
+        # 没有匹配，选 index 1
+        if len(sel.options) > 1:
+            sel.select_by_index(1)
+            time.sleep(0.8)
+            return True
+    except Exception:
+        pass
+
+    # 2) Bootstrap 自定义下拉（button + ul.dropdown-menu/li/a）
+    try:
+        drop_btn = driver.find_element(By.XPATH, "//*[contains(text(),'Please select') and (self::button or self::a or @role='button')]")
+        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", drop_btn)
+        drop_btn.click()
+        time.sleep(0.8)
+        # 列出所有 li>a
+        opts = driver.find_elements(By.XPATH, "//ul[contains(@class,'dropdown-menu')]//a[not(contains(@class,'disabled'))]")
+        target = None
+        for o in opts:
+            txt = o.text.lower()
+            if any(ext in txt for ext in preferred):
+                target = o
+                break
+        if not target and opts:
+            target = opts[0]
+        if target:
+            target.click()
+            time.sleep(0.8)
+            return True
+    except Exception:
+        pass
+    return False
 
 
 # --------------------------------------------

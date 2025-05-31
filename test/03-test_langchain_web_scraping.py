@@ -6,6 +6,9 @@ LangChain 网页爬取测试 - TraceParts 模型类目信息抓取
 """
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import json
 import re
 import time
@@ -13,6 +16,7 @@ from datetime import datetime
 from typing import List, Dict, Any
 
 from langchain_openai import ChatOpenAI
+from config import get_openai_config, get_masked_api_key, validate_config
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import ChatPromptTemplate
@@ -36,17 +40,25 @@ from bs4 import BeautifulSoup
 
 def setup_llm():
     """配置LLM"""
-    api_key = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-    base_url = "https://ai.pumpkinai.online/v1"
-    
-    llm = ChatOpenAI(
-        model="gpt-4o-mini",
-        openai_api_key=api_key,
-        openai_api_base=base_url,
-        temperature=0.3,
-        max_tokens=2000
-    )
-    return llm
+    try:
+        config = get_openai_config()
+        if not validate_config(config):
+            raise ValueError("配置验证失败")
+        
+        print(f"✅ 使用API Key: {get_masked_api_key(config['api_key'])}")
+        print(f"✅ 使用Base URL: {config['base_url']}")
+        
+        llm = ChatOpenAI(
+            model=config['model'],
+            openai_api_key=config['api_key'],
+            openai_api_base=config['base_url'],
+            temperature=0.3,
+            max_tokens=2000
+        )
+        return llm
+    except Exception as e:
+        print(f"❌ LLM配置失败: {e}")
+        raise
 
 def load_web_content_selenium(url: str) -> str:
     """使用Selenium加载动态网页内容"""

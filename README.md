@@ -21,9 +21,30 @@
 
 ## API 配置
 
-- **API Key**: `sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac`
-- **Base URL**: `https://ai.pumpkinai.online`
+本项目使用环境变量管理API密钥，确保安全性。
+
+### 配置步骤
+
+1. 复制环境变量模板文件：
+   ```bash
+   cp .env.example .env
+   ```
+
+2. 编辑 `.env` 文件，填入您的实际API配置：
+   ```bash
+   OPENAI_API_KEY=your-actual-api-key-here
+   OPENAI_BASE_URL=https://ai.pumpkinai.online/v1
+   OPENAI_MODEL=gpt-4o-mini
+   ```
+
+3. 确保 `.env` 文件已被 `.gitignore` 排除，不会提交到Git
+
+### 默认配置
+
+- **Base URL**: `https://ai.pumpkinai.online/v1`
 - **Model**: `gpt-4o-mini`
+- **Temperature**: `0.7`
+- **Max Tokens**: `200`
 
 ## 快速开始
 

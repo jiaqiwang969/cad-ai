@@ -5,10 +5,14 @@ LangChain OpenAI API 访问测试脚本
 """
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from langchain_openai import ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.chains import LLMChain
 from langchain.prompts import ChatPromptTemplate, PromptTemplate
+from config import get_openai_config, get_masked_api_key, validate_config
 
 def test_basic_langchain():
     """基本的LangChain ChatOpenAI测试"""
@@ -17,15 +21,19 @@ def test_basic_langchain():
     print("=" * 60)
     
     try:
-        # 配置OpenAI
-        api_key = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-        base_url = "https://ai.pumpkinai.online/v1"
-        model = "gpt-4o-mini"
+        # 从环境变量加载配置
+        config = get_openai_config()
+        if not validate_config(config):
+            return False
+            
+        api_key = config["api_key"]
+        base_url = config["base_url"]
+        model = config["model"]
         
         print(f"🔧 配置信息:")
         print(f"  Base URL: {base_url}")
         print(f"  Model: {model}")
-        print(f"  API Key: {api_key[:10]}...")
+        print(f"  API Key: {get_masked_api_key(api_key)}")
         print("-" * 60)
         
         # 创建ChatOpenAI实例
@@ -69,10 +77,14 @@ def test_langchain_chain():
     print("=" * 60)
     
     try:
-        # 配置
-        api_key = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-        base_url = "https://ai.pumpkinai.online/v1"
-        model = "gpt-4o-mini"
+        # 从环境变量加载配置
+        config = get_openai_config()
+        if not validate_config(config):
+            return False
+            
+        api_key = config["api_key"]
+        base_url = config["base_url"]
+        model = config["model"]
         
         # 创建LLM
         llm = ChatOpenAI(
@@ -123,9 +135,10 @@ def test_environment_variables():
     print("=" * 60)
     
     try:
-        # 设置环境变量
-        os.environ["OPENAI_API_KEY"] = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-        os.environ["OPENAI_API_BASE"] = "https://ai.pumpkinai.online/v1"
+        # 验证环境变量已设置
+        config = get_openai_config()
+        print(f"使用API Key: {get_masked_api_key(config['api_key'])}")
+        print(f"使用Base URL: {config['base_url']}")
         
         # 使用环境变量创建LLM（不需要显式传参）
         llm = ChatOpenAI(
@@ -160,8 +173,10 @@ def test_streaming():
     print("=" * 60)
     
     try:
-        api_key = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-        base_url = "https://ai.pumpkinai.online/v1"
+        # 从环境变量加载配置
+        config = get_openai_config()
+        api_key = config["api_key"]
+        base_url = config["base_url"]
         
         llm = ChatOpenAI(
             model="gpt-4o-mini",

@@ -9,4 +9,5 @@ selenium>=4.15.0
 aiofiles>=23.0.0
 opencv-python
 pillow
-pytesseract 
+pytesseract
+undetected-chromedriver>=3.5.4 

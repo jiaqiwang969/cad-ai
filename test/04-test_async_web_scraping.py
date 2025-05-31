@@ -6,6 +6,9 @@
 """
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import json
 import re
 import time
@@ -19,6 +22,7 @@ from concurrent.futures import ThreadPoolExecutor
 import random
 
 from langchain_openai import ChatOpenAI
+from config import get_openai_config, get_masked_api_key, validate_config
 from langchain.schema import HumanMessage, SystemMessage
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.prompts import ChatPromptTemplate
@@ -52,14 +56,31 @@ BACKOFF_JITTER = 0.25  # ±25% 随机性
 @dataclass
 class ScrapingConfig:
     """爬取配置"""
-    api_key: str = "sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac"
-    base_url: str = "https://ai.pumpkinai.online"
+    api_key: str = ""
+    base_url: str = ""
     model: str = "gpt-4o-mini"
     temperature: float = 0.3
     max_tokens: int = 2000
     chunk_concurrency: int = MAX_CHUNK_CONCURRENCY
     max_retries: int = MAX_RETRIES
     chunk_timeout: int = CHUNK_TIMEOUT
+    
+    def __post_init__(self):
+        """初始化后从环境变量加载配置"""
+        try:
+            config = get_openai_config()
+            if not validate_config(config):
+                raise ValueError("配置验证失败")
+            
+            self.api_key = config['api_key']
+            self.base_url = config['base_url']
+            self.model = config['model']
+            
+            LOG.info(f"✅ 使用API Key: {get_masked_api_key(self.api_key)}")
+            LOG.info(f"✅ 使用Base URL: {self.base_url}")
+        except Exception as e:
+            LOG.error(f"❌ 配置加载失败: {e}")
+            raise
 
 @dataclass
 class ExtractionStats:
@@ -476,7 +497,7 @@ class AsyncCategoryExtractor:
         self.llm = ChatOpenAI(
             model=config.model,
             openai_api_key=config.api_key,
-            openai_api_base=config.base_url + "/v1",
+            openai_api_base=config.base_url,
             temperature=config.temperature,
             max_tokens=config.max_tokens
         )

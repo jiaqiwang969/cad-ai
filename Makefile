@@ -1,7 +1,7 @@
 # Makefile for API testing
 # Project: OpenAI API 爬虫测试项目
 
-.PHONY: test test-openai test-langchain test-scraping test-async install clean help
+.PHONY: test test-openai test-langchain test-scraping test-async install clean help verify check list results benchmark
 
 # Python executable
 PYTHON := python3
@@ -128,11 +128,24 @@ test-13:
 # Quick verification test
 verify:
 	@echo "🔍 快速验证 API 连接..."
-	@curl -s -X POST https://ai.pumpkinai.online/v1/chat/completions \
-		-H "Content-Type: application/json" \
-		-H "Authorization: Bearer sk-YgL2cnnuifh9AloZFa6d63111aC64e4898Ba0769077521Ac" \
-		-d '{"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "Hello"}], "max_tokens": 10}' \
-		| grep -q "choices" && echo "✅ API 连接正常" || echo "❌ API 连接失败"
+	@if [ -z "$$OPENAI_API_KEY" ]; then \
+		if [ -f .env ]; then \
+			export $$(cat .env | grep -v '^#' | xargs) && \
+			curl -s -X POST $$OPENAI_BASE_URL/chat/completions \
+				-H "Content-Type: application/json" \
+				-H "Authorization: Bearer $$OPENAI_API_KEY" \
+				-d '{"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "Hello"}], "max_tokens": 10}' \
+				| grep -q "choices" && echo "✅ API 连接正常" || echo "❌ API 连接失败"; \
+		else \
+			echo "❌ 未找到 .env 文件或 OPENAI_API_KEY 环境变量"; \
+		fi \
+	else \
+		curl -s -X POST $$OPENAI_BASE_URL/chat/completions \
+			-H "Content-Type: application/json" \
+			-H "Authorization: Bearer $$OPENAI_API_KEY" \
+			-d '{"model": "gpt-4o-mini", "messages": [{"role": "user", "content": "Hello"}], "max_tokens": 10}' \
+			| grep -q "choices" && echo "✅ API 连接正常" || echo "❌ API 连接失败"; \
+	fi
 
 # Clean up
 clean:
@@ -154,7 +167,7 @@ check:
 	@$(PYTHON) -c "import openai; print('✅ openai:', openai.__version__)" 2>/dev/null || echo "❌ openai 未安装"
 	@$(PYTHON) -c "import langchain; print('✅ langchain:', langchain.__version__)" 2>/dev/null || echo "❌ langchain 未安装"
 	@$(PYTHON) -c "import langchain_openai; print('✅ langchain_openai 已安装')" 2>/dev/null || echo "❌ langchain_openai 未安装"
-	@$(PYTHON) -c "import beautifulsoup4; print('✅ beautifulsoup4 已安装')" 2>/dev/null || echo "❌ beautifulsoup4 未安装"
+	@$(PYTHON) -c "import bs4; print('✅ beautifulsoup4 已安装')" 2>/dev/null || echo "❌ beautifulsoup4 未安装"
 	@$(PYTHON) -c "import requests; print('✅ requests 已安装')" 2>/dev/null || echo "❌ requests 未安装"
 	@$(PYTHON) -c "import selenium; print('✅ selenium 已安装')" 2>/dev/null || echo "❌ selenium 未安装"
 	@$(PYTHON) -c "import aiofiles; print('✅ aiofiles 已安装')" 2>/dev/null || echo "❌ aiofiles 未安装"

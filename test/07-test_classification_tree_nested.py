@@ -30,12 +30,12 @@ def build_nested_tree(records):
     """根据 records 构建嵌套树，返回根节点和叶节点列表"""
     # 预创建虚拟根
     root = {
-        'name': 'TraceParts Classification',
-        'url': 'https://www.traceparts.cn',
-        'level': 1,
-        'code': 'TRACEPARTS_ROOT',
-        'children': []
-    }
+    'name': 'TraceParts Classification',
+    'url': 'https://www.traceparts.cn',
+    'level': 1,
+    'code': 'TRACEPARTS_ROOT',
+    'children': []
+}
     code_map = {'TRACEPARTS_ROOT': root}
 
     # 先为每条记录添加 code
@@ -46,13 +46,13 @@ def build_nested_tree(records):
     records.sort(key=lambda r: r['level'])
 
     for rec in records:
-        node = {
-            'name': rec['name'],
-            'url': rec['url'],
-            'level': rec['level'],
-            'code': rec['code'],
-            'children': []
-        }
+    node = {
+        'name': rec['name'],
+        'url': rec['url'],
+        'level': rec['level'],
+        'code': rec['code'],
+        'children': []
+    }
         code_map[node['code']] = node
 
         # 确定父 code
@@ -80,7 +80,7 @@ def build_nested_tree(records):
             node['is_leaf'] = False
             for ch in node['children']:
                 mark(ch)
-        else:
+else:
             node['is_leaf'] = True
             leaves.append(node)
 

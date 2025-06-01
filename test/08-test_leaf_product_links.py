@@ -164,7 +164,7 @@ def main():
         return False
 
     # 读取命令行参数
-    leaf_url = sys.argv[1] if len(sys.argv) > 1 else "https://www.traceparts.cn/en/search/traceparts-classification-mechanical-components-bearings-bearing-blocks-cartridge-blocks?CatalogPath=TRACEPARTS%3ATP01002002006"
+    leaf_url = sys.argv[1] if len(sys.argv) > 1 else "https://www.traceparts.cn/en/search/traceparts-classification-electrical-electrical-protection-devices-circuit-breakers-molded-case-circuit-breakers-mccb?CatalogPath=TRACEPARTS%3ATP09004001008"
 
     tp_code = tp_code_from_url(leaf_url) or "UNKNOWN"
 

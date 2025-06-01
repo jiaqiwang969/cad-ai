@@ -117,9 +117,42 @@ test-10:
 	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
 	$(PYTHON) $(TEST_DIR)/10-test_product_cad_download.py
 
+# Run test 11: Independent full pipeline (traceparts_full_pipeline.py)
+test-11:
+	@echo "🌐 运行测试 11: TraceParts 全链条抓取 (独立版)..."
+	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
+	$(PYTHON) traceparts_full_pipeline.py --workers 32
+
+# Run new modular pipeline
+pipeline:
+	@echo "🚀 运行新架构流水线..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline.py --workers 16
+
+# Run pipeline with custom settings
+pipeline-fast:
+	@echo "⚡ 运行快速流水线 (32 workers)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline.py --workers 32
+
+pipeline-nocache:
+	@echo "🔄 运行流水线 (禁用缓存)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline.py --no-cache
+
+# Run optimized pipeline
+pipeline-optimized:
+	@echo "🚀 运行优化版流水线 (终极性能)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_optimized_pipeline.py --workers 16
+
+pipeline-optimized-max:
+	@echo "⚡ 运行优化版流水线 (最大并发: 64)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_optimized_pipeline.py --workers 32
+
+pipeline-optimized-nocache:
+	@echo "🔄 运行优化版流水线 (禁用缓存)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_optimized_pipeline.py --no-cache
+
 # Quick verification test
 verify:
-	@echo "🔍 快速验证 API 连接..."
+	@echo "🔄 快速验证 API 连接..."
 	@if [ -z "$$OPENAI_API_KEY" ]; then \
 		if [ -f .env ]; then \
 			export $$(cat .env | grep -v '^#' | xargs) && \
@@ -200,15 +233,120 @@ help:
 	@echo "  make test-09        - 运行测试 09 (批量叶节点产品链接提取)"
 	@echo "  make test-09-1      - 运行测试 09-1 (🔗 产品规格链接提取器)"
 	@echo "  make test-10        - 运行测试 10 (🎯 终极自动 CAD 下载)"
+	@echo "  make test-11        - 运行测试 11 (全流程一键抓取)"
+	@echo "  make pipeline       - 🚀 运行新架构流水线 (推荐)"
+	@echo "  make pipeline-fast  - ⚡ 运行快速流水线 (32 workers)"
+	@echo "  make pipeline-nocache - 🔄 运行流水线 (禁用缓存)"
+	@echo "  make pipeline-optimized - 🚀 运行优化版流水线 (终极性能)"
+	@echo "  make pipeline-optimized-max - ⚡ 运行优化版流水线 (64 workers)"
+	@echo "  make pipeline-optimized-nocache - 🔄 运行优化版流水线 (禁用缓存)"
 	@echo "  make verify         - 快速验证 API 连接"
 	@echo "  make check          - 检查依赖包状态"
 	@echo "  make list           - 列出测试文件"
 	@echo "  make results        - 查看爬取结果文件"
 	@echo "  make benchmark      - 性能对比测试"
 	@echo "  make clean          - 清理临时文件"
+	@echo "  make clean-cache    - 清理缓存文件"
+	@echo "  make clean-all      - 清理所有结果文件"
+	@echo ""
+	@echo "🔍 监控与运维:"
+	@echo "  make monitor        - 启动健康监控（持续运行）"
+	@echo "  make monitor-once   - 运行单次健康检查"
+	@echo "  make health-check   - 健康检查（同 monitor-once）"
+	@echo "  make status         - 查看系统状态"
+	@echo "  make logs           - 查看最近日志"
+	@echo "  make logs-monitor   - 查看监控日志"
+	@echo "  make logs-follow    - 实时跟踪日志"
+	@echo ""
+	@echo "🚀 部署管理:"
+	@echo "  make deploy         - 部署到生产环境"
+	@echo "  make deploy-rollback - 回滚部署"
+	@echo ""
 	@echo "  make help           - 显示此帮助信息"
 	@echo ""
 	@echo "示例："
 	@echo "  make install && make test"
 	@echo "  make test-04         # 只运行异步并发爬取测试"
-	@echo "  make benchmark       # 对比同步vs异步性能" 
+	@echo "  make benchmark       # 对比同步vs异步性能"
+	@echo "  make pipeline-optimized && make monitor  # 运行优化版并监控"
+
+# 清理命令
+clean-cache:
+	@echo "🧹 清理缓存..."
+	rm -rf results/cache/*
+	@echo "✅ 缓存已清理"
+
+clean-all: clean clean-cache
+	@echo "🧹 清理所有结果..."
+	rm -rf results/products/*
+	rm -rf results/export/*
+	@echo "✅ 所有结果已清理"
+
+# 监控命令
+monitor:
+	@echo "🔍 启动健康监控..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/health_monitor.py
+
+monitor-once:
+	@echo "🔍 运行单次健康检查..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/health_monitor.py --once
+
+health-check: monitor-once
+
+# 部署命令
+deploy:
+	@echo "🚀 部署到生产环境..."
+	chmod +x scripts/deploy_production.sh
+	./scripts/deploy_production.sh deploy
+
+deploy-rollback:
+	@echo "⏪ 回滚部署..."
+	./scripts/deploy_production.sh rollback
+
+# 生产环境快速启动
+production-start:
+	@echo "🚀 启动生产环境..."
+	chmod +x scripts/start_production.sh
+	./scripts/start_production.sh start
+
+production-stop:
+	@echo "🛑 停止生产环境..."
+	./scripts/start_production.sh stop
+
+production-restart:
+	@echo "🔄 重启生产环境..."
+	./scripts/start_production.sh restart
+
+production-status:
+	@echo "📊 生产环境状态..."
+	./scripts/start_production.sh status
+
+# 日志查看
+logs:
+	@echo "📋 查看最近日志..."
+	@tail -n 100 logs/opt-pipeline.log 2>/dev/null || echo "暂无日志文件"
+
+logs-monitor:
+	@echo "📋 查看监控日志..."
+	@tail -n 100 logs/health_monitor.log 2>/dev/null || echo "暂无监控日志"
+
+logs-follow:
+	@echo "📋 实时查看日志..."
+	@tail -f logs/opt-pipeline.log 2>/dev/null || echo "暂无日志文件"
+
+# 测试修复
+test-fix:
+	@echo "🔧 测试产品链接提取修复..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/test_product_fix.py
+
+# 系统状态
+status:
+	@echo "📊 系统状态..."
+	@echo "进程状态:"
+	@ps aux | grep -E "(optimized_full_pipeline|health_monitor)" | grep -v grep || echo "  没有运行中的进程"
+	@echo "\n磁盘使用:"
+	@df -h | grep -E "(/$|results)" || true
+	@echo "\n内存使用:"
+	@free -h 2>/dev/null || vm_stat 2>/dev/null || echo "  无法获取内存信息"
+	@echo "\n最近的结果文件:"
+	@ls -lht results/products/*.json 2>/dev/null | head -5 || echo "  暂无结果文件" 

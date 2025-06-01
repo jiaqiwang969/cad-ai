@@ -27,7 +27,9 @@ RESULTS_DIR = Path("results/product_specifications")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # 默认产品URL（可通过环境变量覆盖）
-DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jlcmc-aluminum-extrusion-txceh161515l100dalka75?Product=90-27122024-029219"
+# 之前的铝型材产品URL
+# DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jlcmc-aluminum-extrusion-txceh161515l100dalka75?Product=90-27122024-029219"
+DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jw-winco-en-561-plastic-mounting-angle-brackets-type-b-and-c?CatalogPath=TRACEPARTS%3ATP05001&Product=90-05102020-040831"
 PRODUCT_URL = os.getenv("TRACEPARTS_PRODUCT_URL", DEFAULT_PRODUCT_URL)
 
 def prepare_driver():
@@ -459,30 +461,38 @@ def extract_all_product_specifications(driver):
     return specifications
 
 def is_valid_product_reference(text):
-    """判断文本是否是有效的产品编号"""
-    if not text or len(text) < 5:
+    """判断文本是否是有效的产品编号 - 改进版"""
+    if not text or len(text) < 3:
         return False
     
     # 排除明显的产品描述
     if any(desc_word in text.lower() for desc_word in [
         'aluminum', 'extrusion', 'description', 'purchasing', 'links', 
-        'manufacturer', 'jlcmc', 'product page'
+        'manufacturer', 'jlcmc', 'product page', 'plastic', 'mounting',
+        'angle', 'brackets', 'winco', 'type'
     ]):
         return False
     
-    # 必须包含TXCE-开头的产品编号模式
-    if not re.search(r'^TXCE-[A-Z0-9]+-[0-9]+-[0-9]+-L[0-9]', text):
-        return False
+    # 支持多种产品编号格式
+    patterns = [
+        r'^TXCE-[A-Z0-9]+-[0-9]+-[0-9]+-L[0-9]',  # TXCE系列
+        r'^[A-Z]{2,4}-[0-9]',                      # 通用格式如 EN-561
+        r'^[0-9]{3,}-[A-Z0-9]',                    # 数字开头格式
+        r'^[A-Z][0-9]+[A-Z]*$',                    # 字母+数字格式
+        r'^[A-Z]{2,}-[A-Z0-9]{2,}',               # 字母-字母数字格式
+    ]
     
-    # 进一步验证：必须有字母和数字
-    if not (any(char.isalpha() for char in text) and any(char.isdigit() for char in text)):
-        return False
+    # 检查是否匹配任何模式
+    for pattern in patterns:
+        if re.search(pattern, text, re.IGNORECASE):
+            # 进一步验证：必须有字母和数字
+            if (any(char.isalpha() for char in text) and 
+                any(char.isdigit() for char in text)):
+                # 排除过长的文本（可能是描述）
+                if len(text) <= 50:
+                    return True
     
-    # 排除过长的文本（可能是描述）
-    if len(text) > 50:
-        return False
-        
-    return True
+    return False
 
 def extract_dimensions_from_cells(cells):
     """从单元格中提取尺寸信息"""
@@ -594,14 +604,25 @@ def save_results(base_info, specifications, spec_urls):
     series_stats = {}
     for spec in specifications:
         ref = spec.get('reference', '')
-        if ref.startswith('TXCE-'):
-            # 提取产品系列
-            series_match = re.match(r'(TXCE-[A-Z0-9]+-[0-9]+-[0-9]+)', ref)
-            if series_match:
-                series = series_match.group(1)
-                if series not in series_stats:
-                    series_stats[series] = 0
-                series_stats[series] += 1
+        if ref:
+            # 尝试提取产品系列，适配不同格式
+            series_patterns = [
+                r'(TXCE-[A-Z0-9]+-[0-9]+-[0-9]+)',  # TXCE系列
+                r'([A-Z]{2,4}-[0-9]+)',              # EN-561类型
+                r'([A-Z]+[0-9]+)',                   # 简单字母数字组合
+                r'([A-Z]+-[A-Z0-9]+)'               # 通用格式
+            ]
+            
+            series = ref  # 默认使用完整编号
+            for pattern in series_patterns:
+                match = re.match(pattern, ref)
+                if match:
+                    series = match.group(1)
+                    break
+            
+            if series not in series_stats:
+                series_stats[series] = 0
+            series_stats[series] += 1
     
     results['summary']['series_distribution'] = series_stats
     
@@ -616,11 +637,16 @@ def save_results(base_info, specifications, spec_urls):
         }
         results['summary']['specification_samples'].append(sample)
     
+    # 🎯 获取当前工作目录，生成完整路径
+    import os
+    current_dir = os.getcwd()
+    
     # 保存详细JSON结果
     json_file = RESULTS_DIR / f"product_specs_complete_{timestamp}.json"
+    json_full_path = os.path.join(current_dir, json_file)
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
-    print(f"💾 完整结果已保存到: {json_file}")
+    print(f"💾 完整结果已保存到: {json_full_path}")
     
     # 保存简化的规格列表JSON
     simple_specs = []
@@ -634,26 +660,37 @@ def save_results(base_info, specifications, spec_urls):
             'url': spec_urls[i]['url'] if i < len(spec_urls) else ''
         }
         
-        # 提取系列信息
+        # 提取系列信息，适配不同格式
         ref = spec.get('reference', '')
-        if ref.startswith('TXCE-'):
-            series_match = re.match(r'(TXCE-[A-Z0-9]+-[0-9]+-[0-9]+)', ref)
-            if series_match:
-                simple_spec['series'] = series_match.group(1)
+        if ref:
+            for pattern in [
+                r'(TXCE-[A-Z0-9]+-[0-9]+-[0-9]+)',
+                r'([A-Z]{2,4}-[0-9]+)',
+                r'([A-Z]+[0-9]+)',
+                r'([A-Z]+-[A-Z0-9]+)'
+            ]:
+                match = re.match(pattern, ref)
+                if match:
+                    simple_spec['series'] = match.group(1)
+                    break
+            if not simple_spec['series']:
+                simple_spec['series'] = ref
         
         simple_specs.append(simple_spec)
     
     simple_json_file = RESULTS_DIR / f"specs_list_{timestamp}.json"
+    simple_json_full_path = os.path.join(current_dir, simple_json_file)
     with open(simple_json_file, 'w', encoding='utf-8') as f:
         json.dump({
             'extraction_time': time.strftime('%Y-%m-%d %H:%M:%S'),
             'total_count': len(simple_specs),
             'specifications': simple_specs
         }, f, indent=2, ensure_ascii=False)
-    print(f"📋 简化规格列表已保存到: {simple_json_file}")
+    print(f"📋 简化规格列表已保存到: {simple_json_full_path}")
     
     # 保存简化的URL列表
     urls_file = RESULTS_DIR / f"spec_urls_{timestamp}.txt"
+    urls_full_path = os.path.join(current_dir, urls_file)
     with open(urls_file, 'w', encoding='utf-8') as f:
         f.write(f"# 产品规格链接列表\n")
         f.write(f"# 基础产品: {PRODUCT_URL}\n")
@@ -664,7 +701,7 @@ def save_results(base_info, specifications, spec_urls):
             f.write(f"# {spec_url_info['reference']} ({spec_url_info['dimensions']})\n")
             f.write(f"{spec_url_info['url']}\n\n")
     
-    print(f"📄 URL列表已保存到: {urls_file}")
+    print(f"📄 URL列表已保存到: {urls_full_path}")
     
     # 输出结果摘要
     print("\n" + "="*80)
@@ -686,10 +723,10 @@ def save_results(base_info, specifications, spec_urls):
     if len(spec_urls) > 10:
         print(f"... 还有 {len(spec_urls) - 10} 个链接")
     
-    print(f"\n💾 文件输出:")
-    print(f"  📋 完整JSON: {json_file.name}")
-    print(f"  📋 简化JSON: {simple_json_file.name}")
-    print(f"  📄 URL列表: {urls_file.name}")
+    print(f"\n💾 生成文件完整路径:")
+    print(f"  📋 完整JSON: {json_full_path}")
+    print(f"  📋 简化JSON: {simple_json_full_path}")
+    print(f"  📄 URL列表: {urls_full_path}")
     print("="*80)
 
 def main():
@@ -732,7 +769,7 @@ def main():
             driver.save_screenshot(str(final_screenshot))
             print(f"📸 设置后截图: {final_screenshot}")
         else:
-            print("⚠️ 未能设置显示全部，将尝试提取当前页面数据")
+            print("ℹ️ 单页面模式：直接提取当前页面数据")
         
         # 确保页面完全加载
         scroll_page_fully(driver)

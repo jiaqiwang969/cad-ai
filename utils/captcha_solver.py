@@ -53,20 +53,24 @@ AVAILABLE_MODELS = {
 class CaptchaSolver:
     """验证码识别器 - 支持pytesseract, TrOCR多模型, 和GPT-4o API"""
     
-    def __init__(self, icon_template_path="01.png", debug=False, 
+    def __init__(self, icon_template_path=["01.png", "02.png"], debug=False, 
                  ocr_method="auto", trocr_model="microsoft-large"):
         """
         初始化验证码识别器
         
         Args:
-            icon_template_path: 刷新图标模板路径
+            icon_template_path: 刷新图标模板路径（可以是单个路径或路径列表）
             debug: 是否开启调试模式（保存中间图片）
             ocr_method: OCR方法选择 ("auto", "pytesseract", "trocr", "gpt4o")
             trocr_model: TrOCR模型选择 (见AVAILABLE_MODELS)
         """
-        self.icon_template_path = icon_template_path
+        # 支持单个路径或路径列表
+        if isinstance(icon_template_path, str):
+            self.icon_template_paths = [icon_template_path]
+        else:
+            self.icon_template_paths = icon_template_path
         self.debug = debug
-        self.icon_template = None
+        self.icon_templates = []  # 存储多个模板
         
         # OCR方法配置
         self.ocr_method = ocr_method
@@ -139,21 +143,38 @@ class CaptchaSolver:
 
     def _load_icon_template(self):
         """加载并缩放刷新图标模板"""
-        if not os.path.exists(self.icon_template_path):
-            raise FileNotFoundError(f"图标模板不存在: {self.icon_template_path}")
+        self.icon_templates = []
+        loaded_count = 0
         
-        tmpl = cv2.imread(self.icon_template_path)
-        if tmpl is None:
-            raise ValueError(f"无法加载图标模板: {self.icon_template_path}")
+        for template_path in self.icon_template_paths:
+            if os.path.exists(template_path):
+                tmpl = cv2.imread(template_path)
+                if tmpl is not None:
+                    scale_factor = 0.25
+                    new_width = int(tmpl.shape[1] * scale_factor)
+                    new_height = int(tmpl.shape[0] * scale_factor)
+                    scaled_template = cv2.resize(tmpl, (new_width, new_height), 
+                                               interpolation=cv2.INTER_AREA)
+                    self.icon_templates.append({
+                        'template': scaled_template,
+                        'path': template_path,
+                        'size': (new_width, new_height)
+                    })
+                    loaded_count += 1
+                    if self.debug:
+                        print(f"📏 图标模板 '{template_path}' 缩放到: {new_width}x{new_height}")
+                else:
+                    if self.debug:
+                        print(f"⚠️ 无法加载图标模板: {template_path}")
+            else:
+                if self.debug:
+                    print(f"⚠️ 图标模板不存在: {template_path}")
         
-        scale_factor = 0.25
-        new_width = int(tmpl.shape[1] * scale_factor)
-        new_height = int(tmpl.shape[0] * scale_factor)
-        self.icon_template = cv2.resize(tmpl, (new_width, new_height), 
-                                       interpolation=cv2.INTER_AREA)
+        if loaded_count == 0:
+            raise FileNotFoundError(f"所有图标模板都无法加载: {self.icon_template_paths}")
         
         if self.debug:
-            print(f"📏 图标模板缩放到: {new_width}x{new_height}")
+            print(f"✅ 成功加载 {loaded_count} 个图标模板")
     
     def solve_from_screenshot(self, screenshot_path):
         """从截图文件中识别验证码"""
@@ -200,27 +221,56 @@ class CaptchaSolver:
                                   captcha_crop_cv2)
         
         text = self._ocr_captcha(captcha_crop_cv2) # Pass OpenCV image
+        
+        # 使用匹配到的模板尺寸
+        if hasattr(self, 'last_matched_template') and self.last_matched_template:
+            width, height = self.last_matched_template['size']
+        else:
+            # 兜底：使用第一个模板的尺寸
+            width, height = self.icon_templates[0]['size'] if self.icon_templates else (32, 32)
+        
         return {
             "text": text,
-            "icon_bbox": {"x": x_icon, "y": y_icon, "width": self.icon_template.shape[1], "height": self.icon_template.shape[0]}
+            "icon_bbox": {"x": x_icon, "y": y_icon, "width": width, "height": height}
         }
     
     def _locate_refresh_icon(self, image):
         """在图像中定位刷新图标"""
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        gray_tmpl = cv2.cvtColor(self.icon_template, cv2.COLOR_BGR2GRAY) # Corrected variable name
         
-        res = cv2.matchTemplate(gray, gray_tmpl, cv2.TM_CCOEFF_NORMED)
-        _, max_val, _, max_loc = cv2.minMaxLoc(res)
+        best_match = None
+        best_score = 0
+        best_template_info = None
         
-        if max_val < 0.5:
+        # 尝试所有模板，找到最佳匹配
+        for template_info in self.icon_templates:
+            template = template_info['template']
+            template_path = template_info['path']
+            
+            gray_tmpl = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
+            
+            res = cv2.matchTemplate(gray, gray_tmpl, cv2.TM_CCOEFF_NORMED)
+            _, max_val, _, max_loc = cv2.minMaxLoc(res)
+            
             if self.debug:
-                print(f"❌ 刷新图标未匹配到 (最大相似度: {max_val:.2f})")
+                print(f"🔍 模板 '{template_path}' 匹配相似度: {max_val:.2f}")
+            
+            if max_val > best_score:
+                best_score = max_val
+                best_match = max_loc
+                best_template_info = template_info
+        
+        if best_score < 0.5:
+            if self.debug:
+                print(f"❌ 所有刷新图标模板都未匹配到 (最佳相似度: {best_score:.2f})")
             return None
         
         if self.debug:
-            print(f"✅ 刷新图标已定位, 相似度: {max_val:.2f}")
-        return max_loc
+            print(f"✅ 刷新图标已定位 (使用模板: {best_template_info['path']}), 相似度: {best_score:.2f}")
+        
+        # 存储最佳匹配的模板信息，供调试使用
+        self.last_matched_template = best_template_info
+        return best_match
     
     def _apply_ocr_corrections(self, text):
         """保持原始识别结果，不做任何处理"""
@@ -398,7 +448,11 @@ class CaptchaSolver:
         # 绘制验证码区域 (绿色)
         cv2.rectangle(debug_img_regions, (cap_left, cap_top), (cap_right, cap_bottom), (0, 255, 0), 2)
         # 绘制图标区域 (蓝色)
-        h_tmpl, w_tmpl = self.icon_template.shape[:2]
+        if hasattr(self, 'last_matched_template') and self.last_matched_template:
+            w_tmpl, h_tmpl = self.last_matched_template['size']
+        else:
+            # 兜底：使用第一个模板的尺寸
+            w_tmpl, h_tmpl = self.icon_templates[0]['size'] if self.icon_templates else (32, 32)
         cv2.rectangle(debug_img_regions, (x_icon, y_icon), (x_icon + w_tmpl, y_icon + h_tmpl), (255, 0, 0), 2)
         cv2.imwrite(str(dbg_dir / f"debug_located_regions_{ts}.png"), debug_img_regions)
 
@@ -412,13 +466,13 @@ class CaptchaSolver:
             print(f"💾 调试图片已保存到: {dbg_dir.resolve()}")
 
 
-def solve_captcha_from_screenshot(screenshot_path, icon_path="01.png", debug=False, 
+def solve_captcha_from_screenshot(screenshot_path, icon_path=["01.png", "02.png"], debug=False, 
                                  ocr_method="auto", trocr_model="microsoft-large"):
     solver = CaptchaSolver(icon_template_path=icon_path, debug=debug, 
                            ocr_method=ocr_method, trocr_model=trocr_model)
     return solver.solve_from_screenshot(screenshot_path)
 
-def solve_captcha_from_playwright(page, icon_path="01.png", debug=False,
+def solve_captcha_from_playwright(page, icon_path=["01.png", "02.png"], debug=False,
                                  ocr_method="auto", trocr_model="microsoft-large"):
     solver = CaptchaSolver(icon_template_path=icon_path, debug=debug, 
                            ocr_method=ocr_method, trocr_model=trocr_model)

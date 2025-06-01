@@ -105,69 +105,17 @@ test-09:
 	@echo "🚀 运行测试 09: 批量叶节点产品链接提取..."
 	$(PYTHON) $(TEST_DIR)/09-test_batch_leaf_product_links.py
 
-# Run test 10: product CAD download demo
+# Run test 09-1: Product specifications link extractor
+test-09-1:
+	@echo "🔗 运行测试 09-1: 产品规格链接提取器..."
+	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
+	$(PYTHON) $(TEST_DIR)/09-1-test_product_specifications_extractor.py
+
+# Run test 10: Ultimate automatic CAD download
 test-10:
-	@echo "📐 运行测试 10: 单产品 CAD 下载示例..."
+	@echo "🎯 运行测试 10: 终极自动 CAD 下载..."
+	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
 	$(PYTHON) $(TEST_DIR)/10-test_product_cad_download.py
-
-# Run test 11: login and session save
-test-11:
-	@echo "🔑 运行测试 11: 登录并保存 Cookies..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11-test_login_and_session.py
-
-# Run test 12: capture captcha image
-test-12:
-	@echo "🖼️ 运行测试 12: 触发验证码并保存图片..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
-	$(PYTHON) $(TEST_DIR)/12-test_capture_captcha.py
-
-# Run test 11d: login and navigate to product pages
-test-11d:
-	@echo "🛒 运行测试 11d: 登录并跳转产品页面..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11d-test_login_and_navigate.py
-
-# Run test 11e: stealth CAD download
-test-11e:
-	@echo "🥷 运行测试 11e: 强化反检测CAD下载..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11e-test_stealth_cad_download.py
-
-# Run test 11f: real Chrome browser
-test-11f:
-	@echo "🌐 运行测试 11f: 真实Chrome浏览器测试..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11f-test_real_chrome.py
-
-# Run test 11g: TraceParts detection mechanism diagnosis
-test-11g:
-	@echo "🔬 运行测试 11g: TraceParts检测机制诊断..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11g-diagnose_traceparts_detection.py
-
-# Run test 11h: advanced CAD access analysis
-test-11h:
-	@echo "🔬 运行测试 11h: 高级CAD访问分析..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11h-advanced_cad_access.py
-
-# Run test 11i: stealth CAD downloader
-test-11i:
-	@echo "🥷 运行测试 11i: 隐身CAD下载器..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11i-stealth_cad_downloader.py
-
-# Run test 13: OCR captcha
-test-13:
-	@echo "🔍 运行测试 13: 验证码 OCR 识别..."
-	$(PYTHON) $(TEST_DIR)/13-test_ocr_captcha.py
-
-# Run test 12h: auto captcha solve & download
-test-12h:
-	@echo "🔑 运行测试 12h: 自动识别验证码并下载 CAD..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
-	$(PYTHON) $(TEST_DIR)/12h-auto_captcha_download.py
 
 # Quick verification test
 verify:
@@ -230,36 +178,6 @@ benchmark:
 	@echo "运行异步版本..."
 	@time $(PYTHON) $(TEST_DIR)/04-test_async_web_scraping.py
 
-# Run test 11j: stealth download with captcha
-test-11j:
-	@echo "🔑 运行测试 11j: 隐身 CAD 下载 + 自动验证码..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) \
-	$(PYTHON) $(TEST_DIR)/11j-stealth_cad_downloader_captcha.py
-
-# Run test 12k: extract captcha region and OCR
-test-12k:
-	@echo "🎯 运行测试 12k: 精确提取验证码区域并OCR识别..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
-	$(PYTHON) $(TEST_DIR)/12k-extract_captcha_region.py
-
-# Run test K: GPT-4o auto captcha download
-test-k:
-	@echo "🤖 运行测试 K: GPT-4o 自动验证码下载..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
-	$(PYTHON) $(TEST_DIR)/k-auto_captcha_download.py
-
-# Run test L: minimal captcha extraction
-test-l:
-	@echo "🔎 运行测试 L: 极简验证码提取..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
-	$(PYTHON) $(TEST_DIR)/l-extract_captcha.py
-
-# Run test j: auto captcha download
-test-j:
-	@echo "🔑 运行测试 j: 自动验证码下载..."
-	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PWD) \
-	$(PYTHON) $(TEST_DIR)/j-auto_captcha_download.py
-
 # Help
 help:
 	@echo "🚀 OpenAI API 爬虫测试项目"
@@ -280,16 +198,8 @@ help:
 	@echo "  make test-07        - 运行测试 07 (构建嵌套分类树)"
 	@echo "  make test-08        - 运行测试 08 (叶节点产品链接提取)"
 	@echo "  make test-09        - 运行测试 09 (批量叶节点产品链接提取)"
-	@echo "  make test-10        - 运行测试 10 (单产品 CAD 下载示例)"
-	@echo "  make test-11        - 运行测试 11 (登录并保存 Cookies)"
-	@echo "  make test-11g       - 运行测试 11g (TraceParts检测机制诊断)"
-	@echo "  make test-12        - 运行测试 12 (捕获验证码图片)"
-	@echo "  make test-13        - 运行测试 13 (OCR 验证码识别)"
-	@echo "  make test-12h       - 运行测试 12h (自动识别验证码并下载 CAD)"
-	@echo "  make test-12k       - 运行测试 12k (精确提取验证码区域并OCR识别)"
-	@echo "  make test-k         - 运行测试 K (GPT-4o 自动验证码下载)"
-	@echo "  make test-l         - 运行测试 L (极简验证码提取)"
-	@echo "  make test-j         - 运行测试 j (自动验证码下载)"
+	@echo "  make test-09-1      - 运行测试 09-1 (🔗 产品规格链接提取器)"
+	@echo "  make test-10        - 运行测试 10 (🎯 终极自动 CAD 下载)"
 	@echo "  make verify         - 快速验证 API 连接"
 	@echo "  make check          - 检查依赖包状态"
 	@echo "  make list           - 列出测试文件"

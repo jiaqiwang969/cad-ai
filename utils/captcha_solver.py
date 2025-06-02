@@ -174,7 +174,7 @@ class CaptchaSolver:
             raise FileNotFoundError(f"所有图标模板都无法加载: {self.icon_template_paths}")
         
         if self.debug:
-            print(f"✅ 成功加载 {loaded_count} 个图标模板")
+            print(f"✅  {loaded_count} 个图标模板")
     
     def solve_from_screenshot(self, screenshot_path):
         """从截图文件中识别验证码"""

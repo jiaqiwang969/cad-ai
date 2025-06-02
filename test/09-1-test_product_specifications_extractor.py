@@ -30,6 +30,10 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 # 之前的铝型材产品URL
 # DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jlcmc-aluminum-extrusion-txceh161515l100dalka75?Product=90-27122024-029219"
 DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jw-winco-en-561-plastic-mounting-angle-brackets-type-b-and-c?CatalogPath=TRACEPARTS%3ATP05001&Product=90-05102020-040831"
+#DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/the-timken-company-double-concentric-cartridge-block-qaamc10a050s?CatalogPath=TRACEPARTS%3ATP01002002006&Product=90-31032023-039175"
+#DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jw-winco-din-787-metric-size-steel-tslot-bolts?CatalogPath=TRACEPARTS%3ATP01001013006&Product=90-04092020-049501"
+#DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/the-timken-company-double-concentric-cartridge-block-qaamc10a050s?CatalogPath=TRACEPARTS%3ATP01002002006&Product=90-31032023-039175"
+#DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/petzoldt-cpleuchten-gmbh-rohrleuchte-sls50-14w-230v?CatalogPath=TRACEPARTS%3ATP12001003&Product=90-13052019-057778"
 PRODUCT_URL = os.getenv("TRACEPARTS_PRODUCT_URL", DEFAULT_PRODUCT_URL)
 
 def prepare_driver():
@@ -386,113 +390,336 @@ def extract_all_product_specifications(driver):
         # 完整滚动页面
         scroll_page_fully(driver)
         
-        # 查找表格
-        print("🔍 查找产品规格表格...")
-        tables = driver.find_elements(By.TAG_NAME, 'table')
+        # 方法1: 查找 "Product selection" 或类似标题下的表格
+        print("🔍 查找产品选择区域...")
         
-        if not tables:
-            print("❌ 未找到任何表格")
-            return specifications
+        # 查找产品选择相关的标题
+        product_section_keywords = [
+            'product selection', 'product list', 'product specifications',
+            'available products', 'product variants', 'models available',
+            'produktauswahl', 'produktliste', 'produktspezifikationen',  # 德语
+            'sélection de produits', 'liste des produits',  # 法语
+            '产品选择', '产品列表', '产品规格',  # 中文
+            'specification', 'specifications', 'technical data'
+        ]
         
-        # 选择最大的表格
-        best_table = max(tables, key=lambda t: len(t.find_elements(By.TAG_NAME, 'tr')))
-        rows = best_table.find_elements(By.TAG_NAME, 'tr')
+        product_section = None
+        table_element = None
         
-        print(f"📊 找到最佳表格，共 {len(rows)} 行")
-        
-        # 分析表格结构
-        header_row = None
-        data_rows = []
-        
-        for i, row in enumerate(rows):
-            cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
-            if not cells:
-                continue
-                
-            cell_texts = [cell.text.strip() for cell in cells]
+        # 尝试通过标题查找
+        for keyword in product_section_keywords:
+            # 查找包含关键词的标题元素
+            xpath_selectors = [
+                f"//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                f"//h1[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                f"//h2[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                f"//h3[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                f"//h4[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                f"//div[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]"
+            ]
             
-            # 判断是否为表头行
-            is_header = any(keyword in ' '.join(cell_texts).lower() for keyword in [
-                'part number', 'product', 'reference', 'model', 'specification'
-            ])
-            
-            if is_header and header_row is None:
-                header_row = i
-                print(f"  📋 识别表头行 {i+1}: {cell_texts[:3]}...")
-            elif not is_header and len(cell_texts) > 1:
-                data_rows.append({'index': i, 'cells': cell_texts})
-        
-        print(f"  📊 识别出 {len(data_rows)} 行数据")
-        
-        # 提取产品规格
-        for row_info in data_rows:
-            row_index = row_info['index']
-            cells = row_info['cells']
-            
-            # 查找产品编号
-            found_reference = None
-            for cell_text in cells:
-                if is_valid_product_reference(cell_text) and cell_text not in seen_references:
-                    found_reference = cell_text
+            for selector in xpath_selectors:
+                try:
+                    elements = driver.find_elements(By.XPATH, selector)
+                    for elem in elements:
+                        if elem.is_displayed() and elem.text.strip():
+                            print(f"  ✅ 找到相关标题: '{elem.text.strip()}'")
+                            
+                            # 查找该元素后面的第一个表格
+                            # 先尝试在同一父容器内查找
+                            parent = elem.find_element(By.XPATH, "./..")
+                            tables = parent.find_elements(By.TAG_NAME, 'table')
+                            
+                            if not tables:
+                                # 尝试在后续兄弟元素中查找
+                                tables = elem.find_elements(By.XPATH, "./following-sibling::*//table")
+                            
+                            if not tables:
+                                # 尝试在整个文档中查找该元素之后的表格
+                                tables = elem.find_elements(By.XPATH, "./following::table")
+                            
+                            if tables:
+                                table_element = tables[0]
+                                product_section = elem
+                                print(f"  ✅ 在 '{elem.text.strip()}' 下找到表格")
+                                break
+                                
+                except Exception as e:
+                    continue
+                    
+                if table_element:
                     break
             
-            if found_reference:
-                spec_info = {
-                    'reference': found_reference,
-                    'row_index': row_index,
-                    'dimensions': extract_dimensions_from_cells(cells),
-                    'weight': extract_weight_from_cells(cells),
-                    'all_cells': cells
-                }
+            if table_element:
+                break
+        
+        # 如果没有找到，使用原方法查找最大的表格
+        if not table_element:
+            print("  ⚠️ 未找到产品选择区域，尝试查找最大的表格...")
+            tables = driver.find_elements(By.TAG_NAME, 'table')
+            
+            if not tables:
+                print("❌ 未找到任何表格")
+                return specifications
+            
+            # 选择最大的表格
+            table_element = max(tables, key=lambda t: len(t.find_elements(By.TAG_NAME, 'tr')))
+        
+        # 分析找到的表格
+        rows = table_element.find_elements(By.TAG_NAME, 'tr')
+        print(f"📊 分析表格，共 {len(rows)} 行")
+        
+        # 检测表格类型
+        is_vertical_table = False
+        
+        # 检查前几行是否都是2列格式
+        two_col_count = 0
+        for i, row in enumerate(rows[:5]):  # 检查前5行
+            cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+            if len(cells) == 2:
+                two_col_count += 1
+        
+        if two_col_count >= 3:  # 如果至少3行都是2列，可能是纵向表格
+            is_vertical_table = True
+            print("  🔄 检测到纵向表格格式（属性-值对）")
+        
+        # 提取所有可能的产品编号
+        if is_vertical_table:
+            # 纵向表格：提取所有值，检查哪些可能是产品编号
+            print("  🔍 从纵向表格提取数据...")
+            for i, row in enumerate(rows):
+                cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+                if len(cells) != 2:
+                    continue
                 
-                specifications.append(spec_info)
-                seen_references.add(found_reference)
+                prop_name = cells[0].text.strip()
+                prop_value = cells[1].text.strip()
                 
-                if len(specifications) <= 10:  # 只显示前10个
-                    print(f"  📦 规格 {len(specifications)}: {found_reference} ({spec_info['dimensions']})")
+                # 显示所有属性-值对
+                print(f"    行 {i+1}: '{prop_name}' => '{prop_value}'")
+                
+                # 检查值是否可能是产品编号（使用更智能的判断）
+                if prop_value and len(prop_value) >= 3 and prop_value not in seen_references:
+                    # 智能判断：如果看起来像编号（包含数字或特殊格式）
+                    if is_likely_product_reference(prop_value):
+                        spec_info = {
+                            'reference': prop_value,
+                            'row_index': i,
+                            'dimensions': '',
+                            'weight': '',
+                            'property_name': prop_name,
+                            'table_type': 'vertical'
+                        }
+                        
+                        specifications.append(spec_info)
+                        seen_references.add(prop_value)
+                        print(f"  📦 提取规格: {prop_value} (来自: {prop_name})")
+        
+        else:
+            # 横向表格
+            print("  📊 检测到横向表格格式")
+            
+            # 查找表头行
+            header_row_index = -1
+            header_cells = []
+            
+            for i, row in enumerate(rows):
+                cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+                if not cells:
+                    continue
+                
+                # 如果是th元素，很可能是表头
+                th_cells = row.find_elements(By.TAG_NAME, 'th')
+                if th_cells and len(th_cells) == len(cells):
+                    header_row_index = i
+                    header_cells = [cell.text.strip() for cell in cells]
+                    print(f"  📋 识别表头行 {i+1}: {header_cells[:5]}...")
+                    break
+            
+            # 确定产品编号列（根据列名）
+            product_columns = []
+            if header_cells:
+                for j, header in enumerate(header_cells):
+                    header_lower = header.lower()
+                    
+                    # 匹配各种语言的产品编号列名
+                    if any(keyword in header_lower for keyword in [
+                        'part number', 'part no', 'part#', 'p/n',
+                        'product number', 'product code', 'product id',
+                        'model', 'model number', 'model no',
+                        'reference', 'ref', 'item number', 'item no',
+                        'catalog number', 'cat no', 'sku',
+                        'bestellnummer', 'artikelnummer', 'teilenummer',  # 德语
+                        'numéro', 'référence',  # 法语
+                        'número', 'codigo',  # 西班牙语
+                        '型号', '编号', '料号'  # 中文
+                    ]):
+                        product_columns.append(j)
+                        print(f"    ✓ 识别产品编号列 {j+1}: '{header}'")
+                        
+                # 通用简化逻辑：只使用第一个产品编号列
+                if len(product_columns) > 1:
+                    print(f"    ℹ️ 发现 {len(product_columns)} 个产品编号列，只使用第一个主要列")
+                    product_columns = product_columns[:1]
+            
+            # 如果没有识别到产品编号列，使用智能判断
+            if not product_columns:
+                print("    ⚠️ 未识别到明确的产品编号列，将使用智能判断")
+                use_smart_detection = True
+            else:
+                use_smart_detection = False
+            
+            # 提取数据行
+            for i, row in enumerate(rows):
+                if i <= header_row_index:  # 跳过表头及之前的行
+                    continue
+                    
+                cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+                if not cells:
+                    continue
+                
+                cell_texts = [cell.text.strip() for cell in cells]
+                
+                # 查找可能的产品编号
+                if use_smart_detection:
+                    # 智能检测模式：扫描所有单元格
+                    for j, cell_text in enumerate(cell_texts):
+                        if cell_text and len(cell_text) >= 3 and cell_text not in seen_references:
+                            if is_likely_product_reference(cell_text):
+                                spec_info = {
+                                    'reference': cell_text,
+                                    'row_index': i,
+                                    'column_index': j,
+                                    'dimensions': extract_dimensions_from_cells(cell_texts),
+                                    'weight': extract_weight_from_cells(cell_texts),
+                                    'all_cells': cell_texts,
+                                    'table_type': 'horizontal'
+                                }
+                                
+                                # 如果有表头，添加列名信息
+                                if header_cells and j < len(header_cells):
+                                    spec_info['column_name'] = header_cells[j]
+                                
+                                specifications.append(spec_info)
+                                seen_references.add(cell_text)
+                                
+                                if len(specifications) <= 10:
+                                    print(f"  📦 提取规格 {len(specifications)}: {cell_text}")
+                                
+                                # 在智能模式下，每行只取第一个符合条件的
+                                break
+                else:
+                    # 使用识别的产品编号列
+                    for col_idx in product_columns:
+                        if col_idx < len(cell_texts):
+                            cell_text = cell_texts[col_idx]
+                            if cell_text and len(cell_text) >= 3 and cell_text not in seen_references:
+                                # 对产品编号列的内容，放宽验证
+                                if cell_text and not cell_text.lower() in ['', 'n/a', 'na', '-', '/', 'none']:
+                                    spec_info = {
+                                        'reference': cell_text,
+                                        'row_index': i,
+                                        'column_index': col_idx,
+                                        'dimensions': extract_dimensions_from_cells(cell_texts),
+                                        'weight': extract_weight_from_cells(cell_texts),
+                                        'all_cells': cell_texts,
+                                        'table_type': 'horizontal'
+                                    }
+                                    
+                                    # 添加列名信息
+                                    if header_cells and col_idx < len(header_cells):
+                                        spec_info['column_name'] = header_cells[col_idx]
+                                    
+                                    specifications.append(spec_info)
+                                    seen_references.add(cell_text)
+                                    
+                                    if len(specifications) <= 10:
+                                        print(f"  📦 提取规格 {len(specifications)}: {cell_text}")
         
         if len(specifications) > 10:
             print(f"  ... 还有 {len(specifications) - 10} 个规格")
             
     except Exception as e:
         print(f"❌ 提取规格时出错: {e}")
+        import traceback
+        traceback.print_exc()
     
     print(f"✅ 总共提取到 {len(specifications)} 个产品规格")
     return specifications
 
-def is_valid_product_reference(text):
-    """判断文本是否是有效的产品编号 - 改进版"""
+def is_likely_product_reference(text):
+    """智能判断文本是否可能是产品编号"""
     if not text or len(text) < 3:
         return False
     
-    # 排除明显的产品描述
-    if any(desc_word in text.lower() for desc_word in [
-        'aluminum', 'extrusion', 'description', 'purchasing', 'links', 
-        'manufacturer', 'jlcmc', 'product page', 'plastic', 'mounting',
-        'angle', 'brackets', 'winco', 'type'
-    ]):
-        return False
-    
-    # 支持多种产品编号格式
-    patterns = [
-        r'^TXCE-[A-Z0-9]+-[0-9]+-[0-9]+-L[0-9]',  # TXCE系列
-        r'^[A-Z]{2,4}-[0-9]',                      # 通用格式如 EN-561
-        r'^[0-9]{3,}-[A-Z0-9]',                    # 数字开头格式
-        r'^[A-Z][0-9]+[A-Z]*$',                    # 字母+数字格式
-        r'^[A-Z]{2,}-[A-Z0-9]{2,}',               # 字母-字母数字格式
+    # 明显的排除项
+    exclude_patterns = [
+        r'^https?://',  # URL
+        r'^www\.',      # 网址
+        r'@',           # 邮箱
+        r'^\d{4}-\d{2}-\d{2}',  # 日期格式
+        r'^\+?\d{10,}$',  # 电话号码
     ]
     
-    # 检查是否匹配任何模式
-    for pattern in patterns:
+    for pattern in exclude_patterns:
         if re.search(pattern, text, re.IGNORECASE):
-            # 进一步验证：必须有字母和数字
-            if (any(char.isalpha() for char in text) and 
-                any(char.isdigit() for char in text)):
-                # 排除过长的文本（可能是描述）
-                if len(text) <= 50:
-                    return True
+            return False
     
-    return False
+    # 排除纯描述性文本（全是常见英文单词）
+    common_words = [
+        'description', 'manufacturer', 'material', 'color', 'size',
+        'weight', 'length', 'width', 'height', 'diameter', 'thickness'
+    ]
+    
+    text_lower = text.lower()
+    if any(text_lower == word for word in common_words):
+        return False
+    
+    # 积极的指标：包含这些特征的更可能是产品编号
+    positive_indicators = 0
+    
+    # 1. 包含数字
+    if any(c.isdigit() for c in text):
+        positive_indicators += 2
+    
+    # 2. 包含连字符或下划线
+    if '-' in text or '_' in text:
+        positive_indicators += 1
+    
+    # 3. 包含大写字母（不是句子开头）
+    if any(c.isupper() for c in text[1:]):
+        positive_indicators += 1
+    
+    # 4. 长度适中（3-50个字符）
+    if 3 <= len(text) <= 50:
+        positive_indicators += 1
+    
+    # 5. 特殊格式模式
+    special_patterns = [
+        r'^\d+-\d+-\d+$',  # 5-14230-00
+        r'^[A-Z]+\d+',     # SLS50, DIN787
+        r'^\d+[A-Z]+',     # 14W, 230V
+        r'^[A-Z0-9]+[-_][A-Z0-9]+',  # QAAMC10A050S
+        r'^[A-Z]{2,}\d{2,}',  # DIN787, EN561
+    ]
+    
+    for pattern in special_patterns:
+        if re.match(pattern, text):
+            positive_indicators += 2
+            break
+    
+    # 如果积极指标足够多，认为是产品编号
+    return positive_indicators >= 3
+
+def is_valid_product_reference_relaxed(text):
+    """判断文本是否是有效的产品编号 - 放宽版（用于纵向表格）"""
+    # 直接使用新的智能判断函数
+    return is_likely_product_reference(text)
+
+def is_valid_product_reference(text):
+    """判断文本是否是有效的产品编号 - 改进版"""
+    # 直接使用新的智能判断函数
+    return is_likely_product_reference(text)
 
 def extract_dimensions_from_cells(cells):
     """从单元格中提取尺寸信息"""

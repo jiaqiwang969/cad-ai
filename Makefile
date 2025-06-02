@@ -111,6 +111,11 @@ test-09-1:
 	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
 	$(PYTHON) $(TEST_DIR)/09-1-test_product_specifications_extractor.py
 
+# Run test 09-2: Universal product specifications extractor
+test-09-2:
+	@echo "🌐 运行测试 09-2: 通用产品规格提取器..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) $(TEST_DIR)/09-2-test_universal_specifications_extractor.py
+
 # Run test 10: Ultimate automatic CAD download
 test-10:
 	@echo "🎯 运行测试 10: 终极自动 CAD 下载..."
@@ -149,6 +154,113 @@ pipeline-optimized-max:
 pipeline-optimized-nocache:
 	@echo "🔄 运行优化版流水线 (禁用缓存)..."
 	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_optimized_pipeline.py --no-cache
+
+pipeline-optimized-test:
+	@echo "🧪 运行优化版流水线测试 (迷你样本)..."
+	@echo "   创建测试缓存..."
+	@PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/create_test_cache.py
+	@echo ""
+	@echo "   运行优化版流水线..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_optimized_pipeline.py --workers 4
+
+# ==================== 新版渐进式缓存系统 ====================
+# Pipeline V2 - 基于渐进式缓存管理器
+pipeline-v2:
+	@echo "🚀 运行流水线 V2 (渐进式缓存系统)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --workers 32
+
+pipeline-v2-fast:
+	@echo "⚡ 运行流水线 V2 (最大并发: 64)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --workers 64
+
+pipeline-v2-nocache:
+	@echo "🔄 运行流水线 V2 (强制刷新)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --no-cache
+
+pipeline-v2-products:
+	@echo "📦 运行流水线 V2 (只到产品级别)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --level products
+
+pipeline-v2-export:
+	@echo "📄 运行流水线 V2 (导出到文件)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --output results/export_$(shell date +%Y%m%d_%H%M%S).json
+
+pipeline-v2-products-test:
+	@echo "🧪 运行流水线 V2 产品级别测试 (迷你样本)..."
+	@echo "   创建迷你测试缓存..."
+	@PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/create_mini_test_cache.py
+	@echo ""
+	@echo "   运行产品链接提取..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --level products --workers 4
+
+pipeline-v2-test:
+	@echo "🧪 运行流水线 V2 完整测试 (单叶节点)..."
+	@echo "   创建单叶节点测试缓存..."
+	@PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/create_single_test_cache.py
+	@echo ""
+	@echo "   运行完整流水线 (1个叶节点, 1个worker)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --workers 1
+
+# Cache Manager - 缓存管理器
+cache-build:
+	@echo "🏗️ 构建完整缓存 (分类树+产品+规格)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_cache_manager.py --level specifications
+
+cache-classification:
+	@echo "🌳 构建分类树缓存..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_cache_manager.py --level classification
+
+cache-products:
+	@echo "📦 扩展产品链接缓存..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_cache_manager.py --level products
+
+cache-specifications:
+	@echo "📋 扩展产品规格缓存..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_cache_manager.py --level specifications
+
+cache-rebuild:
+	@echo "🔄 强制重建所有缓存..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_cache_manager.py --force
+
+cache-status:
+	@echo "📊 查看缓存状态..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) scripts/demo_progressive_cache.py
+
+cache-extend:
+	@echo "🔧 扩展现有缓存 (旧版兼容)..."
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) extend_cache.py
+
+# 缓存清理命令扩展
+cache-clean-products:
+	@echo "🧹 清理产品链接缓存..."
+	rm -rf results/cache/products/*
+	@echo "✅ 产品缓存已清理"
+
+cache-clean-specs:
+	@echo "🧹 清理产品规格缓存..."
+	rm -rf results/cache/specifications/*
+	@echo "✅ 规格缓存已清理"
+
+cache-backup:
+	@echo "💾 备份缓存文件..."
+	@mkdir -p results/cache_backup
+	@cp results/cache/classification_tree_full.json results/cache_backup/classification_tree_full_$(shell date +%Y%m%d_%H%M%S).json 2>/dev/null || echo "❌ 无缓存文件可备份"
+	@echo "✅ 缓存已备份"
+
+cache-restore:
+	@echo "📥 恢复缓存备份..."
+	@cp results/cache/classification_tree_full.json.bak results/cache/classification_tree_full.json 2>/dev/null && echo "✅ 缓存已恢复" || echo "❌ 无备份文件"
+
+# 快捷命令
+quick-start:
+	@echo "🚀 快速开始 (使用缓存)..."
+	@make cache-status
+	@make pipeline-v2
+
+full-refresh:
+	@echo "🔄 完全刷新 (清理并重建)..."
+	@make clean-cache
+	@make cache-rebuild
 
 # Quick verification test
 verify:
@@ -232,6 +344,7 @@ help:
 	@echo "  make test-08        - 运行测试 08 (叶节点产品链接提取)"
 	@echo "  make test-09        - 运行测试 09 (批量叶节点产品链接提取)"
 	@echo "  make test-09-1      - 运行测试 09-1 (🔗 产品规格链接提取器)"
+	@echo "  make test-09-2      - 运行测试 09-2 (🌐 通用产品规格提取器)"
 	@echo "  make test-10        - 运行测试 10 (🎯 终极自动 CAD 下载)"
 	@echo "  make test-11        - 运行测试 11 (全流程一键抓取)"
 	@echo "  make pipeline       - 🚀 运行新架构流水线 (推荐)"
@@ -240,6 +353,33 @@ help:
 	@echo "  make pipeline-optimized - 🚀 运行优化版流水线 (终极性能)"
 	@echo "  make pipeline-optimized-max - ⚡ 运行优化版流水线 (64 workers)"
 	@echo "  make pipeline-optimized-nocache - 🔄 运行优化版流水线 (禁用缓存)"
+	@echo "  make pipeline-optimized-test - 🧪 运行测试流水线 (5个叶节点)"
+	@echo ""
+	@echo "🆕 渐进式缓存系统 (V2):"
+	@echo "  make pipeline-v2    - 🚀 运行流水线 V2 (推荐)"
+	@echo "  make pipeline-v2-fast - ⚡ 运行流水线 V2 (64 workers)"
+	@echo "  make pipeline-v2-nocache - 🔄 强制刷新所有数据"
+	@echo "  make pipeline-v2-products - 📦 只爬取到产品级别"
+	@echo "  make pipeline-v2-export - 📄 运行并导出结果"
+	@echo "  make pipeline-v2-products-test - 🧪 产品级别测试 (2个叶节点)"
+	@echo "  make pipeline-v2-test - 🧪 完整流程测试 (1个叶节点)"
+	@echo ""
+	@echo "📦 缓存管理:"
+	@echo "  make cache-status   - 📊 查看缓存状态"
+	@echo "  make cache-build    - 🏗️ 构建完整缓存"
+	@echo "  make cache-classification - 🌳 只构建分类树"
+	@echo "  make cache-products - 📦 扩展产品链接"
+	@echo "  make cache-specifications - 📋 扩展产品规格"
+	@echo "  make cache-rebuild  - 🔄 强制重建所有缓存"
+	@echo "  make cache-backup   - 💾 备份缓存文件"
+	@echo "  make cache-restore  - 📥 恢复缓存备份"
+	@echo "  make cache-clean-products - 🧹 清理产品缓存"
+	@echo "  make cache-clean-specs - 🧹 清理规格缓存"
+	@echo ""
+	@echo "⚡ 快捷命令:"
+	@echo "  make quick-start    - 🚀 快速开始 (查看状态并运行)"
+	@echo "  make full-refresh   - 🔄 完全刷新 (清理并重建)"
+	@echo ""
 	@echo "  make verify         - 快速验证 API 连接"
 	@echo "  make check          - 检查依赖包状态"
 	@echo "  make list           - 列出测试文件"

@@ -141,15 +141,30 @@ class OptimizedFullPipeline:
                 self.logger.info(f"📂 使用缓存的分类树")
                 self.logger.info(f"   缓存文件: {cache_file.resolve()}")
                 self.logger.info(f"   缓存年龄: {cache_age/3600:.1f} 小时")
-                self.logger.info(f"   💡 提示: 使用 --no-cache 参数强制重新爬取")
+                
                 with open(cache_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
+                
+                # 检查是否是扩展版本（包含产品链接）
+                metadata = data.get('metadata', {})
+                version = metadata.get('version', '1.0')
+                
+                if 'with-products' in version:
+                    self.logger.info(f"   ✨ 缓存版本: {version} (包含产品链接)")
+                    self.logger.info(f"   产品总数: {metadata.get('total_products', 0)} 个")
+                    self._has_cached_products = True
+                else:
+                    self.logger.info(f"   缓存版本: {version} (仅分类树)")
+                    self._has_cached_products = False
+                
+                self.logger.info(f"   💡 提示: 使用 --no-cache 参数强制重新爬取")
                 return data['root'], data['leaves']
             else:
                 self.logger.info(f"⚠️  缓存已过期 (年龄: {cache_age/3600:.1f} 小时 > 24小时)")
                 self.logger.info(f"   将重新爬取分类树...")
         
         # 爬取新数据
+        self._has_cached_products = False
         if not use_cache:
             self.logger.info(f"🔄 强制重新爬取分类树 (--no-cache 参数)")
         elif not cache_file.exists():
@@ -171,6 +186,30 @@ class OptimizedFullPipeline:
     def _crawl_product_links_parallel(self, leaves: List[Dict]) -> Dict[str, List[str]]:
         """并行爬取产品链接 (优化版)"""
         all_results = {}
+        
+        # 如果缓存中已包含产品链接，直接使用
+        if hasattr(self, '_has_cached_products') and self._has_cached_products:
+            self.logger.info(f"📦 使用缓存的产品链接数据")
+            
+            # 从叶节点提取产品链接
+            for leaf in leaves:
+                products = leaf.get('products', [])
+                all_results[leaf['code']] = products
+                
+                if products:
+                    self.stats['success_leaves'] += 1
+                    self.stats['total_products'] += len(products)
+                else:
+                    self.stats['failed_leaves'].append(leaf['code'])
+            
+            # 显示统计
+            self.logger.info(f"✅ 从缓存加载完成:")
+            self.logger.info(f"   • 成功叶节点: {self.stats['success_leaves']}/{len(leaves)}")
+            self.logger.info(f"   • 空叶节点: {len(self.stats['failed_leaves'])}")
+            self.logger.info(f"   • 总产品数: {self.stats['total_products']} 个")
+            self.logger.info(f"   💡 提示: 使用 --no-cache 参数强制重新爬取")
+            
+            return all_results
         
         # 注册任务
         self.progress_tracker.register_task("产品链接提取", len(leaves))

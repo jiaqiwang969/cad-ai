@@ -19,6 +19,7 @@ from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from enum import Enum
+import os
 
 # 添加项目根目录到路径
 import sys
@@ -47,20 +48,28 @@ class CacheManager:
         self.logger = ThreadSafeLogger("cache-manager", logging.INFO)
         self.progress_tracker = ProgressTracker(self.logger)
         
-        # 缓存文件路径
-        self.main_cache_file = self.cache_dir / 'classification_tree_full.json'
+        # 缓存文件路径 - 新的命名规范
+        self.cache_index_file = self.cache_dir / 'cache_index.json'  # 索引文件，记录最新版本
         self.products_cache_dir = self.cache_dir / 'products'
         self.specs_cache_dir = self.cache_dir / 'specifications'
+        self.error_logs_dir = self.cache_dir / 'error_logs'  # 异常记录目录
+        
+        # 创建版本化的缓存文件名
+        self.timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        self.classification_file = self.cache_dir / f'classification_tree_v{self.timestamp}.json'
+        self.products_file = self.cache_dir / f'products_links_v{self.timestamp}.json'  
+        self.specifications_file = self.cache_dir / f'specifications_v{self.timestamp}.json'
         
         # 创建缓存目录
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.products_cache_dir.mkdir(parents=True, exist_ok=True)
         self.specs_cache_dir.mkdir(parents=True, exist_ok=True)
+        self.error_logs_dir.mkdir(parents=True, exist_ok=True)
         
         # 初始化爬取器
         self.classification_crawler = OptimizedClassificationCrawler()
         self.products_crawler = UltimateProductLinksCrawler()
-        self.specifications_crawler = OptimizedSpecificationsCrawler()
+        self.specifications_crawler = OptimizedSpecificationsCrawler(log_level=logging.INFO)
         
         # 缓存有效期（小时）
         self.cache_ttl = {
@@ -68,69 +77,302 @@ class CacheManager:
             CacheLevel.PRODUCTS: 24 * 3,       # 产品链接：3天
             CacheLevel.SPECIFICATIONS: 24      # 产品规格：1天
         }
+        
+        # 异常记录
+        self.error_records = {
+            'products': [],      # 产品链接爬取失败记录
+            'specifications': [] # 产品规格爬取失败记录
+        }
     
     def get_cache_level(self) -> Tuple[CacheLevel, Optional[Dict]]:
         """获取当前缓存级别和缓存数据"""
-        if not self.main_cache_file.exists():
+        # 读取缓存索引文件
+        if not self.cache_index_file.exists():
+            # 如果没有索引文件，检查是否有旧版本的缓存文件
+            old_cache_file = self.cache_dir / 'classification_tree_full.json'
+            if old_cache_file.exists():
+                self.logger.info("🔄 检测到旧版本缓存文件，将进行迁移")
+                try:
+                    with open(old_cache_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    metadata = data.get('metadata', {})
+                    cache_level = CacheLevel(metadata.get('cache_level', 1))
+                    return cache_level, data
+                except Exception as e:
+                    self.logger.error(f"读取旧版本缓存失败: {e}")
             return CacheLevel.NONE, None
         
         try:
-            with open(self.main_cache_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+            with open(self.cache_index_file, 'r', encoding='utf-8') as f:
+                index_data = json.load(f)
             
-            metadata = data.get('metadata', {})
-            cache_level = CacheLevel(metadata.get('cache_level', 0))
+            latest_files = index_data.get('latest_files', {})
+            current_level = CacheLevel.NONE
+            data = None
+            
+            # 按优先级检查缓存文件是否存在
+            if 'specifications' in latest_files:
+                specs_file = self.cache_dir / latest_files['specifications']
+                if specs_file.exists():
+                    current_level = CacheLevel.SPECIFICATIONS
+                    with open(specs_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+            elif 'products' in latest_files:
+                products_file = self.cache_dir / latest_files['products']
+                if products_file.exists():
+                    current_level = CacheLevel.PRODUCTS
+                    with open(products_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+            elif 'classification' in latest_files:
+                class_file = self.cache_dir / latest_files['classification']
+                if class_file.exists():
+                    current_level = CacheLevel.CLASSIFICATION
+                    with open(class_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
             
             # 检查缓存是否过期
-            if 'generated' in metadata:
-                generated_time = datetime.fromisoformat(metadata['generated'])
-                age_hours = (datetime.now() - generated_time).total_seconds() / 3600
-                
-                if age_hours > self.cache_ttl.get(cache_level, 24):
-                    self.logger.warning(f"缓存已过期 (年龄: {age_hours:.1f}小时)")
-                    return CacheLevel.NONE, None
+            if data and 'metadata' in data:
+                metadata = data['metadata']
+                if 'generated' in metadata:
+                    generated_time = datetime.fromisoformat(metadata['generated'])
+                    age_hours = (datetime.now() - generated_time).total_seconds() / 3600
+                    
+                    if age_hours > self.cache_ttl.get(current_level, 24):
+                        self.logger.warning(f"缓存已过期 (年龄: {age_hours:.1f}小时)")
+                        return CacheLevel.NONE, None
             
-            return cache_level, data
+            return current_level, data
             
         except Exception as e:
-            self.logger.error(f"读取缓存失败: {e}")
+            self.logger.error(f"读取缓存索引失败: {e}")
             return CacheLevel.NONE, None
+    
+    def _update_cache_index(self, level: CacheLevel, filename: str):
+        """更新缓存索引文件"""
+        index_data = {}
+        if self.cache_index_file.exists():
+            try:
+                with open(self.cache_index_file, 'r', encoding='utf-8') as f:
+                    index_data = json.load(f)
+            except Exception:
+                pass
+        
+        if 'latest_files' not in index_data:
+            index_data['latest_files'] = {}
+        if 'version_history' not in index_data:
+            index_data['version_history'] = []
+        
+        # 更新最新文件记录
+        level_name = level.name.lower()
+        index_data['latest_files'][level_name] = filename
+        
+        # 添加版本历史
+        version_record = {
+            'level': level.name,
+            'filename': filename,
+            'timestamp': datetime.now().isoformat(),
+            'version': self.timestamp
+        }
+        index_data['version_history'].append(version_record)
+        
+        # 只保留最近50个版本记录
+        if len(index_data['version_history']) > 50:
+            index_data['version_history'] = index_data['version_history'][-50:]
+        
+        # 保存索引文件
+        with open(self.cache_index_file, 'w', encoding='utf-8') as f:
+            json.dump(index_data, f, ensure_ascii=False, indent=2)
+        
+        self.logger.info(f"📇 已更新缓存索引: {level.name} -> {filename}")
     
     def save_cache(self, data: Dict, level: CacheLevel):
         """保存缓存数据"""
-        # 备份现有文件
-        if self.main_cache_file.exists():
-            backup_file = self.main_cache_file.with_suffix('.json.bak')
-            self.main_cache_file.rename(backup_file)
+        # 选择对应的文件名
+        if level == CacheLevel.CLASSIFICATION:
+            cache_file = self.classification_file
+        elif level == CacheLevel.PRODUCTS:
+            cache_file = self.products_file
+        elif level == CacheLevel.SPECIFICATIONS:
+            cache_file = self.specifications_file
+        else:
+            raise ValueError(f"未知的缓存级别: {level}")
+        
+        # 备份现有文件（如果存在）
+        if cache_file.exists():
+            backup_file = cache_file.with_suffix('.json.bak')
+            cache_file.rename(backup_file)
             self.logger.info(f"📋 已备份原文件到: {backup_file}")
         
-        # 计算规格总数（只有在SPECIFICATIONS级别才有规格数据）
-        total_specifications = 0
-        if level == CacheLevel.SPECIFICATIONS:
-            for leaf in data.get('leaves', []):
-                for product in leaf.get('products', []):
-                    if isinstance(product, dict):
-                        total_specifications += len(product.get('specifications', []))
+        try:
+            # 计算规格总数（只有在SPECIFICATIONS级别才有规格数据）
+            total_specifications = 0
+            if level == CacheLevel.SPECIFICATIONS:
+                for leaf in data.get('leaves', []):
+                    for product in leaf.get('products', []):
+                        if isinstance(product, dict):
+                            total_specifications += len(product.get('specifications', []))
+            
+            # 更新元数据
+            data['metadata'] = {
+                'generated': datetime.now().isoformat(),
+                'cache_level': level.value,
+                'cache_level_name': level.name,
+                'version': f'v{self.timestamp}',
+                'total_leaves': len(data.get('leaves', [])),
+                'total_products': sum(leaf.get('product_count', 0) for leaf in data.get('leaves', [])),
+                'total_specifications': total_specifications
+            }
+            
+            # 保存文件
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            
+            file_size_mb = cache_file.stat().st_size / 1024 / 1024
+            self.logger.info(f"💾 已保存缓存到: {cache_file}")
+            self.logger.info(f"   缓存级别: {level.name}")
+            self.logger.info(f"   文件大小: {file_size_mb:.1f} MB")
+            self.logger.info(f"   版本号: v{self.timestamp}")
+            
+            # 更新索引文件
+            self._update_cache_index(level, cache_file.name)
+            
+            # 清理旧版本文件（保留最近5个版本）
+            self._cleanup_old_versions(level)
+            
+        except Exception as e:
+            self.logger.error(f"保存缓存失败: {e}")
+    
+    def _cleanup_old_versions(self, level: CacheLevel, keep_versions: int = 5):
+        """清理旧版本的缓存文件，只保留最近的几个版本"""
+        try:
+            # 根据级别确定文件模式
+            if level == CacheLevel.CLASSIFICATION:
+                pattern = "classification_tree_v*.json"
+            elif level == CacheLevel.PRODUCTS:
+                pattern = "products_links_v*.json"
+            elif level == CacheLevel.SPECIFICATIONS:
+                pattern = "specifications_v*.json"
+            else:
+                return
+            
+            # 查找所有匹配的文件
+            cache_files = list(self.cache_dir.glob(pattern))
+            if len(cache_files) <= keep_versions:
+                return
+            
+            # 按修改时间排序，删除较旧的文件
+            cache_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+            files_to_delete = cache_files[keep_versions:]
+            
+            for file_path in files_to_delete:
+                try:
+                    file_path.unlink()
+                    self.logger.debug(f"🗑️ 已删除旧版本文件: {file_path.name}")
+                except Exception as e:
+                    self.logger.warning(f"删除旧文件失败 {file_path.name}: {e}")
+            
+            if files_to_delete:
+                self.logger.info(f"🧹 已清理 {len(files_to_delete)} 个旧版本文件")
+                
+        except Exception as e:
+            self.logger.warning(f"清理旧版本文件失败: {e}")
+    
+    def get_version_history(self, level: Optional[CacheLevel] = None) -> List[Dict]:
+        """获取版本历史记录"""
+        try:
+            if not self.cache_index_file.exists():
+                return []
+            
+            with open(self.cache_index_file, 'r', encoding='utf-8') as f:
+                index_data = json.load(f)
+            
+            history = index_data.get('version_history', [])
+            
+            # 如果指定了级别，只返回该级别的历史
+            if level:
+                history = [h for h in history if h.get('level') == level.name]
+            
+            # 按时间倒序排列（最新的在前）
+            history.sort(key=lambda x: x.get('timestamp', ''), reverse=True)
+            return history
+            
+        except Exception as e:
+            self.logger.error(f"获取版本历史失败: {e}")
+            return []
+    
+    def get_cache_status(self) -> Dict:
+        """获取详细的缓存状态信息"""
+        current_level, data = self.get_cache_level()
         
-        # 更新元数据
-        data['metadata'] = {
-            'generated': datetime.now().isoformat(),
-            'cache_level': level.value,
-            'cache_level_name': level.name,
-            'version': f'3.0-{level.name.lower()}',
-            'total_leaves': len(data.get('leaves', [])),
-            'total_products': sum(leaf.get('product_count', 0) for leaf in data.get('leaves', [])),
-            'total_specifications': total_specifications
+        status = {
+            'current_level': current_level.name,
+            'current_level_value': current_level.value,
+            'cache_directory': str(self.cache_dir),
+            'latest_files': {},
+            'file_sizes': {},
+            'metadata': {}
         }
         
-        # 保存文件
-        with open(self.main_cache_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        # 读取索引文件获取最新文件信息
+        try:
+            if self.cache_index_file.exists():
+                with open(self.cache_index_file, 'r', encoding='utf-8') as f:
+                    index_data = json.load(f)
+                
+                latest_files = index_data.get('latest_files', {})
+                for level_name, filename in latest_files.items():
+                    file_path = self.cache_dir / filename
+                    if file_path.exists():
+                        status['latest_files'][level_name] = filename
+                        status['file_sizes'][level_name] = f"{file_path.stat().st_size / 1024 / 1024:.1f} MB"
+        except Exception as e:
+            self.logger.warning(f"读取缓存索引状态失败: {e}")
         
-        file_size_mb = self.main_cache_file.stat().st_size / 1024 / 1024
-        self.logger.info(f"💾 已保存缓存到: {self.main_cache_file}")
-        self.logger.info(f"   缓存级别: {level.name}")
-        self.logger.info(f"   文件大小: {file_size_mb:.1f} MB")
+        # 如果有当前数据，提取元数据
+        if data and 'metadata' in data:
+            status['metadata'] = data['metadata']
+        
+        return status
+    
+    def _record_error(self, error_type: str, error_info: Dict):
+        """记录错误信息"""
+        error_record = {
+            'timestamp': datetime.now().isoformat(),
+            'version': f'v{self.timestamp}',
+            **error_info
+        }
+        
+        if error_type in self.error_records:
+            self.error_records[error_type].append(error_record)
+    
+    def _save_error_logs(self):
+        """保存异常记录到文件"""
+        if not any(self.error_records.values()):
+            return  # 没有错误记录，不需要保存
+        
+        error_log_file = self.error_logs_dir / f'error_log_v{self.timestamp}.json'
+        
+        # 统计信息
+        error_summary = {
+            'generated': datetime.now().isoformat(),
+            'version': f'v{self.timestamp}',
+            'summary': {
+                'total_product_errors': len(self.error_records['products']),
+                'total_specification_errors': len(self.error_records['specifications']),
+                'zero_specs_count': len([e for e in self.error_records['specifications'] if e.get('spec_count', 0) == 0]),
+                'exception_count': len([e for e in self.error_records['specifications'] if 'exception' in e])
+            },
+            'details': self.error_records
+        }
+        
+        # 保存错误日志
+        with open(error_log_file, 'w', encoding='utf-8') as f:
+            json.dump(error_summary, f, ensure_ascii=False, indent=2)
+        
+        self.logger.info(f"📝 异常记录已保存: {error_log_file}")
+        self.logger.info(f"   • 产品链接失败: {error_summary['summary']['total_product_errors']} 个")
+        self.logger.info(f"   • 规格爬取失败: {error_summary['summary']['total_specification_errors']} 个")
+        self.logger.info(f"   • 其中零规格: {error_summary['summary']['zero_specs_count']} 个")
     
     def extend_to_products(self, data: Dict) -> Dict:
         """扩展缓存到产品链接级别"""
@@ -164,9 +406,30 @@ class CacheManager:
                         self.logger.warning(f"⚠️  叶节点 {leaf['code']} 无产品")
                         self.logger.warning(f"   地址: {leaf['url']}")
                         
+                        # 记录零产品情况
+                        self._record_error('products', {
+                            'error_type': 'zero_products',
+                            'leaf_code': leaf['code'],
+                            'leaf_name': leaf.get('name', ''),
+                            'leaf_url': leaf['url'],
+                            'product_count': 0,
+                            'note': '页面访问正常但未找到产品'
+                        })
+                        
                 except Exception as e:
                     self.logger.error(f"叶节点 {leaf['code']} 处理失败: {e}")
                     self.logger.error(f"   地址: {leaf['url']}")
+                    
+                    # 记录产品链接爬取失败
+                    self._record_error('products', {
+                        'error_type': 'product_extraction_failed',
+                        'leaf_code': leaf['code'],
+                        'leaf_name': leaf.get('name', ''),
+                        'leaf_url': leaf['url'],
+                        'exception': str(e),
+                        'exception_type': type(e).__name__
+                    })
+                    
                     leaf_products[leaf['code']] = []
                     self.progress_tracker.update_task("产品链接扩展", success=False)
         
@@ -178,6 +441,10 @@ class CacheManager:
         self.logger.info(f"\n✅ 产品链接扩展完成:")
         self.logger.info(f"   • 处理叶节点: {len(leaves)} 个")
         self.logger.info(f"   • 总产品数: {total_products} 个")
+        
+        # 保存异常记录（如果有的话）
+        if self.error_records['products']:
+            self._save_error_logs()
         
         return data
     
@@ -204,37 +471,89 @@ class CacheManager:
                 all_products.append(product_info)
         
         self.logger.info(f"准备爬取 {len(all_products)} 个产品的规格...")
-        self.progress_tracker.register_task("产品规格扩展", len(all_products))
         
-        # 并行爬取产品规格
+        # 使用优化的线程数配置
+        max_workers = min(len(all_products), 12)
+        
+        # 提取所有产品URL
+        product_urls = [p['product_url'] if isinstance(p, dict) else p for p in all_products]
+        
+        # 批量爬取
+        batch_result = self.specifications_crawler.extract_batch_specifications(
+            product_urls, 
+            max_workers=max_workers
+        )
+        
+        # 处理结果
         product_specs = {}
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            future_to_product = {
-                executor.submit(self._crawl_specs_for_product, p): p
-                for p in all_products
-            }
+        success_count = 0
+        total_specs = 0
+        
+        for result in batch_result.get('results', []):
+            product_url = result['product_url']
+            specs = result.get('specifications', [])
+            product_specs[product_url] = specs
             
-            for future in as_completed(future_to_product):
-                product = future_to_product[future]
-                try:
-                    specs = future.result()
-                    product_url = product['product_url'] if isinstance(product, dict) else product
-                    product_specs[product_url] = specs
-                    self.progress_tracker.update_task("产品规格扩展", success=True)
-                except Exception as e:
-                    self.logger.error(f"产品规格爬取失败: {e}")
-                    product_url = product['product_url'] if isinstance(product, dict) else product
-                    product_specs[product_url] = []
-                    self.progress_tracker.update_task("产品规格扩展", success=False)
+            if result.get('success', False):
+                success_count += 1
+                total_specs += len(specs)
+                
+                # 记录零规格情况（成功访问但无规格）
+                if len(specs) == 0:
+                    # 找到对应的产品信息
+                    product_info = next((p for p in all_products if (p['product_url'] if isinstance(p, dict) else p) == product_url), None)
+                    
+                    self._record_error('specifications', {
+                        'error_type': 'zero_specifications',
+                        'product_url': product_url,
+                        'leaf_code': product_info.get('leaf_code', 'unknown') if isinstance(product_info, dict) else 'unknown',
+                        'spec_count': 0,
+                        'success': True,
+                        'note': '页面访问成功但未提取到产品规格'
+                    })
+                    
+                # 记录规格数量较少的情况（可能的问题）
+                elif len(specs) == 1:
+                    product_info = next((p for p in all_products if (p['product_url'] if isinstance(p, dict) else p) == product_url), None)
+                    
+                    self._record_error('specifications', {
+                        'error_type': 'low_specification_count',
+                        'product_url': product_url,
+                        'leaf_code': product_info.get('leaf_code', 'unknown') if isinstance(product_info, dict) else 'unknown',
+                        'spec_count': len(specs),
+                        'success': True,
+                        'note': '规格数量较少，可能存在提取问题',
+                        'specifications': specs  # 包含具体的规格内容用于调试
+                    })
+            else:
+                # 记录完全失败的情况
+                product_info = next((p for p in all_products if (p['product_url'] if isinstance(p, dict) else p) == product_url), None)
+                error_msg = result.get('error', '未知错误')
+                
+                self.logger.warning(f"⚠️ 产品规格爬取失败: {product_url}")
+                self.logger.warning(f"   错误: {error_msg}")
+                
+                self._record_error('specifications', {
+                    'error_type': 'specification_extraction_failed',
+                    'product_url': product_url,
+                    'leaf_code': product_info.get('leaf_code', 'unknown') if isinstance(product_info, dict) else 'unknown',
+                    'spec_count': 0,
+                    'success': False,
+                    'exception': error_msg,
+                    'note': '产品规格爬取完全失败'
+                })
         
         # 更新数据结构
         self._update_tree_with_specifications(data, product_specs)
         
         # 统计
-        total_specs = sum(len(specs) for specs in product_specs.values())
         self.logger.info(f"\n✅ 产品规格扩展完成:")
         self.logger.info(f"   • 处理产品: {len(all_products)} 个")
+        self.logger.info(f"   • 成功爬取: {success_count} 个")
         self.logger.info(f"   • 总规格数: {total_specs} 个")
+        
+        # 保存异常记录
+        self._save_error_logs()
         
         return data
     
@@ -256,12 +575,36 @@ class CacheManager:
         self.logger.info(f"🌐 爬取产品: {code}")
         try:
             products = self.products_crawler.extract_product_links(leaf['url'])
+            
+            # 记录空产品列表的情况（没有异常但结果为空）
+            if not products:
+                self._record_error('products', {
+                    'error_type': 'zero_products_no_exception',
+                    'leaf_code': code,
+                    'leaf_name': leaf.get('name', ''),
+                    'leaf_url': leaf['url'],
+                    'product_count': 0,
+                    'note': '爬取完成但返回空产品列表'
+                })
+            
             # 保存缓存
             with open(cache_file, 'w', encoding='utf-8') as f:
                 json.dump(products, f, ensure_ascii=False, indent=2)
             return products
         except Exception as e:
             self.logger.error(f"❌ 失败: {code} - {e}")
+            
+            # 记录爬取异常
+            self._record_error('products', {
+                'error_type': 'product_extraction_exception',
+                'leaf_code': code,
+                'leaf_name': leaf.get('name', ''),
+                'leaf_url': leaf['url'],
+                'exception': str(e),
+                'exception_type': type(e).__name__,
+                'note': '产品链接爬取过程中发生异常'
+            })
+            
             return []
     
     def _crawl_specs_for_product(self, product: Any) -> List[Dict]:

@@ -9,9 +9,7 @@
 import re
 import time
 import logging
-import random
 from typing import List, Dict, Any
-from concurrent.futures import ThreadPoolExecutor
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -24,123 +22,57 @@ class OptimizedSpecificationsCrawler:
     """优化版产品规格爬取器"""
     
     def __init__(self, log_level: int = logging.INFO):
-        """初始化规格爬取器
-        
-        Args:
-            log_level: 日志级别
-        """
-        self.logger = logging.getLogger(__name__)
-        self.logger.setLevel(log_level)
-        
-        # 添加控制台处理器（如果还没有）
+        """初始化优化版规格爬取器"""
+        # 简单日志设置 (一次性)
+        self.logger = logging.getLogger(__name__) # 使用 __name__ 获取当前模块的logger
         if not self.logger.handlers:
             handler = logging.StreamHandler()
-            handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+            # 更详细的日志格式
+            formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+            handler.setFormatter(formatter)
             self.logger.addHandler(handler)
+        self.logger.setLevel(log_level)
+        self.logger.propagate = False
         
-        # Selenium配置
-        self.chrome_options = Options()
-        self.chrome_options.add_argument('--headless')
-        self.chrome_options.add_argument('--no-sandbox')
-        self.chrome_options.add_argument('--disable-dev-shm-usage')
-        self.chrome_options.add_argument('--disable-gpu')
-        self.chrome_options.add_argument('--window-size=1920,1080')
-        
-        # 随机化User-Agent避免被检测
-        user_agents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
-        ]
-        self.chrome_options.add_argument(f'--user-agent={random.choice(user_agents)}')
-        
-        # 缓存已访问的URL，避免重复请求
-        self.visited_urls = set()
-        self.max_retries = 3
-        self.retry_delay = 5
-        
-        # 性能监控
-        self.stats = {
-            'total_products': 0,
-            'successful_extractions': 0,
-            'failed_extractions': 0,
-            'total_specifications': 0,
-            'extraction_times': []
-        }
-        
-        # 添加域名级弹窗处理缓存
-        self._popup_handled_domains = set()
-        
-        # 优化后的等待时间配置
-        self.page_load_wait = 1
-        self.scroll_wait = 0.3
-        self.popup_timeout = 3
-        self.action_wait = 0.5
+        # 常量配置
+        self.TIMEOUT = 60
+        self.MAX_RETRY = 3
     
     def _create_optimized_driver(self):
-        """创建优化的驱动（与测试脚本一致, 追加禁用图片）"""
-        # 创建新的优化版 Options
+        """创建优化的驱动（与测试脚本一致）"""
         options = Options()
-        
-        # 基础设置
         options.add_argument('--headless')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-gpu')
         options.add_argument('--window-size=1920,1080')
-        
-        # 随机化User-Agent
-        user_agents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
-        ]
-        options.add_argument(f'--user-agent={random.choice(user_agents)}')
-        
-        options.add_argument('--disable-features=PaintHolding')  # 关闭首帧等待
-        
-        # 🔧 性能优化设置
-        prefs = {
-            "profile.managed_default_content_settings.images": 2,  # 禁用图片
-            "profile.managed_default_content_settings.fonts": 2,    # 禁用字体
-            "profile.managed_default_content_settings.stylesheets": 2,  # 禁用样式表
-            "profile.managed_default_content_settings.media_stream": 2,  # 禁用媒体流
-        }
-        options.add_experimental_option("prefs", prefs)
-        # 禁用自动化检测特征
-        options.add_experimental_option("excludeSwitches", ["enable-automation"])
-        options.add_experimental_option("useAutomationExtension", False)
-        options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument("--disable-extensions")
+        # 更新User-Agent使其与修复脚本一致
+        options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
         
         driver = webdriver.Chrome(options=options)
-        driver.implicitly_wait(5)
-        driver.set_page_load_timeout(30)
-        
-        # 通过 CDP 屏蔽额外的静态资源
-        try:
-            driver.execute_cdp_cmd("Network.setBlockedURLs", {
-                "urls": [
-                    "*.png", "*.jpg", "*.jpeg", "*.gif", "*.svg", "*.webp",
-                    "*.woff*", "*.ttf", "*.otf", "*.eot",
-                    "*googletagmanager*", "*google-analytics*", "*doubleclick*",
-                    "*facebook*", "*twitter*", "*linkedin*"
-                ]
-            })
-        except Exception as e:
-            self.logger.debug(f"CDP命令失败（某些版本不支持）: {e}")
-        
+        # 增加隐式等待
+        driver.implicitly_wait(10) 
+        driver.set_page_load_timeout(self.TIMEOUT) # 使用类属性
         return driver
     
     def _scroll_page_fully(self, driver):
-        """完整滚动页面确保所有内容加载（更快）"""
+        """完整滚动页面确保所有内容加载（与测试脚本一致）"""
         self.logger.debug("滚动页面确保内容完全加载...")
-        for y in (driver.execute_script("return document.body.scrollHeight"), 0, driver.execute_script("return document.body.scrollHeight")//2):
-            driver.execute_script("window.scrollTo(0, arguments[0]);", y)
-            time.sleep(self.scroll_wait)
+        
+        # 先滚动到底部
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        
+        # 再滚动到顶部
+        driver.execute_script("window.scrollTo(0, 0);")
+        time.sleep(1)
+        
+        # 最后滚动到页面中部
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
+        time.sleep(1)
     
     def _set_items_per_page_to_all(self, driver) -> bool:
-        """设置每页显示项目数为全部（基于 09-1 测试脚本）"""
+        """设置每页显示项目数为全部（完全复制测试脚本）"""
         self.logger.debug("🔧 尝试设置每页显示项目数为全部...")
         
         # 首先检查是否存在分页控件
@@ -263,14 +195,7 @@ class OptimizedSpecificationsCrawler:
                                             driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
                                             time.sleep(1)
                                             opt.click()
-                                            # 等待页面刷新而非固定等待
-                                            try:
-                                                WebDriverWait(driver, 5).until(
-                                                    lambda d: "All" in d.find_element(By.XPATH, "//button[text()='10' or text()='All']").text
-                                                    or len(d.find_elements(By.TAG_NAME, 'tr')) > 15
-                                                )
-                                            except:
-                                                time.sleep(2)
+                                            time.sleep(5)
                                             self.logger.debug("✅ 成功选择All/大数字选项！")
                                             return True
                                         except Exception as click_error:
@@ -314,23 +239,9 @@ class OptimizedSpecificationsCrawler:
                                                 for all_option in all_options:
                                                     if all_option.is_displayed() and all_option.is_enabled():
                                                         self.logger.debug(f"🎯 找到可用All选项: '{all_option.text}' ({all_option.tag_name})")
-                                                        # 先滚动到视图再点击
-                                                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", all_option)
-                                                        time.sleep(self.action_wait)
-                                                        try:
-                                                            all_option.click()
-                                                        except Exception:
-                                                            # 如果常规点击失败，尝试 JavaScript 点击
-                                                            driver.execute_script("arguments[0].click();", all_option)
+                                                        all_option.click()
                                                         self.logger.debug("✅ 成功选择All选项！")
-                                                        # 等待页面刷新而非固定等待
-                                                        try:
-                                                            WebDriverWait(driver, 5).until(
-                                                                lambda d: "All" in d.find_element(By.XPATH, "//button[text()='10' or text()='All']").text
-                                                                or len(d.find_elements(By.TAG_NAME, 'tr')) > 15
-                                                            )
-                                                        except:
-                                                            time.sleep(2)
+                                                        time.sleep(5)
                                                         all_found = True
                                                         return True
                                             except Exception as e:
@@ -354,14 +265,8 @@ class OptimizedSpecificationsCrawler:
                                                     for max_option in max_options:
                                                         if max_option.is_displayed():
                                                             self.logger.debug(f"🔢 选择最大数字: {max_option.text}")
-                                                            # 滚动到视图再点击
-                                                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", max_option)
-                                                            time.sleep(self.action_wait)
-                                                            try:
-                                                                max_option.click()
-                                                            except Exception:
-                                                                driver.execute_script("arguments[0].click();", max_option)
-                                                            time.sleep(2)
+                                                            max_option.click()
+                                                            time.sleep(5)
                                                             return True
                                                 except:
                                                     continue
@@ -370,16 +275,6 @@ class OptimizedSpecificationsCrawler:
                                         
                                     except Exception as e:
                                         self.logger.warning(f"❌ 点击失败: {e}")
-                                        # 尝试 JavaScript 点击
-                                        try:
-                                            self.logger.debug(f"🔄 尝试JavaScript点击: '{elem_text}'")
-                                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", elem)
-                                            time.sleep(self.action_wait)
-                                            driver.execute_script("arguments[0].click();", elem)
-                                            time.sleep(3)
-                                            self.logger.debug("✅ JavaScript点击成功")
-                                        except Exception as js_error:
-                                            self.logger.debug(f"❌ JavaScript点击也失败: {js_error}")
                                         
                     except Exception as e:
                         self.logger.debug(f"查找元素失败: {e}")
@@ -419,14 +314,8 @@ class OptimizedSpecificationsCrawler:
                                 for opt in options:
                                     if opt.text.strip().lower() in ['all', '全部'] or (opt.text.strip().isdigit() and int(opt.text.strip()) >= 50):
                                         self.logger.debug(f"在select中选择: {opt.text}")
-                                        # 滚动到视图再点击
-                                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
-                                        time.sleep(self.action_wait)
-                                        try:
-                                            opt.click()
-                                        except Exception:
-                                            driver.execute_script("arguments[0].click();", opt)
-                                        time.sleep(2)
+                                        opt.click()
+                                        time.sleep(5)
                                         return True
                             else:
                                 # 如果是可点击元素，尝试点击
@@ -434,25 +323,16 @@ class OptimizedSpecificationsCrawler:
                                     self.logger.debug(f"点击数字控件: {elem_text}")
                                     driver.execute_script("arguments[0].scrollIntoView({block:'center'});", elem)
                                     time.sleep(1)
-                                    try:
-                                        elem.click()
-                                    except Exception:
-                                        driver.execute_script("arguments[0].click();", elem)
+                                    elem.click()
                                     time.sleep(3)
                                     
                                     # 查找弹出菜单中的All选项
                                     all_options = driver.find_elements(By.XPATH, "//li[normalize-space(.)='All'] | //option[normalize-space(.)='All'] | //*[@role='option'][normalize-space(.)='All']")
                                     for opt in all_options:
                                         if opt.is_displayed():
-                                            # 滚动到视图再点击
-                                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", opt)
-                                            time.sleep(self.action_wait)
-                                            try:
-                                                opt.click()
-                                            except Exception:
-                                                driver.execute_script("arguments[0].click();", opt)
+                                            opt.click()
                                             self.logger.debug("选择了All选项")
-                                            time.sleep(2)
+                                            time.sleep(5)
                                             return True
                                             
                                 except Exception as e:
@@ -503,7 +383,6 @@ class OptimizedSpecificationsCrawler:
                             text = opt.text.strip().lower()
                             if text in ['all', '全部']:
                                 best_option = opt
-                                break
                             elif text.isdigit() and int(text) >= 50:
                                 best_option = opt
                         
@@ -511,11 +390,8 @@ class OptimizedSpecificationsCrawler:
                             self.logger.debug(f"选择: {best_option.text}")
                             driver.execute_script("arguments[0].scrollIntoView({block:'center'});", best_option)
                             time.sleep(1)
-                            try:
-                                best_option.click()
-                            except Exception:
-                                driver.execute_script("arguments[0].click();", best_option)
-                            time.sleep(2)
+                            best_option.click()
+                            time.sleep(5)
                             return True
                             
                 except Exception as e:
@@ -891,125 +767,95 @@ class OptimizedSpecificationsCrawler:
 
     def _extract_all_specifications(self, driver) -> List[Dict[str, Any]]:
         """提取所有产品规格——复刻 test/09-1 的完整逻辑"""
-        self.logger.debug("开始提取所有产品规格...")
-        
-        specifications = []
-        seen_references = set()
+        specs: List[Dict[str, Any]] = []
+        seen_refs = set()
         
         try:
-            # 等待页面稳定
-            time.sleep(self.page_load_wait)
-            
-            # 弹窗处理（同test/09-1）
-            current_domain = driver.current_url.split('/')[2]
-            if current_domain not in self._popup_handled_domains:
-                self.logger.debug("检测并处理许可协议弹窗...")
-                
-                # 查找弹窗
-                popup_selectors = [
-                    "//*[contains(@class, 'modal')]",
-                    "//*[contains(@class, 'popup')]",
-                    "//*[contains(@class, 'dialog')]",
-                    "//*[contains(@class, 'overlay')]"
-                ]
-                
-                popup_found = False
-                for selector in popup_selectors:
-                    try:
-                        elements = driver.find_elements(By.XPATH, selector)
-                        for elem in elements:
-                            if elem.is_displayed():
-                                popup_found = True
-                                break
-                        if popup_found:
-                            break
-                    except:
-                        continue
-                
-                if popup_found:
-                    # 简化的确认按钮文本列表
-                    confirm_texts = [
-                        'i understand and accept',
-                        'accept', 'agree', 'continue', 'ok'
-                    ]
-                    
-                    confirm_clicked = False
-                    for text in confirm_texts:
-                        if confirm_clicked:
-                            break
-                        
-                        button_selectors = [
-                            f"//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{text}')]",
-                            f"//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{text}')]"
-                        ]
-                        
-                        for selector in button_selectors:
-                            try:
-                                buttons = driver.find_elements(By.XPATH, selector)
-                                for button in buttons:
-                                    if button.is_displayed() and button.is_enabled():
-                                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                        time.sleep(self.action_wait)
-                                        button.click()
-                                        confirm_clicked = True
-                                        self._popup_handled_domains.add(current_domain)
-                                        
-                                        # 动态等待弹窗消失
-                                        try:
-                                            WebDriverWait(driver, 3).until(
-                                                lambda d: not button.is_displayed()
-                                            )
-                                        except:
-                                            time.sleep(self.action_wait)
-                                        
-                                        break
-                            except:
-                                continue
-            
-            # 滚动页面
+            # 确保页面稳定并滚动一次
+            time.sleep(2)
             self._scroll_page_fully(driver)
-            
-            # 获取所有表格
-            all_tables = driver.find_elements(By.TAG_NAME, 'table')
-            
-            # 查找产品表格（通过标题或内容判断）
-            product_keywords = ['product selection', 'product list', 'specifications']
-            table_element = None
-            
-            # 1. 通过标题查找
-            for keyword in product_keywords:
-                try:
-                    headers = driver.find_elements(By.XPATH, 
-                        f"//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword}')]"
-                    )
-                    for header in headers:
-                        if header.is_displayed():
-                            # 查找附近的表格
-                            tables = header.find_elements(By.XPATH, "./following::table[1]")
-                            if not tables:
-                                tables = header.find_elements(By.XPATH, "./..//table")
-                            if tables and tables[0].is_displayed():
-                                table_element = tables[0]
-                                break
-                    if table_element:
-                        break
-                except:
-                    continue
-            
-            # 2. 如果没找到，选择最大的可见表格
-            if not table_element:
-                visible_tables = [t for t in all_tables if t.is_displayed()]
-                if visible_tables:
-                    # 选择行数最多的表格
-                    table_element = max(visible_tables, 
-                        key=lambda t: len(t.find_elements(By.TAG_NAME, 'tr'))
-                    )
-            
-            if not table_element:
-                self.logger.warning("未找到产品表格")
-                return specifications
 
-            rows = table_element.find_elements(By.TAG_NAME, 'tr')
+            # 1️⃣ 通过标题定位"产品选择"表格
+            section_keywords = [
+                'product selection', 'product list', 'product specifications',
+                'available products', 'product variants', 'models available',
+                'produktauswahl', 'produktliste', 'produktspezifikationen',  # 德语
+                'sélection de produits', 'liste des produits',              # 法语
+                '产品选择', '产品列表', '产品规格',                            # 中文
+                'specification', 'specifications', 'technical data'
+            ]
+            table_elem = None
+            header_elem = None
+
+            for kw in section_keywords:
+                xpath_list = [
+                    f"//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{kw.lower()}')]",
+                    f"//h1[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{kw.lower()}')]",
+                    f"//h2[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{kw.lower()}')]",
+                    f"//h3[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{kw.lower()}')]",
+                    f"//h4[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{kw.lower()}')]",
+                ]
+                found = False
+                for xp in xpath_list:
+                    try:
+                        elems = driver.find_elements(By.XPATH, xp)
+                        for elem in elems:
+                            if elem.is_displayed() and elem.text.strip():
+                                # 寻找该元素附近的表格
+                                parent = elem
+                                candidate_tables = []
+                                # ① 同一父容器
+                                try:
+                                    container = elem.find_element(By.XPATH, './..')
+                                    candidate_tables.extend(container.find_elements(By.TAG_NAME, 'table'))
+                                except:  # noqa: E722
+                                    pass
+                                # ② 后续兄弟
+                                candidate_tables.extend(elem.find_elements(By.XPATH, './following-sibling::*//table'))
+                                # ③ 整个文档后续
+                                candidate_tables.extend(elem.find_elements(By.XPATH, './following::table'))
+                                candidate_tables = [t for t in candidate_tables if t.is_displayed()]
+                                if candidate_tables:
+                                    table_elem = candidate_tables[0]
+                                    header_elem = elem
+                                    found = True
+                                    break
+                        if found:
+                            break
+                    except Exception:
+                        continue
+                if found:
+                    break
+
+            # 2️⃣ 如果标题法没找到，就在全部可见表格里打分挑选
+            if not table_elem:
+                tables = [t for t in driver.find_elements(By.TAG_NAME, 'table') if t.is_displayed()]
+                best_score = -1
+                for t in tables:
+                    rows = t.find_elements(By.TAG_NAME, 'tr')
+                    score = 0
+                    for r in rows[:10]:  # 前10行
+                        cells = r.find_elements(By.CSS_SELECTOR, 'td, th')
+                        cell_texts = [self._get_cell_text_enhanced(c) for c in cells]
+                        non_empty = [c for c in cell_texts if c]
+                        if len(non_empty) >= 2:
+                            score += len(non_empty)
+                            # 加分：出现编号关键词或可能编号
+                            for txt in non_empty:
+                                tl = txt.lower()
+                                if any(k in tl for k in ['part', 'number', 'model', 'reference', 'item']):
+                                    score += 5
+                                if self._is_likely_product_reference_enhanced(txt):
+                                    score += 3
+                    if score > best_score:
+                        best_score = score
+                        table_elem = t
+
+            if not table_elem:
+                self.logger.warning("❌ 未找到任何合适的规格表格")
+                return specs
+
+            rows = table_elem.find_elements(By.TAG_NAME, 'tr')
             # 判断纵向/横向
             two_col = 0
             for r in rows[:5]:
@@ -1025,7 +871,7 @@ class OptimizedSpecificationsCrawler:
                         continue
                     prop_name = self._get_cell_text_enhanced(cells[0])
                     prop_val = self._get_cell_text_enhanced(cells[1])
-                    if prop_val and prop_val not in seen_references and self._is_likely_product_reference_enhanced(prop_val):
+                    if prop_val and prop_val not in seen_refs and self._is_likely_product_reference_enhanced(prop_val):
                         spec = {
                             'reference': prop_val,
                             'row_index': idx,
@@ -1034,8 +880,8 @@ class OptimizedSpecificationsCrawler:
                             'weight': self._extract_weight_from_cells([prop_val]),
                             'table_type': 'vertical'
                         }
-                        specifications.append(spec)
-                        seen_references.add(prop_val)
+                        specs.append(spec)
+                        seen_refs.add(prop_val)
             else:
                 #  横向表头定位
                 header_idx = -1
@@ -1073,7 +919,7 @@ class OptimizedSpecificationsCrawler:
                     found_in_row = False
                     if use_smart:
                         for j, txt in enumerate(cell_texts):
-                            if txt and txt not in seen_references and self._is_likely_product_reference_enhanced(txt):
+                            if txt and txt not in seen_refs and self._is_likely_product_reference_enhanced(txt):
                                 spec = {
                                     'reference': txt,
                                     'row_index': i,
@@ -1083,15 +929,15 @@ class OptimizedSpecificationsCrawler:
                                     'weight': self._extract_weight_from_cells(cell_texts),
                                     'table_type': 'horizontal'
                                 }
-                                specifications.append(spec)
-                                seen_references.add(txt)
+                                specs.append(spec)
+                                seen_refs.add(txt)
                                 found_in_row = True
                                 break
                     else:
                         for col in product_cols:
                             if col < len(cell_texts):
                                 txt = cell_texts[col]
-                                if txt and txt not in seen_references and self._is_likely_product_reference_enhanced(txt):
+                                if txt and txt not in seen_refs and self._is_likely_product_reference_enhanced(txt):
                                     spec = {
                                         'reference': txt,
                                         'row_index': i,
@@ -1101,357 +947,170 @@ class OptimizedSpecificationsCrawler:
                                         'weight': self._extract_weight_from_cells(cell_texts),
                                         'table_type': 'horizontal'
                                     }
-                                    specifications.append(spec)
-                                    seen_references.add(txt)
+                                    specs.append(spec)
+                                    seen_refs.add(txt)
                                     found_in_row = True
                                     break
-            return specifications
+            return specs
         except Exception as e:
             self.logger.error(f"提取规格时发生异常: {e}")
-            return specifications
+            return specs
 
     def _close_disclaimer_popup(self, driver, timeout: int = 10) -> bool:
-        """检测并关闭免责声明/许可协议弹窗（基于 09-1 测试脚本）"""
-        # 检查域名是否已处理
-        try:
-            current_domain = driver.current_url.split('/')[2]
-            if current_domain in self._popup_handled_domains:
-                self.logger.debug(f"[POPUP] 跳过已处理域名: {current_domain}")
-                return False
-        except Exception:
-            current_domain = None
-        
-        self.logger.debug("[POPUP] 检测免责声明弹窗...")
-        
-        # 使用更短的超时时间
-        actual_timeout = self.popup_timeout
-        
-        # 🔧 查找可能的弹窗和确认按钮（基于 09-1）
-        popup_selectors = [
-            # 通用弹窗容器
-            "//*[contains(@class, 'modal')]",
-            "//*[contains(@class, 'popup')]", 
-            "//*[contains(@class, 'dialog')]",
-            "//*[contains(@class, 'overlay')]",
-            # 包含许可、条款、免责声明等文本的元素
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'disclaimer')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'liability')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'terms')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'license')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'agree')]"
+        """检测并关闭免责声明/许可协议弹窗（支持 iframe 内按钮）"""
+        self.logger.debug("[POPUP] 检测免责声明弹窗…")
+        accept_keywords = [
+            'i understand and accept', 'i understand', 'accept', 'agree',
+            'continue', 'ok', 'yes', 'proceed',
+            '我理解并接受', '我理解', '接受', '同意', '确认', '继续'
         ]
-        
-        popup_found = False
-        for selector in popup_selectors:
+
+        # 尝试等待弹窗出现（通过iframe或modal类）
+        try:
+            WebDriverWait(driver, timeout).until(
+                lambda d: any(
+                    elem.is_displayed() and elem.size['width'] > 200 and elem.size['height'] > 100
+                    for elem in d.find_elements(By.XPATH,
+                        "//iframe | //div[contains(@class,'modal') or contains(@class,'popup') or contains(@class,'dialog') or contains(@class,'overlay')]")
+                )
+            )
+        except TimeoutException:
+            self.logger.debug("[POPUP] 未检测到弹窗")
+            return False
+
+        # 在主文档中查找按钮
+        for kw in accept_keywords:
             try:
-                elements = driver.find_elements(By.XPATH, selector)
-                for elem in elements:
-                    if elem.is_displayed():
-                        popup_text = elem.text.strip()[:100] + "..." if len(elem.text.strip()) > 100 else elem.text.strip()
-                        self.logger.debug(f"[POPUP] 发现弹窗元素: '{popup_text}'")
-                        popup_found = True
-                        break
-                if popup_found:
-                    break
+                btn = driver.find_element(By.XPATH,
+                    f"//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')]" )
+                if btn.is_displayed() and btn.is_enabled():
+                    self.logger.debug(f"[POPUP] 点击按钮: {btn.text.strip()}")
+                    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                    btn.click()
+                    time.sleep(2)
+                    return True
             except Exception:
                 continue
-        
-        if not popup_found:
-            self.logger.debug("[POPUP] 未检测到弹窗")
-            if current_domain:
-                self._popup_handled_domains.add(current_domain)
-            return False
-        
-        self.logger.debug("[POPUP] 检测到弹窗，查找确认按钮...")
-        
-        # 查找确认按钮的多种可能文本（基于 09-1）
-        confirm_button_texts = [
-            # 英文
-            'i understand and accept',
-            'i understand', 
-            'accept',
-            'agree',
-            'continue', 
-            'ok'
-        ]
-        
-        confirm_clicked = False
-        
-        for button_text in confirm_button_texts:
-            if confirm_clicked:
-                break
-                
-            self.logger.debug(f"[POPUP] 搜索确认按钮: '{button_text}'")
-            
-            # 多种按钮选择器（基于 09-1）
-            button_selectors = [
-                f"//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//input[@type='button'][contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//input[@type='submit'][contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//*[@role='button'][contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//div[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}') and (@onclick or contains(@class, 'button') or contains(@class, 'btn'))]"
-            ]
-            
-            for selector in button_selectors:
-                try:
-                    buttons = driver.find_elements(By.XPATH, selector)
-                    for button in buttons:
-                        if button.is_displayed() and button.is_enabled():
-                            button_full_text = button.text.strip()
-                            self.logger.debug(f"[POPUP] 找到确认按钮: '{button_full_text}'")
-                            
-                            # 尝试点击按钮（基于 09-1 策略）
-                            try:
-                                # 滚动到按钮位置
-                                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                time.sleep(self.action_wait)
-                                
-                                # 点击按钮
-                                button.click()
-                                self.logger.debug(f"[POPUP] ✅ 成功点击确认按钮!")
-                                confirm_clicked = True
-                                
-                                # 等待弹窗消失（使用显式等待）
-                                try:
-                                    WebDriverWait(driver, 3).until(lambda d: not button.is_displayed())
-                                except Exception:
-                                    time.sleep(self.action_wait)
-                                
-                                # 记录已处理
-                                if current_domain:
-                                    self._popup_handled_domains.add(current_domain)
-                                
-                                # 检查弹窗是否消失
-                                try:
-                                    if not button.is_displayed():
-                                        self.logger.debug("[POPUP] ✅ 弹窗已消失")
-                                    else:
-                                        self.logger.debug("[POPUP] ⚠️ 弹窗可能仍然存在")
-                                except:
-                                    self.logger.debug("[POPUP] ✅ 按钮元素已移除，弹窗应已关闭")
-                                
-                                return True
-                                
-                            except Exception as e:
-                                self.logger.debug(f"[POPUP] ❌ 点击按钮失败: {e}")
-                                # 尝试JavaScript点击（基于 09-1）
-                                try:
-                                    driver.execute_script("arguments[0].click();", button)
-                                    self.logger.debug(f"[POPUP] ✅ JavaScript点击成功!")
-                                    confirm_clicked = True
-                                    time.sleep(3)
-                                    if current_domain:
-                                        self._popup_handled_domains.add(current_domain)
-                                    return True
-                                except Exception as e2:
-                                    self.logger.debug(f"[POPUP] ❌ JavaScript点击也失败: {e2}")
-                    
-                    if confirm_clicked:
-                        break
-                        
-                except Exception:
-                    continue
-        
-        if not confirm_clicked:
-            self.logger.debug("[POPUP] ⚠️ 未找到可点击的确认按钮，尝试通用方法...")
-            
-            # 最后尝试：查找所有可见的按钮并尝试点击（基于 09-1）
+
+        # 检查所有 iframe
+        for iframe in driver.find_elements(By.TAG_NAME, 'iframe'):
+            if not iframe.is_displayed():
+                continue
             try:
-                all_buttons = driver.find_elements(By.CSS_SELECTOR, "button, input[type='button'], input[type='submit'], a[role='button'], .btn, .button")
-                for button in all_buttons:
-                    if button.is_displayed() and button.is_enabled():
-                        button_text = button.text.strip().lower()
-                        button_value = (button.get_attribute('value') or '').strip().lower()
-                        
-                        # 检查是否包含确认相关的关键词
-                        confirm_keywords = ['accept', 'agree', 'understand', 'continue', 'ok', 'confirm', 'proceed']
-                        if any(keyword in button_text or keyword in button_value for keyword in confirm_keywords):
-                            self.logger.debug(f"[POPUP] 尝试通用按钮: '{button.text.strip()}'")
-                            try:
-                                # 先滚动再点击
-                                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                time.sleep(self.action_wait)
-                                button.click()
-                                self.logger.debug(f"[POPUP] ✅ 通用按钮点击成功!")
-                                time.sleep(3)
-                                if current_domain:
-                                    self._popup_handled_domains.add(current_domain)
-                                return True
-                            except:
-                                # 尝试 JavaScript 点击
-                                try:
-                                    driver.execute_script("arguments[0].click();", button)
-                                    self.logger.debug(f"[POPUP] ✅ 通用按钮JavaScript点击成功!")
-                                    time.sleep(3)
-                                    if current_domain:
-                                        self._popup_handled_domains.add(current_domain)
-                                    return True
-                                except:
-                                    continue
-            except Exception as e:
-                self.logger.debug(f"[POPUP] 通用方法失败: {e}")
-        
-        self.logger.warning("[POPUP] ❌ 无法处理免责声明弹窗")
+                driver.switch_to.frame(iframe)
+                for kw in accept_keywords:
+                    try:
+                        btn = driver.find_element(By.XPATH,
+                            f"//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')] | //a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')]")
+                        if btn.is_displayed() and btn.is_enabled():
+                            self.logger.debug(f"[POPUP] 在iframe点击按钮: {btn.text.strip()}")
+                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                            btn.click()
+                            driver.switch_to.default_content()
+                            time.sleep(2)
+                            return True
+                    except Exception:
+                        continue
+                driver.switch_to.default_content()
+            except Exception:
+                driver.switch_to.default_content()
+                continue
+        self.logger.warning("[POPUP] 无法关闭免责声明弹窗")
         return False
 
-    def _extract_specifications_with_driver(self, driver, product_url: str) -> List[Dict[str, Any]]:
-        """在已存在 driver 的情况下提取规格，用于 driver 复用池"""
+    def _extract_specifications_once(self, product_url: str) -> List[Dict[str, Any]]:
+        """单次尝试提取产品规格（严格按照测试脚本）"""
+        driver = None
+        
         try:
-            self.logger.debug(f"[POOL] get {product_url}")
+            driver = self._create_optimized_driver()
+            self.logger.debug(f"访问产品页面: {product_url}")
             driver.get(product_url)
-            time.sleep(2)
+            time.sleep(3)
+            
+            # NEW: 先关闭免责声明弹窗
             self._close_disclaimer_popup(driver)
-            self._set_items_per_page_to_all(driver)
+            
+            # 尝试设置每页显示为全部
+            self.logger.info("🔧 开始处理分页设置...")
+            items_per_page_success = self._set_items_per_page_to_all(driver)
+            
+            if items_per_page_success:
+                self.logger.info("✅ 成功设置显示全部项目 - 应该能看到所有规格")
+            else:
+                self.logger.warning("⚠️ 分页设置失败 - 可能只能看到当前页面的规格")
+            
+            # 确保页面完全加载
             self._scroll_page_fully(driver)
-            return self._extract_all_specifications(driver)
+            
+            # 提取所有规格信息
+            specifications = self._extract_all_specifications(driver)
+            
+            self.logger.info(f"从 {product_url} 提取到 {len(specifications)} 个规格")
+            
+            return specifications
+            
+        except TimeoutException:
+            self.logger.warning(f"页面加载超时: {product_url}")
+            raise
         except Exception as e:
-            self.logger.error(f"[POOL] 提取失败: {e}")
-            return []
-
-    def extract_batch_specifications(self, product_urls: List[str], max_workers: int = None) -> Dict[str, Any]:
-        """批量提取产品规格（优化版）——使用持久化的driver池
-        
-        Args:
-            product_urls: 产品URL列表
-            max_workers: 最大并发数，默认根据URL数量动态调整
-        
-        Returns:
-            包含所有提取结果的字典
-        """
-        if not product_urls:
-            return {'results': [], 'summary': {}}
-        
-        # 动态调整线程数
-        if max_workers is None:
-            # 快速模式下使用更多线程
-            max_workers = min(len(product_urls), 12)  # 最多12个线程
-            # 确保至少有2个线程
-            max_workers = max(max_workers, 2)
-        
-        self.logger.info(f"📦 开始批量提取 {len(product_urls)} 个产品的规格")
-        self.logger.info(f"   使用 {max_workers} 个并发线程")
-        
-        start_time = time.time()
-        results = []
-        
-        # 创建线程本地存储，每个线程维护自己的driver
-        import threading
-        thread_local = threading.local()
-        
-        def get_thread_driver():
-            """获取当前线程的driver，如果不存在则创建"""
-            if not hasattr(thread_local, 'driver'):
-                thread_local.driver = self._create_optimized_driver()
-            return thread_local.driver
-        
-        def process_url_batch(url_batch):
-            """处理一批URL（同一个线程内串行处理）"""
-            batch_results = []
-            driver = get_thread_driver()
-            
-            for url in url_batch:
-                try:
-                    specs = self._extract_specifications_with_driver(driver, url)
-                    result = {
-                        'product_url': url,
-                        'specifications': specs,
-                        'count': len(specs),
-                        'success': len(specs) > 0
-                    }
-                    batch_results.append(result)
-                    
-                    if len(specs) > 0:
-                        self.logger.info(f"✅ {url.split('/')[-1][:30]}... -> {len(specs)} 规格")
-                        
-                except Exception as e:
-                    self.logger.error(f"❌ 提取失败 {url}: {e}")
-                    batch_results.append({
-                        'product_url': url,
-                        'specifications': [],
-                        'count': 0,
-                        'success': False,
-                        'error': str(e)
-                    })
-            
-            # 清理线程的driver
-            try:
+            self.logger.error(f"提取规格失败: {e}")
+            raise
+        finally:
+            if driver:
                 driver.quit()
-            except:
-                pass
+    
+    def extract_specifications(self, product_url: str) -> Dict[str, Any]:
+        """提取产品规格（带重试）"""
+        for attempt in range(1, self.MAX_RETRY + 1):
+            try:
+                specifications = self._extract_specifications_once(product_url)
+                return {
+                    'product_url': product_url,
+                    'specifications': specifications,
+                    'count': len(specifications),
+                    'success': True
+                }
                 
-            return batch_results
-        
-        # 将URL列表分配给各个线程
-        batch_size = max(1, len(product_urls) // max_workers)
-        url_batches = []
-        
-        for i in range(0, len(product_urls), batch_size):
-            batch = product_urls[i:i + batch_size]
-            if batch:
-                url_batches.append(batch)
-        
-        # 确保最后一批URL被合并到前一批（避免单个URL占用一个线程）
-        if len(url_batches) > max_workers and len(url_batches[-1]) < batch_size // 2:
-            url_batches[-2].extend(url_batches[-1])
-            url_batches.pop()
-        
-        self.logger.info(f"   任务分配: {len(url_batches)} 个批次，每批约 {batch_size} 个URL")
-        
-        with ThreadPoolExecutor(max_workers=len(url_batches)) as executor:
-            # 提交所有任务
-            futures = [
-                executor.submit(process_url_batch, batch) 
-                for batch in url_batches
-            ]
-            
-            # 收集结果
-            completed = 0
-            for future in futures:
-                try:
-                    batch_results = future.result(timeout=300)  # 5分钟超时
-                    results.extend(batch_results)
-                    completed += len(batch_results)
+            except (TimeoutException, Exception) as e:
+                if attempt < self.MAX_RETRY:
+                    self.logger.warning(f"尝试 {attempt}/{self.MAX_RETRY} 失败，重试: {product_url}")
+                    time.sleep(2)
+                else:
+                    self.logger.error(f"达到最大重试次数，放弃: {product_url}")
                     
-                    if completed % 10 == 0:
-                        elapsed = time.time() - start_time
-                        rate = completed / elapsed
-                        eta = (len(product_urls) - completed) / rate if rate > 0 else 0
-                        self.logger.info(
-                            f"   进度: {completed}/{len(product_urls)} "
-                            f"({completed/len(product_urls)*100:.1f}%) "
-                            f"速度: {rate:.1f} 个/秒 "
-                            f"预计剩余: {eta:.0f} 秒"
-                        )
-                        
-                except Exception as e:
-                    self.logger.error(f"❌ 任务执行失败: {e}")
+        # 返回失败结果
+        return {
+            'product_url': product_url,
+            'specifications': [],
+            'count': 0,
+            'success': False,
+            'error': 'retry_failed'
+        }
+    
+    def extract_batch_specifications(self,
+                                   product_urls: List[str],
+                                   max_workers: int = 16) -> List[Dict[str, Any]]:
+        """批量提取产品规格 (简化版，串行处理)"""
+        results = []
+        total = len(product_urls)
+        
+        self.logger.info(f"开始批量提取 {total} 个产品的规格信息")
+        
+        for i, url in enumerate(product_urls):
+            if i % 10 == 0:  # 每10个产品记录一次进度
+                self.logger.info(f"进度: {i}/{total} ({i/total*100:.1f}%)")
+            
+            result = self.extract_specifications(url)
+            results.append(result)
         
         # 统计
-        success_cnt = sum(1 for r in results if r['success'])
+        success_count = sum(1 for r in results if r['success'])
         total_specs = sum(r['count'] for r in results)
-        self.logger.info(f"批量完成: 成功 {success_cnt}/{len(product_urls)}, 总规格 {total_specs}")
-        return {'results': results, 'summary': {'success_cnt': success_cnt, 'total_specs': total_specs}}
-
-    def extract_specifications(self, product_url: str) -> Dict[str, Any]:
-        """向后兼容的单产品提取接口（供旧流水线调用）"""
-        driver = self._create_optimized_driver()
-        try:
-            specs = self._extract_specifications_with_driver(driver, product_url)
-            return {
-                'product_url': product_url,
-                'specifications': specs,
-                'count': len(specs),
-                'success': len(specs) > 0
-            }
-        except Exception as e:
-            self.logger.error(f"extract_specifications 失败: {e}")
-            return {
-                'product_url': product_url,
-                'specifications': [],
-                'count': 0,
-                'success': False,
-                'error': str(e)
-            }
-        finally:
-            driver.quit() 
+        
+        self.logger.info(
+            f"批量提取完成: {success_count}/{total} 个产品成功, "
+            f"共 {total_specs} 个规格"
+        )
+        
+        return results 

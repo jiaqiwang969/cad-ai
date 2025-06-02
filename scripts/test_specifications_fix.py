@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 crawler = OptimizedSpecificationsCrawler()
 
 # 测试URL（使用测试脚本中成功的产品）
-test_url = "https://www.traceparts.cn/en/product/jw-winco-en-561-plastic-mounting-angle-brackets-type-b-and-c?CatalogPath=TRACEPARTS%3ATP05001&Product=90-05102020-040831"
+test_url = "https://www.traceparts.cn/en/product/petzoldt-cpleuchten-gmbh-rohrleuchte-sls50-14w-230v?CatalogPath=TRACEPARTS%3ATP12001003&Product=90-13052019-057778"
 
 print(f"\n测试URL: {test_url}\n")
 

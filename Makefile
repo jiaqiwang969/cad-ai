@@ -111,6 +111,12 @@ test-09-1:
 	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
 	$(PYTHON) $(TEST_DIR)/09-1-test_product_specifications_extractor.py
 
+# Run test 09-1-v2: Product specifications link extractor (集成版本)
+test-09-1-v2:
+	@echo "🔗 运行测试 09-1-v2: 产品规格链接提取器 (集成版本)..."
+	TRACEPARTS_EMAIL=$(TRACEPARTS_EMAIL) TRACEPARTS_PASSWORD=$(TRACEPARTS_PASSWORD) PYTHONPATH=$(PYTHONPATH) \
+	$(PYTHON) $(TEST_DIR)/09-1-test_product_specifications_extractor_v2.py
+
 # Run test 09-2: Universal product specifications extractor
 test-09-2:
 	@echo "🌐 运行测试 09-2: 通用产品规格提取器..."
@@ -167,7 +173,7 @@ pipeline-optimized-test:
 # Pipeline V2 - 基于渐进式缓存管理器
 pipeline-v2:
 	@echo "🚀 运行流水线 V2 (渐进式缓存系统)..."
-	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --workers 32
+	PYTHONPATH=$(PYTHONPATH) $(PYTHON) run_pipeline_v2.py --workers 16
 
 pipeline-v2-fast:
 	@echo "⚡ 运行流水线 V2 (最大并发: 64)..."
@@ -489,4 +495,17 @@ status:
 	@echo "\n内存使用:"
 	@free -h 2>/dev/null || vm_stat 2>/dev/null || echo "  无法获取内存信息"
 	@echo "\n最近的结果文件:"
-	@ls -lht results/products/*.json 2>/dev/null | head -5 || echo "  暂无结果文件" 
+	@ls -lht results/products/*.json 2>/dev/null | head -5 || echo "  暂无结果文件"
+
+# 调试工具
+debug-zero-specs:
+	@echo "🔍 收集规格数为0的产品链接..."
+	@python3 scripts/debug_zero_specs_collector.py --sample-size 20
+
+debug-zero-specs-full:
+	@echo "🔍 收集规格数为0的产品链接（大样本）..."
+	@python3 scripts/debug_zero_specs_collector.py --sample-size 100
+
+debug-specific-urls:
+	@echo "🧪 测试特定URL..."
+	@python3 scripts/debug_zero_specs_collector.py --test-specific 

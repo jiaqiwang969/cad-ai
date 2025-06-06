@@ -27,7 +27,7 @@ import sys
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from src.crawler.classification_enhanced import EnhancedClassificationCrawler
-from src.crawler.ultimate_products import UltimateProductLinksCrawler
+from src.crawler.ultimate_products_v2 import UltimateProductLinksCrawlerV2 as UltimateProductLinksCrawler
 from src.crawler.specifications_optimized import OptimizedSpecificationsCrawler
 from src.utils.thread_safe_logger import ThreadSafeLogger, ProgressTracker
 

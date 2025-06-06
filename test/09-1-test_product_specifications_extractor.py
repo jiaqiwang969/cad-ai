@@ -40,7 +40,9 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 # DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jlcmc-aluminum-extrusion-txceh161515l100dalka75?Product=90-27122024-029219"
 #DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/jw-winco-en-561-plastic-mounting-angle-brackets-type-b-and-c?CatalogPath=TRACEPARTS%3ATP05001&Product=90-05102020-040831"
 # 轴承单元产品
-DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/ntn-europe-usc200t20-cartridge-unit-from-grey-cast-high-temperature?CatalogPath=TRACEPARTS%3ATP01002002006&Product=34-17112021-055894"
+# 替换为Cherubini 7330产品URL
+# Wierer Tegola Doppia Romana 产品URL (建筑类产品)
+DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/edilteco-spa-ecap-l?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108401"
 # 太阳能温室产品
 #DEFAULT_PRODUCT_URL = "https://www.traceparts.cn/en/product/chiari-bruno-srl-serramenti-solar-greenhouse-with-curtain-2m?CatalogPath=TRACEPARTS%3ATP12001002&Product=90-09062022-058238"
 

@@ -783,24 +783,19 @@ class OptimizedSpecificationsCrawler:
         return tables_info
 
     def _is_likely_product_reference_enhanced(self, text: str) -> bool:
-        """增强版产品编号判断 (来自修复脚本)"""
+        """增强版产品编号判断 (采用test-09-1成功逻辑)"""
         if not text or len(text) < 3: # 太短的文本不太可能是编号
             return False
         
         text = str(text) # 确保是字符串
 
-        # 排除明显的非产品编号
+        # 明显的排除项 (简化版，与test-09-1保持一致)
         exclude_patterns = [
             r'^https?://',  # URL
-            r'^www\\.',      # 网址
+            r'^www\.',      # 网址
             r'@',           # 邮箱
-            r'^\d{4}-\d{2}-\d{2}',  # 日期 YYYY-MM-DD
-            r'^\d{1,2}[./-]\d{1,2}[./-]\d{2,4}', # 其他日期格式 DD/MM/YYYY etc.
-            r'^\+?\d[\d\s-]{7,}$',  # 电话号码 (更通用)
-            r'^[\s\-_.,;:!?]*$',  # 只有空格和标点
-            r'^(select|choose|option|view|details|more|info|click|here|page|item|price|currency|total|sum|average)$', # 常见按钮/指令词
-            r'^(january|february|march|april|may|june|july|august|september|october|november|december)$', # 月份全称
-            r'^(mon|tue|wed|thu|fri|sat|sun)$' # 星期缩写
+            r'^\d{4}-\d{2}-\d{2}',  # 日期格式
+            r'^\+?\d{10,}$',  # 电话号码
         ]
         
         for pattern in exclude_patterns:
@@ -808,86 +803,54 @@ class OptimizedSpecificationsCrawler:
                 self.logger.debug(f"'{text}' 被排除 (规则: {pattern})")
                 return False
         
-        # 排除常见描述词 (更广泛)
+        # 排除纯描述性文本（与test-09-1保持一致的简化版本）
         common_words = [
-            'description', 'manufacturer', 'material', 'color', 'size', 'type', 'style', 'model',
-            'weight', 'length', 'width', 'height', 'depth', 'diameter', 'thickness', 'volume',
-            'please', 'select', 'bearing', 'unit', 'assembly', 'component', 'part', 'parts',
-            'mounted', 'not', 'items', 'per', 'page', 'documentation', 'document', 'pdf', 'cad',
-            'contact', 'supplier', 'provider', 'seller', 'data', 'sheet', 'specification', 'specs',
-            'disclaimer', 'liability', 'information', 'details', 'overview', 'summary', 'notes',
-            'available', 'unavailable', 'status', 'stock', 'inventory', 'quantity', 'amount',
-            'accessory', 'accessories', 'optional', 'standard', 'feature', 'features', 'benefit',
-            'application', 'usage', 'instruction', 'manual', 'guide', 'help', 'support', 'faq',
-            'series', 'version', 'revision', 'edition', 'release', 'date', 'time', 'update',
-            # 多语言常见词 (示例)
-            'descripción', 'fabricante', 'tamaño', 'peso', 'longitud', # 西班牙语
-            'beschreibung', 'hersteller', 'farbe', 'größe', 'gewicht', # 德语
-            'taille', 'poids', 'longueur', 'largeur', 'hauteur', # 法语
-            '说明', '描述', '制造商', '颜色', '尺寸', '重量', '长度', '型号', '系列' # 中文
+            'description', 'manufacturer', 'material', 'color', 'size',
+            'weight', 'length', 'width', 'height', 'diameter', 'thickness'
         ]
         
-        text_lower_words = re.findall(r'\b\w+\b', text.lower())
-        # 如果文本由多个常见词组成，则排除
-        if len(text_lower_words) > 1 and all(word in common_words for word in text_lower_words):
-            self.logger.debug(f"'{text}' 被排除 (常见描述词组合)")
+        text_lower = text.lower()
+        if any(text_lower == word for word in common_words):
+            self.logger.debug(f"'{text}' 被排除 (常见描述词)")
             return False
-        # 如果单个词是常见词也排除 (除非它也符合强积极指标)
-        if len(text_lower_words) == 1 and text_lower_words[0] in common_words:
-             # 允许像 'CAD' 或 'PDF' 这样的单个常见词，如果它们也像编号
-            if not (any(c.isupper() for c in text) and any(c.isdigit() for c in text)):
-                self.logger.debug(f"'{text}' 被排除 (单个常见描述词)")
-                return False
-
-        # 积极指标
-        positive_score = 0
+        
+        # 积极的指标：包含这些特征的更可能是产品编号 (与test-09-1保持一致)
+        positive_indicators = 0
         
         # 1. 包含数字
         if any(c.isdigit() for c in text):
-            positive_score += 2
+            positive_indicators += 2
         
-        # 2. 包含连字符、下划线、点（非句末）或斜杠
-        if re.search(r'[-_./]', text.strip('.')): # strip('.') 避免句末的点影响判断
-            positive_score += 1
+        # 2. 包含连字符或下划线
+        if '-' in text or '_' in text:
+            positive_indicators += 1
         
-        # 3. 包含大写字母（混合大小写或全大写）
-        if any(c.isupper() for c in text) and not text.islower():
-            positive_score += 1
-            if text.isupper() and len(text) > 1: # 全大写且不止一个字符
-                 positive_score +=1
+        # 3. 包含大写字母（不是句子开头）
+        if any(c.isupper() for c in text[1:]):
+            positive_indicators += 1
         
-        # 4. 长度适中
-        if 3 <= len(text) <= 60: # 放宽最大长度
-            positive_score += 1
-        else:
-            positive_score -=1 # 过长或过短扣分
-
-        # 5. 数字和字母混合
-        if any(c.isdigit() for c in text) and any(c.isalpha() for c in text):
-            positive_score += 2
-
-        # 6. 特殊格式模式 (更通用和全面)
+        # 4. 长度适中（3-50个字符）
+        if 3 <= len(text) <= 50:
+            positive_indicators += 1
+        
+        # 5. 特殊格式模式 (与test-09-1保持一致)
         special_patterns = [
-            r'^[A-Z0-9]+([-/_.][A-Z0-9]+)+$',  # ABC-123-DEF, 123.456.XYZ, a/b-1
-            r'^[A-Z]{1,5}\d{2,}(\s?[-/_.]?[A-Z0-9]+)*$',     # USC201T20, DIN933, MS24693-C2
-            r'^\d+[A-Z]{1,5}(\s?[-/_.]?[A-Z0-9]+)*$',     # 200T20ABC
-            r'^[A-Z0-9]+[-_./][A-Z0-9]+[-_./]?[A-Z0-9]*$',  # QAAMC10A050S, complex codes
-            r'^(P/N|PN|SKU|REF|ITEM|MODEL|NO|ART)\s*[:.#-]?\s*\S+', # 以常见前缀开头
-            r'^\S*-\d+/\d+$' # e.g. ABC-12/34
+            r'^\d+-\d+-\d+$',  # 5-14230-00
+            r'^[A-Z]+\d+',     # SLS50, DIN787
+            r'^\d+[A-Z]+',     # 14W, 230V
+            r'^[A-Z0-9]+[-_][A-Z0-9]+',  # QAAMC10A050S
+            r'^[A-Z]{2,}\d{2,}',  # DIN787, EN561
+            r'^USC\d+T\d+$',   # USC201T20, USC202T20等NTN产品编号
         ]
         
         for pattern in special_patterns:
-            if re.match(pattern, text, re.IGNORECASE): # 忽略大小写匹配模式
-                self.logger.debug(f"'{text}' 匹配特殊模式: {pattern}")
-                positive_score += 3
-                break 
-        
-        # 7. 包含多个大写字母或数字组合 (非纯文本)
-        if len(re.findall(r'[A-Z0-9]{2,}', text)) > 1 :
-            positive_score +=1
+            if re.match(pattern, text):
+                positive_indicators += 2
+                self.logger.debug(f"'{text}' 匹配特殊格式模式: {pattern}")
+                break
 
-        self.logger.debug(f"'{text}' 的最终产品编号评分为: {positive_score}")
-        return positive_score >= 4 # 提高阈值，要求更强的信号
+        self.logger.debug(f"'{text}' 的最终产品编号评分为: {positive_indicators}")
+        return positive_indicators >= 3  # 使用test-09-1的成功阈值
 
     def _extract_all_specifications(self, driver) -> List[Dict[str, Any]]:
         """提取所有产品规格——复刻 test/09-1 的完整逻辑"""
@@ -972,38 +935,105 @@ class OptimizedSpecificationsCrawler:
             # 获取所有表格
             all_tables = driver.find_elements(By.TAG_NAME, 'table')
             
-            # 查找产品表格（通过标题或内容判断）
-            product_keywords = ['product selection', 'product list', 'specifications']
+            # 查找产品表格（采用test-09-1的完整逻辑）
+            product_section_keywords = [
+                'product selection', 'product list', 'product specifications',
+                'available products', 'product variants', 'models available',
+                'produktauswahl', 'produktliste', 'produktspezifikationen',  # 德语
+                'sélection de produits', 'liste des produits',  # 法语
+                '产品选择', '产品列表', '产品规格',  # 中文
+                'specification', 'specifications', 'technical data'
+            ]
             table_element = None
             
-            # 1. 通过标题查找
-            for keyword in product_keywords:
-                try:
-                    headers = driver.find_elements(By.XPATH, 
-                        f"//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword}')]"
-                    )
-                    for header in headers:
-                        if header.is_displayed():
-                            # 查找附近的表格
-                            tables = header.find_elements(By.XPATH, "./following::table[1]")
-                            if not tables:
-                                tables = header.find_elements(By.XPATH, "./..//table")
-                            if tables and tables[0].is_displayed():
-                                table_element = tables[0]
-                                break
-                    if table_element:
-                        break
-                except:
-                    continue
+            # 1. 通过标题查找（采用test-09-1的详细逻辑）
+            for keyword in product_section_keywords:
+                xpath_selectors = [
+                    f"//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                    f"//h1[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                    f"//h2[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]",
+                    f"//h3[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{keyword.lower()}')]"
+                ]
+                
+                for selector in xpath_selectors:
+                    try:
+                        elements = driver.find_elements(By.XPATH, selector)
+                        for elem in elements:
+                            if elem.is_displayed() and elem.text.strip():
+                                # 查找该元素附近的表格
+                                try:
+                                    parent = elem.find_element(By.XPATH, "./..")
+                                    tables_in_parent = parent.find_elements(By.TAG_NAME, 'table')
+                                    
+                                    if not tables_in_parent:
+                                        tables_in_parent = elem.find_elements(By.XPATH, "./following-sibling::*//table")
+                                    
+                                    if not tables_in_parent:
+                                        tables_in_parent = elem.find_elements(By.XPATH, "./following::table")
+                                    
+                                    if tables_in_parent:
+                                        candidate_table = tables_in_parent[0]
+                                        candidate_rows = candidate_table.find_elements(By.TAG_NAME, 'tr')
+                                        
+                                        # 检查表格是否包含有意义数据
+                                        has_meaningful_data = False
+                                        for row in candidate_rows[:3]:
+                                            cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+                                            cell_texts = [cell.text.strip() for cell in cells]
+                                            non_empty_cells = [text for text in cell_texts if text and len(text) > 1]
+                                            if len(non_empty_cells) >= 2:
+                                                has_meaningful_data = True
+                                                break
+                                        
+                                        if has_meaningful_data:
+                                            table_element = candidate_table
+                                            break
+                                except:
+                                    continue
+                        if table_element:
+                            break
+                    except:
+                        continue
+                if table_element:
+                    break
             
-            # 2. 如果没找到，选择最大的可见表格
+            # 2. 如果没找到，使用test-09-1的表格评分系统
             if not table_element:
+                self.logger.debug("未通过标题找到表格，使用评分系统选择最佳表格...")
                 visible_tables = [t for t in all_tables if t.is_displayed()]
+                
                 if visible_tables:
-                    # 选择行数最多的表格
-                    table_element = max(visible_tables, 
-                        key=lambda t: len(t.find_elements(By.TAG_NAME, 'tr'))
-                    )
+                    best_table = None
+                    best_score = 0
+                    
+                    for i, table in enumerate(visible_tables):
+                        rows = table.find_elements(By.TAG_NAME, 'tr')
+                        score = 0
+                        non_empty_rows = 0
+                        
+                        for j, row in enumerate(rows[:10]):  # 只检查前10行
+                            cells = row.find_elements(By.CSS_SELECTOR, 'td, th')
+                            cell_texts = [cell.text.strip() for cell in cells]
+                            non_empty_cells = [text for text in cell_texts if text and len(text) > 1]
+                            
+                            if len(non_empty_cells) >= 2:
+                                non_empty_rows += 1
+                                score += len(non_empty_cells)
+                                
+                                # 检查是否包含产品编号相关词汇
+                                for text in cell_texts:
+                                    text_lower = text.lower()
+                                    if any(keyword in text_lower for keyword in ['part', 'number', 'model', 'reference', 'item']):
+                                        score += 10
+                                    # 检查是否看起来像产品编号
+                                    if self._is_likely_product_reference_enhanced(text):
+                                        score += 5
+                        
+                        if score > best_score:
+                            best_score = score
+                            best_table = table
+                    
+                    table_element = best_table
             
             if not table_element:
                 self.logger.warning("未找到产品表格")
@@ -1051,17 +1081,35 @@ class OptimizedSpecificationsCrawler:
                 if header_cells_text:
                     for j, h in enumerate(header_cells_text):
                         h_l = h.lower()
+                        matching_keywords = []
                         for kw in [
-                            'part number','part no','part#','p/n','product number','product code','model','reference',
-                            'item number','catalog number','sku','description','bestellnummer','artikelnummer','teilenummer',
-                            '型号','编号','料号'
+                            'part number','part no','part#','p/n','product number','product code','model',
+                            'reference', 'ref', 'item number', 'item no',
+                            'catalog number', 'cat no', 'sku',
+                            'description',  # 包含description作为可能的产品编号列（与test-09-1一致）
+                            'bestellnummer', 'artikelnummer', 'teilenummer',  # 德语
+                            'numéro', 'référence',  # 法语
+                            'número', 'codigo',  # 西班牙语
+                            '型号', '编号', '料号'  # 中文
                         ]:
                             if kw in h_l:
-                                product_cols.append(j)
-                                break
+                                matching_keywords.append(kw)
+                        
+                        if matching_keywords:
+                            product_cols.append(j)
+                            self.logger.debug(f"识别产品编号列 {j+1}: '{h}' (匹配: {matching_keywords})")
+                    
+                    # 通用简化逻辑：只使用第一个产品编号列（与test-09-1一致）
                     if len(product_cols) > 1:
+                        self.logger.debug(f"发现 {len(product_cols)} 个产品编号列，只使用第一个主要列")
                         product_cols = product_cols[:1]
-                use_smart = not product_cols
+                
+                # 如果没有识别到产品编号列，使用智能判断（与test-09-1一致）
+                if not product_cols:
+                    self.logger.debug("未识别到明确的产品编号列，将使用智能判断")
+                    use_smart = True
+                else:
+                    use_smart = False
 
                 for i, r in enumerate(rows):
                     if i <= header_idx:
@@ -1072,39 +1120,53 @@ class OptimizedSpecificationsCrawler:
                         continue
                     found_in_row = False
                     if use_smart:
-                        for j, txt in enumerate(cell_texts):
-                            if txt and txt not in seen_references and self._is_likely_product_reference_enhanced(txt):
-                                spec = {
-                                    'reference': txt,
-                                    'row_index': i,
-                                    'column_index': j,
-                                    'column_name': header_cells_text[j] if header_cells_text and j < len(header_cells_text) else '',
-                                    'dimensions': self._extract_dimensions_from_cells(cell_texts),
-                                    'weight': self._extract_weight_from_cells(cell_texts),
-                                    'table_type': 'horizontal'
-                                }
-                                specifications.append(spec)
-                                seen_references.add(txt)
-                                found_in_row = True
-                                break
-                    else:
-                        for col in product_cols:
-                            if col < len(cell_texts):
-                                txt = cell_texts[col]
-                                if txt and txt not in seen_references and self._is_likely_product_reference_enhanced(txt):
+                        # 智能检测模式：扫描所有单元格（与test-09-1完全一致）
+                        for j, cell_text in enumerate(cell_texts):
+                            if cell_text and len(cell_text) >= 3 and cell_text not in seen_references:
+                                if self._is_likely_product_reference_enhanced(cell_text):
+                                    column_name = header_cells_text[j] if header_cells_text and j < len(header_cells_text) else f"列{j+1}"
+                                    self.logger.debug(f"在 {column_name} 中发现产品编号: '{cell_text}'")
+                                    
                                     spec = {
-                                        'reference': txt,
+                                        'reference': cell_text,
                                         'row_index': i,
-                                        'column_index': col,
-                                        'column_name': header_cells_text[col] if col < len(header_cells_text) else '',
+                                        'column_index': j,
+                                        'column_name': column_name,
                                         'dimensions': self._extract_dimensions_from_cells(cell_texts),
                                         'weight': self._extract_weight_from_cells(cell_texts),
+                                        'all_cells': cell_texts,  # 添加所有单元格信息（与test-09-1一致）
                                         'table_type': 'horizontal'
                                     }
                                     specifications.append(spec)
-                                    seen_references.add(txt)
+                                    seen_references.add(cell_text)
                                     found_in_row = True
+                                    # 在智能模式下，每行只取第一个符合条件的（与test-09-1一致）
                                     break
+                    else:
+                        # 使用识别的产品编号列（与test-09-1一致）
+                        for col_idx in product_cols:
+                            if col_idx < len(cell_texts):
+                                cell_text = cell_texts[col_idx]
+                                
+                                if cell_text and len(cell_text) >= 3 and cell_text not in seen_references:
+                                    # 对产品编号列的内容，放宽验证（与test-09-1一致）
+                                    if cell_text and cell_text.lower() not in ['', 'n/a', 'na', '-', '/', 'none']:
+                                        column_name = header_cells_text[col_idx] if col_idx < len(header_cells_text) else f"列{col_idx+1}"
+                                        
+                                        spec = {
+                                            'reference': cell_text,
+                                            'row_index': i,
+                                            'column_index': col_idx,
+                                            'column_name': column_name,
+                                            'dimensions': self._extract_dimensions_from_cells(cell_texts),
+                                            'weight': self._extract_weight_from_cells(cell_texts),
+                                            'all_cells': cell_texts,  # 添加所有单元格信息（与test-09-1一致）
+                                            'table_type': 'horizontal'
+                                        }
+                                        specifications.append(spec)
+                                        seen_references.add(cell_text)
+                                        found_in_row = True
+                                        break
             return specifications
         except Exception as e:
             self.logger.error(f"提取规格时发生异常: {e}")

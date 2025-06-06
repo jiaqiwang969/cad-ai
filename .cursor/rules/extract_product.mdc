@@ -1,0 +1,67 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This rule outlines the technical process used by `test/08-test_leaf_product_links.py` (invoked by `make test-08`) to identify product listing pages (leaf nodes), extract product counts, and load all product links on TraceParts. Useful for debugging or extending similar scraping tasks for this site.
+
+**Technical Chain:**
+
+1.  **Initial Page Load & Enhancement**:
+    *   The target URL is enhanced by appending `PageSize=500` (or a large number) and other parameters like `ShowAll=true`, `IncludeVariants=true` to potentially load more items initially and reduce pagination.
+    *   The script navigates to this enhanced URL and waits for the network to be idle.
+
+2.  **Leaf Node Verification (`detect_leaf_node_and_target_count`)**:
+    *   Retrieves the full text content of the `<body>`.
+    *   **Condition 1: "results" keyword**: Checks if "results" (case-insensitive) is present in the page text.
+    *   **Condition 2: "Sort by" keyword**: Checks if "Sort by" (case-insensitive) is present in the page text.
+    *   **Decision**: If *both* keywords are present, the page is considered a leaf node.
+
+3.  **Target Product Count Extraction (`extract_target_product_count`)**:
+    *   This step is performed if the page is identified as a leaf node.
+    *   The entire page text is converted to lowercase.
+    *   A predefined list of regular expression patterns is iterated through to find the total number of products. Patterns include:
+        *   `r"([\d,]+)\s*results?"`
+        *   `r"([\d,]+)\s*products?"`
+        *   `r"([\d,]+)\s*items?"`
+        *   `r"showing\s*[\d,]+\s*[-–]\s*[\d,]+\s*of\s*([\d,]+)"` (extracts the last number)
+        *   `r"([\d,]+)\s*total"`
+        *   `r"found\s*([\d,]+)"`
+    *   The first pattern that successfully matches and yields a number (after removing commas) within a valid range (1 to 50,000) is taken as the `target_count`.
+    *   If no pattern matches or no valid number is found, `target_count` remains 0.
+
+4.  **Initial Product Links Assessment**:
+    *   The script queries for all `<a>` tags containing `&Product=` in their `href` attribute to count initially visible/loaded product links.
+    *   This initial count is logged, along with progress if `target_count` was successfully extracted.
+
+5.  **Dynamic Product Loading (`load_all_results`)**:
+    *   **Main Loop**: Iteratively attempts to load more products. The loop continues as long as:
+        *   Overall attempt counter (`click_count`) is less than `max_clicks` (e.g., 100).
+        *   `no_change_rounds` (consecutive rounds where product count didn't increase after a click/scroll) is less than a threshold (e.g., 3 or 5, depending on whether `target_count` is known).
+        *   `consecutive_click_failures` (consecutive attempts where the "Show More" button was not found or failed to be clicked) is less than 3.
+    *   **"Fast Retry" Mode (if `target_count` > 0 and progress < 95%)**:
+        *   Attempts to directly click "Show More".
+        *   If successful and products load, `no_change_rounds` and `consecutive_click_failures` are reset.
+        *   If "Show More" fails, `consecutive_click_failures` increments, page is scrolled, and `no_change_rounds` increments.
+        *   Continues to the next main loop iteration.
+    *   **Standard Loading Step (if not in "Fast Retry" or `target_count` is 0)**:
+        *   Performs a full page scroll (`scroll_full`) with human-like randomizations.
+        *   Attempts to find and click the "Show More" button (`click_show_more_if_any`):
+            *   If a click attempt is made (button found), `consecutive_click_failures` is reset.
+            *   If product count increases after the click, `no_change_rounds` is reset.
+            *   If product count does *not* increase, `no_change_rounds` increments.
+            *   If no clickable "Show More" button is found, `consecutive_click_failures` and `no_change_rounds` both increment.
+    *   **Termination Conditions for Main Loop**: The loop can terminate early if `target_count` is reached (especially in "Fast Retry"), or if `no_change_rounds` or `consecutive_click_failures` hit their limits.
+
+6.  **Final Confirmation Scroll**:
+    *   After the main loading loop, a more aggressive final scrolling phase (e.g., 5 rounds) is performed.
+    *   In each round:
+        *   Full scroll.
+        *   Attempt to click "Show More".
+        *   Counters for consecutive rounds with no new products and consecutive rounds where "Show More" was not clickable are maintained. If these hit a threshold (e.g., 3), this phase also terminates.
+
+7.  **Final Link Collection (`extract_products_on_page`)**:
+    *   After all loading attempts, the script collects all unique `<a>` links containing `&Product=` and matching a path structure like `/product/`.
+
+8.  **Output**:
+    *   Saves the collected links, `tp_code`, `total_extracted_count`, and `progress_info` (including `target_count` and completion status) to a JSON file.

@@ -201,17 +201,17 @@ def main():
         
         # 获取目标级别
         target_level_map = {
-            'classification': CacheLevel.CLASSIFICATION,
-            'products': CacheLevel.PRODUCTS,
-            'specifications': CacheLevel.SPECIFICATIONS
-        }
+        'classification': CacheLevel.CLASSIFICATION,
+        'products': CacheLevel.PRODUCTS,
+        'specifications': CacheLevel.SPECIFICATIONS
+    }
         target_level = target_level_map[args.level]
-        
-        # 运行渐进式缓存
+    
+    # 运行渐进式缓存
         cache_manager.run_progressive_cache(
-            target_level=target_level,
-            force_refresh=args.force
-        )
+        target_level=target_level,
+        force_refresh=args.force
+    )
     except Exception as e:
         print(f"执行过程中发生错误: {e}")
 

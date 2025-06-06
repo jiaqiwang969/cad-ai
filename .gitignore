@@ -173,6 +173,7 @@ Desktop.ini
 
 # Results directory (as requested - do not track)
 results/
+results*/
 
 # Session files and temporary data
 *.session

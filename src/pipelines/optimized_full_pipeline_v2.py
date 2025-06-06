@@ -38,10 +38,11 @@ class OptimizedFullPipelineV2:
             'cache_level_end': None,
             'total_leaves': 0,
             'total_products': 0,
-            'total_specifications': 0
+            'total_specifications': 0,
+            'is_test_run': False # Added for test runs
         }
     
-    def run(self, output_file: str = None, cache_enabled: bool = True, target_level: CacheLevel = CacheLevel.SPECIFICATIONS):
+    def run(self, output_file: str = None, cache_enabled: bool = True, target_level: CacheLevel = CacheLevel.SPECIFICATIONS, retry_failed_only: bool = False, test_url: Optional[str] = None): # Added test_url
         """
         运行优化版流水线V2
         
@@ -49,12 +50,19 @@ class OptimizedFullPipelineV2:
             output_file: 输出文件路径
             cache_enabled: 是否启用缓存
             target_level: 目标缓存级别
+            retry_failed_only: 是否仅重跑失败的产品规格
+            test_url: 如果提供，则只测试此单个URL
         """
         self.stats['start_time'] = datetime.now()
-        
+        self.stats['is_test_run'] = bool(test_url)
+
         self.logger.info("\n" + "="*60)
-        self.logger.info("🚀 TraceParts 产品数据爬取系统 v4.0")
-        self.logger.info("   基于渐进式缓存管理器")
+        if test_url:
+            self.logger.info("🚀 TraceParts 产品数据爬取系统 v4.0 - SINGLE URL TEST MODE")
+            self.logger.info(f"   🧪 测试URL: {test_url}")
+        else:
+            self.logger.info("🚀 TraceParts 产品数据爬取系统 v4.0")
+            self.logger.info("   基于渐进式缓存管理器")
         self.logger.info("="*60)
         
         # 显示当前缓存状态
@@ -73,22 +81,47 @@ class OptimizedFullPipelineV2:
         self.logger.info("="*60)
         
         try:
-            # 使用缓存管理器运行
-            data = self.cache_manager.run_progressive_cache(
-                target_level=target_level,
-                force_refresh=not cache_enabled
-            )
+            data = None
+            if test_url:
+                self.logger.info(f"▶️ 开始处理单个测试URL: {test_url}")
+                # We will call a new method in CacheManager for single URL testing
+                data = self.cache_manager.run_single_url_test(
+                    test_url=test_url,
+                    target_level=target_level,
+                    force_refresh=not cache_enabled,
+                    # retry_failed_only might not be directly applicable or needs careful thought for single URL
+                )
+                if data: # If data is returned, it implies success for the single URL stages
+                    self.logger.info(f"✅ 单个URL测试处理完成: {test_url}")
+                    # For single URL, adapt stats update if necessary based on what run_single_url_test returns
+                    # For now, let's assume it returns a structure that _update_stats can somewhat handle
+                    # or we might need a specialized stats update for test mode.
+                    if 'metadata' in data: # if the single test returns a compatible structure
+                         self._update_stats(data)
+                    else: # Minimal stats for single URL test if structure is different
+                        self.stats['total_leaves'] = 1 if data.get('is_leaf_node', False) else 0
+                        self.stats['total_products'] = data.get('product_count', 0)
+                        self.stats['total_specifications'] = data.get('specification_count', 0)
+                        self.stats['cache_level_end'] = target_level.name # Assume target level reached for test
+            else:
+                # 使用缓存管理器运行
+                data = self.cache_manager.run_progressive_cache(
+                    target_level=target_level,
+                    force_refresh=not cache_enabled,
+                    retry_failed_only=retry_failed_only
+                )
+                if data:
+                    self._update_stats(data)
             
             if not data:
                 self.logger.error("❌ 数据获取失败")
                 return None
             
-            # 更新统计
-            self._update_stats(data)
-            
             # 保存结果（如果指定了输出文件）
-            if output_file:
+            if output_file and not test_url: # Typically don't save full output for a single test URL unless specified
                 self._save_results(data, output_file)
+            elif output_file and test_url:
+                 self.logger.info(f"📝 测试URL结果将不会自动保存到主输出文件 {output_file}. 查看控制台日志.")
             
             # 打印汇总
             self._print_summary()
@@ -182,6 +215,8 @@ def main():
     parser.add_argument('--output', type=str, default=None, help='输出文件路径')
     parser.add_argument('--no-cache', action='store_true', help='禁用缓存，强制重新爬取')
     parser.add_argument('--cache-dir', type=str, default='results/cache', help='缓存目录')
+    parser.add_argument('--retry-failed-only', action='store_true', help='仅重跑失败的产品规格')
+    parser.add_argument('--test-url', type=str, default=None, help='A single URL to test the pipeline with.') # Added
     
     args = parser.parse_args()
     
@@ -202,7 +237,9 @@ def main():
     pipeline.run(
         output_file=args.output,
         cache_enabled=not args.no_cache,
-        target_level=target_level
+        target_level=target_level,
+        retry_failed_only=args.retry_failed_only,
+        test_url=args.test_url # Pass test_url
     )
 
 

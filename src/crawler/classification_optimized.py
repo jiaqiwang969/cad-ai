@@ -253,11 +253,32 @@ class OptimizedClassificationCrawler:
             }
             code_map[node['code']] = node
             
-            # 确定父code
+            # 确定父code - 修复层级关系
             if node['level'] == 2:
                 parent_code = 'TRACEPARTS_ROOT'
             else:
-                parent_code = node['code'][:-3]  # 每3位上溯一级
+                # 更智能的父code计算
+                code = node['code']
+                if code.startswith('TP') and len(code) > 2:
+                    code_num = code[2:]  # 去掉'TP'前缀
+                    
+                    if len(code_num) <= 2:  # TP01, TP14 等
+                        parent_code = 'TRACEPARTS_ROOT'
+                    elif len(code_num) == 3:  # TP014 -> 父节点应该是根节点
+                        if code_num.isdigit():  # 纯数字如 TP014
+                            parent_code = 'TRACEPARTS_ROOT'
+                        else:  # TP001 -> TP01
+                            parent_code = 'TP' + code_num[:2]
+                    elif len(code_num) == 6:  # TP001002 -> TP001
+                        parent_code = 'TP' + code_num[:3]
+                    elif len(code_num) == 9:  # TP001002003 -> TP001002
+                        parent_code = 'TP' + code_num[:6]
+                    else:
+                        # 回退到原逻辑
+                        parent_code = code[:-3]
+                else:
+                    # 非TP开头的code，使用原逻辑
+                    parent_code = code[:-3] if len(code) > 3 else 'TRACEPARTS_ROOT'
             
             parent = code_map.get(parent_code)
             if not parent:

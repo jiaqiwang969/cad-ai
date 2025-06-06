@@ -177,10 +177,19 @@ class UltimateProductLinksCrawler:
                 #self.logger.info(f"🌐 打开页面: {url}")  # 显示完整URL
                 driver.get(url)
                 
-                # 等待初始加载
+                # 等待页面加载完成，但不强制要求有产品链接
                 WebDriverWait(driver, 30).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "a[href*='&Product=']"))
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
                 )
+                
+                # 等待额外时间让页面内容加载
+                time.sleep(3)
+                
+                # 检查是否有产品链接存在
+                product_links = driver.find_elements(By.CSS_SELECTOR, "a[href*='&Product=']")
+                if not product_links:
+                    self.logger.debug(f"❌ 该分类页面没有产品链接: {url}")
+                    return []  # 没有产品，直接返回空列表
                 
                 # 智能加载所有产品
                 final_count = self._smart_load_ultimate(driver)

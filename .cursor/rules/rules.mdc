@@ -1,0 +1,94 @@
+# TraceParts 爬虫项目 Cursor 规则
+
+## 项目概述
+这是一个基于Python的TraceParts B2B平台产品数据爬取系统，使用Selenium进行自动化爬取，包含分类树、产品链接和产品规格的三级渐进式缓存架构。
+
+## 核心架构组件
+
+### 1. CacheManager (`src/pipelines/cache_manager.py`)
+- **功能**: 渐进式缓存系统，支持三级缓存
+  - `CLASSIFICATION`: 分类树缓存
+  - `PRODUCTS`: 产品链接缓存  
+  - `SPECIFICATIONS`: 产品规格缓存
+- **重要修复**: 处理无'root'键的数据结构兼容性问题
+- **使用**: `cache_manager.extend_to_specifications(data)`
+
+### 2. OptimizedSpecificationsCrawler (`src/crawler/specifications_optimized.py`)
+- **功能**: 使用Selenium的优化版规格爬虫
+- **特性**: 
+  - 智能弹窗处理
+  - 性能优化(禁用图片/字体/样式表)
+  - 自动驱动管理(webdriver-manager + SeleniumManager双重fallback)
+  - CDP资源阻断
+- **并发**: 支持ThreadPoolExecutor多线程处理
+
+## make test-realtime-specs 流程
+
+### 执行路径
+```
+Makefile:604 → scripts/test_realtime_specs.py → CacheManager.extend_to_specifications()
+```
+
+### 关键流程步骤
+1. **初始化**: 3个测试产品，并发线程数4，缓存目录`results/cache_test/specifications/`
+2. **WebDriver管理**: 自动获取ChromeDriver，headless模式，CDP阻断静态资源
+3. **并行处理**: `ThreadPoolExecutor` + `as_completed()`实现并发爬取和实时结果处理
+4. **页面处理流程**:
+   - 访问产品详情页
+   - 处理TraceParts免责声明弹窗
+   - 智能分页设置("Items per page" → "All")
+   - 表格数据提取和解析
+5. **实时写入**: 每个产品完成立即写入JSON文件，格式：`{leaf_code}_{url_hash}.json`
+
+### 数据结构格式
+```json
+[{
+  "reference": "产品编号",
+  "row_index": 表格行位置,
+  "column_index": 表格列位置, 
+  "column_name": "规格项名称",
+  "dimensions": "尺寸信息",
+  "weight": "重量信息",
+  "table_type": "horizontal/vertical"
+}]
+```
+
+## 开发规范
+
+### 错误处理
+- 必须处理`KeyError: 'root'`问题：在更新树结构前检查`if 'root' in data`
+- WebDriver异常：实现webdriver-manager到SeleniumManager的自动fallback
+- 网络超时：设置合理的重试机制和超时时间
+
+### 性能优化要点
+- **资源禁用**: 图片、字体、样式表、媒体流
+- **CDP优化**: 阻断广告和分析脚本
+- **并发控制**: 使用ThreadPoolExecutor管理并发数
+- **内存管理**: 及时清理WebDriver资源
+- **实时处理**: 使用`as_completed()`而非批量等待
+
+### 关键技术实现
+- **驱动管理**: 优先webdriver-manager，失败时fallback到SeleniumManager
+- **弹窗处理**: 多策略识别和处理TraceParts免责声明
+- **分页优化**: 智能识别分页控件并设置为"All"显示
+- **数据解析**: 支持水平/垂直表格自适应解析
+- **容错机制**: 网络异常、元素查找、JavaScript执行的全面容错
+
+### 测试验证
+- 运行`make test-realtime-specs`验证实时规格提取
+- 预期结果: 3个产品/21个规格/5分钟/100%成功率
+- 输出: 3个JSON文件实时写入`results/cache_test/specifications/`
+
+### 常用命令
+```bash
+make test-realtime-specs      # 测试实时规格提取
+make pipeline-v2              # 运行完整流水线
+make cache-status             # 查看缓存状态
+make update-efficient         # 高效增量更新
+```
+
+## 调试指南
+- 查看日志：观察WebDriver初始化和页面处理过程
+- 监控缓存：`watch -n 1 'ls -la results/cache_test/specifications/'`
+- 错误排查：检查ChromeDriver版本兼容性和网络连接
+- 性能分析：关注并发线程数和内存使用情况 

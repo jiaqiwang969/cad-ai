@@ -1,0 +1,73 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This rule outlines the standardized technical process used by the TraceParts crawlers to identify product listing pages (leaf nodes), extract target product counts, and load all product links. This logic is primarily implemented in [`src/crawler/ultimate_products_v2.py`](mdc:src/crawler/ultimate_products_v2.py) and is mirrored in the verification steps of [`src/crawler/classification_enhanced.py`](mdc:src/crawler/classification_enhanced.py).
+
+**Core Technical Chain (as implemented in `UltimateProductLinksCrawlerV2`):**
+
+1.  **Initial Page Load & URL Enhancement (`append_page_size`)**:
+    *   The target URL for a potential leaf category is enhanced by appending parameters like `PageSize=500`, `ShowAll=true`, and `IncludeVariants=true` to maximize initially loaded items and simplify pagination.
+    *   The script navigates to this enhanced URL and waits for the network to be idle.
+
+2.  **Leaf Node Verification (`detect_leaf_node_and_target_count`)**:
+    *   Retrieves the full text content of the `<body>`.
+    *   **Condition**: Checks if both "results" (case-insensitive) AND "sort by" (case-insensitive) keywords are present in the page text.
+    *   If both conditions are met, the page is considered a leaf node, and the script proceeds to extract the target product count.
+
+3.  **Target Product Count Extraction (`extract_target_product_count`)**:
+    *   This step is performed if the page is identified as a leaf node based on the keyword check.
+    *   The entire page text is converted to lowercase.
+    *   A predefined list of regular expression patterns is iterated through to find the total number of products. Patterns include:
+        *   `r"([\d,]+)\s*results?"`
+        *   `r"([\d,]+)\s*products?"`
+        *   `r"([\d,]+)\s*items?"`
+        *   `r"showing\s*[\d,]+\s*[-–]\s*[\d,]+\s*of\s*([\d,]+)"` (extracts the last number if multiple capture groups)
+        *   `r"([\d,]+)\s*total"`
+        *   `r"found\s*([\d,]+)"`
+    *   The script handles `re.findall` potentially returning a list of strings or tuples (taking the relevant capture group, typically the last one for "showing X of Y" patterns).
+    *   Commas are removed from the matched string, and it's converted to an integer.
+    *   The first pattern that successfully matches and yields a number within a valid range (1 to 50,000) is taken as the `target_count`.
+    *   If no pattern matches or no valid number is found, `target_count` defaults to 0.
+
+4.  **Initial Product Links Assessment**:
+    *   The script queries for all `<a>` tags containing `&Product=` in their `href` attribute to count initially visible/loaded product links.
+    *   This initial count is logged, along with progress if `target_count` was successfully extracted.
+
+5.  **Dynamic Product Loading (`load_all_results`)**:
+    *   **Main Loop**: Iteratively attempts to load more products. The loop continues as long as:
+        *   Overall attempt counter (`attempt_count`) is less than `max_attempts` (e.g., 100).
+        *   `no_product_change_rounds` (consecutive rounds where product count didn't increase after a click/scroll) is less than a threshold (e.g., 3 or 5, depending on whether `target_count` is known).
+        *   `consecutive_click_failures` (consecutive attempts where the "Show More" button was not found or failed to be clicked) is less than `MAX_CONSECUTIVE_CLICK_FAILURES` (typically 3).
+    *   **"Fast Retry" Mode (if `target_count` > 0 and progress < 95%)**:
+        *   Attempts to directly click "Show More" (`click_show_more_if_any`).
+        *   If a click attempt is made and products load, `no_product_change_rounds` and `consecutive_click_failures` are reset.
+        *   If "Show More" click attempt fails (button not found/unclickable), `consecutive_click_failures` increments. The page is then scrolled (`scroll_full`), and `no_product_change_rounds` also increments.
+        *   Continues to the next main loop iteration.
+    *   **Standard Loading Step (if not in "Fast Retry" or `target_count` is 0)**:
+        *   Performs a full page scroll (`scroll_full`) with human-like randomizations.
+        *   Attempts to find and click the "Show More" button (`click_show_more_if_any`):
+            *   If a click attempt is successfully made, `consecutive_click_failures` is reset.
+            *   If product count increases after the click, `no_product_change_rounds` is reset.
+            *   If product count does *not* increase, `no_product_change_rounds` increments.
+            *   If no clickable "Show More" button is found or the click fails, `consecutive_click_failures` and `no_product_change_rounds` both increment.
+    *   **Termination Conditions for Main Loop**: The loop can terminate early if `target_count` is reached, or if `no_product_change_rounds` or `consecutive_click_failures` hit their limits.
+
+6.  **Final Confirmation Scroll**:
+    *   After the main loading loop, a more aggressive final scrolling phase (e.g., 5 rounds) is performed.
+    *   In each round:
+        *   Full scroll (`scroll_full`).
+        *   Attempt to click "Show More" (`click_show_more_if_any`).
+        *   Counters for consecutive rounds with no new products and consecutive rounds where "Show More" was not clickable are maintained. If these hit a threshold (e.g., 3), this phase also terminates.
+
+7.  **Final Link Collection (`extract_products_on_page`)**:
+    *   After all loading attempts, the script collects all unique `<a>` links containing `&Product=` and typically matching a path structure like `/product/`.
+
+**Alignment in Classification Stage (`EnhancedClassificationCrawler`):**
+
+*   The `_check_single_leaf_node` method in [`src/crawler/classification_enhanced.py`](mdc:src/crawler/classification_enhanced.py) now uses the same primary leaf node detection criteria (presence of "results" AND "sort by" keywords).
+*   If these keywords are found, it calls its own `_extract_target_product_count` method. This method has been updated to use the **identical regex patterns and count extraction logic** as detailed above for `UltimateProductLinksCrawlerV2`.
+*   This ensures that the initial classification and subsequent product link collection stages operate with a consistent definition of leaf nodes and product count extraction.
+
+This standardized approach aims to improve the accuracy and robustness of identifying product-listing pages and extracting their complete set of product links.

@@ -1,0 +1,95 @@
+{
+  "extraction_time": "2025-06-07 21:46:53",
+  "base_product": {
+    "name": "dosteba-gmbh-universal-fixation-plate-umpraluz",
+    "id": "90-11122024-050258",
+    "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Thicknesses D:"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "UMP-ALU-Z Dicke 60mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+60mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 60mm",
+        "Thicknesses D:": "60 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 80mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+80mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 80mm",
+        "Thicknesses D:": "80 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 100mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+100mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 100mm",
+        "Thicknesses D:": "100 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 120mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+120mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 120mm",
+        "Thicknesses D:": "120 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 140mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+140mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 140mm",
+        "Thicknesses D:": "140 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 160mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+160mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 160mm",
+        "Thicknesses D:": "160 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 180mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+180mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 180mm",
+        "Thicknesses D:": "180 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 200mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+200mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 200mm",
+        "Thicknesses D:": "200 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 220mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+220mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 220mm",
+        "Thicknesses D:": "220 mm"
+      }
+    },
+    {
+      "reference": "UMP-ALU-Z Dicke 240mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-universal-fixation-plate-umpraluz?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-11122024-050258&PartNumber=UMP-ALU-Z+Dicke+240mm",
+      "parameters": {
+        "Manufacturer Part Number": "UMP-ALU-Z Dicke 240mm",
+        "Thicknesses D:": "240 mm"
+      }
+    }
+  ]
+}

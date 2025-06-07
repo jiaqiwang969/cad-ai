@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:15:16",
+  "base_product": {
+    "name": "italiana-ferramenta-cobrone-shelf-sup810mm-thick-chrome-bright",
+    "id": "90-01092023-045117",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobrone-shelf-sup810mm-thick-chrome-bright?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045117"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "MATERIAL",
+    "PHILLIPS / POZIDRIV"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16101150KB",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobrone-shelf-sup810mm-thick-chrome-bright?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045117&PartNumber=16101150KB",
+      "parameters": {
+        "Manufacturer Part Number": "16101150KB",
+        "Description": "COBRONE shelf sup.8-10mm thick chrome bright",
+        "BOX QUANTITY": "100 PCS",
+        "FINISH": "Bright Chrome",
+        "WOOD / GLASS THICKNESS": "5-6 mm",
+        "MATERIAL": "Zinc Alloy / Natural Engineering Plastic",
+        "PHILLIPS / POZIDRIV": "PZ2"
+      }
+    }
+  ]
+}

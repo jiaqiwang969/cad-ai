@@ -1,0 +1,51 @@
+{
+  "extraction_time": "2025-06-07 21:39:17",
+  "base_product": {
+    "name": "record-revolving-doors-k-41-revolving-door",
+    "id": "90-30082021-063733",
+    "url": "https://www.traceparts.cn/en/product/record-revolving-doors-k-41-revolving-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063733"
+  },
+  "table_headers": [
+    "Description",
+    "Nominal Width",
+    "Nominal Length",
+    "Nominal Height",
+    "Total Height"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "K 41 - revolving door - curtain wall panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-k-41-revolving-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063733&PartNumber=K+41+-+revolving+door+-+curtain+wall+panel",
+      "parameters": {
+        "Description": "K 41 - revolving door - curtain wall panel",
+        "Nominal Width": "2600",
+        "Nominal Length": "2600",
+        "Nominal Height": "2770",
+        "Total Height": "2770"
+      }
+    },
+    {
+      "reference": "K 41 - revolving door - wall based",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-k-41-revolving-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063733&PartNumber=K+41+-+revolving+door+-+wall+based",
+      "parameters": {
+        "Description": "K 41 - revolving door - wall based",
+        "Nominal Width": "2600",
+        "Nominal Length": "2600",
+        "Nominal Height": "2770",
+        "Total Height": "2770"
+      }
+    },
+    {
+      "reference": "K 41 - revolving door",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-k-41-revolving-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063733&PartNumber=K+41+-+revolving+door",
+      "parameters": {
+        "Description": "K 41 - revolving door",
+        "Nominal Width": "2600",
+        "Nominal Length": "2600",
+        "Nominal Height": "2770",
+        "Total Height": "2770"
+      }
+    }
+  ]
+}

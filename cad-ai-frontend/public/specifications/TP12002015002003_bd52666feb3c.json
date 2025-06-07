@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:37",
+  "base_product": {
+    "name": "smeg-dishwasher-pl5335n",
+    "id": "90-14122022-047526",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl5335n?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047526"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PL5335N",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl5335n?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047526&PartNumber=PL5335N",
+      "parameters": {
+        "Part Number": "PL5335N",
+        "Description": "Dishwasher : PL5335N",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:49",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-glide-tape-15x015-sa",
+    "id": "30-12112020-084632",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-glide-tape-15x015-sa?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084632"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.655.29",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-glide-tape-15x015-sa?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084632&PartNumber=0.0.655.29",
+      "parameters": {
+        "Part Number": "0.0.655.29",
+        "Description": "Glide Tape 15x0.15 SA, Delivery unit: cut-off max. 33 m"
+      }
+    }
+  ]
+}

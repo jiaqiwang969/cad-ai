@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:50",
+  "base_product": {
+    "name": "smeg-hood-kdd90vxe2",
+    "id": "90-14122022-053486",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kdd90vxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053486"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KDD90VXE-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kdd90vxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053486&PartNumber=KDD90VXE-2",
+      "parameters": {
+        "Part Number": "KDD90VXE-2",
+        "Description": "Hood : KDD90VXE-2",
+        "Electric Power (W)": "277",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50/60",
+        "Sound power max (dB(A))": "54",
+        "EU Energy Label": "A",
+        "Color": "Steel / Black Glass",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "120",
+        "Overall Height (mm)": "1044",
+        "Overall Width (mm)": "880"
+      }
+    }
+  ]
+}

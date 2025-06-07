@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:13",
+  "base_product": {
+    "name": "smeg-dishwasher-di6013d1",
+    "id": "90-14122022-046949",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di6013d1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046949"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DI6013D-1",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di6013d1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046949&PartNumber=DI6013D-1",
+      "parameters": {
+        "Part Number": "DI6013D-1",
+        "Description": "Dishwasher : DI6013D-1",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

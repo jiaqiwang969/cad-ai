@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:15:57",
+  "base_product": {
+    "name": "italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-opaque-neutral",
+    "id": "90-01092023-045945",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-opaque-neutral?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045945"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "23008010BC",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-opaque-neutral?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045945&PartNumber=23008010BC",
+      "parameters": {
+        "Manufacturer Part Number": "23008010BC",
+        "Description": "Cover cap for cams Ø17 peg Ø4 opaque neutral",
+        "FINISH": "Opaque neutral"
+      }
+    }
+  ]
+}

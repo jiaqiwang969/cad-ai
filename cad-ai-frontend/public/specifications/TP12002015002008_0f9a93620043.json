@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:20",
+  "base_product": {
+    "name": "smeg-hob-pvl6106cn",
+    "id": "90-14122022-059924",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl6106cn?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059924"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVL6106CN",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl6106cn?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059924&PartNumber=PVL6106CN",
+      "parameters": {
+        "Part Number": "PVL6106CN",
+        "Description": "Hob : PVL6106CN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "92",
+        "Overall Width (mm)": "1000"
+      }
+    }
+  ]
+}

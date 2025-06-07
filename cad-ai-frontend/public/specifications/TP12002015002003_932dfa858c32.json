@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:31",
+  "base_product": {
+    "name": "smeg-dishwasher-lvs432nit",
+    "id": "90-14122022-047422",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs432nit?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047422"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVS432NIT",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs432nit?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047422&PartNumber=LVS432NIT",
+      "parameters": {
+        "Part Number": "LVS432NIT",
+        "Description": "Dishwasher : LVS432NIT",
+        "Color": "Full stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

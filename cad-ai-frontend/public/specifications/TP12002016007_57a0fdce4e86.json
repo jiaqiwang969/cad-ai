@@ -1,0 +1,111 @@
+{
+  "extraction_time": "2025-06-07 21:45:44",
+  "base_product": {
+    "name": "peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions",
+    "id": "90-02122021-036111",
+    "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111"
+  },
+  "table_headers": [
+    "Part Number",
+    "h (mm)",
+    "ØD (mm)",
+    "ØD1 (mm)",
+    "e (mm)",
+    "Rd/M",
+    "Weight (kg)"
+  ],
+  "total_specifications": 7,
+  "specifications": [
+    {
+      "reference": "BSA12Mx60",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA12Mx60",
+      "parameters": {
+        "Part Number": "BSA12Mx60",
+        "h (mm)": "60",
+        "ØD (mm)": "15",
+        "ØD1 (mm)": "20",
+        "e (mm)": "22",
+        "Rd/M": "12",
+        "Weight (kg)": "0.1"
+      }
+    },
+    {
+      "reference": "BSA14Mx70",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA14Mx70",
+      "parameters": {
+        "Part Number": "BSA14Mx70",
+        "h (mm)": "70",
+        "ØD (mm)": "18",
+        "ØD1 (mm)": "24",
+        "e (mm)": "25",
+        "Rd/M": "14",
+        "Weight (kg)": "0.1"
+      }
+    },
+    {
+      "reference": "BSA16Mx80",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA16Mx80",
+      "parameters": {
+        "Part Number": "BSA16Mx80",
+        "h (mm)": "80",
+        "ØD (mm)": "21",
+        "ØD1 (mm)": "30",
+        "e (mm)": "27",
+        "Rd/M": "16",
+        "Weight (kg)": "0.1"
+      }
+    },
+    {
+      "reference": "BSA18Mx90",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA18Mx90",
+      "parameters": {
+        "Part Number": "BSA18Mx90",
+        "h (mm)": "90",
+        "ØD (mm)": "24",
+        "ØD1 (mm)": "38",
+        "e (mm)": "34",
+        "Rd/M": "18",
+        "Weight (kg)": "0.2"
+      }
+    },
+    {
+      "reference": "BSA20Mx100",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA20Mx100",
+      "parameters": {
+        "Part Number": "BSA20Mx100",
+        "h (mm)": "100",
+        "ØD (mm)": "27",
+        "ØD1 (mm)": "38",
+        "e (mm)": "35",
+        "Rd/M": "20",
+        "Weight (kg)": "0.3"
+      }
+    },
+    {
+      "reference": "BSA24Mx115",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA24Mx115",
+      "parameters": {
+        "Part Number": "BSA24Mx115",
+        "h (mm)": "115",
+        "ØD (mm)": "31",
+        "ØD1 (mm)": "46",
+        "e (mm)": "43",
+        "Rd/M": "24",
+        "Weight (kg)": "0.4"
+      }
+    },
+    {
+      "reference": "BSA30Mx150",
+      "url": "https://www.traceparts.cn/en/product/peikko-jenka-bsa-short-inserts-threaded-lifting-system-for-all-load-directions?CatalogPath=TRACEPARTS%3ATP12002016007&Product=90-02122021-036111&PartNumber=BSA30Mx150",
+      "parameters": {
+        "Part Number": "BSA30Mx150",
+        "h (mm)": "150",
+        "ØD (mm)": "40",
+        "ØD1 (mm)": "46",
+        "e (mm)": "56",
+        "Rd/M": "30",
+        "Weight (kg)": "0.7"
+      }
+    }
+  ]
+}

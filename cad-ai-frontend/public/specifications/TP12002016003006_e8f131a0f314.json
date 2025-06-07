@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:14",
+  "base_product": {
+    "name": "settef-settef-thermophon-mineral",
+    "id": "90-13102022-057203",
+    "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-mineral?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057203"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SETTEF - THERMOPHON MINERAL",
+      "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-mineral?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057203&PartNumber=SETTEF+-+THERMOPHON+MINERAL",
+      "parameters": {
+        "Manufacturer Part Number": "SETTEF - THERMOPHON MINERAL",
+        "Description": "The system THERMOPHON MINERAL panels in rock wool to double density combines qualities of thermal insulation with those of sound insulation, fire safety and good ecological characteristics."
+      }
+    }
+  ]
+}

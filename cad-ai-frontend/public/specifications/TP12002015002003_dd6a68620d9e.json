@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:43",
+  "base_product": {
+    "name": "smeg-dishwasher-stl62324lde",
+    "id": "90-14122022-047858",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62324lde?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047858"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL62324LDE",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62324lde?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047858&PartNumber=STL62324LDE",
+      "parameters": {
+        "Part Number": "STL62324LDE",
+        "Description": "Dishwasher : STL62324LDE",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

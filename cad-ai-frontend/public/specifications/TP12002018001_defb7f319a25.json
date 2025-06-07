@@ -1,0 +1,122 @@
+{
+  "extraction_time": "2025-06-07 21:37:30",
+  "base_product": {
+    "name": "sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans",
+    "id": "90-29042025-044157",
+    "url": "https://www.traceparts.cn/en/product/sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans?CatalogPath=TRACEPARTS%3ATP12002018001&Product=90-29042025-044157"
+  },
+  "table_headers": [
+    "Model",
+    "A (mm)",
+    "A1 (mm)",
+    "I (mm)",
+    "J (mm)",
+    "J1 (mm)",
+    "J2 (mm)",
+    "K (mm)",
+    "K1 (mm)",
+    "K2 (mm)",
+    "L (mm)",
+    "N (mm)",
+    "ØD (mm)",
+    "ØD1 (mm)",
+    "ØD2 (mm)",
+    "ØD3 (mm)",
+    "ØO (mm)"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "BIC/90-1445",
+      "url": "https://www.traceparts.cn/en/product/sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans?CatalogPath=TRACEPARTS%3ATP12002018001&Product=90-29042025-044157&PartNumber=BIC%2F90-1445",
+      "parameters": {
+        "Model": "BIC/90-1445",
+        "A (mm)": "419.5",
+        "A1 (mm)": "216.5",
+        "I (mm)": "406",
+        "J (mm)": "537",
+        "J1 (mm)": "125",
+        "J2 (mm)": "497",
+        "K (mm)": "316",
+        "K1 (mm)": "250",
+        "K2 (mm)": "366",
+        "L (mm)": "449",
+        "N (mm)": "8x45º",
+        "ØD (mm)": "550",
+        "ØD1 (mm)": "450",
+        "ØD2 (mm)": "10",
+        "ØD3 (mm)": "500",
+        "ØO (mm)": "11"
+      }
+    },
+    {
+      "reference": "BIC/90-1650",
+      "url": "https://www.traceparts.cn/en/product/sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans?CatalogPath=TRACEPARTS%3ATP12002018001&Product=90-29042025-044157&PartNumber=BIC%2F90-1650",
+      "parameters": {
+        "Model": "BIC/90-1650",
+        "A (mm)": "456",
+        "A1 (mm)": "233.5",
+        "I (mm)": "445",
+        "J (mm)": "591",
+        "J1 (mm)": "125",
+        "J2 (mm)": "551",
+        "K (mm)": "356",
+        "K1 (mm)": "250",
+        "K2 (mm)": "405",
+        "L (mm)": "501",
+        "N (mm)": "12x30º",
+        "ØD (mm)": "600",
+        "ØD1 (mm)": "500",
+        "ØD2 (mm)": "10",
+        "ØD3 (mm)": "560",
+        "ØO (mm)": "11"
+      }
+    },
+    {
+      "reference": "BIC/90-1856",
+      "url": "https://www.traceparts.cn/en/product/sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans?CatalogPath=TRACEPARTS%3ATP12002018001&Product=90-29042025-044157&PartNumber=BIC%2F90-1856",
+      "parameters": {
+        "Model": "BIC/90-1856",
+        "A (mm)": "535",
+        "A1 (mm)": "278",
+        "I (mm)": "514",
+        "J (mm)": "670",
+        "J1 (mm)": "160",
+        "J2 (mm)": "630",
+        "K (mm)": "415",
+        "K1 (mm)": "320",
+        "K2 (mm)": "464",
+        "L (mm)": "570",
+        "N (mm)": "16x22,5º",
+        "ØD (mm)": "680",
+        "ØD1 (mm)": "560",
+        "ØD2 (mm)": "13",
+        "ØD3 (mm)": "629",
+        "ØO (mm)": "13"
+      }
+    },
+    {
+      "reference": "BIC/90-2063",
+      "url": "https://www.traceparts.cn/en/product/sodeca-bic90-conversion-flange-from-rectangular-to-circular-for-centrifugal-fans?CatalogPath=TRACEPARTS%3ATP12002018001&Product=90-29042025-044157&PartNumber=BIC%2F90-2063",
+      "parameters": {
+        "Model": "BIC/90-2063",
+        "A (mm)": "594",
+        "A1 (mm)": "307.5",
+        "I (mm)": "573",
+        "J (mm)": "748",
+        "J1 (mm)": "160",
+        "J2 (mm)": "698",
+        "K (mm)": "454",
+        "K1 (mm)": "320",
+        "K2 (mm)": "513",
+        "L (mm)": "648",
+        "N (mm)": "12x30º",
+        "ØD (mm)": "730",
+        "ØD1 (mm)": "640",
+        "ØD2 (mm)": "13",
+        "ØD3 (mm)": "690",
+        "ØO (mm)": "11"
+      }
+    }
+  ]
+}

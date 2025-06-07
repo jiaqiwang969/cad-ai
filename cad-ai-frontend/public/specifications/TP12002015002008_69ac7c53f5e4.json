@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:30",
+  "base_product": {
+    "name": "smeg-hob-ps906sa",
+    "id": "90-14122022-059503",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-ps906sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059503"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PS906SA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-ps906sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059503&PartNumber=PS906SA",
+      "parameters": {
+        "Part Number": "PS906SA",
+        "Description": "Hob : PS906SA",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

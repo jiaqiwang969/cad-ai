@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:44:37",
+  "base_product": {
+    "name": "pitzl-109301082-post-base-system-1093010931-with-thread-m20",
+    "id": "90-05092024-038088",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109301082-post-base-system-1093010931-with-thread-m20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038088"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Thread upp.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10930.1082",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109301082-post-base-system-1093010931-with-thread-m20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038088&PartNumber=10930.1082",
+      "parameters": {
+        "Manufacturer Part Number": "10930.1082",
+        "Description": "10930.1082 - Post base system 10930/10931 with thread M20",
+        "Upper plate mm": "Ø 80 x 6",
+        "Lower plate mm": "160 x 100 x 6",
+        "Thread low.": "M20 x 55",
+        "Thread upp.": "M20 x 150",
+        "Borehole bottom": "Ø13 x 4",
+        "Borehole top": "Ø7 x 4",
+        "Installation height mm": "150 - 250",
+        "Tube mandrel": "Ø42,4 x 130"
+      }
+    }
+  ]
+}

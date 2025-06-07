@@ -1,0 +1,86 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# TraceParts Pipeline 核心规则
+
+## 1. 入口与主流程
+- 入口文件为 [run_pipeline_v2.py](mdc:run_pipeline_v2.py)，调用 `src/pipelines/optimized_full_pipeline_v2.py` 中的 `main()`。
+- 主流程类为 `OptimizedFullPipelineV2`，其核心依赖为 [src/pipelines/cache_manager.py](mdc:src/pipelines/cache_manager.py)。
+- 缓存管理器负责三阶段数据的渐进式处理与缓存，分别为：
+  1. 分类树（classification tree）
+  2. 产品链接（product links）
+  3. 产品规格（product specifications）
+
+## 2. 三阶段数据结构
+
+### 2.1 分类树（classification tree）
+- 生成文件：`results/cache/classification_tree_*.json`
+- 结构为树形，每个节点包含：
+  - `code`：分类唯一编码
+  - `name`：分类名称
+  - `url`：分类页面URL
+  - `children`：子分类（递归结构）
+
+**示例：**
+```json
+{
+  "code": "TP01007",
+  "name": "Mechanical Components",
+  "url": "https://www.traceparts.cn/zh/products/mechanical-components",
+  "children": [ ... ]
+}
+```
+
+### 2.2 产品链接（product links）
+- 生成文件：`results/cache/products/TPxxxx.json`
+- 每个叶节点对应一个JSON文件，内容为该分类下所有产品详情页的**绝对URL**列表。
+
+**示例：**
+```json
+[
+  "https://www.traceparts.cn/en/product/xxx?CatalogPath=...&Product=...",
+  ...
+]
+```
+
+### 2.3 产品规格（product specifications）
+- 生成文件：`results/cache/specifications/TPxxxx.json`
+- 每个产品详情页对应一个JSON文件，内容为该产品的详细规格信息，**严格对齐 test-09-1 标准**。
+
+**示例：**
+```json
+{
+  "extraction_time": "2025-06-07 08:46:03",
+  "base_product": {
+    "name": "fibrotubi-orchidea-brick-wall-single-opening-sp105",
+    "id": "90-04092023-049404",
+    "url": "https://www.traceparts.cn/en/product/..."
+  },
+  "table_headers": ["Part Number", "Description", ...],
+  "total_specifications": 14,
+  "specifications": [
+    {
+      "reference": "BASE060X200",
+      "url": "https://www.traceparts.cn/en/product/...&PartNumber=BASE060X200",
+      "parameters": {
+        "Description": "...",
+        "Model": "..."
+      }
+    }
+  ]
+}
+```
+
+## 3. 主要依赖与目录结构
+- 主要依赖目录：
+  - [src/pipelines/](mdc:src/pipelines)：流水线主逻辑与缓存管理
+  - [src/crawler/](mdc:src/crawler)：分类、产品、规格爬虫
+  - [src/utils/](mdc:src/utils)：日志、线程池、反检测等工具
+  - [config/](mdc:config)：配置
+- 入口命令：`make pipeline` 或 `python run_pipeline_v2.py`
+
+## 4. 设计建议
+- 所有数据流转与管理均围绕上述三阶段JSON标准格式展开。
+- GUI平台可直接基于这三类JSON文件进行数据浏览、检索、编辑与导出。

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:43",
+  "base_product": {
+    "name": "stiferite-stiferite-class-b",
+    "id": "10-14092015-078749",
+    "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-b?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-14092015-078749"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIFERITE - CLASS B",
+      "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-b?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-14092015-078749&PartNumber=STIFERITE+-+CLASS+B",
+      "parameters": {
+        "Part Number": "STIFERITE - CLASS B",
+        "Description": "STIFERITE Class B is a sandwich panel consisting of an insulating component in polyiso foam, expanded without the use of CFC or HCFC, coated on the upper side with glass veil bituminized coupled to PP, suitable for the application for torching, and the bottom mineral fiber glass."
+      }
+    }
+  ]
+}

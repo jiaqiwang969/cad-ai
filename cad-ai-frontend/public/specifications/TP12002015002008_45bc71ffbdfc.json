@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:20",
+  "base_product": {
+    "name": "smeg-hob-sr764bs",
+    "id": "90-14122022-063736",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764bs?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063736"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR764BS",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764bs?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063736&PartNumber=SR764BS",
+      "parameters": {
+        "Part Number": "SR764BS",
+        "Description": "Hob : SR764BS",
+        "Color": "White",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

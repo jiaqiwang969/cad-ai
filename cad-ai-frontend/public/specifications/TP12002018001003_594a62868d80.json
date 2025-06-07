@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:59",
+  "base_product": {
+    "name": "serisolar-srl-srs220exsr-courtain",
+    "id": "10-27042015-105243",
+    "url": "https://www.traceparts.cn/en/product/serisolar-srl-srs220exsr-courtain?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-27042015-105243"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRS220EXSR - Courtain",
+      "url": "https://www.traceparts.cn/en/product/serisolar-srl-srs220exsr-courtain?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-27042015-105243&PartNumber=SRS220EXSR+-+Courtain",
+      "parameters": {
+        "Part Number": "SRS220EXSR - Courtain",
+        "Description": "Films that drastically reduce the heat produced by solar energy. For windows"
+      }
+    }
+  ]
+}

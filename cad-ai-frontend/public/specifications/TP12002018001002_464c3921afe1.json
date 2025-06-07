@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:38:03",
+  "base_product": {
+    "name": "owlettjaton-aluminium-oval-shield-door-stop",
+    "id": "33-28092023-066710",
+    "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-oval-shield-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-066710"
+  },
+  "table_headers": [
+    "Article number",
+    "Product code",
+    "Description",
+    "Size (mm)",
+    "Size (inch)",
+    "Finish"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "9KXALUM/380",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-oval-shield-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-066710&PartNumber=9KXALUM%2F380",
+      "parameters": {
+        "Article number": "KX380",
+        "Product code": "9KXALUM/380",
+        "Description": "Aluminium Oval Shield Door Stop SAA 43mm / 1.3/4\" - KX380",
+        "Size (mm)": "43",
+        "Size (inch)": "1.3/4\"",
+        "Finish": "SAA"
+      }
+    }
+  ]
+}

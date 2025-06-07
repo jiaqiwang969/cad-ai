@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:35",
+  "base_product": {
+    "name": "smeg-oven-sf9390x1sa",
+    "id": "90-14122022-050927",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf9390x1sa?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050927"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF9390X1SA",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf9390x1sa?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050927&PartNumber=SF9390X1SA",
+      "parameters": {
+        "Part Number": "SF9390X1SA",
+        "Description": "Oven : SF9390X1SA",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "571",
+        "Overall Height (mm)": "595",
+        "Overall Width (mm)": "896"
+      }
+    }
+  ]
+}

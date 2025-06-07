@@ -1,0 +1,59 @@
+{
+  "extraction_time": "2025-06-07 21:45:44",
+  "base_product": {
+    "name": "marley-alutec-roof-outlet-with-dome-grate",
+    "id": "90-07012021-033556",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-dome-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033556"
+  },
+  "table_headers": [
+    "Part Number",
+    "Pipe connection size (O.D)",
+    "A",
+    "B",
+    "C",
+    "D",
+    "Max. Flow rate (l/s)"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "AR82",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-dome-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033556&PartNumber=AR82",
+      "parameters": {
+        "Part Number": "AR82",
+        "Pipe connection size (O.D)": "82mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "82",
+        "D": "255",
+        "Max. Flow rate (l/s)": "5"
+      }
+    },
+    {
+      "reference": "AR110",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-dome-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033556&PartNumber=AR110",
+      "parameters": {
+        "Part Number": "AR110",
+        "Pipe connection size (O.D)": "110mmØ",
+        "A": "377",
+        "B": "136",
+        "C": "110",
+        "D": "255",
+        "Max. Flow rate (l/s)": "10.7"
+      }
+    },
+    {
+      "reference": "AR160",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-dome-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033556&PartNumber=AR160",
+      "parameters": {
+        "Part Number": "AR160",
+        "Pipe connection size (O.D)": "160mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "160",
+        "D": "255",
+        "Max. Flow rate (l/s)": "19"
+      }
+    }
+  ]
+}

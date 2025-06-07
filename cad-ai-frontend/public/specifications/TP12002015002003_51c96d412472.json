@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:05",
+  "base_product": {
+    "name": "smeg-dishwasher-stpe8645s",
+    "id": "90-14122022-047970",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stpe8645s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047970"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STPE8645S",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stpe8645s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047970&PartNumber=STPE8645S",
+      "parameters": {
+        "Part Number": "STPE8645S",
+        "Description": "Dishwasher : STPE8645S",
+        "Color": "Silver",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

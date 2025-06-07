@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 22:10:15",
+  "base_product": {
+    "name": "traceparts-base-de-poubelle-de-cuisine",
+    "id": "10-17102016-112215",
+    "url": "https://www.traceparts.cn/en/product/traceparts-base-de-poubelle-de-cuisine?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-17102016-112215"
+  },
+  "table_headers": [
+    "Référence",
+    "Longueur (mm)",
+    "Largeur (mm)",
+    "Epaisseur (mm)",
+    "Hauteur maxi (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "N/A",
+      "url": "https://www.traceparts.cn/en/product/traceparts-base-de-poubelle-de-cuisine?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-17102016-112215&PartNumber=N%2FA",
+      "parameters": {
+        "Référence": "N/A",
+        "Longueur (mm)": "64.2",
+        "Largeur (mm)": "52",
+        "Epaisseur (mm)": "15",
+        "Hauteur maxi (mm)": "27.3"
+      }
+    }
+  ]
+}

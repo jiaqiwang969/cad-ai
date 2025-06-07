@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 22:10:16",
+  "base_product": {
+    "name": "lmc-arret-de-porte-a-frapper",
+    "id": "10-24042009-071670",
+    "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-a-frapper?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-24042009-071670"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "ARR1354BL",
+      "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-a-frapper?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-24042009-071670&PartNumber=ARR1354BL",
+      "parameters": {
+        "Présentation": "blanc",
+        "Référence": "ARR1354BL"
+      }
+    },
+    {
+      "reference": "ARR1354BR",
+      "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-a-frapper?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-24042009-071670&PartNumber=ARR1354BR",
+      "parameters": {
+        "Présentation": "bronzé",
+        "Référence": "ARR1354BR"
+      }
+    },
+    {
+      "reference": "ARR1354NO",
+      "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-a-frapper?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-24042009-071670&PartNumber=ARR1354NO",
+      "parameters": {
+        "Présentation": "noir",
+        "Référence": "ARR1354NO"
+      }
+    }
+  ]
+}

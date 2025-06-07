@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:26",
+  "base_product": {
+    "name": "smeg-dishwasher-st868tl2",
+    "id": "90-14122022-047716",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st868tl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047716"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST868TL-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st868tl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047716&PartNumber=ST868TL-2",
+      "parameters": {
+        "Part Number": "ST868TL-2",
+        "Description": "Dishwasher : ST868TL-2",
+        "Color": "Black",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

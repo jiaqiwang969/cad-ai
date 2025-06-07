@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:45:44",
+  "base_product": {
+    "name": "pitzl-110231000-post-base-rigid-version-for-embedding-in-concrete",
+    "id": "90-05092024-038588",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110231000-post-base-rigid-version-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038588"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *",
+    "Concrete reinforcement steel Ø mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11023.1000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110231000-post-base-rigid-version-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038588&PartNumber=11023.1000",
+      "parameters": {
+        "Manufacturer Part Number": "11023.1000",
+        "Description": "11023.1000 - Post base rigid version for embedding in concrete",
+        "Upper plate mm": "80 x 80 x 5",
+        "Installation height mm": "155",
+        "max. characteristic pressure bearing capacity (kN) *": "55,4",
+        "Concrete reinforcement steel Ø mm": "Ø20 x 300"
+      }
+    }
+  ]
+}

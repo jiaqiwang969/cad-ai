@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:24",
+  "base_product": {
+    "name": "isospan-srl-s307silver",
+    "id": "10-27042015-087458",
+    "url": "https://www.traceparts.cn/en/product/isospan-srl-s307silver?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087458"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S 30-7 SILVER",
+      "url": "https://www.traceparts.cn/en/product/isospan-srl-s307silver?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087458&PartNumber=S+30-7+SILVER",
+      "parameters": {
+        "Part Number": "S 30-7 SILVER",
+        "Description": "Block formwork concrete with insulation LAMBDAPOR 7 cm"
+      }
+    }
+  ]
+}

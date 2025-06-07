@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:56",
+  "base_product": {
+    "name": "smeg-hob-si5952b",
+    "id": "90-14122022-063478",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si5952b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063478"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI5952B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si5952b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063478&PartNumber=SI5952B",
+      "parameters": {
+        "Part Number": "SI5952B",
+        "Description": "Hob : SI5952B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "515",
+        "Overall Height (mm)": "64",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

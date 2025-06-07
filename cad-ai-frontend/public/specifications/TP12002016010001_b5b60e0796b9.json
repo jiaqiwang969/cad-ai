@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:36",
+  "base_product": {
+    "name": "polypiu-onda-piu-6onde-6mm",
+    "id": "10-03062015-084313",
+    "url": "https://www.traceparts.cn/en/product/polypiu-onda-piu-6onde-6mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084313"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Onda_Più_6onde_6mm",
+      "url": "https://www.traceparts.cn/en/product/polypiu-onda-piu-6onde-6mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084313&PartNumber=Onda_Pi%C3%B9_6onde_6mm",
+      "parameters": {
+        "Part Number": "Onda_Più_6onde_6mm",
+        "Description": "OndaPIÙ is a sheet of polycarbonate bicamera, made step wave homogeneous and invariable according to European standards (EURO 177/51 mm.)."
+      }
+    }
+  ]
+}

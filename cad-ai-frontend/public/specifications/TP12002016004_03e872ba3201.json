@@ -1,0 +1,194 @@
+{
+  "extraction_time": "2025-06-07 21:43:31",
+  "base_product": {
+    "name": "peikko-becor-beam-shoe",
+    "id": "90-02122021-036066",
+    "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066"
+  },
+  "table_headers": [
+    "Part Number",
+    "t (mm)",
+    "B (mm)",
+    "H (mm)",
+    "R (mm)",
+    "Ø1 (mm)",
+    "Ø2 (mm)",
+    "Ø3 (mm)",
+    "Øop (mm)",
+    "Weight (kg)",
+    "Color code"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "BECO 16H",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+16H",
+      "parameters": {
+        "Part Number": "BECO 16H",
+        "t (mm)": "15",
+        "B (mm)": "115",
+        "H (mm)": "925",
+        "R (mm)": "50",
+        "Ø1 (mm)": "12",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "10",
+        "Øop (mm)": "27",
+        "Weight (kg)": "3.5",
+        "Color code": "Yellow"
+      }
+    },
+    {
+      "reference": "BECO 20H",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+20H",
+      "parameters": {
+        "Part Number": "BECO 20H",
+        "t (mm)": "20",
+        "B (mm)": "125",
+        "H (mm)": "1080",
+        "R (mm)": "50",
+        "Ø1 (mm)": "16",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "12",
+        "Øop (mm)": "30",
+        "Weight (kg)": "6.2",
+        "Color code": "Blue"
+      }
+    },
+    {
+      "reference": "BECO 24H",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+24H",
+      "parameters": {
+        "Part Number": "BECO 24H",
+        "t (mm)": "25",
+        "B (mm)": "140",
+        "H (mm)": "1220",
+        "R (mm)": "50",
+        "Ø1 (mm)": "20",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "16",
+        "Øop (mm)": "35",
+        "Weight (kg)": "10.3",
+        "Color code": "Gray"
+      }
+    },
+    {
+      "reference": "BECO 30H",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+30H",
+      "parameters": {
+        "Part Number": "BECO 30H",
+        "t (mm)": "35",
+        "B (mm)": "150",
+        "H (mm)": "1620",
+        "R (mm)": "50",
+        "Ø1 (mm)": "25",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "20",
+        "Øop (mm)": "40",
+        "Weight (kg)": "19.6",
+        "Color code": "Green"
+      }
+    },
+    {
+      "reference": "BECO 39H",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+39H",
+      "parameters": {
+        "Part Number": "BECO 39H",
+        "t (mm)": "45",
+        "B (mm)": "190",
+        "H (mm)": "2240",
+        "R (mm)": "60",
+        "Ø1 (mm)": "32",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "28",
+        "Øop (mm)": "55",
+        "Weight (kg)": "43.9",
+        "Color code": "Orange"
+      }
+    },
+    {
+      "reference": "BECO 30P",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+30P",
+      "parameters": {
+        "Part Number": "BECO 30P",
+        "t (mm)": "40",
+        "B (mm)": "160",
+        "H (mm)": "1850",
+        "R (mm)": "50",
+        "Ø1 (mm)": "28",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "20",
+        "Øop (mm)": "40",
+        "Weight (kg)": "27",
+        "Color code": "Black"
+      }
+    },
+    {
+      "reference": "BECO 36P",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+36P",
+      "parameters": {
+        "Part Number": "BECO 36P",
+        "t (mm)": "50",
+        "B (mm)": "200",
+        "H (mm)": "2320",
+        "R (mm)": "60",
+        "Ø1 (mm)": "32",
+        "Ø2 (mm)": "-",
+        "Ø3 (mm)": "28",
+        "Øop (mm)": "50",
+        "Weight (kg)": "47.2",
+        "Color code": "Red"
+      }
+    },
+    {
+      "reference": "BECO 39P",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+39P",
+      "parameters": {
+        "Part Number": "BECO 39P",
+        "t (mm)": "50",
+        "B (mm)": "225",
+        "H (mm)": "2100",
+        "R (mm)": "60",
+        "Ø1 (mm)": "28",
+        "Ø2 (mm)": "28",
+        "Ø3 (mm)": "28",
+        "Øop (mm)": "55",
+        "Weight (kg)": "52",
+        "Color code": "Brown"
+      }
+    },
+    {
+      "reference": "BECO 45P",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+45P",
+      "parameters": {
+        "Part Number": "BECO 45P",
+        "t (mm)": "60",
+        "B (mm)": "260",
+        "H (mm)": "2390",
+        "R (mm)": "60",
+        "Ø1 (mm)": "32",
+        "Ø2 (mm)": "32",
+        "Ø3 (mm)": "32",
+        "Øop (mm)": "60",
+        "Weight (kg)": "79.6",
+        "Color code": "Purple"
+      }
+    },
+    {
+      "reference": "BECO 52P",
+      "url": "https://www.traceparts.cn/en/product/peikko-becor-beam-shoe?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036066&PartNumber=BECO+52P",
+      "parameters": {
+        "Part Number": "BECO 52P",
+        "t (mm)": "80",
+        "B (mm)": "290",
+        "H (mm)": "3130",
+        "R (mm)": "60",
+        "Ø1 (mm)": "40",
+        "Ø2 (mm)": "32",
+        "Ø3 (mm)": "32",
+        "Øop (mm)": "70",
+        "Weight (kg)": "133.3",
+        "Color code": "White"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:32",
+  "base_product": {
+    "name": "smeg-hob-p875p",
+    "id": "90-14122022-059077",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-p875p?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059077"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "P875P",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-p875p?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059077&PartNumber=P875P",
+      "parameters": {
+        "Part Number": "P875P",
+        "Description": "Hob : P875P",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "47",
+        "Overall Width (mm)": "718"
+      }
+    }
+  ]
+}

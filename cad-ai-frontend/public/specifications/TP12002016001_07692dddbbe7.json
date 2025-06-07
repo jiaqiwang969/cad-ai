@@ -1,0 +1,59 @@
+{
+  "extraction_time": "2025-06-07 21:45:43",
+  "base_product": {
+    "name": "marley-alutec-roof-outlet-with-flat-grate",
+    "id": "90-07012021-033608",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033608"
+  },
+  "table_headers": [
+    "Part Number",
+    "Pipe connection size (O.D)",
+    "A",
+    "B",
+    "C",
+    "D",
+    "Max. Flow rate (l/s)"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "AR82F",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033608&PartNumber=AR82F",
+      "parameters": {
+        "Part Number": "AR82F",
+        "Pipe connection size (O.D)": "82mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "82",
+        "D": "255",
+        "Max. Flow rate (l/s)": "5"
+      }
+    },
+    {
+      "reference": "AR110F",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033608&PartNumber=AR110F",
+      "parameters": {
+        "Part Number": "AR110F",
+        "Pipe connection size (O.D)": "110mmØ",
+        "A": "377",
+        "B": "136",
+        "C": "110",
+        "D": "255",
+        "Max. Flow rate (l/s)": "10.7"
+      }
+    },
+    {
+      "reference": "AR160F",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033608&PartNumber=AR160F",
+      "parameters": {
+        "Part Number": "AR160F",
+        "Pipe connection size (O.D)": "160mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "160",
+        "D": "255",
+        "Max. Flow rate (l/s)": "19"
+      }
+    }
+  ]
+}

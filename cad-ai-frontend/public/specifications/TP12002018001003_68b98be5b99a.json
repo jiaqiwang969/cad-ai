@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:23",
+  "base_product": {
+    "name": "cherubini-7347",
+    "id": "70-01042016-136115",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7347?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136115"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7347",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7347?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136115&PartNumber=7347",
+      "parameters": {
+        "Item Number": "7347",
+        "Description": "\"Soft-brake\" worm gear, ratio 5,5:1"
+      }
+    }
+  ]
+}

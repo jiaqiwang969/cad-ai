@@ -1,0 +1,95 @@
+{
+  "extraction_time": "2025-06-07 21:46:43",
+  "base_product": {
+    "name": "dosteba-gmbh-supporting-bracket-trawikrpu",
+    "id": "90-12122024-027765",
+    "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Types T:"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "TRA-WIK-PU Dicke 60mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+60mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 60mm",
+        "Types T:": "60 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 80mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+80mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 80mm",
+        "Types T:": "80 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 100mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+100mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 100mm",
+        "Types T:": "100 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 120mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+120mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 120mm",
+        "Types T:": "120 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 140mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+140mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 140mm",
+        "Types T:": "140 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 160mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+160mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 160mm",
+        "Types T:": "160 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 180mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+180mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 180mm",
+        "Types T:": "180 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 200mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+200mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 200mm",
+        "Types T:": "200 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 220mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+220mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 220mm",
+        "Types T:": "220 mm"
+      }
+    },
+    {
+      "reference": "TRA-WIK-PU Dicke 240mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-supporting-bracket-trawikrpu?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-027765&PartNumber=TRA-WIK-PU+Dicke+240mm",
+      "parameters": {
+        "Manufacturer Part Number": "TRA-WIK-PU Dicke 240mm",
+        "Types T:": "240 mm"
+      }
+    }
+  ]
+}

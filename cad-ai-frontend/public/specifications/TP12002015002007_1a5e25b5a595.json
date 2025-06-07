@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:57:50",
+  "base_product": {
+    "name": "smeg-oven-dusf636x",
+    "id": "90-14122022-049675",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf636x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049675"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DUSF636X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf636x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049675&PartNumber=DUSF636X",
+      "parameters": {
+        "Part Number": "DUSF636X",
+        "Description": "Oven : DUSF636X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "719",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "570"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:20",
+  "base_product": {
+    "name": "smeg-hob-pv695lcnxau",
+    "id": "90-14122022-059902",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv695lcnxau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059902"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV695LCNXAU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv695lcnxau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059902&PartNumber=PV695LCNXAU",
+      "parameters": {
+        "Part Number": "PV695LCNXAU",
+        "Description": "Hob : PV695LCNXAU",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "102",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

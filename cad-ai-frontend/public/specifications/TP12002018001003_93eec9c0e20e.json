@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:23",
+  "base_product": {
+    "name": "cherubini-7330",
+    "id": "70-01042016-136101",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7330?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136101"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7330",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7330?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136101&PartNumber=7330",
+      "parameters": {
+        "Item Number": "7330",
+        "Description": "Worm gear, ratio 5,25:1, with or without stop."
+      }
+    }
+  ]
+}

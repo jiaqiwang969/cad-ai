@@ -1,0 +1,106 @@
+{
+  "extraction_time": "2025-06-07 22:15:41",
+  "base_product": {
+    "name": "lmc-corniere-longueur-2500-mm",
+    "id": "10-14052009-089450",
+    "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450"
+  },
+  "table_headers": [
+    "Présentation",
+    "A x B",
+    "Référence"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "COR1515AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR1515AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "15x15",
+        "Référence": "COR1515AR"
+      }
+    },
+    {
+      "reference": "COR2010AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR2010AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "20x10",
+        "Référence": "COR2010AR"
+      }
+    },
+    {
+      "reference": "COR2020AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR2020AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "20x20",
+        "Référence": "COR2020AR"
+      }
+    },
+    {
+      "reference": "COR2525AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR2525AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "25x25",
+        "Référence": "COR2525AR"
+      }
+    },
+    {
+      "reference": "COR3030AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR3030AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "30x30",
+        "Référence": "COR3030AR"
+      }
+    },
+    {
+      "reference": "COR4020AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR4020AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "40x20",
+        "Référence": "COR4020AR"
+      }
+    },
+    {
+      "reference": "COR4040AR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR4040AR",
+      "parameters": {
+        "Présentation": "argent",
+        "A x B": "40x40",
+        "Référence": "COR4040AR"
+      }
+    },
+    {
+      "reference": "COR1515OR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR1515OR",
+      "parameters": {
+        "Présentation": "or",
+        "A x B": "15x15",
+        "Référence": "COR1515OR"
+      }
+    },
+    {
+      "reference": "COR2010OR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR2010OR",
+      "parameters": {
+        "Présentation": "or",
+        "A x B": "20x10",
+        "Référence": "COR2010OR"
+      }
+    },
+    {
+      "reference": "COR2020OR",
+      "url": "https://www.traceparts.cn/en/product/lmc-corniere-longueur-2500-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-14052009-089450&PartNumber=COR2020OR",
+      "parameters": {
+        "Présentation": "or",
+        "A x B": "20x20",
+        "Référence": "COR2020OR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "extraction_time": "2025-06-07 21:39:16",
+  "base_product": {
+    "name": "fibrotubi-orchidea-brick-wall-double-opening-sp145",
+    "id": "90-04092023-049999",
+    "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Model",
+    "Height (mm)",
+    "Width (mm)",
+    "Internal Seat Height (mm)",
+    "Internal Seat Width (mm)",
+    "Internal Seat Depth (mm)",
+    "Thickness (mm)",
+    "Door opening (cm)",
+    "Frame Width (mm)",
+    "Door Thickness (mm)",
+    "Door Width (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "BASE120X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE120X200",
+      "parameters": {
+        "Part Number": "BASE120X200",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 120 x 200",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "200",
+        "Width (mm)": "160",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "80"
+      }
+    },
+    {
+      "reference": "BASE120X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE120X210",
+      "parameters": {
+        "Part Number": "BASE120X210",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 120 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "120",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "71,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "60"
+      }
+    },
+    {
+      "reference": "BASE140X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE140X200",
+      "parameters": {
+        "Part Number": "BASE140X200",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 140 x 200",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "200",
+        "Width (mm)": "140",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "81,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "70"
+      }
+    },
+    {
+      "reference": "BASE140X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE140X210",
+      "parameters": {
+        "Part Number": "BASE140X210",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 140 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "140",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "81,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "8,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "70"
+      }
+    },
+    {
+      "reference": "BASE160X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE160X200",
+      "parameters": {
+        "Part Number": "BASE160X200",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 160 x 200",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "200",
+        "Width (mm)": "160",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "80"
+      }
+    },
+    {
+      "reference": "BASE160X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE160X210",
+      "parameters": {
+        "Part Number": "BASE160X210",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 160 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "160",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "80"
+      }
+    },
+    {
+      "reference": "BASE180X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE180X200",
+      "parameters": {
+        "Part Number": "BASE180X200",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 180 x 200",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "200",
+        "Width (mm)": "180",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "101,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "90"
+      }
+    },
+    {
+      "reference": "BASE180X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE180X210",
+      "parameters": {
+        "Part Number": "BASE180X210",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 180 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "180",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "101,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "90"
+      }
+    },
+    {
+      "reference": "BASE200X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE200X200",
+      "parameters": {
+        "Part Number": "BASE200X200",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 200 x 200",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "200",
+        "Width (mm)": "200",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "100"
+      }
+    },
+    {
+      "reference": "BASE200X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-brick-wall-double-opening-sp145?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-049999&PartNumber=BASE200X210",
+      "parameters": {
+        "Part Number": "BASE200X210",
+        "Description": "Orchidea Brick Wall Double Opening sp145 : 200 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "200",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "11",
+        "Thickness (mm)": "12.9",
+        "Door opening (cm)": "30",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "9",
+        "Door Width (mm)": "100"
+      }
+    }
+  ]
+}

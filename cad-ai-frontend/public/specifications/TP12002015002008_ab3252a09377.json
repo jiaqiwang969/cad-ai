@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:57",
+  "base_product": {
+    "name": "smeg-hob-sdr60xg3",
+    "id": "90-14122022-062985",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sdr60xg3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062985"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SDR60XG3",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sdr60xg3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062985&PartNumber=SDR60XG3",
+      "parameters": {
+        "Part Number": "SDR60XG3",
+        "Description": "Hob : SDR60XG3",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

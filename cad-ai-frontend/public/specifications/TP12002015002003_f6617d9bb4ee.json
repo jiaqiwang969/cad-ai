@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:33",
+  "base_product": {
+    "name": "smeg-dishwasher-ste8644l",
+    "id": "90-14122022-047835",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-ste8644l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047835"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STE8644L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-ste8644l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047835&PartNumber=STE8644L",
+      "parameters": {
+        "Part Number": "STE8644L",
+        "Description": "Dishwasher : STE8644L",
+        "Color": "Silver",
+        "Overall Depth (mm)": "547",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

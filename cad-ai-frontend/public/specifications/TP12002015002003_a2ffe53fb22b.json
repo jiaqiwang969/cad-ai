@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:28",
+  "base_product": {
+    "name": "smeg-dishwasher-ste8239l",
+    "id": "90-14122022-047811",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-ste8239l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047811"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STE8239L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-ste8239l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047811&PartNumber=STE8239L",
+      "parameters": {
+        "Part Number": "STE8239L",
+        "Description": "Dishwasher : STE8239L",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

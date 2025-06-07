@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:53",
+  "base_product": {
+    "name": "smeg-hood-kseg55xe",
+    "id": "90-14122022-054249",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg55xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054249"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEG55XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg55xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054249&PartNumber=KSEG55XE",
+      "parameters": {
+        "Part Number": "KSEG55XE",
+        "Description": "Hood : KSEG55XE"
+      }
+    }
+  ]
+}

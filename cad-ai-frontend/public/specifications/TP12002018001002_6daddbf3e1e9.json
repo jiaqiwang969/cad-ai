@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:25",
+  "base_product": {
+    "name": "sab-serrature-srl-series-16700",
+    "id": "10-11052015-113316",
+    "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-16700?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113316"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Series 16700",
+      "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-16700?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113316&PartNumber=Series+16700",
+      "parameters": {
+        "Part Number": "Series 16700",
+        "Description": "This Series offers a wide range of models that rationalize their own application and utilisation on the frames for wooden, aluminium, PVC, single or double doors. The gear movement gives noiselessness and minor stress on all the locking points."
+      }
+    }
+  ]
+}

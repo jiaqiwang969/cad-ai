@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:57:13",
+  "base_product": {
+    "name": "smeg-hood-kset66e",
+    "id": "90-14122022-054410",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kset66e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054410"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSET66E",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kset66e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054410&PartNumber=KSET66E",
+      "parameters": {
+        "Part Number": "KSET66E",
+        "Description": "Hood : KSET66E"
+      }
+    }
+  ]
+}

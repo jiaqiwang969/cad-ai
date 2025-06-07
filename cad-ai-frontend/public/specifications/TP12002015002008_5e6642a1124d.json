@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:42",
+  "base_product": {
+    "name": "smeg-hob-si2m7643b",
+    "id": "90-14122022-063322",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si2m7643b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063322"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI2M7643B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si2m7643b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063322&PartNumber=SI2M7643B",
+      "parameters": {
+        "Part Number": "SI2M7643B",
+        "Description": "Hob : SI2M7643B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "49",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

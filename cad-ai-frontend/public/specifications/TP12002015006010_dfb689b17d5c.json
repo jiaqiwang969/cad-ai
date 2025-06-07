@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:15:31",
+  "base_product": {
+    "name": "italiana-ferramenta-cobrone-shelf-sup-810-mm-thick-nk-matt",
+    "id": "90-01092023-045135",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobrone-shelf-sup-810-mm-thick-nk-matt?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045135"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "MATERIAL",
+    "PHILLIPS / POZIDRIV"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16101150YC",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobrone-shelf-sup-810-mm-thick-nk-matt?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045135&PartNumber=16101150YC",
+      "parameters": {
+        "Manufacturer Part Number": "16101150YC",
+        "Description": "COBRONE shelf sup. 8-10 mm thick Nk matt",
+        "BOX QUANTITY": "100 PCS",
+        "FINISH": "Matt Nickel-plated",
+        "WOOD / GLASS THICKNESS": "8 mm",
+        "MATERIAL": "Zinc Alloy / Natural Engineering Plastic",
+        "PHILLIPS / POZIDRIV": "PZ2"
+      }
+    }
+  ]
+}

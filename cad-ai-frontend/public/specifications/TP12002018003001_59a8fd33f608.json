@@ -1,0 +1,227 @@
+{
+  "extraction_time": "2025-06-07 21:39:40",
+  "base_product": {
+    "name": "fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90",
+    "id": "90-04092023-950120",
+    "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Model",
+    "Height (mm)",
+    "Width (mm)",
+    "Internal Seat Height (mm)",
+    "Internal Seat Width (mm)",
+    "Internal Seat Depth (mm)",
+    "Thickness (mm)",
+    "Door opening (cm)",
+    "Frame Width (mm)",
+    "Door Thickness (mm)",
+    "Door Width (mm)",
+    "Door Height (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "ECOPLUS120X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS120X200",
+      "parameters": {
+        "Part Number": "ECOPLUS120X200",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 120 x 200",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "200",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "100",
+        "Door Height (mm)": "202"
+      }
+    },
+    {
+      "reference": "ECOPLUS120X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS120X210",
+      "parameters": {
+        "Part Number": "ECOPLUS120X210",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 120 x 210",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "210",
+        "Width (mm)": "120",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "71,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "60",
+        "Door Height (mm)": "212"
+      }
+    },
+    {
+      "reference": "ECOPLUS140X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS140X200",
+      "parameters": {
+        "Part Number": "ECOPLUS140X200",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 140 x 200",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "140",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "81,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "70",
+        "Door Height (mm)": "202"
+      }
+    },
+    {
+      "reference": "ECOPLUS140X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS140X210",
+      "parameters": {
+        "Part Number": "ECOPLUS140X210",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 140 x 210",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "210",
+        "Width (mm)": "140",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "81,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "70",
+        "Door Height (mm)": "212"
+      }
+    },
+    {
+      "reference": "ECOPLUS160X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS160X200",
+      "parameters": {
+        "Part Number": "ECOPLUS160X200",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 160 x 200",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "160",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "80",
+        "Door Height (mm)": "202"
+      }
+    },
+    {
+      "reference": "ECOPLUS160X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS160X210",
+      "parameters": {
+        "Part Number": "ECOPLUS160X210",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 160 x 210",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "210",
+        "Width (mm)": "160",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "80",
+        "Door Height (mm)": "212"
+      }
+    },
+    {
+      "reference": "ECOPLUS180X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS180X200",
+      "parameters": {
+        "Part Number": "ECOPLUS180X200",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 180 x 200",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "180",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "101,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "90",
+        "Door Height (mm)": "202"
+      }
+    },
+    {
+      "reference": "ECOPLUS180X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS180X210",
+      "parameters": {
+        "Part Number": "ECOPLUS180X210",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 180 x 210",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "210",
+        "Width (mm)": "180",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "101,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "90",
+        "Door Height (mm)": "212"
+      }
+    },
+    {
+      "reference": "ECOPLUS200X200",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS200X200",
+      "parameters": {
+        "Part Number": "ECOPLUS200X200",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 200 x 200",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "200",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "100",
+        "Door Height (mm)": "202"
+      }
+    },
+    {
+      "reference": "ECOPLUS200X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-eco-plus-brick-wall-double-opening-sp90?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-950120&PartNumber=ECOPLUS200X210",
+      "parameters": {
+        "Part Number": "ECOPLUS200X210",
+        "Description": "Orchidea Eco Plus Brick wall Double opening sp90 : 200 x 210",
+        "Model": "Orchidea - Ecoplus",
+        "Height (mm)": "200",
+        "Width (mm)": "200",
+        "Internal Seat Height (mm)": "209",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "5.5",
+        "Thickness (mm)": "7.4",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4",
+        "Door Width (mm)": "100",
+        "Door Height (mm)": "202"
+      }
+    }
+  ]
+}

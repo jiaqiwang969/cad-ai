@@ -1,0 +1,34 @@
+{
+  "extraction_time": "2025-06-07 22:10:20",
+  "base_product": {
+    "name": "lmc-attache-longue-pour-element-haut",
+    "id": "10-05052009-081919",
+    "url": "https://www.traceparts.cn/en/product/lmc-attache-longue-pour-element-haut?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-081919"
+  },
+  "table_headers": [
+    "Présentation",
+    "Hauteur (mm)",
+    "Référence"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "ATT7403",
+      "url": "https://www.traceparts.cn/en/product/lmc-attache-longue-pour-element-haut?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-081919&PartNumber=ATT7403",
+      "parameters": {
+        "Présentation": "zingué",
+        "Hauteur (mm)": "55",
+        "Référence": "ATT7403"
+      }
+    },
+    {
+      "reference": "ATT7404",
+      "url": "https://www.traceparts.cn/en/product/lmc-attache-longue-pour-element-haut?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-081919&PartNumber=ATT7404",
+      "parameters": {
+        "Présentation": "zingué",
+        "Hauteur (mm)": "90",
+        "Référence": "ATT7404"
+      }
+    }
+  ]
+}

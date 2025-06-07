@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:59",
+  "base_product": {
+    "name": "haas-hoco-bayerwald-wood-aluminum-alveolar-90mm-ha97-1swing1000x2300",
+    "id": "10-12052015-106745",
+    "url": "https://www.traceparts.cn/en/product/haas-hoco-bayerwald-wood-aluminum-alveolar-90mm-ha97-1swing1000x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106745"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "BAYERWALD_LEGNO_ALLUMINIO_alveolare_90mm_(HA97+)_1anta_1000x2300",
+      "url": "https://www.traceparts.cn/en/product/haas-hoco-bayerwald-wood-aluminum-alveolar-90mm-ha97-1swing1000x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106745&PartNumber=BAYERWALD_LEGNO_ALLUMINIO_alveolare_90mm_%28HA97%2B%29_1anta_1000x2300",
+      "parameters": {
+        "Part Number": "BAYERWALD_LEGNO_ALLUMINIO_alveolare_90mm_(HA97+)_1anta_1000x2300",
+        "Description": "BAYERWALD WOOD ALUMINUM alveolar 90mm (HA97 +) 1swing1000x2300"
+      }
+    }
+  ]
+}

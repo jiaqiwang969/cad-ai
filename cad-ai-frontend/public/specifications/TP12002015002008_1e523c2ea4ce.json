@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:59",
+  "base_product": {
+    "name": "smeg-hob-srv864aogh",
+    "id": "90-14122022-064117",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864aogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064117"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV864AOGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864aogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064117&PartNumber=SRV864AOGH",
+      "parameters": {
+        "Part Number": "SRV864AOGH",
+        "Description": "Hob : SRV864AOGH",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

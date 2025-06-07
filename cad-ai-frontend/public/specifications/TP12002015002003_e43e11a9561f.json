@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:53:59",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ud503ds",
+    "id": "90-14122022-037963",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud503ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037963"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UD503DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud503ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037963&PartNumber=UD503DS",
+      "parameters": {
+        "Part Number": "UD503DS",
+        "Description": "Professional Dishwasher : UD503DS",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "820",
+        "Overall Width (mm)": "580",
+        "Space Requirement (mm)": "1000"
+      }
+    }
+  ]
+}

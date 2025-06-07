@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:19",
+  "base_product": {
+    "name": "cherubini-7245a7245n",
+    "id": "70-10062022-126252",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7245a7245n?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-10062022-126252"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7245A-7245N",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7245a7245n?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-10062022-126252&PartNumber=7245A-7245N",
+      "parameters": {
+        "Item Number": "7245A-7245N",
+        "Description": "Bevel Gear With Clutch, With Or Without Stop. Ratio 3,6:1"
+      }
+    }
+  ]
+}

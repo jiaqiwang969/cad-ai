@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:38:25",
+  "base_product": {
+    "name": "lmc-battement-de-porte-section-mm-28-x-3",
+    "id": "10-23042009-097019",
+    "url": "https://www.traceparts.cn/en/product/lmc-battement-de-porte-section-mm-28-x-3?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-23042009-097019"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "BAT284BL",
+      "url": "https://www.traceparts.cn/en/product/lmc-battement-de-porte-section-mm-28-x-3?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-23042009-097019&PartNumber=BAT284BL",
+      "parameters": {
+        "Présentation": "blanc",
+        "Référence": "BAT284BL"
+      }
+    },
+    {
+      "reference": "BAT284MF",
+      "url": "https://www.traceparts.cn/en/product/lmc-battement-de-porte-section-mm-28-x-3?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-23042009-097019&PartNumber=BAT284MF",
+      "parameters": {
+        "Présentation": "marron",
+        "Référence": "BAT284MF"
+      }
+    }
+  ]
+}

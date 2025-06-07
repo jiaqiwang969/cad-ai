@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:10",
+  "base_product": {
+    "name": "serisolar-srl-srs220exsr-window",
+    "id": "10-27042015-105262",
+    "url": "https://www.traceparts.cn/en/product/serisolar-srl-srs220exsr-window?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-27042015-105262"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRS220EXSR - Window",
+      "url": "https://www.traceparts.cn/en/product/serisolar-srl-srs220exsr-window?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-27042015-105262&PartNumber=SRS220EXSR+-+Window",
+      "parameters": {
+        "Part Number": "SRS220EXSR - Window",
+        "Description": "Films that drastically reduce the heat produced by solar energy. For windows"
+      }
+    }
+  ]
+}

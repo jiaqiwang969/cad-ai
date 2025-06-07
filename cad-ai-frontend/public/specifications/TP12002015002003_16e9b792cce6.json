@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:03",
+  "base_product": {
+    "name": "smeg-dishwasher-stm8649p",
+    "id": "90-14122022-047951",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stm8649p?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047951"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STM8649P",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stm8649p?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047951&PartNumber=STM8649P",
+      "parameters": {
+        "Part Number": "STM8649P",
+        "Description": "Dishwasher : STM8649P",
+        "Color": "Black",
+        "Overall Depth (mm)": "547",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

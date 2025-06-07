@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:44:32",
+  "base_product": {
+    "name": "pitzl-109239000-post-base-right-left-threaded-with-thread-m24-for-screwin-foundations",
+    "id": "90-05092024-038625",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109239000-post-base-right-left-threaded-with-thread-m24-for-screwin-foundations?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038625"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Thread upp.",
+    "Oblong hole bottom mm",
+    "Borehole top",
+    "Installation height mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10923.9000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109239000-post-base-right-left-threaded-with-thread-m24-for-screwin-foundations?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038625&PartNumber=10923.9000",
+      "parameters": {
+        "Manufacturer Part Number": "10923.9000",
+        "Description": "10923.9000 - Post base Right / left threaded with thread M24 for screw-in foundations",
+        "Upper plate mm": "100 x 100 x 5",
+        "Lower plate mm": "140 x 189 x 6",
+        "Thread low.": "M24 x 65",
+        "Thread upp.": "M24 x 65",
+        "Oblong hole bottom mm": "11 x 60 mm x4",
+        "Borehole top": "4x Ø 12 mm",
+        "Installation height mm": "141 - 206"
+      }
+    }
+  ]
+}

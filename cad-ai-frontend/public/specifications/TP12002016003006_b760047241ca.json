@@ -1,0 +1,105 @@
+{
+  "extraction_time": "2025-06-07 21:48:51",
+  "base_product": {
+    "name": "falk-falk-1000-tr-wall",
+    "id": "90-30112023-947529",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Core thickness [mm]",
+    "U-Value [m²K/W]",
+    "Weight [kg/m²]",
+    "Fire class",
+    "Fire resistance",
+    "Total height [mm]"
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "Falk 1000 TR 40-75mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+40-75mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 40-75mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 40-75mm",
+        "Core thickness [mm]": "40",
+        "U-Value [m²K/W]": "0.436",
+        "Weight [kg/m²]": "10.6",
+        "Fire class": "B-s2,d0 **",
+        "Fire resistance": "-",
+        "Total height [mm]": "75"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR 60-95mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+60-95mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 60-95mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 60-95mm",
+        "Core thickness [mm]": "60",
+        "U-Value [m²K/W]": "0.306",
+        "Weight [kg/m²]": "11.4",
+        "Fire class": "B-s2,d0 **",
+        "Fire resistance": "EW60, EI20",
+        "Total height [mm]": "95"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR 80-115mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+80-115mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 80-115mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 80-115mm",
+        "Core thickness [mm]": "80",
+        "U-Value [m²K/W]": "0.237",
+        "Weight [kg/m²]": "12.2",
+        "Fire class": "B-s2,d0 **",
+        "Fire resistance": "EW90, EI30",
+        "Total height [mm]": "115"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR 100-135mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+100-135mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 100-135mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 100-135mm",
+        "Core thickness [mm]": "100",
+        "U-Value [m²K/W]": "0.193",
+        "Weight [kg/m²]": "13",
+        "Fire class": "B-s2,d0 **",
+        "Fire resistance": "EW90, EI30",
+        "Total height [mm]": "135"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR 125-160mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+125-160mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 125-160mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 125-160mm",
+        "Core thickness [mm]": "125",
+        "U-Value [m²K/W]": "0.155",
+        "Weight [kg/m²]": "14",
+        "Fire class": "B-s2,d0 **",
+        "Fire resistance": "EW90, EI30",
+        "Total height [mm]": "160"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR 150-185mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947529&PartNumber=Falk+1000+TR+150-185mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR 150-185mm",
+        "Description": "FALK 1000 TR Trapezoidal wall panel Falk 1000 TR - 150-185mm",
+        "Core thickness [mm]": "150",
+        "U-Value [m²K/W]": "0.132",
+        "Weight [kg/m²]": "15",
+        "Fire class": "B-s2,d0 *",
+        "Fire resistance": "EW90, EI30",
+        "Total height [mm]": "185"
+      }
+    }
+  ]
+}

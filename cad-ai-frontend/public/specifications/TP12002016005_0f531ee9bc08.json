@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:00",
+  "base_product": {
+    "name": "isover-saintgobain-ppc-italia-spa-covering-cement-mix-with-pedestrian-isolated-superbac-roofiner-g3",
+    "id": "10-29042015-067695",
+    "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-covering-cement-mix-with-pedestrian-isolated-superbac-roofiner-g3?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067695"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Copertura_in_latero-cemento_pedonabile_isolata_con_SUPERBAC_Roofine®_G3",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-covering-cement-mix-with-pedestrian-isolated-superbac-roofiner-g3?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067695&PartNumber=Copertura_in_latero-cemento_pedonabile_isolata_con_SUPERBAC_Roofine%C2%AE_G3",
+      "parameters": {
+        "Part Number": "Copertura_in_latero-cemento_pedonabile_isolata_con_SUPERBAC_Roofine®_G3",
+        "Description": "Covering cement mix with pedestrian isolated SUPERBAC Roofine® G3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:46",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-profile-8-120x16-e-natural",
+    "id": "30-10082021-065939",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-profile-8-120x16-e-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-10082021-065939"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.650.85",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-profile-8-120x16-e-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-10082021-065939&PartNumber=0.0.650.85",
+      "parameters": {
+        "Part Number": "0.0.650.85",
+        "Description": "Profile 8 120x16 E, natural, Delivery unit: 1 pce., length 6000 mm"
+      }
+    }
+  ]
+}

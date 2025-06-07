@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:59",
+  "base_product": {
+    "name": "smeg-dishwasher-st5332ue",
+    "id": "90-14122022-047667",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5332ue?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047667"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST5332UE",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5332ue?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047667&PartNumber=ST5332UE",
+      "parameters": {
+        "Part Number": "ST5332UE",
+        "Description": "Dishwasher : ST5332UE",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

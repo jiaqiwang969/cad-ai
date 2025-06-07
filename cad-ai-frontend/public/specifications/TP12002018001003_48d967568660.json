@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:19",
+  "base_product": {
+    "name": "cherubini-7240a7240n",
+    "id": "70-01042016-136103",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7240a7240n?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136103"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7240A-7240N",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7240a7240n?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136103&PartNumber=7240A-7240N",
+      "parameters": {
+        "Item Number": "7240A-7240N",
+        "Description": "Bevel gear with or without stop, ratio 2,6:1"
+      }
+    }
+  ]
+}

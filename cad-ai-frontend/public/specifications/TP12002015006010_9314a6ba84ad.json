@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:15:16",
+  "base_product": {
+    "name": "lmc-cabochon-6-pans-pour-mini-verin",
+    "id": "10-12052009-071810",
+    "url": "https://www.traceparts.cn/en/product/lmc-cabochon-6-pans-pour-mini-verin?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-12052009-071810"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "CABD8BL",
+      "url": "https://www.traceparts.cn/en/product/lmc-cabochon-6-pans-pour-mini-verin?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-12052009-071810&PartNumber=CABD8BL",
+      "parameters": {
+        "Présentation": "blanc",
+        "Référence": "CABD8BL"
+      }
+    },
+    {
+      "reference": "CABD8NO",
+      "url": "https://www.traceparts.cn/en/product/lmc-cabochon-6-pans-pour-mini-verin?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-12052009-071810&PartNumber=CABD8NO",
+      "parameters": {
+        "Présentation": "noir",
+        "Référence": "CABD8NO"
+      }
+    }
+  ]
+}

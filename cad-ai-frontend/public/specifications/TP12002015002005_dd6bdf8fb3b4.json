@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:05",
+  "base_product": {
+    "name": "smeg-hood-kpf9og",
+    "id": "90-14122022-053703",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kpf9og?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053703"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KPF9OG",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kpf9og?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053703&PartNumber=KPF9OG",
+      "parameters": {
+        "Part Number": "KPF9OG",
+        "Description": "Hood : KPF9OG",
+        "Electric Power (W)": "277",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "67",
+        "EU Energy Label": "A+",
+        "Color": "Olive Green",
+        "Material": "Stainless Steel + Painted Material",
+        "Overall Depth (mm)": "495",
+        "Overall Height (mm)": "1227",
+        "Overall Width (mm)": "896"
+      }
+    }
+  ]
+}

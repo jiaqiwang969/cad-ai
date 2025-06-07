@@ -1,0 +1,87 @@
+{
+  "extraction_time": "2025-06-07 21:38:13",
+  "base_product": {
+    "name": "cherubini-wave-rx-o45",
+    "id": "70-03112015-107139",
+    "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description",
+    "Torque (nm)",
+    "Speed"
+  ],
+  "total_specifications": 7,
+  "specifications": [
+    {
+      "reference": "CET45101700",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45101700",
+      "parameters": {
+        "Item Number": "CET45101700",
+        "Description": "Tubular motor Wave RX Ø45 10 Nm 17 rpm",
+        "Torque (nm)": "10",
+        "Speed": "17"
+      }
+    },
+    {
+      "reference": "CET45151700",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45151700",
+      "parameters": {
+        "Item Number": "CET45151700",
+        "Description": "Tubular motor Wave RX Ø45 15 Nm 17 rpm",
+        "Torque (nm)": "15",
+        "Speed": "17"
+      }
+    },
+    {
+      "reference": "CET45251700",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45251700",
+      "parameters": {
+        "Item Number": "CET45251700",
+        "Description": "Tubular motor Wave RX Ø45 25 Nm 17 rpm",
+        "Torque (nm)": "25",
+        "Speed": "17"
+      }
+    },
+    {
+      "reference": "CET45321700",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45321700",
+      "parameters": {
+        "Item Number": "CET45321700",
+        "Description": "Tubular motor Wave RX Ø45 32 Nm 17 rpm",
+        "Torque (nm)": "32",
+        "Speed": "17"
+      }
+    },
+    {
+      "reference": "CET45400400",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45400400",
+      "parameters": {
+        "Item Number": "CET45400400",
+        "Description": "Tubular motor Wave RX Ø45 40 Nm 4 rpm",
+        "Torque (nm)": "40",
+        "Speed": "4"
+      }
+    },
+    {
+      "reference": "CET45401700",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45401700",
+      "parameters": {
+        "Item Number": "CET45401700",
+        "Description": "Tubular motor Wave RX Ø45 40 Nm 17 rpm",
+        "Torque (nm)": "40",
+        "Speed": "17"
+      }
+    },
+    {
+      "reference": "CET45501200",
+      "url": "https://www.traceparts.cn/en/product/cherubini-wave-rx-o45?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-03112015-107139&PartNumber=CET45501200",
+      "parameters": {
+        "Item Number": "CET45501200",
+        "Description": "Tubular motor Wave RX Ø45 50 Nm 12 rpm",
+        "Torque (nm)": "50",
+        "Speed": "12"
+      }
+    }
+  ]
+}

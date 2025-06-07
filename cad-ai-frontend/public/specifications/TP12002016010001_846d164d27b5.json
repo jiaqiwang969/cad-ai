@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:43",
+  "base_product": {
+    "name": "stiferite-stiferite-isolventilato",
+    "id": "10-14092015-078751",
+    "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-isolventilato?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-14092015-078751"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIFERITE - ISOLVENTILATO",
+      "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-isolventilato?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-14092015-078751&PartNumber=STIFERITE+-+ISOLVENTILATO",
+      "parameters": {
+        "Part Number": "STIFERITE - ISOLVENTILATO",
+        "Description": "STIFERITE Isoventilato is a sandwich panel consisting of an insulating component in polyiso foam, expanded without the use of CFC or HCFC, coated on one side with mineral fiber glass and on that top-coated Laminglass, permeable to vapor and impermeable to water."
+      }
+    }
+  ]
+}

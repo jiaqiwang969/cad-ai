@@ -1,0 +1,34 @@
+{
+  "extraction_time": "2025-06-07 22:15:59",
+  "base_product": {
+    "name": "lmc-cremaillere-en-applique-percages-darret-numerotes-au-pas-de-25-mm-trous-de-fixation-fraises-entraxe-200-mm",
+    "id": "10-05052009-060945",
+    "url": "https://www.traceparts.cn/en/product/lmc-cremaillere-en-applique-percages-darret-numerotes-au-pas-de-25-mm-trous-de-fixation-fraises-entraxe-200-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-060945"
+  },
+  "table_headers": [
+    "Longueur (mm)",
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "CRE112000CH",
+      "url": "https://www.traceparts.cn/en/product/lmc-cremaillere-en-applique-percages-darret-numerotes-au-pas-de-25-mm-trous-de-fixation-fraises-entraxe-200-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-060945&PartNumber=CRE112000CH",
+      "parameters": {
+        "Longueur (mm)": "2000",
+        "Présentation": "chromé",
+        "Référence": "CRE112000CH"
+      }
+    },
+    {
+      "reference": "CRE112000LA",
+      "url": "https://www.traceparts.cn/en/product/lmc-cremaillere-en-applique-percages-darret-numerotes-au-pas-de-25-mm-trous-de-fixation-fraises-entraxe-200-mm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-05052009-060945&PartNumber=CRE112000LA",
+      "parameters": {
+        "Longueur (mm)": "2000",
+        "Présentation": "laiton poli",
+        "Référence": "CRE112000LA"
+      }
+    }
+  ]
+}

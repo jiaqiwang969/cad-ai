@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:37",
+  "base_product": {
+    "name": "smeg-hob-sr804pxg9",
+    "id": "90-14122022-063856",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr804pxg9?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063856"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR804PXG9",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr804pxg9?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063856&PartNumber=SR804PXG9",
+      "parameters": {
+        "Part Number": "SR804PXG9",
+        "Description": "Hob : SR804PXG9",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "585"
+      }
+    }
+  ]
+}

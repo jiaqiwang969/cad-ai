@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 22:01:41",
+  "base_product": {
+    "name": "smeg-oven-sfa4104mcn",
+    "id": "90-14122022-050938",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4104mcn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050938"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFA4104MCN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4104mcn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050938&PartNumber=SFA4104MCN",
+      "parameters": {
+        "Part Number": "SFA4104MCN",
+        "Description": "Oven : SFA4104MCN",
+        "Overall Depth (mm)": "0",
+        "Overall Height (mm)": "0",
+        "Overall Width (mm)": "0"
+      }
+    }
+  ]
+}

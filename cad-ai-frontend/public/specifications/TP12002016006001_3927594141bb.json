@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:43:52",
+  "base_product": {
+    "name": "pitzl-109201090-post-base-right-left-threaded-with-thread-m24",
+    "id": "90-05092024-038176",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109201090-post-base-right-left-threaded-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038176"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Thread upp.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10920.1090",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109201090-post-base-right-left-threaded-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038176&PartNumber=10920.1090",
+      "parameters": {
+        "Manufacturer Part Number": "10920.1090",
+        "Description": "10920.1090 - Post base Right / left threaded with thread M24",
+        "Upper plate mm": "Ø 96 x 6",
+        "Lower plate mm": "160 x 100 x 6",
+        "Thread low.": "M24 x 65",
+        "Thread upp.": "M24 x 65",
+        "Borehole bottom": "Ø 13 x 4",
+        "Borehole top": "Ø 10,5 x 4",
+        "Installation height mm": "142 - 207",
+        "max. characteristic pressure bearing capacity (kN) *": "120,0"
+      }
+    }
+  ]
+}

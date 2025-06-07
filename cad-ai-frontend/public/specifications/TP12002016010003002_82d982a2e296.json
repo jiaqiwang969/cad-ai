@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:47:07",
+  "base_product": {
+    "name": "falk-falk-block",
+    "id": "90-30112023-047647",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-block?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047647"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "FALK Block 1",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-block?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047647&PartNumber=FALK+Block+1",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Block 1",
+        "Description": "FALK Block 1"
+      }
+    },
+    {
+      "reference": "FALK Block 2",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-block?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047647&PartNumber=FALK+Block+2",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Block 2",
+        "Description": "FALK Block 2"
+      }
+    },
+    {
+      "reference": "FALK Block 3",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-block?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047647&PartNumber=FALK+Block+3",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Block 3",
+        "Description": "FALK Block 3"
+      }
+    }
+  ]
+}

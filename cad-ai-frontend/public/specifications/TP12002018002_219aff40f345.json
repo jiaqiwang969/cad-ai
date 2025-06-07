@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:33",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-handrail-joint",
+    "id": "30-12112020-082922",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-handrail-joint?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082922"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.23",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-handrail-joint?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082922&PartNumber=0.0.620.23",
+      "parameters": {
+        "Part Number": "0.0.620.23",
+        "Description": "Hand-Rail Joint, Delivery unit: 1 pce."
+      }
+    }
+  ]
+}

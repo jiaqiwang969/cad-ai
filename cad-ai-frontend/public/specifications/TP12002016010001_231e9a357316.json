@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:51",
+  "base_product": {
+    "name": "sirap-insulation-termotuile-tg",
+    "id": "90-10062022-053322",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-termotuile-tg?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053322"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "TERMOTUILE TG",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-termotuile-tg?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053322&PartNumber=TERMOTUILE+TG",
+      "parameters": {
+        "Manufacturer Part Number": "TERMOTUILE TG",
+        "Description": "Preformed insulating boards with shape for roof tile or bent tile"
+      }
+    }
+  ]
+}

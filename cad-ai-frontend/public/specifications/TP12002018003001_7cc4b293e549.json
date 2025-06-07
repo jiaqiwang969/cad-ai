@@ -1,0 +1,55 @@
+{
+  "extraction_time": "2025-06-07 21:40:16",
+  "base_product": {
+    "name": "puertas-gismero-swing-door-single-ei6090",
+    "id": "90-24112020-056689",
+    "url": "https://www.traceparts.cn/en/product/puertas-gismero-swing-door-single-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056689"
+  },
+  "table_headers": [
+    "Part Number",
+    "Max Door Width",
+    "Min Door Width",
+    "Height",
+    "Panel Thickness",
+    "Width"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "swd1_ei6090",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-swing-door-single-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056689&PartNumber=swd1_ei6090",
+      "parameters": {
+        "Part Number": "swd1_ei6090",
+        "Max Door Width": "1200",
+        "Min Door Width": "800",
+        "Height": "2535",
+        "Panel Thickness": "80",
+        "Width": "870"
+      }
+    },
+    {
+      "reference": "swd1_ei6090_360",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-swing-door-single-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056689&PartNumber=swd1_ei6090_360",
+      "parameters": {
+        "Part Number": "swd1_ei6090_360",
+        "Max Door Width": "1200",
+        "Min Door Width": "800",
+        "Height": "2200",
+        "Panel Thickness": "80",
+        "Width": "1200"
+      }
+    },
+    {
+      "reference": "swd1_ei6090_225",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-swing-door-single-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056689&PartNumber=swd1_ei6090_225",
+      "parameters": {
+        "Part Number": "swd1_ei6090_225",
+        "Max Door Width": "1200",
+        "Min Door Width": "800",
+        "Height": "2135",
+        "Panel Thickness": "80",
+        "Width": "870"
+      }
+    }
+  ]
+}

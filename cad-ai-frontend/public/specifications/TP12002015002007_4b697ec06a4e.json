@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:34",
+  "base_product": {
+    "name": "smeg-oven-sf4106wvcps",
+    "id": "90-14122022-049900",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4106wvcps?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049900"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4106WVCPS",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4106wvcps?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049900&PartNumber=SF4106WVCPS",
+      "parameters": {
+        "Part Number": "SF4106WVCPS",
+        "Description": "Oven : SF4106WVCPS",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

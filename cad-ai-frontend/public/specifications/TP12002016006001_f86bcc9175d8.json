@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 21:43:38",
+  "base_product": {
+    "name": "pitzl-108341012-cover-sleeve-for-thread-m24",
+    "id": "90-05092024-038728",
+    "url": "https://www.traceparts.cn/en/product/pitzl-108341012-cover-sleeve-for-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038728"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Adjustment range mm",
+    "For threads"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10834.1012",
+      "url": "https://www.traceparts.cn/en/product/pitzl-108341012-cover-sleeve-for-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038728&PartNumber=10834.1012",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "10834.1012",
+        "Description": "10834.1012 - Cover sleeve for thread M24",
+        "Adjustment range mm": "180 - 305",
+        "For threads": "M24"
+      }
+    }
+  ]
+}

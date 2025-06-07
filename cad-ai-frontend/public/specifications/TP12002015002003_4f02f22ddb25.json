@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:47",
+  "base_product": {
+    "name": "smeg-dishwasher-dwi45sa",
+    "id": "90-14122022-047116",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwi45sa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047116"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DWI45SA",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwi45sa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047116&PartNumber=DWI45SA",
+      "parameters": {
+        "Part Number": "DWI45SA",
+        "Description": "Dishwasher : DWI45SA",
+        "Color": "Full stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "850",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

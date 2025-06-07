@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:49:50",
+  "base_product": {
+    "name": "smeg-dishwasher-di613p",
+    "id": "90-14122022-046972",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di613p?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046972"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DI613P",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di613p?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046972&PartNumber=DI613P",
+      "parameters": {
+        "Part Number": "DI613P",
+        "Description": "Dishwasher : DI613P",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

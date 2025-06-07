@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:17",
+  "base_product": {
+    "name": "smeg-hob-p864a9",
+    "id": "90-14122022-059039",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-p864a9?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059039"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "P864A-9",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-p864a9?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059039&PartNumber=P864A-9",
+      "parameters": {
+        "Part Number": "P864A-9",
+        "Description": "Hob : P864A-9",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "51",
+        "Overall Width (mm)": "596"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:04",
+  "base_product": {
+    "name": "smeg-dishwasher-st5121",
+    "id": "90-14122022-047628",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5121?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047628"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST5121",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5121?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047628&PartNumber=ST5121",
+      "parameters": {
+        "Part Number": "ST5121",
+        "Description": "Dishwasher : ST5121",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:39:23",
+  "base_product": {
+    "name": "profholod-hinged-single-leaf-door",
+    "id": "90-04052021-050397",
+    "url": "https://www.traceparts.cn/en/product/profholod-hinged-single-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050397"
+  },
+  "table_headers": [
+    "Part Number",
+    "Door thickness, mm",
+    "Opening height, mm",
+    "Opening width, mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HSLD",
+      "url": "https://www.traceparts.cn/en/product/profholod-hinged-single-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050397&PartNumber=HSLD",
+      "parameters": {
+        "Part Number": "HSLD",
+        "Door thickness, mm": "80, 100, 120, 150",
+        "Opening height, mm": "up to 2400",
+        "Opening width, mm": "up to 1400"
+      }
+    }
+  ]
+}

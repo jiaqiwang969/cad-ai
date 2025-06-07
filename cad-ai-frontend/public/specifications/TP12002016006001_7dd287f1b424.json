@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:45:12",
+  "base_product": {
+    "name": "pitzl-110070000-post-base-rigid-version-with-tube-o-42",
+    "id": "90-05092024-038561",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110070000-post-base-rigid-version-with-tube-o-42?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038561"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11007.0000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110070000-post-base-rigid-version-with-tube-o-42?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038561&PartNumber=11007.0000",
+      "parameters": {
+        "Manufacturer Part Number": "11007.0000",
+        "Description": "11007.0000 - Post base rigid version with tube Ø 42",
+        "Upper plate mm": "120 x 120 x 6",
+        "Lower plate mm": "120 x 120 x 6",
+        "Tube Ø mm": "Ø42",
+        "Borehole bottom": "Ø12 x 4",
+        "Borehole top": "Ø12 x 4",
+        "Installation height mm": "160",
+        "max. characteristic pressure bearing capacity (kN) *": "100,0"
+      }
+    }
+  ]
+}

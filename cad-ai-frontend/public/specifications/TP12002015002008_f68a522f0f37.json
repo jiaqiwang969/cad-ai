@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:49",
+  "base_product": {
+    "name": "smeg-hob-sr975xghd",
+    "id": "90-14122022-063945",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr975xghd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063945"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR975XGHD",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr975xghd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063945&PartNumber=SR975XGHD",
+      "parameters": {
+        "Part Number": "SR975XGHD",
+        "Description": "Hob : SR975XGHD",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

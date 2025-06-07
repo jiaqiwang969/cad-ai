@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:37:28",
+  "base_product": {
+    "name": "cherubini-7316-7317",
+    "id": "70-09062022-085458",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7316-7317?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-09062022-085458"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "7316",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7316-7317?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-09062022-085458&PartNumber=7316",
+      "parameters": {
+        "Item Number": "7316",
+        "Description": "HEXAGONAL PIVOT"
+      }
+    },
+    {
+      "reference": "7317",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7316-7317?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-09062022-085458&PartNumber=7317",
+      "parameters": {
+        "Item Number": "7317",
+        "Description": "HEXAGONAL PIVOT"
+      }
+    }
+  ]
+}

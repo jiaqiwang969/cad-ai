@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:05:54",
+  "base_product": {
+    "name": "smeg-hob-pv364lcn",
+    "id": "90-14122022-059679",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv364lcn?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059679"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV364LCN",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv364lcn?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059679&PartNumber=PV364LCN",
+      "parameters": {
+        "Part Number": "PV364LCN",
+        "Description": "Hob : PV364LCN"
+      }
+    }
+  ]
+}

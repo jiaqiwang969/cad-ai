@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:57:43",
+  "base_product": {
+    "name": "smeg-oven-dosf44x",
+    "id": "90-14122022-049624",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-dosf44x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049624"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DOSF44X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-dosf44x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049624&PartNumber=DOSF44X",
+      "parameters": {
+        "Part Number": "DOSF44X",
+        "Description": "Oven : DOSF44X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "884",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

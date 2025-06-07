@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 22:14:06",
+  "base_product": {
+    "name": "rs-group-blank-adhesive-label-1014247",
+    "id": "90-11062024-081044",
+    "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014247?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-11062024-081044"
+  },
+  "table_headers": [
+    "Description",
+    "Part Number",
+    "Manufacturer",
+    "RS Stock Number"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "8603020",
+      "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014247?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-11062024-081044&PartNumber=8603020",
+      "parameters": {
+        "Description": "Blank Adhesive Label 1014247",
+        "Part Number": "8603020",
+        "Manufacturer": "Phoenix Contact",
+        "RS Stock Number": "8603020"
+      }
+    }
+  ]
+}

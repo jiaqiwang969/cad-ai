@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:52",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-step-profile-8-240-natural",
+    "id": "30-12112020-084323",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-profile-8-240-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084323"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.650.15",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-profile-8-240-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084323&PartNumber=0.0.650.15",
+      "parameters": {
+        "Part Number": "0.0.650.15",
+        "Description": "Step Profile 8 240, natural, Delivery unit: cut-off max. 6000 mm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:58",
+  "base_product": {
+    "name": "smeg-dishwasher-st521ar",
+    "id": "90-14122022-047638",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st521ar?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047638"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST521-AR",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st521ar?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047638&PartNumber=ST521-AR",
+      "parameters": {
+        "Part Number": "ST521-AR",
+        "Description": "Dishwasher : ST521-AR",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

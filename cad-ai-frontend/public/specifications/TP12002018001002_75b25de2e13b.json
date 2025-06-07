@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:19",
+  "base_product": {
+    "name": "lmc-attache-ronde-dimensions-mm-40-x-24",
+    "id": "10-05052009-111996",
+    "url": "https://www.traceparts.cn/en/product/lmc-attache-ronde-dimensions-mm-40-x-24?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-05052009-111996"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ATT7401",
+      "url": "https://www.traceparts.cn/en/product/lmc-attache-ronde-dimensions-mm-40-x-24?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-05052009-111996&PartNumber=ATT7401",
+      "parameters": {
+        "Présentation": "zingué",
+        "Référence": "ATT7401"
+      }
+    }
+  ]
+}

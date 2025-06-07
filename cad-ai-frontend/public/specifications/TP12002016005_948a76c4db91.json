@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:26",
+  "base_product": {
+    "name": "edilteco-spa-isolteco-premixed-plaster",
+    "id": "10-28042015-108416",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolteco-premixed-plaster?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108416"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolteco Premixed Plaster",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolteco-premixed-plaster?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108416&PartNumber=Isolteco+Premixed+Plaster",
+      "parameters": {
+        "Part Number": "Isolteco Premixed Plaster",
+        "Description": "Premixed plaster with high thermal insulating power (λ 0,058 W/mK) made of selected water binders pre-batched - perfectly spherical virgin expanded polystyrene beads with constant grain-size, mixed with special E.I.A. additive - special additives"
+      }
+    }
+  ]
+}

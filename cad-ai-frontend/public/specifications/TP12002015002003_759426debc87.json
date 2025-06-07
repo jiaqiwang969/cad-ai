@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:05",
+  "base_product": {
+    "name": "smeg-dishwasher-di614pss",
+    "id": "90-14122022-046987",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di614pss?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046987"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DI614PSS",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di614pss?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046987&PartNumber=DI614PSS",
+      "parameters": {
+        "Part Number": "DI614PSS",
+        "Description": "Dishwasher : DI614PSS",
+        "Color": "Black",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

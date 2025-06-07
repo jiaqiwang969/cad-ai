@@ -1,0 +1,55 @@
+{
+  "extraction_time": "2025-06-07 22:16:02",
+  "base_product": {
+    "name": "bs-rollen-gmbh-d84-drehkranze",
+    "id": "90-12082021-027710",
+    "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d84-drehkranze?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027710"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Tragkraft",
+    "Ø Außen",
+    "Stärke",
+    "Hinweis",
+    "EAN-Code",
+    "Bestelleinheit",
+    "Inhaltseinheit",
+    "Verpackungsmenge"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "D84.330",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d84-drehkranze?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027710&PartNumber=D84.330",
+      "parameters": {
+        "Bestellnummer": "D84.330",
+        "Bezeichnung": "Drehkranz",
+        "Tragkraft": "300",
+        "Ø Außen": "330",
+        "Stärke": "13",
+        "Hinweis": "Aluminium (mit Verzahnung)",
+        "EAN-Code": "4021885085698",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    },
+    {
+      "reference": "D84.450",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d84-drehkranze?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027710&PartNumber=D84.450",
+      "parameters": {
+        "Bestellnummer": "D84.450",
+        "Bezeichnung": "Drehkranz",
+        "Tragkraft": "350",
+        "Ø Außen": "450",
+        "Stärke": "15",
+        "Hinweis": "Aluminium (mit Verzahnung)",
+        "EAN-Code": "4021885115869",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    }
+  ]
+}

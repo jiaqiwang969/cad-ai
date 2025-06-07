@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:09",
+  "base_product": {
+    "name": "smeg-dishwasher-st733tl2",
+    "id": "90-14122022-047711",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st733tl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047711"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST733TL-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st733tl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047711&PartNumber=ST733TL-2",
+      "parameters": {
+        "Part Number": "ST733TL-2",
+        "Description": "Dishwasher : ST733TL-2",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

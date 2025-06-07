@@ -1,0 +1,43 @@
+{
+  "extraction_time": "2025-06-07 21:37:02",
+  "base_product": {
+    "name": "petzoldt-cpleuchten-gmbh-rohrleuchte-sls50-28w-230v",
+    "id": "90-13052019-057787",
+    "url": "https://www.traceparts.cn/en/product/petzoldt-cpleuchten-gmbh-rohrleuchte-sls50-28w-230v?CatalogPath=TRACEPARTS%3ATP12001003&Product=90-13052019-057787"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Material",
+    "Gewicht (kg)",
+    "Menge (VE)",
+    "Abmessung A (mm)",
+    "Abmessung B (mm)",
+    "Abmessung C (mm)",
+    "Abmessung D (mm)",
+    "Abmessung E (mm)",
+    "Abmessung F (mm)",
+    "Lichtleistung (lm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "5-28230-00",
+      "url": "https://www.traceparts.cn/en/product/petzoldt-cpleuchten-gmbh-rohrleuchte-sls50-28w-230v?CatalogPath=TRACEPARTS%3ATP12001003&Product=90-13052019-057787&PartNumber=5-28230-00",
+      "parameters": {
+        "Bestellnummer": "5-28230-00",
+        "Bezeichnung": "Rohrleuchte Ø50 l=1395mm 28W 230V IP67",
+        "Material": "PC, ALU",
+        "Gewicht (kg)": "1,3",
+        "Menge (VE)": "1",
+        "Abmessung A (mm)": "1395",
+        "Abmessung B (mm)": "50",
+        "Abmessung C (mm)": "50",
+        "Abmessung D (mm)": "120",
+        "Abmessung E (mm)": "1130",
+        "Abmessung F (mm)": "120",
+        "Lichtleistung (lm)": "2900"
+      }
+    }
+  ]
+}

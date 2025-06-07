@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:38:08",
+  "base_product": {
+    "name": "owlettjaton-aluminium-flush-pulls",
+    "id": "33-29092023-071445",
+    "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-flush-pulls?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-29092023-071445"
+  },
+  "table_headers": [
+    "Article number",
+    "Product code",
+    "Description",
+    "Size (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "9HQHANDLEAA/1075",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-flush-pulls?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-29092023-071445&PartNumber=9HQHANDLEAA%2F1075",
+      "parameters": {
+        "Article number": "HQ1075/4",
+        "Product code": "9HQHANDLEAA/1075",
+        "Description": "Aluminium Flush Pull (2 per Card) SAA 89mm / 3.1/2\" - HQ1075/2",
+        "Size (mm)": "90"
+      }
+    }
+  ]
+}

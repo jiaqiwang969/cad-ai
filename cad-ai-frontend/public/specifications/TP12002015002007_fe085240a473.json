@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:04",
+  "base_product": {
+    "name": "smeg-oven-dusf6300x",
+    "id": "90-14122022-049670",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf6300x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049670"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DUSF6300X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf6300x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049670&PartNumber=DUSF6300X",
+      "parameters": {
+        "Part Number": "DUSF6300X",
+        "Description": "Oven : DUSF6300X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "719",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:26",
+  "base_product": {
+    "name": "isospan-srl-s365135silver",
+    "id": "10-27042015-087467",
+    "url": "https://www.traceparts.cn/en/product/isospan-srl-s365135silver?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087467"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S36.5-13.5 SILVER",
+      "url": "https://www.traceparts.cn/en/product/isospan-srl-s365135silver?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087467&PartNumber=S36.5-13.5+SILVER",
+      "parameters": {
+        "Part Number": "S36.5-13.5 SILVER",
+        "Description": "Block formwork concrete with insulation LAMBDAPOR 13,5 cm"
+      }
+    }
+  ]
+}

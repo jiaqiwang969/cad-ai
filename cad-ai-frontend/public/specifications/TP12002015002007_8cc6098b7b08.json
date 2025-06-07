@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:03:52",
+  "base_product": {
+    "name": "smeg-professional-oven-alfa43xeh",
+    "id": "90-05012023-046759",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa43xeh?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046759"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ALFA43XEH",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa43xeh?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046759&PartNumber=ALFA43XEH",
+      "parameters": {
+        "Part Number": "ALFA43XEH",
+        "Description": "Professional oven : ALFA43XEH",
+        "Color": "Stainless Steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "584",
+        "Overall Height (mm)": "537",
+        "Overall Width (mm)": "602",
+        "Space Requirement (mm)": "1178"
+      }
+    }
+  ]
+}

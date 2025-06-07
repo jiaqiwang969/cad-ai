@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:46:46",
+  "base_product": {
+    "name": "jlcmc-thermal-insulation-materials-customizable",
+    "id": "90-22012025-025434",
+    "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025434"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Manufacturer",
+    "Description",
+    "Product Page"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "HRBF-R-N-10-A100-B15-T10",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025434&PartNumber=HRBF-R-N-10-A100-B15-T10",
+      "parameters": {
+        "Manufacturer Part Number": "HRBF-R-N-10-A100-B15-T10",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBF-R-N-10-A100-B15-T10",
+        "Product Page": "Purchasing Links"
+      }
+    },
+    {
+      "reference": "HRBF-R-N-10-A95-B48-T10",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025434&PartNumber=HRBF-R-N-10-A95-B48-T10",
+      "parameters": {
+        "Manufacturer Part Number": "HRBF-R-N-10-A95-B48-T10",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBF-R-N-10-A95-B48-T10",
+        "Product Page": "Purchasing Links"
+      }
+    }
+  ]
+}

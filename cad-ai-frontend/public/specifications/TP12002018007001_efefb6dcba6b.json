@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:42:36",
+  "base_product": {
+    "name": "haas-hoco-hx95-pvc-reinforced-with-thermal-exchange-with-2-swings-and-sash-overlaps-1900x2300",
+    "id": "10-12052015-106747",
+    "url": "https://www.traceparts.cn/en/product/haas-hoco-hx95-pvc-reinforced-with-thermal-exchange-with-2-swings-and-sash-overlaps-1900x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106747"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_scambiobattuta_1900x2300",
+      "url": "https://www.traceparts.cn/en/product/haas-hoco-hx95-pvc-reinforced-with-thermal-exchange-with-2-swings-and-sash-overlaps-1900x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106747&PartNumber=PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_scambiobattuta_1900x2300",
+      "parameters": {
+        "Part Number": "PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_scambiobattuta_1900x2300",
+        "Description": "HX95 PVC reinforced with thermal exchange with 2 swings and sash overlaps 1900x2300"
+      }
+    }
+  ]
+}

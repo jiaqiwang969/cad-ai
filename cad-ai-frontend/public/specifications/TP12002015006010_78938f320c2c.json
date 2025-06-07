@@ -1,0 +1,59 @@
+{
+  "extraction_time": "2025-06-07 22:16:03",
+  "base_product": {
+    "name": "fath-cup-holder-nylon-pa",
+    "id": "30-26092014-082685",
+    "url": "https://www.traceparts.cn/en/product/fath-cup-holder-nylon-pa?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-26092014-082685"
+  },
+  "table_headers": [
+    "Cup holder",
+    "Version",
+    "Color",
+    "Weight",
+    "Article"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "145.6",
+      "url": "https://www.traceparts.cn/en/product/fath-cup-holder-nylon-pa?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-26092014-082685&PartNumber=145.6",
+      "parameters": {
+        "Version": "open bottom",
+        "Color": "Black",
+        "Weight": "145.6",
+        "Article": "09308901"
+      }
+    },
+    {
+      "reference": "09308901S01",
+      "url": "https://www.traceparts.cn/en/product/fath-cup-holder-nylon-pa?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-26092014-082685&PartNumber=09308901S01",
+      "parameters": {
+        "Version": "open bottom",
+        "Color": "Red",
+        "Weight": "145.6",
+        "Article": "09308901S01"
+      }
+    },
+    {
+      "reference": "157",
+      "url": "https://www.traceparts.cn/en/product/fath-cup-holder-nylon-pa?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-26092014-082685&PartNumber=157",
+      "parameters": {
+        "Version": "closed bottom",
+        "Color": "Black",
+        "Weight": "157",
+        "Article": "09308902"
+      }
+    },
+    {
+      "reference": "149.5",
+      "url": "https://www.traceparts.cn/en/product/fath-cup-holder-nylon-pa?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-26092014-082685&PartNumber=149.5",
+      "parameters": {
+        "Cup holder": "conductive",
+        "Version": "closed bottom",
+        "Color": "Black",
+        "Weight": "149.5",
+        "Article": "09308902S01"
+      }
+    }
+  ]
+}

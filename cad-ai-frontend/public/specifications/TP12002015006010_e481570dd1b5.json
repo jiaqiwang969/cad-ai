@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:16",
+  "base_product": {
+    "name": "traceparts-bague-entretoise-dans-coupelle-de-poignee-de-porte",
+    "id": "10-04122017-116324",
+    "url": "https://www.traceparts.cn/en/product/traceparts-bague-entretoise-dans-coupelle-de-poignee-de-porte?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-04122017-116324"
+  },
+  "table_headers": [
+    "Diamètre extérieur (mm)",
+    "Diamètre intérieur (mm)",
+    "Epaisseur (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "48",
+      "url": "https://www.traceparts.cn/en/product/traceparts-bague-entretoise-dans-coupelle-de-poignee-de-porte?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-04122017-116324&PartNumber=48",
+      "parameters": {
+        "Diamètre extérieur (mm)": "48",
+        "Diamètre intérieur (mm)": "32",
+        "Epaisseur (mm)": "6.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:58",
+  "base_product": {
+    "name": "polypiu-reverse-piu500-600-16mm",
+    "id": "10-03062015-084344",
+    "url": "https://www.traceparts.cn/en/product/polypiu-reverse-piu500-600-16mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084344"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Reverse_Piu500_600_16mm",
+      "url": "https://www.traceparts.cn/en/product/polypiu-reverse-piu500-600-16mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084344&PartNumber=Reverse_Piu500_600_16mm",
+      "parameters": {
+        "Part Number": "Reverse_Piu500_600_16mm",
+        "Description": "ReversPIÙ is the natural evolution of interlocking modular systems for a whole series of advantages due to the particular mast interlocking that applied to the outside provides an excellent seal against water and a perfect flatness of the bottom side"
+      }
+    }
+  ]
+}

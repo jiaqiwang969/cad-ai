@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:31",
+  "base_product": {
+    "name": "lmc-gache-arret-dimensions-mm-55-x-13",
+    "id": "10-23042009-089446",
+    "url": "https://www.traceparts.cn/en/product/lmc-gache-arret-dimensions-mm-55-x-13?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-23042009-089446"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "GAC1093BL",
+      "url": "https://www.traceparts.cn/en/product/lmc-gache-arret-dimensions-mm-55-x-13?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-23042009-089446&PartNumber=GAC1093BL",
+      "parameters": {
+        "Présentation": "blanc",
+        "Référence": "GAC1093BL"
+      }
+    }
+  ]
+}

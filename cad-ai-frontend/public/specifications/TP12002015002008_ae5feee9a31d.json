@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:38",
+  "base_product": {
+    "name": "smeg-hob-px7502de",
+    "id": "90-14122022-060051",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px7502de?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060051"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX7502DE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px7502de?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060051&PartNumber=PX7502DE",
+      "parameters": {
+        "Part Number": "PX7502DE",
+        "Description": "Hob : PX7502DE",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "56",
+        "Overall Width (mm)": "740"
+      }
+    }
+  ]
+}

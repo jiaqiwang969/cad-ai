@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:29",
+  "base_product": {
+    "name": "smeg-dishwasher-sta643nl2",
+    "id": "90-14122022-047769",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta643nl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047769"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STA643NL2",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta643nl2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047769&PartNumber=STA643NL2",
+      "parameters": {
+        "Part Number": "STA643NL2",
+        "Description": "Dishwasher : STA643NL2",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

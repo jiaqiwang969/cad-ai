@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:44",
+  "base_product": {
+    "name": "smeg-hob-pgf32g",
+    "id": "90-14122022-059234",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf32g?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059234"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF32G",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf32g?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059234&PartNumber=PGF32G",
+      "parameters": {
+        "Part Number": "PGF32G",
+        "Description": "Hob : PGF32G",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "70",
+        "Overall Width (mm)": "310"
+      }
+    }
+  ]
+}

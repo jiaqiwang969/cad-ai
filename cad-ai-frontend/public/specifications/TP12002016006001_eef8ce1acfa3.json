@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:45:39",
+  "base_product": {
+    "name": "pitzl-110088190-heavyduty-post-base-adjustable",
+    "id": "90-05092024-038511",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110088190-heavyduty-post-base-adjustable?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038511"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11008.8190",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110088190-heavyduty-post-base-adjustable?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038511&PartNumber=11008.8190",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "11008.8190",
+        "Description": "11008.8190 - Heavy-duty post base adjustable",
+        "Upper plate mm": "160 x 160 x 12",
+        "Lower plate mm": "260 x 160 x 12",
+        "Tube Ø mm": "M 64",
+        "Borehole bottom": "Ø 13 mm x 4",
+        "Borehole top": "Ø 11 mm x 4",
+        "Installation height mm": "190 - 260",
+        "max. characteristic pressure bearing capacity (kN) *": "515,0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:43:35",
+  "base_product": {
+    "name": "eksma-optics-uab-aircooled-beam-dumps-9900800",
+    "id": "33-12082022-071606",
+    "url": "https://www.traceparts.cn/en/product/eksma-optics-uab-aircooled-beam-dumps-9900800?CatalogPath=TRACEPARTS%3ATP12002016004&Product=33-12082022-071606"
+  },
+  "table_headers": [
+    "Code",
+    "Aperture",
+    "Max power",
+    "Mounting"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "990-0800",
+      "url": "https://www.traceparts.cn/en/product/eksma-optics-uab-aircooled-beam-dumps-9900800?CatalogPath=TRACEPARTS%3ATP12002016004&Product=33-12082022-071606&PartNumber=990-0800",
+      "parameters": {
+        "Code": "990-0800",
+        "Aperture": "ø 48 mm",
+        "Max power": "50 W",
+        "Mounting": "M6x6"
+      }
+    },
+    {
+      "reference": "990-0801",
+      "url": "https://www.traceparts.cn/en/product/eksma-optics-uab-aircooled-beam-dumps-9900800?CatalogPath=TRACEPARTS%3ATP12002016004&Product=33-12082022-071606&PartNumber=990-0801",
+      "parameters": {
+        "Code": "990-0801",
+        "Aperture": "ø 20 mm",
+        "Max power": "5 W",
+        "Mounting": "M4x6"
+      }
+    }
+  ]
+}

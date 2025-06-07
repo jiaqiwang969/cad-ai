@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:31",
+  "base_product": {
+    "name": "smeg-hob-sr764po",
+    "id": "90-14122022-063746",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764po?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063746"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR764PO",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764po?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063746&PartNumber=SR764PO",
+      "parameters": {
+        "Part Number": "SR764PO",
+        "Description": "Hob : SR764PO",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

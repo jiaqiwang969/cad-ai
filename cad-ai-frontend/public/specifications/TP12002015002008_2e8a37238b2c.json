@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:56",
+  "base_product": {
+    "name": "smeg-hob-pv632cnx",
+    "id": "90-14122022-059764",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv632cnx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059764"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV632CNX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv632cnx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059764&PartNumber=PV632CNX",
+      "parameters": {
+        "Part Number": "PV632CNX",
+        "Description": "Hob : PV632CNX",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "102",
+        "Overall Width (mm)": "380"
+      }
+    }
+  ]
+}

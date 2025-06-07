@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:24",
+  "base_product": {
+    "name": "smeg-hob-se384emtd",
+    "id": "90-14122022-063141",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-se384emtd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063141"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SE384EMTD",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-se384emtd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063141&PartNumber=SE384EMTD",
+      "parameters": {
+        "Part Number": "SE384EMTD",
+        "Description": "Hob : SE384EMTD",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "50",
+        "Overall Width (mm)": "770"
+      }
+    }
+  ]
+}

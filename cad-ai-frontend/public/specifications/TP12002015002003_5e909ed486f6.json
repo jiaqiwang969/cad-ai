@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:33",
+  "base_product": {
+    "name": "smeg-dishwasher-lvs533xin",
+    "id": "90-14122022-047462",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs533xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047462"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVS533XIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs533xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047462&PartNumber=LVS533XIN",
+      "parameters": {
+        "Part Number": "LVS533XIN",
+        "Description": "Dishwasher : LVS533XIN",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

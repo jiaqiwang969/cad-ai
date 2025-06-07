@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:28",
+  "base_product": {
+    "name": "smeg-hob-sr764ra",
+    "id": "90-14122022-063751",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764ra?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063751"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR764RA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764ra?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063751&PartNumber=SR764RA",
+      "parameters": {
+        "Part Number": "SR764RA",
+        "Description": "Hob : SR764RA",
+        "Color": "Copper",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

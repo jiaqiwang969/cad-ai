@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:15",
+  "base_product": {
+    "name": "smeg-oven-sf4603mcnr",
+    "id": "90-14122022-050106",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4603mcnr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050106"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4603MCNR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4603mcnr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050106&PartNumber=SF4603MCNR",
+      "parameters": {
+        "Part Number": "SF4603MCNR",
+        "Description": "Oven : SF4603MCNR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

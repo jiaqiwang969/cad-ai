@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:55",
+  "base_product": {
+    "name": "sirap-insulation-stirobit-eps",
+    "id": "90-10062022-053197",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirobit-eps?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053197"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIROBIT EPS",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirobit-eps?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053197&PartNumber=STIROBIT+EPS",
+      "parameters": {
+        "Manufacturer Part Number": "STIROBIT EPS",
+        "Description": "System in rools or boards for thermal insulation of coverings"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:14:54",
+  "base_product": {
+    "name": "italiana-ferramenta-bolt-for-flipper-58x182xm4-zk",
+    "id": "90-01092023-043795",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-58x182xm4-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043795"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "MATERIAL",
+    "METRIC THREAD"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10602020ZN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-58x182xm4-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043795&PartNumber=10602020ZN",
+      "parameters": {
+        "Manufacturer Part Number": "10602020ZN",
+        "Description": "Bolt for FLIPPER 5.8x18.2xM4 Zk",
+        "BOX QUANTITY": "4.000 PCS",
+        "FINISH": "Zinc-plated",
+        "MATERIAL": "Steel",
+        "METRIC THREAD": "M4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:54",
+  "base_product": {
+    "name": "smeg-oven-sf4750vcpo",
+    "id": "90-14122022-050272",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4750vcpo?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050272"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4750VCPO",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4750vcpo?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050272&PartNumber=SF4750VCPO",
+      "parameters": {
+        "Part Number": "SF4750VCPO",
+        "Description": "Oven : SF4750VCPO",
+        "Color": "Cream",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

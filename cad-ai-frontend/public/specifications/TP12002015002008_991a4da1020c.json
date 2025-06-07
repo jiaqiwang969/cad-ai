@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:11",
+  "base_product": {
+    "name": "smeg-hob-pm3912wldau",
+    "id": "90-14122022-059355",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3912wldau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059355"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PM3912WLDAU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3912wldau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059355&PartNumber=PM3912WLDAU",
+      "parameters": {
+        "Part Number": "PM3912WLDAU",
+        "Description": "Hob : PM3912WLDAU",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "45",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

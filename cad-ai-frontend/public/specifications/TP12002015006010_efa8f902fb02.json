@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:10:07",
+  "base_product": {
+    "name": "lmc-arret-de-porte-reglable-dimensions-mm-205-x-122",
+    "id": "10-27042009-066037",
+    "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-reglable-dimensions-mm-205-x-122?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27042009-066037"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ARR12",
+      "url": "https://www.traceparts.cn/en/product/lmc-arret-de-porte-reglable-dimensions-mm-205-x-122?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27042009-066037&PartNumber=ARR12",
+      "parameters": {
+        "Présentation": "laitonné",
+        "Référence": "ARR12"
+      }
+    }
+  ]
+}

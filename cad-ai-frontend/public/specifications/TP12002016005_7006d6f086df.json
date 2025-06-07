@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:24",
+  "base_product": {
+    "name": "sirap-insulation-neostir-gw",
+    "id": "90-14062022-034544",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-neostir-gw?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-14062022-034544"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "NEOSTIR GW",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-neostir-gw?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-14062022-034544&PartNumber=NEOSTIR+GW",
+      "parameters": {
+        "Manufacturer Part Number": "NEOSTIR GW",
+        "Description": "Insulating plates bilayer monolithic molded expanded polystyrene (EPS), constituted by a layer of gray color additives, with the lambda improved, coated on the extrados by the layer of white color with the function of protective screen"
+      }
+    }
+  ]
+}

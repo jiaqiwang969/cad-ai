@@ -1,0 +1,47 @@
+{
+  "extraction_time": "2025-06-07 21:38:38",
+  "base_product": {
+    "name": "hebgo-ag-aluminum-profile-110",
+    "id": "34-20122024-064527",
+    "url": "https://www.traceparts.cn/en/product/hebgo-ag-aluminum-profile-110?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-20122024-064527"
+  },
+  "table_headers": [
+    "Quantity",
+    "Manufacturer",
+    "Description",
+    "Part number",
+    "Length"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "110.0-510.1-10",
+      "url": "https://www.traceparts.cn/en/product/hebgo-ag-aluminum-profile-110?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-20122024-064527&PartNumber=110.0-510.1-10",
+      "parameters": {
+        "Quantity": "1",
+        "Manufacturer": "Hebgo AG",
+        "Description": "Aluminum profile 110",
+        "Part number": "110.0-510.1-10",
+        "Length": "10 mm"
+      }
+    },
+    {
+      "reference": "110.0",
+      "url": "https://www.traceparts.cn/en/product/hebgo-ag-aluminum-profile-110?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-20122024-064527&PartNumber=110.0",
+      "parameters": {
+        "Quantity": "1",
+        "Description": "Aluminum profile",
+        "Part number": "110.0"
+      }
+    },
+    {
+      "reference": "510.1",
+      "url": "https://www.traceparts.cn/en/product/hebgo-ag-aluminum-profile-110?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-20122024-064527&PartNumber=510.1",
+      "parameters": {
+        "Quantity": "1",
+        "Description": "HEBGO Hollow seal 510.1",
+        "Part number": "510.1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "extraction_time": "2025-06-07 21:38:33",
+  "base_product": {
+    "name": "acton-62320-screweyes",
+    "id": "10-27012020-095437",
+    "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437"
+  },
+  "table_headers": [
+    "CAD",
+    "Part number",
+    "d x L (mm)",
+    "L1 (mm)",
+    "D (mm)",
+    "b (mm)",
+    "GENCOD",
+    "Poids (kg/100)",
+    "Carton"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "623202,5X10",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623202%2C5X10",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623202,5X10",
+        "d x L (mm)": "2,5X10",
+        "L1 (mm)": "20",
+        "D (mm)": "5",
+        "b (mm)": "6",
+        "GENCOD": "3604880103874",
+        "Poids (kg/100)": "0,123",
+        "Carton": "7600"
+      }
+    },
+    {
+      "reference": "623203X16",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623203X16",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623203X16",
+        "d x L (mm)": "3X16",
+        "L1 (mm)": "28",
+        "D (mm)": "6",
+        "b (mm)": "10",
+        "GENCOD": "3604880103881",
+        "Poids (kg/100)": "0,250",
+        "Carton": "7600"
+      }
+    },
+    {
+      "reference": "623203X20",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623203X20",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623203X20",
+        "d x L (mm)": "3X20",
+        "L1 (mm)": "32",
+        "D (mm)": "6",
+        "b (mm)": "10",
+        "GENCOD": "3604880103898",
+        "Poids (kg/100)": "0,304",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623203,5X20",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623203%2C5X20",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623203,5X20",
+        "d x L (mm)": "3,5X20",
+        "L1 (mm)": "36",
+        "D (mm)": "9",
+        "b (mm)": "12",
+        "GENCOD": "3604880103904",
+        "Poids (kg/100)": "0,403",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623204X25",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623204X25",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623204X25",
+        "d x L (mm)": "4X25",
+        "L1 (mm)": "43",
+        "D (mm)": "10",
+        "b (mm)": "15",
+        "GENCOD": "3604880103911",
+        "Poids (kg/100)": "0,584",
+        "Carton": "1800"
+      }
+    },
+    {
+      "reference": "623204X30",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623204X30",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623204X30",
+        "d x L (mm)": "4X30",
+        "L1 (mm)": "50",
+        "D (mm)": "12",
+        "b (mm)": "18",
+        "GENCOD": "3604880103928",
+        "Poids (kg/100)": "0,627",
+        "Carton": "1800"
+      }
+    },
+    {
+      "reference": "623205X40",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623205X40",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623205X40",
+        "d x L (mm)": "5X40",
+        "L1 (mm)": "64",
+        "D (mm)": "14",
+        "b (mm)": "24",
+        "GENCOD": "3604880103935",
+        "Poids (kg/100)": "1,440",
+        "Carton": "800"
+      }
+    },
+    {
+      "reference": "623205X60",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623205X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623205X60",
+        "d x L (mm)": "5X60",
+        "L1 (mm)": "86",
+        "D (mm)": "16",
+        "b (mm)": "30",
+        "GENCOD": "3604880105816",
+        "Poids (kg/100)": "1,607",
+        "Carton": "400"
+      }
+    },
+    {
+      "reference": "623206X60",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623206X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623206X60",
+        "d x L (mm)": "6X60",
+        "L1 (mm)": "90",
+        "D (mm)": "18",
+        "b (mm)": "35",
+        "GENCOD": "3604880103942",
+        "Poids (kg/100)": "2,653",
+        "Carton": "400"
+      }
+    },
+    {
+      "reference": "623206X80",
+      "url": "https://www.traceparts.cn/en/product/acton-62320-screweyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095437&PartNumber=623206X80",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623206X80",
+        "d x L (mm)": "6X80",
+        "L1 (mm)": "110",
+        "D (mm)": "18",
+        "b (mm)": "42",
+        "GENCOD": "3604880105823",
+        "Poids (kg/100)": "3,030",
+        "Carton": "200"
+      }
+    }
+  ]
+}

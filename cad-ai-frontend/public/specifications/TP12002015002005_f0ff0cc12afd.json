@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:26",
+  "base_product": {
+    "name": "smeg-hood-ks110ble",
+    "id": "90-14122022-053755",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks110ble?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053755"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS110BLE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks110ble?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053755&PartNumber=KS110BLE",
+      "parameters": {
+        "Part Number": "KS110BLE",
+        "Description": "Hood : KS110BLE"
+      }
+    }
+  ]
+}

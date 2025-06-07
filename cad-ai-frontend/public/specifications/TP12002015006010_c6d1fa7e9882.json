@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:12",
+  "base_product": {
+    "name": "traceparts-axe-rouleau-de-scotch",
+    "id": "10-27072018-099670",
+    "url": "https://www.traceparts.cn/en/product/traceparts-axe-rouleau-de-scotch?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27072018-099670"
+  },
+  "table_headers": [
+    "Ø axe (mm)",
+    "Carré sur plats (mm)",
+    "Carré sur coins (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "5.8",
+      "url": "https://www.traceparts.cn/en/product/traceparts-axe-rouleau-de-scotch?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27072018-099670&PartNumber=5.8",
+      "parameters": {
+        "Ø axe (mm)": "5.8",
+        "Carré sur plats (mm)": "19.2",
+        "Carré sur coins (mm)": "25.3"
+      }
+    }
+  ]
+}

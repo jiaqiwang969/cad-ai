@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:33",
+  "base_product": {
+    "name": "stiferite-stiferite-class-rp1",
+    "id": "10-14092015-078747",
+    "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-rp1?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-14092015-078747"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIFERITE - CLASS RP1",
+      "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-rp1?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-14092015-078747&PartNumber=STIFERITE+-+CLASS+RP1",
+      "parameters": {
+        "Part Number": "STIFERITE - CLASS RP1",
+        "Description": "STIFERITE RP1 is a sandwich panel coupled to STIFERITE GT and from a sheet of plasterboard 13 mm spessore.Su request available version coupled to plasterboard sheets 9.5 mm thick."
+      }
+    }
+  ]
+}

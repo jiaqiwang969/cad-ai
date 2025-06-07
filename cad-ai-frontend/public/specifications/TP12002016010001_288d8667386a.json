@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:55",
+  "base_product": {
+    "name": "sirap-insulation-stirodach",
+    "id": "90-10062022-053245",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirodach?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053245"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIRODACH",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirodach?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053245&PartNumber=STIRODACH",
+      "parameters": {
+        "Manufacturer Part Number": "STIRODACH",
+        "Description": "System for thermal insulating and ventilation of pitched roofs"
+      }
+    }
+  ]
+}

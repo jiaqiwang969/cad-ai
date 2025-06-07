@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:20",
+  "base_product": {
+    "name": "smeg-hob-srv896pogh",
+    "id": "90-14122022-064230",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv896pogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064230"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV896POGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv896pogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064230&PartNumber=SRV896POGH",
+      "parameters": {
+        "Part Number": "SRV896POGH",
+        "Description": "Hob : SRV896POGH",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "885"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:48:02",
+  "base_product": {
+    "name": "fibrotubi-fibrotek",
+    "id": "90-04092023-050425",
+    "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050425"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Fibrotek : 3940 x 100",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050425&PartNumber=Fibrotek+%3A+3940+x+100",
+      "parameters": {
+        "Description": "Fibrotek : 3940 x 100"
+      }
+    },
+    {
+      "reference": "FIBROTEKPLUS3940X100",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050425&PartNumber=FIBROTEKPLUS3940X100",
+      "parameters": {
+        "Part Number": "FIBROTEKPLUS3940X100"
+      }
+    }
+  ]
+}

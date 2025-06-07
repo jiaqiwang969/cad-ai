@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:53",
+  "base_product": {
+    "name": "smeg-hob-si3842b",
+    "id": "90-14122022-063401",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si3842b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063401"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI3842B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si3842b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063401&PartNumber=SI3842B",
+      "parameters": {
+        "Part Number": "SI3842B",
+        "Description": "Hob : SI3842B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "515",
+        "Overall Height (mm)": "37",
+        "Overall Width (mm)": "770"
+      }
+    }
+  ]
+}

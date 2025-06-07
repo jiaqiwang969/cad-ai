@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:21",
+  "base_product": {
+    "name": "smeg-hood-kcv9be2",
+    "id": "90-14122022-053371",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kcv9be2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053371"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KCV9BE2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kcv9be2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053371&PartNumber=KCV9BE2",
+      "parameters": {
+        "Part Number": "KCV9BE2",
+        "Description": "Hood : KCV9BE2"
+      }
+    }
+  ]
+}

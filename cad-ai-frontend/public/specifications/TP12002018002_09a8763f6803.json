@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:26",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-angle-bracket-8-40x40x40-st",
+    "id": "30-12112020-084486",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-angle-bracket-8-40x40x40-st?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084486"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.653.09",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-angle-bracket-8-40x40x40-st?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084486&PartNumber=0.0.653.09",
+      "parameters": {
+        "Part Number": "0.0.653.09",
+        "Description": "Angle Bracket 8 40x40x40 St, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

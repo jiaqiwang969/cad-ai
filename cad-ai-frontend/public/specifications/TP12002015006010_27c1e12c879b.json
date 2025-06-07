@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:00",
+  "base_product": {
+    "name": "italiana-ferramenta-adaptor-alu-profile-kraby-2-pins-165-nk",
+    "id": "90-01092023-046663",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-adaptor-alu-profile-kraby-2-pins-165-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046663"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "42905010YC",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-adaptor-alu-profile-kraby-2-pins-165-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046663&PartNumber=42905010YC",
+      "parameters": {
+        "Manufacturer Part Number": "42905010YC",
+        "Description": "Adaptor alu profile KRABY 2 pins 16,5 Nk",
+        "FINISH": "Matt Nickel-plated"
+      }
+    }
+  ]
+}

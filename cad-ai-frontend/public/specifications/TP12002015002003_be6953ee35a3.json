@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:52",
+  "base_product": {
+    "name": "smeg-dishwasher-sta4526",
+    "id": "90-14122022-047758",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4526?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047758"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STA4526",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4526?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047758&PartNumber=STA4526",
+      "parameters": {
+        "Part Number": "STA4526",
+        "Description": "Dishwasher : STA4526",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

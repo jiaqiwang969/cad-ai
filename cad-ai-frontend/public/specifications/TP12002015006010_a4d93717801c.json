@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:11",
+  "base_product": {
+    "name": "italiana-ferramenta-assembled-leveller-whexagonal-white-cap",
+    "id": "90-01092023-047212",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-assembled-leveller-whexagonal-white-cap?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-047212"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "30501010AB",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-assembled-leveller-whexagonal-white-cap?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-047212&PartNumber=30501010AB",
+      "parameters": {
+        "Manufacturer Part Number": "30501010AB",
+        "Description": "Assembled leveller w/hexagonal white cap",
+        "FINISH": "White"
+      }
+    }
+  ]
+}

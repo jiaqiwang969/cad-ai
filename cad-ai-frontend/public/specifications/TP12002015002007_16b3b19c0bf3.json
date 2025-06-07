@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:02:25",
+  "base_product": {
+    "name": "smeg-oven-sfc6101vn",
+    "id": "90-14122022-051151",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfc6101vn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051151"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFC6101VN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfc6101vn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051151&PartNumber=SFC6101VN",
+      "parameters": {
+        "Part Number": "SFC6101VN",
+        "Description": "Oven : SFC6101VN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

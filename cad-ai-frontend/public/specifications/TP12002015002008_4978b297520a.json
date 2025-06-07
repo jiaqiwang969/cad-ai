@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:54",
+  "base_product": {
+    "name": "smeg-hob-pv331cnsa",
+    "id": "90-14122022-059662",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv331cnsa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059662"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV331CNSA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv331cnsa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059662&PartNumber=PV331CNSA",
+      "parameters": {
+        "Part Number": "PV331CNSA",
+        "Description": "Hob : PV331CNSA",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "102",
+        "Overall Width (mm)": "300"
+      }
+    }
+  ]
+}

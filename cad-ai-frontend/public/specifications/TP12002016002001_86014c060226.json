@@ -1,0 +1,87 @@
+{
+  "extraction_time": "2025-06-07 21:48:13",
+  "base_product": {
+    "name": "peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud",
+    "id": "90-02122021-036432",
+    "url": "https://www.traceparts.cn/en/product/peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036432"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height of RHS tube LA (mm)",
+    "Width of RHS tube LB (mm)",
+    "Diameter Ø1 (mm)",
+    "Wall thickness of the tube tp (mm)",
+    "Shaft diameter ds (mm)",
+    "Head diameter dh (mm)",
+    "Height of the head hk (mm)",
+    "Length of the studs Ls (mm)",
+    "Weight (kg)"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "SLADEX® A1",
+      "url": "https://www.traceparts.cn/en/product/peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036432&PartNumber=SLADEX%C2%AE+A1",
+      "parameters": {
+        "Part Number": "SLADEX® A1",
+        "Height of RHS tube LA (mm)": "80",
+        "Width of RHS tube LB (mm)": "80",
+        "Diameter Ø1 (mm)": "20",
+        "Wall thickness of the tube tp (mm)": "5",
+        "Shaft diameter ds (mm)": "14",
+        "Head diameter dh (mm)": "42",
+        "Height of the head hk (mm)": "7",
+        "Length of the studs Ls (mm)": "185",
+        "Weight (kg)": "13.4"
+      }
+    },
+    {
+      "reference": "SLADEX® A2",
+      "url": "https://www.traceparts.cn/en/product/peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036432&PartNumber=SLADEX%C2%AE+A2",
+      "parameters": {
+        "Part Number": "SLADEX® A2",
+        "Height of RHS tube LA (mm)": "80",
+        "Width of RHS tube LB (mm)": "80",
+        "Diameter Ø1 (mm)": "20",
+        "Wall thickness of the tube tp (mm)": "6",
+        "Shaft diameter ds (mm)": "14",
+        "Head diameter dh (mm)": "42",
+        "Height of the head hk (mm)": "7",
+        "Length of the studs Ls (mm)": "185",
+        "Weight (kg)": "15.1"
+      }
+    },
+    {
+      "reference": "SLADEX® B1",
+      "url": "https://www.traceparts.cn/en/product/peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036432&PartNumber=SLADEX%C2%AE+B1",
+      "parameters": {
+        "Part Number": "SLADEX® B1",
+        "Height of RHS tube LA (mm)": "100",
+        "Width of RHS tube LB (mm)": "100",
+        "Diameter Ø1 (mm)": "20",
+        "Wall thickness of the tube tp (mm)": "5",
+        "Shaft diameter ds (mm)": "14",
+        "Head diameter dh (mm)": "42",
+        "Height of the head hk (mm)": "7",
+        "Length of the studs Ls (mm)": "215",
+        "Weight (kg)": "16.6"
+      }
+    },
+    {
+      "reference": "SLADEX® B2",
+      "url": "https://www.traceparts.cn/en/product/peikko-sladexr-balcony-slab-connector-precast-slab-support-with-stud?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036432&PartNumber=SLADEX%C2%AE+B2",
+      "parameters": {
+        "Part Number": "SLADEX® B2",
+        "Height of RHS tube LA (mm)": "100",
+        "Width of RHS tube LB (mm)": "100",
+        "Diameter Ø1 (mm)": "20",
+        "Wall thickness of the tube tp (mm)": "6",
+        "Shaft diameter ds (mm)": "14",
+        "Head diameter dh (mm)": "42",
+        "Height of the head hk (mm)": "7",
+        "Length of the studs Ls (mm)": "215",
+        "Weight (kg)": "18.8"
+      }
+    }
+  ]
+}

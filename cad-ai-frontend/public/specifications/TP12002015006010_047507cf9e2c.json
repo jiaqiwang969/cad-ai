@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 22:15:23",
+  "base_product": {
+    "name": "italiana-ferramenta-cam-without-cover-flange-o15-sl18-plain",
+    "id": "90-01092023-045419",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-without-cover-flange-o15-sl18-plain?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045419"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "21306010GR",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-without-cover-flange-o15-sl18-plain?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045419&PartNumber=21306010GR",
+      "parameters": {
+        "Manufacturer Part Number": "21306010GR",
+        "Description": "Cam without cover flange Ø15 SL18 plain",
+        "FINISH": "Raw",
+        "WOOD / GLASS THICKNESS": "18 mm",
+        "HOLE DIAMETER": "Ø 15 mm"
+      }
+    }
+  ]
+}

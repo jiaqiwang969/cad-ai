@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:50",
+  "base_product": {
+    "name": "gyproc-saintgobain-habitopratica",
+    "id": "10-24042015-081615",
+    "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-habitopratica?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081615"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Habito_Pratica",
+      "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-habitopratica?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081615&PartNumber=Habito_Pratica",
+      "parameters": {
+        "Part Number": "Habito_Pratica",
+        "Description": "Partition of the total thickness of about 125 mm"
+      }
+    }
+  ]
+}

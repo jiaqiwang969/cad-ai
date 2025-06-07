@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:35",
+  "base_product": {
+    "name": "smeg-dishwasher-dwifabne1",
+    "id": "90-14122022-047136",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwifabne1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047136"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DWIFABNE-1",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwifabne1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047136&PartNumber=DWIFABNE-1",
+      "parameters": {
+        "Part Number": "DWIFABNE-1",
+        "Description": "Dishwasher : DWIFABNE-1",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

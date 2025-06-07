@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:10",
+  "base_product": {
+    "name": "smeg-dishwasher-dw45qxsa",
+    "id": "90-14122022-047036",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw45qxsa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047036"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DW45QXSA",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw45qxsa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047036&PartNumber=DW45QXSA",
+      "parameters": {
+        "Part Number": "DW45QXSA",
+        "Description": "Dishwasher : DW45QXSA",
+        "Color": "Silver",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

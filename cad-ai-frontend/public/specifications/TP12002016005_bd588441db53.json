@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:46:26",
+  "base_product": {
+    "name": "ape-technologies-refo-protect-40-c",
+    "id": "10-15012015-109212",
+    "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-40-c?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-109212"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Model REFO PROTECT 40 C",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-40-c?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-109212&PartNumber=Model+REFO+PROTECT+40+C",
+      "parameters": {
+        "Description": "Model REFO PROTECT 40 C"
+      }
+    },
+    {
+      "reference": "Agglomeration of PE foam material grooved and not drilled sp . 40 mm",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-40-c?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-109212&PartNumber=Agglomeration+of+PE+foam+material+grooved+and+not+drilled+sp+.+40+mm",
+      "parameters": {
+        "Object details": "Agglomeration of PE foam material grooved and not drilled sp . 40 mm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_time": "2025-06-07 21:38:06",
+  "base_product": {
+    "name": "owlettjaton-aluminium-skirting-door-stop-tubular",
+    "id": "33-28092023-058926",
+    "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-skirting-door-stop-tubular?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-058926"
+  },
+  "table_headers": [
+    "Article number",
+    "Product code",
+    "Description",
+    "Size (mm)",
+    "Size (inch)",
+    "Finish"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "9KXALUM/378",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-skirting-door-stop-tubular?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-058926&PartNumber=9KXALUM%2F378",
+      "parameters": {
+        "Article number": "KX378",
+        "Product code": "9KXALUM/378",
+        "Description": "Aluminium Skirting Door Stop - Tubular SAA 76mm / 3\" - KX378",
+        "Size (mm)": "76",
+        "Size (inch)": "3\"",
+        "Finish": "SAA"
+      }
+    },
+    {
+      "reference": "9KXALUM/379",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-aluminium-skirting-door-stop-tubular?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-058926&PartNumber=9KXALUM%2F379",
+      "parameters": {
+        "Article number": "KX379",
+        "Product code": "9KXALUM/379",
+        "Description": "Aluminium Skirting Door Stop - Tubular SAA 63mm / 2.1/2 - KX379",
+        "Size (mm)": "63",
+        "Size (inch)": "2.1/2\"",
+        "Finish": "SAA"
+      }
+    }
+  ]
+}

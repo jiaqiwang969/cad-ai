@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:05",
+  "base_product": {
+    "name": "smeg-hob-srv896aogh",
+    "id": "90-14122022-064209",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv896aogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064209"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV896AOGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv896aogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064209&PartNumber=SRV896AOGH",
+      "parameters": {
+        "Part Number": "SRV896AOGH",
+        "Description": "Hob : SRV896AOGH",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "885"
+      }
+    }
+  ]
+}

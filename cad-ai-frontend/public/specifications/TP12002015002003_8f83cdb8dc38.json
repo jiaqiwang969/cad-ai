@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:34",
+  "base_product": {
+    "name": "smeg-dishwasher-dw6qssa",
+    "id": "90-14122022-047041",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw6qssa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047041"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DW6QSSA",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw6qssa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047041&PartNumber=DW6QSSA",
+      "parameters": {
+        "Part Number": "DW6QSSA",
+        "Description": "Dishwasher : DW6QSSA",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

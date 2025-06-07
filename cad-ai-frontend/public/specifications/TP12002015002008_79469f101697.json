@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:27",
+  "base_product": {
+    "name": "smeg-hob-se364tdar",
+    "id": "90-14122022-063089",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-se364tdar?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063089"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SE364TD-AR",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-se364tdar?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063089&PartNumber=SE364TD-AR",
+      "parameters": {
+        "Part Number": "SE364TD-AR",
+        "Description": "Hob : SE364TD-AR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "50",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

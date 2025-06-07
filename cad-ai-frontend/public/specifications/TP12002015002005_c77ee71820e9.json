@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:27",
+  "base_product": {
+    "name": "smeg-hood-ks912nxe2",
+    "id": "90-14122022-053939",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks912nxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053939"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS912NXE2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks912nxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053939&PartNumber=KS912NXE2",
+      "parameters": {
+        "Part Number": "KS912NXE2",
+        "Description": "Hood : KS912NXE2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:29",
+  "base_product": {
+    "name": "smeg-oven-sf6102pzs",
+    "id": "90-14122022-050514",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6102pzs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050514"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF6102PZS",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6102pzs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050514&PartNumber=SF6102PZS",
+      "parameters": {
+        "Part Number": "SF6102PZS",
+        "Description": "Oven : SF6102PZS",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:10",
+  "base_product": {
+    "name": "smeg-dishwasher-dic410",
+    "id": "90-14122022-047021",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dic410?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047021"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DIC410",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dic410?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047021&PartNumber=DIC410",
+      "parameters": {
+        "Part Number": "DIC410",
+        "Description": "Dishwasher : DIC410",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "448"
+      }
+    }
+  ]
+}

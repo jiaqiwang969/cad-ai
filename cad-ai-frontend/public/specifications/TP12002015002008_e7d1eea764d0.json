@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:23",
+  "base_product": {
+    "name": "smeg-hob-pm6721wldxnlk",
+    "id": "90-14122022-059402",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pm6721wldxnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059402"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PM6721WLDXNLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pm6721wldxnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059402&PartNumber=PM6721WLDXNLK",
+      "parameters": {
+        "Part Number": "PM6721WLDXNLK",
+        "Description": "Hob : PM6721WLDXNLK",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "45",
+        "Overall Width (mm)": "750"
+      }
+    }
+  ]
+}

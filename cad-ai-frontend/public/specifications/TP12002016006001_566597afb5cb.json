@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:45:49",
+  "base_product": {
+    "name": "pitzl-9000040825-hole-plate-for-thread-m-24-with-locking-latch",
+    "id": "90-05092024-038823",
+    "url": "https://www.traceparts.cn/en/product/pitzl-9000040825-hole-plate-for-thread-m-24-with-locking-latch?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038823"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Borehole bottom",
+    "Plate mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "90000.4082",
+      "url": "https://www.traceparts.cn/en/product/pitzl-9000040825-hole-plate-for-thread-m-24-with-locking-latch?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038823&PartNumber=90000.4082",
+      "parameters": {
+        "Manufacturer Part Number": "90000.4082",
+        "Description": "90000.40825 - hole plate for thread M 24 with locking latch",
+        "Borehole bottom": "Ø12x4",
+        "Plate mm": "M24 / 80 x 80 x 5"
+      }
+    }
+  ]
+}

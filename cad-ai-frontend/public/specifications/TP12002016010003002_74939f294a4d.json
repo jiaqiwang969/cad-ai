@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:46:56",
+  "base_product": {
+    "name": "falk-falk-cadence",
+    "id": "90-30112023-047635",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-cadence?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047635"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "FALK Cadance 1",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-cadence?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047635&PartNumber=FALK+Cadance+1",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Cadance 1",
+        "Description": "FALK Cadance 1"
+      }
+    },
+    {
+      "reference": "FALK Cadance 2",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-cadence?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047635&PartNumber=FALK+Cadance+2",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Cadance 2",
+        "Description": "FALK Cadance 2"
+      }
+    },
+    {
+      "reference": "FALK Cadance 3",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-cadence?CatalogPath=TRACEPARTS%3ATP12002016010003002&Product=90-30112023-047635&PartNumber=FALK+Cadance+3",
+      "parameters": {
+        "Manufacturer Part Number": "FALK Cadance 3",
+        "Description": "FALK Cadance 3"
+      }
+    }
+  ]
+}

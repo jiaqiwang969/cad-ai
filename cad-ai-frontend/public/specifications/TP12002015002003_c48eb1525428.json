@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:43",
+  "base_product": {
+    "name": "smeg-dishwasher-pl5222b",
+    "id": "90-14122022-047509",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl5222b?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047509"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PL5222B",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl5222b?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047509&PartNumber=PL5222B",
+      "parameters": {
+        "Part Number": "PL5222B",
+        "Description": "Dishwasher : PL5222B",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

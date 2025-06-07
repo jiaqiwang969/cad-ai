@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:50:03",
+  "base_product": {
+    "name": "viero-viero-vieroclima2",
+    "id": "10-30092015-121025",
+    "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima2?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121025"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VIERO - Vieroclima2",
+      "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima2?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121025&PartNumber=VIERO+-+Vieroclima2",
+      "parameters": {
+        "Part Number": "VIERO - Vieroclima2",
+        "Description": "The insulation system VIEROCLIMA 2 , with insulating panels of expanded polystyrene , is the solution to renew the previously insulated facades with thermal insulation system , or to adapt them to the new insulation system in an old coat energetically underpowered ."
+      }
+    }
+  ]
+}

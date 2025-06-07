@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:58",
+  "base_product": {
+    "name": "smeg-dishwasher-stp364s",
+    "id": "90-14122022-047961",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stp364s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047961"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STP364S",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stp364s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047961&PartNumber=STP364S",
+      "parameters": {
+        "Part Number": "STP364S",
+        "Description": "Dishwasher : STP364S",
+        "Color": "White",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

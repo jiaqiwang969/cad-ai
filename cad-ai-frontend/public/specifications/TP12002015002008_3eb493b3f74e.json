@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:58",
+  "base_product": {
+    "name": "smeg-hob-srv864pogh",
+    "id": "90-14122022-064147",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864pogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064147"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV864POGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864pogh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064147&PartNumber=SRV864POGH",
+      "parameters": {
+        "Part Number": "SRV864POGH",
+        "Description": "Hob : SRV864POGH",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

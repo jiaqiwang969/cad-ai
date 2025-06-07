@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:09:56",
+  "base_product": {
+    "name": "lmc-adaptateur-de-rehausse-pour-pietement",
+    "id": "10-11052009-080907",
+    "url": "https://www.traceparts.cn/en/product/lmc-adaptateur-de-rehausse-pour-pietement?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-11052009-080907"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ADA710",
+      "url": "https://www.traceparts.cn/en/product/lmc-adaptateur-de-rehausse-pour-pietement?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-11052009-080907&PartNumber=ADA710",
+      "parameters": {
+        "Présentation": "noir",
+        "Référence": "ADA710"
+      }
+    }
+  ]
+}

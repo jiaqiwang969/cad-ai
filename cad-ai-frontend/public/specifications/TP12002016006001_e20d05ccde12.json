@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:45:13",
+  "base_product": {
+    "name": "pitzl-110000000-post-base-rigid-version-with-tube-o-27",
+    "id": "90-05092024-038527",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110000000-post-base-rigid-version-with-tube-o-27?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038527"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11000.0000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110000000-post-base-rigid-version-with-tube-o-27?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038527&PartNumber=11000.0000",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "11000.0000",
+        "Description": "11000.0000 - Post base rigid version with tube Ø 27",
+        "Upper plate mm": "80 x 80 x 5",
+        "Lower plate mm": "80 x 80 x 5",
+        "Tube Ø mm": "Ø27",
+        "Borehole bottom": "Ø10,5 x 4",
+        "Borehole top": "Ø10,5 x 4",
+        "Installation height mm": "100",
+        "max. characteristic pressure bearing capacity (kN) *": "59,2"
+      }
+    }
+  ]
+}

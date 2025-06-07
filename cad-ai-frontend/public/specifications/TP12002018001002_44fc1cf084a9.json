@@ -1,0 +1,107 @@
+{
+  "extraction_time": "2025-06-07 21:38:22",
+  "base_product": {
+    "name": "record-revolving-doors-dfa-127-automatic-swing-door",
+    "id": "90-30082021-063644",
+    "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644"
+  },
+  "table_headers": [
+    "Description",
+    "Driver Width",
+    "Driver Length",
+    "Driver Height"
+  ],
+  "total_specifications": 9,
+  "specifications": [
+    {
+      "reference": "DFA 127 FP EU",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=DFA+127+FP+EU",
+      "parameters": {
+        "Description": "DFA 127 FP EU",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "DFA 127 FP EU F (for fire doors)",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=DFA+127+FP+EU+F+%28for+fire+doors%29",
+      "parameters": {
+        "Description": "DFA 127 FP EU F (for fire doors)",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "DFA 127 IN",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=DFA+127+IN",
+      "parameters": {
+        "Description": "DFA 127 IN",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Single-Leaf Door - with optional DFA 127 FP EU",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Single-Leaf+Door+-+with+optional+DFA+127+FP+EU",
+      "parameters": {
+        "Description": "Single-Leaf Door - with optional DFA 127 FP EU",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Single-Leaf Fire Door - with optional DFA 127 FP EU F (for fire doors)",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Single-Leaf+Fire+Door+-+with+optional+DFA+127+FP+EU+F+%28for+fire+doors%29",
+      "parameters": {
+        "Description": "Single-Leaf Fire Door - with optional DFA 127 FP EU F (for fire doors)",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Single-Leaf Door - with optional DFA 127 IN",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Single-Leaf+Door+-+with+optional+DFA+127+IN",
+      "parameters": {
+        "Description": "Single-Leaf Door - with optional DFA 127 IN",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Double-Leaf Fire Door - with optional DFA 127 FP EU F (for fire doors)",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Double-Leaf+Fire+Door+-+with+optional+DFA+127+FP+EU+F+%28for+fire+doors%29",
+      "parameters": {
+        "Description": "Double-Leaf Fire Door - with optional DFA 127 FP EU F (for fire doors)",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Double-Leaf Door - with optional DFA 127 FP EU",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Double-Leaf+Door+-+with+optional+DFA+127+FP+EU",
+      "parameters": {
+        "Description": "Double-Leaf Door - with optional DFA 127 FP EU",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    },
+    {
+      "reference": "Double-Leaf Door - with optional DFA 127 IN",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-dfa-127-automatic-swing-door?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=90-30082021-063644&PartNumber=Double-Leaf+Door+-+with+optional+DFA+127+IN",
+      "parameters": {
+        "Description": "Double-Leaf Door - with optional DFA 127 IN",
+        "Driver Width": "124",
+        "Driver Length": "600",
+        "Driver Height": "85"
+      }
+    }
+  ]
+}

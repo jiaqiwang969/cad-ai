@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:39",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug410dm",
+    "id": "90-14122022-038178",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug410dm?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038178"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG410DM",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug410dm?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038178&PartNumber=UG410DM",
+      "parameters": {
+        "Part Number": "UG410DM",
+        "Description": "Professional Dishwasher : UG410DM",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "532",
+        "Overall Height (mm)": "705",
+        "Overall Width (mm)": "488"
+      }
+    }
+  ]
+}

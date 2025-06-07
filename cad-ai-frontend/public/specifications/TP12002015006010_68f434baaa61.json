@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:15:55",
+  "base_product": {
+    "name": "italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-brown-3c",
+    "id": "90-01092023-046086",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-brown-3c?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046086"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "23008010MN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o17-peg-o4-brown-3c?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046086&PartNumber=23008010MN",
+      "parameters": {
+        "Manufacturer Part Number": "23008010MN",
+        "Description": "Cover cap for cams Ø17 peg Ø4 brown 3C",
+        "FINISH": "Brown 3C"
+      }
+    }
+  ]
+}

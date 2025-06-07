@@ -1,0 +1,59 @@
+{
+  "extraction_time": "2025-06-07 21:38:20",
+  "base_product": {
+    "name": "owlettjaton-doorgate-spring",
+    "id": "33-28092023-079968",
+    "url": "https://www.traceparts.cn/en/product/owlettjaton-doorgate-spring?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-079968"
+  },
+  "table_headers": [
+    "Article number",
+    "Product code",
+    "Description",
+    "Size (mm)",
+    "Size (inch)",
+    "Screw size / No. of screws",
+    "Finish"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "9TQIEXBDS/005",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-doorgate-spring?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-079968&PartNumber=9TQIEXBDS%2F005",
+      "parameters": {
+        "Article number": "7748",
+        "Product code": "9TQIEXBDS/005",
+        "Description": "774 Door/Gate Spring Epoxy Black - 200mm / 8\"",
+        "Size (mm)": "200",
+        "Size (inch)": "8\"",
+        "Screw size / No. of screws": "8g / 4",
+        "Finish": "EXB"
+      }
+    },
+    {
+      "reference": "9TQIEXBDS/010",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-doorgate-spring?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-079968&PartNumber=9TQIEXBDS%2F010",
+      "parameters": {
+        "Article number": "77410",
+        "Product code": "9TQIEXBDS/010",
+        "Description": "774 Door/Gate Spring Epoxy Black - 250mm / 10\"",
+        "Size (mm)": "250",
+        "Size (inch)": "10\"",
+        "Screw size / No. of screws": "8g / 4",
+        "Finish": "EXB"
+      }
+    },
+    {
+      "reference": "9TQIBZDS/005",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-doorgate-spring?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-28092023-079968&PartNumber=9TQIBZDS%2F005",
+      "parameters": {
+        "Article number": "774 8BZ",
+        "Product code": "9TQIBZDS/005",
+        "Description": "774 Door/Gate Spring BZP - 200mm / 8\"",
+        "Size (mm)": "200",
+        "Size (inch)": "8\"",
+        "Screw size / No. of screws": "8g / 4",
+        "Finish": "BZP"
+      }
+    }
+  ]
+}

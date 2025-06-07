@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:48:06",
+  "base_product": {
+    "name": "peikko-petrar-slab-hanger-hollowcore-support-for-slab-openings",
+    "id": "90-02122021-036399",
+    "url": "https://www.traceparts.cn/en/product/peikko-petrar-slab-hanger-hollowcore-support-for-slab-openings?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036399"
+  },
+  "table_headers": [
+    "Part Number",
+    "t (mm)",
+    "L (mm)",
+    "hs2 (mm)",
+    "hs1 (mm)",
+    "hf (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PETRA",
+      "url": "https://www.traceparts.cn/en/product/peikko-petrar-slab-hanger-hollowcore-support-for-slab-openings?CatalogPath=TRACEPARTS%3ATP12002016002001&Product=90-02122021-036399&PartNumber=PETRA",
+      "parameters": {
+        "Part Number": "PETRA",
+        "t (mm)": "6",
+        "L (mm)": "1200",
+        "hs2 (mm)": "200",
+        "hs1 (mm)": "200",
+        "hf (mm)": "200"
+      }
+    }
+  ]
+}

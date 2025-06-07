@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:55",
+  "base_product": {
+    "name": "smeg-hob-s60ghs",
+    "id": "90-14122022-062863",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-s60ghs?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062863"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S60GHS",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-s60ghs?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062863&PartNumber=S60GHS",
+      "parameters": {
+        "Part Number": "S60GHS",
+        "Description": "Hob : S60GHS",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:28",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-frame-profile-8-120x40-light-natural",
+    "id": "30-12112020-084394",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-8-120x40-light-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084394"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.650.89",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-8-120x40-light-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084394&PartNumber=0.0.650.89",
+      "parameters": {
+        "Part Number": "0.0.650.89",
+        "Description": "Frame Profile 8 120x40 light, natural, Delivery unit: cut-off max. 6000 mm"
+      }
+    }
+  ]
+}

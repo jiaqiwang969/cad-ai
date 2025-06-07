@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:45:03",
+  "base_product": {
+    "name": "pitzl-109345401-post-base-system-for-embedding-in-concrete-with-thread-m24",
+    "id": "90-05092024-038683",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109345401-post-base-system-for-embedding-in-concrete-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038683"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Thread low.",
+    "Borehole top",
+    "Installation height mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10934.5401",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109345401-post-base-system-for-embedding-in-concrete-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038683&PartNumber=10934.5401",
+      "parameters": {
+        "Manufacturer Part Number": "10934.5401",
+        "Description": "10934.5401 - Post base system for embedding in concrete with thread M24",
+        "Upper plate mm": "100 x 100 x 6",
+        "Thread low.": "M24x500",
+        "Borehole top": "Ø12x4",
+        "Installation height mm": "356"
+      }
+    }
+  ]
+}

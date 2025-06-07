@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:39",
+  "base_product": {
+    "name": "smeg-oven-sf4109m",
+    "id": "90-14122022-049905",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4109m?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049905"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4109M",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4109m?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049905&PartNumber=SF4109M",
+      "parameters": {
+        "Part Number": "SF4109M",
+        "Description": "Oven : SF4109M",
+        "Color": "Steel and Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:29",
+  "base_product": {
+    "name": "wicona-window-wicona-wicline-75-evo",
+    "id": "10-29052015-103887",
+    "url": "https://www.traceparts.cn/en/product/wicona-window-wicona-wicline-75-evo?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-29052015-103887"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Window_Wicona_Wicline_75_evo",
+      "url": "https://www.traceparts.cn/en/product/wicona-window-wicona-wicline-75-evo?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-29052015-103887&PartNumber=Window_Wicona_Wicline_75_evo",
+      "parameters": {
+        "Part Number": "Window_Wicona_Wicline_75_evo",
+        "Description": "The window systems WICLINE offer architectural quality that characterizes the aesthetics of the building."
+      }
+    }
+  ]
+}

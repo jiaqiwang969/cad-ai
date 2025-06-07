@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:26",
+  "base_product": {
+    "name": "smeg-hob-sr775as",
+    "id": "90-14122022-063770",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775as?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063770"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR775AS",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775as?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063770&PartNumber=SR775AS",
+      "parameters": {
+        "Part Number": "SR775AS",
+        "Description": "Hob : SR775AS",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "504",
+        "Overall Height (mm)": "74",
+        "Overall Width (mm)": "688"
+      }
+    }
+  ]
+}

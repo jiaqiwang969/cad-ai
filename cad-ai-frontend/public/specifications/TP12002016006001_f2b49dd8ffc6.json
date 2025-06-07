@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 21:43:34",
+  "base_product": {
+    "name": "pitzl-105291193-post-base-plugin-system-z-with-thread-m30",
+    "id": "90-05092024-038344",
+    "url": "https://www.traceparts.cn/en/product/pitzl-105291193-post-base-plugin-system-z-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038344"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Borehole bottom",
+    "Borehole top",
+    "Adjustment range mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10529.1193",
+      "url": "https://www.traceparts.cn/en/product/pitzl-105291193-post-base-plugin-system-z-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038344&PartNumber=10529.1193",
+      "parameters": {
+        "Manufacturer Part Number": "10529.1193",
+        "Description": "10529.1193 - Post base plug-in system Z with thread M30",
+        "Upper plate mm": "Ø 120 x 12",
+        "Lower plate mm": "140 x 140 x 12",
+        "Thread low.": "M30 x 150",
+        "Borehole bottom": "Ø 13 mm x 4",
+        "Borehole top": "Ø 12 mm x 4",
+        "Adjustment range mm": "209 - 269"
+      }
+    }
+  ]
+}

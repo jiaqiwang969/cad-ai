@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:54:08",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ud510d",
+    "id": "90-14122022-037984",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud510d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037984"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UD510D",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud510d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037984&PartNumber=UD510D",
+      "parameters": {
+        "Part Number": "UD510D",
+        "Description": "Professional Dishwasher : UD510D",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "820",
+        "Overall Width (mm)": "600",
+        "Space Requirement (mm)": "1020"
+      }
+    }
+  ]
+}

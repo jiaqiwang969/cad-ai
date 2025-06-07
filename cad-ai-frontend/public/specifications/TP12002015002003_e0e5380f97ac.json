@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:42",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-hty510dw",
+    "id": "90-14122022-037790",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty510dw?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037790"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HTY510DW",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty510dw?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037790&PartNumber=HTY510DW",
+      "parameters": {
+        "Part Number": "HTY510DW",
+        "Description": "Professional Dishwasher : HTY510DW",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "736",
+        "Overall Height (mm)": "1530",
+        "Overall Width (mm)": "620"
+      }
+    }
+  ]
+}

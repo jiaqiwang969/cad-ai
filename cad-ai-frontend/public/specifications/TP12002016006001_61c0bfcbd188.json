@@ -1,0 +1,41 @@
+{
+  "extraction_time": "2025-06-07 21:45:15",
+  "base_product": {
+    "name": "pitzl-110086150-heavyduty-post-base-adjustable",
+    "id": "90-05092024-938494",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110086150-heavyduty-post-base-adjustable?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-938494"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Internal thread mm",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11008.6150",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110086150-heavyduty-post-base-adjustable?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-938494&PartNumber=11008.6150",
+      "parameters": {
+        "Manufacturer Part Number": "11008.6150",
+        "Description": "11008.6150 - Heavy-duty post base adjustable",
+        "Upper plate mm": "Ø 140 x 8",
+        "Lower plate mm": "140 x 140 x 10",
+        "Tube Ø mm": "76,1 x 6,3",
+        "Internal thread mm": "M30 x 90",
+        "Borehole bottom": "Ø 13 mm x 4",
+        "Borehole top": "Ø 11 mm x 4",
+        "Installation height mm": "150 - 200",
+        "Tube mandrel": "Ø 42,4 x 70",
+        "max. characteristic pressure bearing capacity (kN) *": "260,0"
+      }
+    }
+  ]
+}

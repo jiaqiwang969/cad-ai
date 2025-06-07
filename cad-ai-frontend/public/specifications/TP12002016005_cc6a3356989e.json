@@ -1,0 +1,79 @@
+{
+  "extraction_time": "2025-06-07 21:46:48",
+  "base_product": {
+    "name": "dosteba-gmbh-shutter-catch-element-k1pe",
+    "id": "90-12122024-039749",
+    "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Types T:"
+  ],
+  "total_specifications": 8,
+  "specifications": [
+    {
+      "reference": "K1-PE Typ 60mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+60mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 60mm",
+        "Types T:": "60 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 80mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+80mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 80mm",
+        "Types T:": "80 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 100mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+100mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 100mm",
+        "Types T:": "100 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 120mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+120mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 120mm",
+        "Types T:": "120 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 140mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+140mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 140mm",
+        "Types T:": "140 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 160mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+160mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 160mm",
+        "Types T:": "160 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 180mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+180mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 180mm",
+        "Types T:": "180 mm"
+      }
+    },
+    {
+      "reference": "K1-PE Typ 200mm",
+      "url": "https://www.traceparts.cn/en/product/dosteba-gmbh-shutter-catch-element-k1pe?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-12122024-039749&PartNumber=K1-PE+Typ+200mm",
+      "parameters": {
+        "Manufacturer Part Number": "K1-PE Typ 200mm",
+        "Types T:": "200 mm"
+      }
+    }
+  ]
+}

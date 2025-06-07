@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:27",
+  "base_product": {
+    "name": "smeg-oven-sfpa6603nr",
+    "id": "90-14122022-051573",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6603nr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051573"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPA6603NR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6603nr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051573&PartNumber=SFPA6603NR",
+      "parameters": {
+        "Part Number": "SFPA6603NR",
+        "Description": "Oven : SFPA6603NR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

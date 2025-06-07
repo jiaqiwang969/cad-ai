@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:15",
+  "base_product": {
+    "name": "smeg-hob-s264x",
+    "id": "90-14122022-062843",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-s264x?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062843"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S264X",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-s264x?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062843&PartNumber=S264X",
+      "parameters": {
+        "Part Number": "S264X",
+        "Description": "Hob : S264X",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

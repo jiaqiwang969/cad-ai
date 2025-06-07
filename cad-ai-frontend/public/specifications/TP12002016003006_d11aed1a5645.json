@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:40",
+  "base_product": {
+    "name": "settef-settef-thermophon-ht",
+    "id": "90-13102022-057288",
+    "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-ht?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057288"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SETTEF - THERMOPHON HT",
+      "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-ht?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057288&PartNumber=SETTEF+-+THERMOPHON+HT",
+      "parameters": {
+        "Manufacturer Part Number": "SETTEF - THERMOPHON HT",
+        "Description": "The system THERMOPHON HT - insulation system with polyurethane foams and foam adhesive and leveling mineral powder or paste is the system SETTEF high performance insulating and weather resistance."
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:12",
+  "base_product": {
+    "name": "smeg-hob-pm6912wldx",
+    "id": "90-14122022-059424",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pm6912wldx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059424"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PM6912WLDX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pm6912wldx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059424&PartNumber=PM6912WLDX",
+      "parameters": {
+        "Part Number": "PM6912WLDX",
+        "Description": "Hob : PM6912WLDX",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "45",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

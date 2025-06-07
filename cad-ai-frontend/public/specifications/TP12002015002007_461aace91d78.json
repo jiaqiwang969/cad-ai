@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:46",
+  "base_product": {
+    "name": "smeg-oven-sfr9300x",
+    "id": "90-14122022-051641",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfr9300x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051641"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFR9300X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfr9300x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051641&PartNumber=SFR9300X",
+      "parameters": {
+        "Part Number": "SFR9300X",
+        "Description": "Oven : SFR9300X",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "571",
+        "Overall Height (mm)": "475",
+        "Overall Width (mm)": "896"
+      }
+    }
+  ]
+}

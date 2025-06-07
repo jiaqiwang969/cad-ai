@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:00",
+  "base_product": {
+    "name": "smeg-hob-s70gxbe5",
+    "id": "90-14122022-062973",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-s70gxbe5?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062973"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S70GXBE5",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-s70gxbe5?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062973&PartNumber=S70GXBE5",
+      "parameters": {
+        "Part Number": "S70GXBE5",
+        "Description": "Hob : S70GXBE5",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

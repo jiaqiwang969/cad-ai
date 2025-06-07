@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:52",
+  "base_product": {
+    "name": "smeg-hob-pv164b2",
+    "id": "90-14122022-059541",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv164b2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059541"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV164B2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv164b2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059541&PartNumber=PV164B2",
+      "parameters": {
+        "Part Number": "PV164B2",
+        "Description": "Hob : PV164B2",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "48",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

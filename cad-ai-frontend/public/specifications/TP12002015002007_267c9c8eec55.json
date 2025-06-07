@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:03:56",
+  "base_product": {
+    "name": "smeg-professional-oven-alfa625eh",
+    "id": "90-05012023-046764",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa625eh?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046764"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ALFA625EH",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa625eh?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046764&PartNumber=ALFA625EH",
+      "parameters": {
+        "Part Number": "ALFA625EH",
+        "Description": "Professional oven : ALFA625EH",
+        "Color": "Stainless Steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "757",
+        "Overall Height (mm)": "793",
+        "Overall Width (mm)": "798",
+        "Space Requirement (mm)": "1521"
+      }
+    }
+  ]
+}

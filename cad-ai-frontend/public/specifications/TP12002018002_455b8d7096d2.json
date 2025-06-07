@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:42",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-profile-8-d40-2no180-natural",
+    "id": "30-10082021-065396",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-profile-8-d40-2no180-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-10082021-065396"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.493.42",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-profile-8-d40-2no180-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-10082021-065396&PartNumber=0.0.493.42",
+      "parameters": {
+        "Part Number": "0.0.493.42",
+        "Description": "Profile 8 D40 2NO180, natural, Delivery unit: cut-off max. 6000 mm"
+      }
+    }
+  ]
+}

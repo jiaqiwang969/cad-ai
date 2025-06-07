@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:14:57",
+  "base_product": {
+    "name": "italiana-ferramenta-bolt-for-flipper-3-x-20-with-chamfer",
+    "id": "90-01092023-043836",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-3-x-20-with-chamfer?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043836"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "MATERIAL",
+    "PHILLIPS / POZIDRIV",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10603031ZN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-3-x-20-with-chamfer?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043836&PartNumber=10603031ZN",
+      "parameters": {
+        "Manufacturer Part Number": "10603031ZN",
+        "Description": "Bolt for Flipper 3 x 20 with chamfer",
+        "BOX QUANTITY": "2.500 PCS",
+        "FINISH": "Zinc-plated",
+        "MATERIAL": "Steel",
+        "PHILLIPS / POZIDRIV": "PZ2",
+        "HOLE DIAMETER": "Ø 3 mm"
+      }
+    }
+  ]
+}

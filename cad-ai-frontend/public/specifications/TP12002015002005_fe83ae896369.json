@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:50",
+  "base_product": {
+    "name": "smeg-hood-ke61nee",
+    "id": "90-14122022-053524",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ke61nee?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053524"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KE61NEE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ke61nee?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053524&PartNumber=KE61NEE",
+      "parameters": {
+        "Part Number": "KE61NEE",
+        "Description": "Hood : KE61NEE"
+      }
+    }
+  ]
+}

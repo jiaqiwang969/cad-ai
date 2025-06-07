@@ -1,0 +1,115 @@
+{
+  "extraction_time": "2025-06-07 21:40:13",
+  "base_product": {
+    "name": "scrigno-spa-scrigno-gold-base-2-doppel-mw115-de",
+    "id": "90-29112023-056997",
+    "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Height (mm)",
+    "Width (mm)",
+    "LDB (mm)",
+    "LDH (mm)"
+  ],
+  "total_specifications": 8,
+  "specifications": [
+    {
+      "reference": "TBB 860+860 x TBH 1985 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+860%2B860+x+TBH+1985+mm",
+      "parameters": {
+        "Part Number": "TBB 860+860 x TBH 1985 mm",
+        "Description": "BASE 2FLG (TBM860X1985) 1709X2025 MW115",
+        "Height (mm)": "1985",
+        "Width (mm)": "860",
+        "LDB (mm)": "1709",
+        "LDH (mm)": "2025"
+      }
+    },
+    {
+      "reference": "TBB 1110+1110 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+1110%2B1110+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 1110+1110 x TBH 2235 mm",
+        "Description": "BASE 2FLG (TBM1110X2235) 2209X2275 MW115",
+        "Height (mm)": "2235",
+        "Width (mm)": "1110",
+        "LDB (mm)": "2209",
+        "LDH (mm)": "2275"
+      }
+    },
+    {
+      "reference": "TBB 1235+1235 x TBH 2110 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+1235%2B1235+x+TBH+2110+mm",
+      "parameters": {
+        "Part Number": "TBB 1235+1235 x TBH 2110 mm",
+        "Description": "BASE 2FLG (TBM1235X2110) 2459X2150 MW115",
+        "Height (mm)": "2110",
+        "Width (mm)": "1235",
+        "LDB (mm)": "2459",
+        "LDH (mm)": "2150"
+      }
+    },
+    {
+      "reference": "TBB 610+610 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+610%2B610+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 610+610 x TBH 2235 mm",
+        "Description": "BASE 2FLG (TBM610X2235) 1209X2275 MW115",
+        "Height (mm)": "2235",
+        "Width (mm)": "610",
+        "LDB (mm)": "1209",
+        "LDH (mm)": "2275"
+      }
+    },
+    {
+      "reference": "TBB 985+985 x TBH 2110 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+985%2B985+x+TBH+2110+mm",
+      "parameters": {
+        "Part Number": "TBB 985+985 x TBH 2110 mm",
+        "Description": "BASE 2FLG (TBM985X2110) 1959X2150 MW115",
+        "Height (mm)": "2110",
+        "Width (mm)": "985",
+        "LDB (mm)": "1959",
+        "LDH (mm)": "2150"
+      }
+    },
+    {
+      "reference": "TBB 735+735 x TBH 1985 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+735%2B735+x+TBH+1985+mm",
+      "parameters": {
+        "Part Number": "TBB 735+735 x TBH 1985 mm",
+        "Description": "BASE 2FLG (TBM735X1985) 1459X2025 MW115",
+        "Height (mm)": "1985",
+        "Width (mm)": "735",
+        "LDB (mm)": "1459",
+        "LDH (mm)": "2025"
+      }
+    },
+    {
+      "reference": "TBB 735+735 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+735%2B735+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 735+735 x TBH 2235 mm",
+        "Description": "BASE 2FLG (TBM735X2235) 1459X2275 MW115",
+        "Height (mm)": "2235",
+        "Width (mm)": "735",
+        "LDB (mm)": "1459",
+        "LDH (mm)": "2275"
+      }
+    },
+    {
+      "reference": "TBB 985+985 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-gold-base-2-doppel-mw115-de?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056997&PartNumber=TBB+985%2B985+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 985+985 x TBH 2235 mm",
+        "Description": "BASE 2FLG (TBM985X2235) 1959X2275 MW115",
+        "Height (mm)": "2235",
+        "Width (mm)": "985",
+        "LDB (mm)": "1959",
+        "LDH (mm)": "2275"
+      }
+    }
+  ]
+}

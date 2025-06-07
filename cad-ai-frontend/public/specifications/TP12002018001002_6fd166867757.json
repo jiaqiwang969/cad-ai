@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:25",
+  "base_product": {
+    "name": "lmc-rosace-ronde-pour-cylindre-europeen",
+    "id": "10-22042009-122631",
+    "url": "https://www.traceparts.cn/en/product/lmc-rosace-ronde-pour-cylindre-europeen?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-22042009-122631"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ROS7421",
+      "url": "https://www.traceparts.cn/en/product/lmc-rosace-ronde-pour-cylindre-europeen?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-22042009-122631&PartNumber=ROS7421",
+      "parameters": {
+        "Présentation": "Nickelé",
+        "Référence": "ROS7421"
+      }
+    }
+  ]
+}

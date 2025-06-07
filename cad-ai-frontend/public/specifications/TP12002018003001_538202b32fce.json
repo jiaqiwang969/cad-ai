@@ -1,0 +1,79 @@
+{
+  "extraction_time": "2025-06-07 21:39:00",
+  "base_product": {
+    "name": "apostoli-dapleafmediamono",
+    "id": "90-23112023-060469",
+    "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza (mm)",
+    "Larghezza (mm)",
+    "Altezza massima (mm)",
+    "Larghezza massima (mm)"
+  ],
+  "total_specifications": 5,
+  "specifications": [
+    {
+      "reference": "Dapleaf_Media_Inox",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469&PartNumber=Dapleaf_Media_Inox",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Media_Inox",
+        "Descrizione": "Industrial door Dapleaf - Dapleaf - Media - Inox",
+        "Altezza (mm)": "2600",
+        "Larghezza (mm)": "975",
+        "Altezza massima (mm)": "2850",
+        "Larghezza massima (mm)": "1225"
+      }
+    },
+    {
+      "reference": "Dapleaf_Media_RAL7035",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469&PartNumber=Dapleaf_Media_RAL7035",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Media_RAL7035",
+        "Descrizione": "Industrial door Dapleaf - Dapleaf - Media - RAL7035",
+        "Altezza (mm)": "2600",
+        "Larghezza (mm)": "975",
+        "Altezza massima (mm)": "2850",
+        "Larghezza massima (mm)": "1225"
+      }
+    },
+    {
+      "reference": "Dapleaf_Media_RAL1003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469&PartNumber=Dapleaf_Media_RAL1003",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Media_RAL1003",
+        "Descrizione": "Industrial door Dapleaf - Dapleaf - Media - RAL1003",
+        "Altezza (mm)": "2600",
+        "Larghezza (mm)": "975",
+        "Altezza massima (mm)": "2850",
+        "Larghezza massima (mm)": "1225"
+      }
+    },
+    {
+      "reference": "Dapleaf_Media_RAL2003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469&PartNumber=Dapleaf_Media_RAL2003",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Media_RAL2003",
+        "Descrizione": "Industrial door Dapleaf - Dapleaf - Media - RAL2003",
+        "Altezza (mm)": "2600",
+        "Larghezza (mm)": "975",
+        "Altezza massima (mm)": "2850",
+        "Larghezza massima (mm)": "1225"
+      }
+    },
+    {
+      "reference": "Dapleaf_Media_Zincata",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafmediamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060469&PartNumber=Dapleaf_Media_Zincata",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Media_Zincata",
+        "Descrizione": "Industrial door Dapleaf - Dapleaf - Media - Zincata",
+        "Altezza (mm)": "2600",
+        "Larghezza (mm)": "975",
+        "Altezza massima (mm)": "2850",
+        "Larghezza massima (mm)": "1225"
+      }
+    }
+  ]
+}

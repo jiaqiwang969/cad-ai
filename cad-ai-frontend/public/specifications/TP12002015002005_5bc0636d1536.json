@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:28",
+  "base_product": {
+    "name": "smeg-hood-ksa900hx",
+    "id": "90-14122022-054021",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksa900hx?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054021"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSA900HX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksa900hx?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054021&PartNumber=KSA900HX",
+      "parameters": {
+        "Part Number": "KSA900HX",
+        "Description": "Hood : KSA900HX"
+      }
+    }
+  ]
+}

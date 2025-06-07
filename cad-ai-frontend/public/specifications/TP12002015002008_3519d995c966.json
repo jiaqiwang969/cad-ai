@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:31",
+  "base_product": {
+    "name": "smeg-hob-p875a",
+    "id": "90-14122022-059067",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-p875a?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059067"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "P875A",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-p875a?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059067&PartNumber=P875A",
+      "parameters": {
+        "Part Number": "P875A",
+        "Description": "Hob : P875A",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "47",
+        "Overall Width (mm)": "718"
+      }
+    }
+  ]
+}

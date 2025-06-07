@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:07",
+  "base_product": {
+    "name": "smeg-dishwasher-df6fabrd",
+    "id": "90-14122022-046896",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df6fabrd?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046896"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DF6FABRD",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df6fabrd?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046896&PartNumber=DF6FABRD",
+      "parameters": {
+        "Part Number": "DF6FABRD",
+        "Description": "Dishwasher : DF6FABRD",
+        "Color": "Red",
+        "Overall Depth (mm)": "627",
+        "Overall Height (mm)": "885",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

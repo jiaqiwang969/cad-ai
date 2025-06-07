@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:04",
+  "base_product": {
+    "name": "isotex-srl-s20-wood-concrete-formwork",
+    "id": "10-28042015-103142",
+    "url": "https://www.traceparts.cn/en/product/isotex-srl-s20-wood-concrete-formwork?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=10-28042015-103142"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S20_Cassero_Legno_Cemento",
+      "url": "https://www.traceparts.cn/en/product/isotex-srl-s20-wood-concrete-formwork?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=10-28042015-103142&PartNumber=S20_Cassero_Legno_Cemento",
+      "parameters": {
+        "Part Number": "S20_Cassero_Legno_Cemento",
+        "Description": "slab formwork in wood and concrete"
+      }
+    }
+  ]
+}

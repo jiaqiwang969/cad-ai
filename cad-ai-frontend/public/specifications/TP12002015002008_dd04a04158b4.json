@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:48",
+  "base_product": {
+    "name": "smeg-hob-ptv705esbe",
+    "id": "90-14122022-059535",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-ptv705esbe?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059535"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PTV705ESBE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-ptv705esbe?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059535&PartNumber=PTV705ESBE",
+      "parameters": {
+        "Part Number": "PTV705ESBE",
+        "Description": "Hob : PTV705ESBE",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "65",
+        "Overall Width (mm)": "718"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:31",
+  "base_product": {
+    "name": "smeg-hood-ks89pe",
+    "id": "90-14122022-053898",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks89pe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053898"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS89PE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks89pe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053898&PartNumber=KS89PE",
+      "parameters": {
+        "Part Number": "KS89PE",
+        "Description": "Hood : KS89PE"
+      }
+    }
+  ]
+}

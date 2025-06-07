@@ -1,0 +1,41 @@
+{
+  "extraction_time": "2025-06-07 21:44:39",
+  "base_product": {
+    "name": "pitzl-109301005-post-base-system-1093010931-with-thread-m24",
+    "id": "90-05092024-938085",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109301005-post-base-system-1093010931-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-938085"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Thread upp.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10930.1005",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109301005-post-base-system-1093010931-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-938085&PartNumber=10930.1005",
+      "parameters": {
+        "Manufacturer Part Number": "10930.1005",
+        "Description": "10930.1005 - Post base system 10930/10931 with thread M24",
+        "Upper plate mm": "Ø 100 x 8",
+        "Lower plate mm": "160 x 100 x 8",
+        "Thread low.": "M24 x 65",
+        "Thread upp.": "M24 x 150",
+        "Borehole bottom": "Ø13 x 4",
+        "Borehole top": "Ø12 x 4",
+        "Installation height mm": "170 - 285",
+        "Tube mandrel": "Ø42,4 x 70",
+        "max. characteristic pressure bearing capacity (kN) *": "110,0"
+      }
+    }
+  ]
+}

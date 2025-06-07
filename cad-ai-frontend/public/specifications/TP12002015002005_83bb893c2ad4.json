@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:57:45",
+  "base_product": {
+    "name": "smeg-hood-kts75nce2",
+    "id": "90-14122022-054576",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kts75nce2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054576"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KTS75NCE2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kts75nce2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054576&PartNumber=KTS75NCE2",
+      "parameters": {
+        "Part Number": "KTS75NCE2",
+        "Description": "Hood : KTS75NCE2",
+        "Electric Power (W)": "278",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "65",
+        "EU Energy Label": "A",
+        "Color": "Steel / Black Glass",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "460",
+        "Overall Height (mm)": "1000",
+        "Overall Width (mm)": "756"
+      }
+    }
+  ]
+}

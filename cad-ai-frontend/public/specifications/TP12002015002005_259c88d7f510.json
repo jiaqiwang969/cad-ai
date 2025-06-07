@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:06",
+  "base_product": {
+    "name": "smeg-hood-ka1vae",
+    "id": "90-14122022-053240",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ka1vae?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053240"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KA1VAE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ka1vae?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053240&PartNumber=KA1VAE",
+      "parameters": {
+        "Part Number": "KA1VAE",
+        "Description": "Hood : KA1VAE"
+      }
+    }
+  ]
+}

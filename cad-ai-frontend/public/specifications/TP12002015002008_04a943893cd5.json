@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:51",
+  "base_product": {
+    "name": "smeg-hob-si5632d",
+    "id": "90-14122022-063422",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si5632d?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063422"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI5632D",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si5632d?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063422&PartNumber=SI5632D",
+      "parameters": {
+        "Part Number": "SI5632D",
+        "Description": "Hob : SI5632D",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "49",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:17",
+  "base_product": {
+    "name": "smeg-dishwasher-dw7qswsa",
+    "id": "90-14122022-047047",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw7qswsa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047047"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DW7QSWSA",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dw7qswsa?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047047&PartNumber=DW7QSWSA",
+      "parameters": {
+        "Part Number": "DW7QSWSA",
+        "Description": "Dishwasher : DW7QSWSA",
+        "Color": "Full stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

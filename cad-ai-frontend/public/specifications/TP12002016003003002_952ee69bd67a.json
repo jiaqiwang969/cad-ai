@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:34",
+  "base_product": {
+    "name": "isospan-srl-s365165ecopur",
+    "id": "10-27042015-087469",
+    "url": "https://www.traceparts.cn/en/product/isospan-srl-s365165ecopur?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087469"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S36.5-16.5 ECOPUR",
+      "url": "https://www.traceparts.cn/en/product/isospan-srl-s365165ecopur?CatalogPath=TRACEPARTS%3ATP12002016003003002&Product=10-27042015-087469&PartNumber=S36.5-16.5+ECOPUR",
+      "parameters": {
+        "Part Number": "S36.5-16.5 ECOPUR",
+        "Description": "Block formwork concrete with insulation in wood fiber 16.5 cm"
+      }
+    }
+  ]
+}

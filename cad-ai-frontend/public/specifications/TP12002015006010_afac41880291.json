@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:35",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-castor-insert-d30-with-flanged-wheel-black-similar-to-ral-9005",
+    "id": "30-12112020-082914",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-insert-d30-with-flanged-wheel-black-similar-to-ral-9005?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082914"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.06",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-insert-d30-with-flanged-wheel-black-similar-to-ral-9005?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082914&PartNumber=0.0.620.06",
+      "parameters": {
+        "Part Number": "0.0.620.06",
+        "Description": "Castor Insert D30 with Flanged Wheel, black similar to RAL 9005, Delivery unit: 1 pce."
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:35",
+  "base_product": {
+    "name": "smeg-dishwasher-dwau6314x",
+    "id": "90-14122022-047111",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwau6314x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047111"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DWAU6314X",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwau6314x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047111&PartNumber=DWAU6314X",
+      "parameters": {
+        "Part Number": "DWAU6314X",
+        "Description": "Dishwasher : DWAU6314X",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

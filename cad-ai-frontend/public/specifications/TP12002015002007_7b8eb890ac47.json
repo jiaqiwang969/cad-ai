@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:12",
+  "base_product": {
+    "name": "smeg-oven-sfp612nfr",
+    "id": "90-14122022-051371",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp612nfr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051371"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP612NFR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp612nfr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051371&PartNumber=SFP612NFR",
+      "parameters": {
+        "Part Number": "SFP612NFR",
+        "Description": "Oven : SFP612NFR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

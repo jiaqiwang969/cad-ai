@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:39:11",
+  "base_product": {
+    "name": "puertas-gismero-glazed-door-double-wide-frame-ei6090",
+    "id": "90-24112020-056739",
+    "url": "https://www.traceparts.cn/en/product/puertas-gismero-glazed-door-double-wide-frame-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056739"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height",
+    "Panel Thickness",
+    "Width"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "gd2wf_ei6090",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-glazed-door-double-wide-frame-ei6090?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056739&PartNumber=gd2wf_ei6090",
+      "parameters": {
+        "Part Number": "gd2wf_ei6090",
+        "Height": "3000",
+        "Panel Thickness": "80",
+        "Width": "1500"
+      }
+    }
+  ]
+}

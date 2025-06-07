@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:33",
+  "base_product": {
+    "name": "smeg-oven-sfpr9395x",
+    "id": "90-14122022-051635",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpr9395x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051635"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPR9395X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpr9395x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051635&PartNumber=SFPR9395X",
+      "parameters": {
+        "Part Number": "SFPR9395X",
+        "Description": "Oven : SFPR9395X",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "571",
+        "Overall Height (mm)": "475",
+        "Overall Width (mm)": "896"
+      }
+    }
+  ]
+}

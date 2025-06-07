@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:22",
+  "base_product": {
+    "name": "settef-settef-thermophon-wf",
+    "id": "90-13102022-057376",
+    "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-wf?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057376"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SETTEF - THERMOPHON WF",
+      "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-wf?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057376&PartNumber=SETTEF+-+THERMOPHON+WF",
+      "parameters": {
+        "Manufacturer Part Number": "SETTEF - THERMOPHON WF",
+        "Description": "The system THERMOPHON WF employing fiber insulating panels of wood, is a specific system for the thermal insulation of walls in wood or wood-frame buildings. The wood fiber is a natural and ecological system is the ideal solution for timber constructions"
+      }
+    }
+  ]
+}

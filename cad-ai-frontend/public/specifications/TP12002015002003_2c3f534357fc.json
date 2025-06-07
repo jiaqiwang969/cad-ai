@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:49:38",
+  "base_product": {
+    "name": "smeg-dishwasher-df612aew",
+    "id": "90-14122022-046851",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df612aew?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046851"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DF612AEW",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df612aew?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046851&PartNumber=DF612AEW",
+      "parameters": {
+        "Part Number": "DF612AEW",
+        "Description": "Dishwasher : DF612AEW",
+        "Color": "White",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

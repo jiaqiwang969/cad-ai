@@ -1,0 +1,47 @@
+{
+  "extraction_time": "2025-06-07 22:09:54",
+  "base_product": {
+    "name": "danese-milano-venezia-pisa-torcello",
+    "id": "90-22072021-032155",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-venezia-pisa-torcello?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-032155"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "DRG8410A0L",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-venezia-pisa-torcello?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-032155&PartNumber=DRG8410A0L",
+      "parameters": {
+        "Part Number": "DRG8410A0L",
+        "Description": "beech wood"
+      }
+    },
+    {
+      "reference": "DRG8410A10",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-venezia-pisa-torcello?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-032155&PartNumber=DRG8410A10",
+      "parameters": {
+        "Part Number": "DRG8410A10",
+        "Description": "gold veined Calacatta marble"
+      }
+    },
+    {
+      "reference": "DRG8420A0L",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-venezia-pisa-torcello?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-032155&PartNumber=DRG8420A0L",
+      "parameters": {
+        "Part Number": "DRG8420A0L",
+        "Description": "beech wood"
+      }
+    },
+    {
+      "reference": "DRG8430A0L",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-venezia-pisa-torcello?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-032155&PartNumber=DRG8430A0L",
+      "parameters": {
+        "Part Number": "DRG8430A0L",
+        "Description": "beech wood"
+      }
+    }
+  ]
+}

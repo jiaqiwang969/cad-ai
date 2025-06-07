@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:58",
+  "base_product": {
+    "name": "smeg-hob-srv564eb7",
+    "id": "90-14122022-064082",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv564eb7?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064082"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV564EB7",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv564eb7?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064082&PartNumber=SRV564EB7",
+      "parameters": {
+        "Part Number": "SRV564EB7",
+        "Description": "Hob : SRV564EB7",
+        "Color": "White",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "72",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:00",
+  "base_product": {
+    "name": "smeg-hob-srv564gh3ar",
+    "id": "90-14122022-064093",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv564gh3ar?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064093"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV564GH3-AR",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv564gh3ar?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064093&PartNumber=SRV564GH3-AR",
+      "parameters": {
+        "Part Number": "SRV564GH3-AR",
+        "Description": "Hob : SRV564GH3-AR",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

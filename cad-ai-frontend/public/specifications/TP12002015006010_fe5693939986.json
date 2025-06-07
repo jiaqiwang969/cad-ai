@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:15:47",
+  "base_product": {
+    "name": "italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-oak-14a",
+    "id": "90-01092023-046102",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-oak-14a?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046102"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "23008010OC",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-oak-14a?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046102&PartNumber=23008010OC",
+      "parameters": {
+        "Manufacturer Part Number": "23008010OC",
+        "Description": "Cover cap for cams Ø15 peg Ø4 oak 14A",
+        "FINISH": "Oak 14A"
+      }
+    }
+  ]
+}

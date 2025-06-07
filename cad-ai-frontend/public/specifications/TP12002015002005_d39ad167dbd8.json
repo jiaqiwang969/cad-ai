@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:19",
+  "base_product": {
+    "name": "smeg-hood-ks59aoe",
+    "id": "90-14122022-053815",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks59aoe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053815"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS59AOE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks59aoe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053815&PartNumber=KS59AOE",
+      "parameters": {
+        "Part Number": "KS59AOE",
+        "Description": "Hood : KS59AOE"
+      }
+    }
+  ]
+}

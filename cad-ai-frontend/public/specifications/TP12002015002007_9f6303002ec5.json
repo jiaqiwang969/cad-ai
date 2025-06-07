@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:39",
+  "base_product": {
+    "name": "smeg-oven-sf7390x",
+    "id": "90-14122022-050779",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf7390x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050779"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF7390X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf7390x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050779&PartNumber=SF7390X",
+      "parameters": {
+        "Part Number": "SF7390X",
+        "Description": "Oven : SF7390X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "595",
+        "Overall Width (mm)": "698"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:42:37",
+  "base_product": {
+    "name": "haas-hoco-hx95-pvc-reinforced-with-thermal-2-swings-with-mullion-2000x1300",
+    "id": "10-12052015-106741",
+    "url": "https://www.traceparts.cn/en/product/haas-hoco-hx95-pvc-reinforced-with-thermal-2-swings-with-mullion-2000x1300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106741"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_montante_2000x1300",
+      "url": "https://www.traceparts.cn/en/product/haas-hoco-hx95-pvc-reinforced-with-thermal-2-swings-with-mullion-2000x1300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106741&PartNumber=PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_montante_2000x1300",
+      "parameters": {
+        "Part Number": "PVC_HX95_con_rinforzo_a_taglio_termico_2ante_con_montante_2000x1300",
+        "Description": "HX95 PVC reinforced with thermal 2 swings with mullion 2000x1300"
+      }
+    }
+  ]
+}

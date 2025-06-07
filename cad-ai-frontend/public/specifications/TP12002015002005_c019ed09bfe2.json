@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:46",
+  "base_product": {
+    "name": "smeg-hood-ksed65nee",
+    "id": "90-14122022-055717",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed65nee?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-055717"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSED65NEE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed65nee?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-055717&PartNumber=KSED65NEE",
+      "parameters": {
+        "Part Number": "KSED65NEE",
+        "Description": "Hood : KSED65NEE",
+        "Electric Power (W)": "240",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50/60",
+        "Sound power max (dB(A))": "67",
+        "EU Energy Label": "C",
+        "Color": "Black",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "652",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

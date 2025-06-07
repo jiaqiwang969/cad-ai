@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:49:50",
+  "base_product": {
+    "name": "smeg-dishwasher-df6fabcr",
+    "id": "90-14122022-046904",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df6fabcr?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046904"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DF6FABCR",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-df6fabcr?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046904&PartNumber=DF6FABCR",
+      "parameters": {
+        "Part Number": "DF6FABCR",
+        "Description": "Dishwasher : DF6FABCR",
+        "Color": "Cream",
+        "Overall Depth (mm)": "627",
+        "Overall Height (mm)": "885",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

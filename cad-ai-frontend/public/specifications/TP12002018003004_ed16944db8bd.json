@@ -1,0 +1,139 @@
+{
+  "extraction_time": "2025-06-07 21:40:31",
+  "base_product": {
+    "name": "apostoli-f30",
+    "id": "90-23112023-059945",
+    "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza totale porta (mm)",
+    "Altezza di apertura (mm)",
+    "Larghezza di apertura (mm)",
+    "VA motore elettrico"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "F30_Grey_RAL7038",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Grey_RAL7038",
+      "parameters": {
+        "Riferimento del produttore": "F30_Grey_RAL7038",
+        "Descrizione": "F30 Industrial rapid door - F30 - Grey - RAL7038",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Yellow_RAL1021",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Yellow_RAL1021",
+      "parameters": {
+        "Riferimento del produttore": "F30_Yellow_RAL1021",
+        "Descrizione": "F30 Industrial rapid door - F30 - Yellow - RAL1021",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Black_RAL9005",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Black_RAL9005",
+      "parameters": {
+        "Riferimento del produttore": "F30_Black_RAL9005",
+        "Descrizione": "F30 Industrial rapid door - F30 - Black - RAL9005",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Yellow_RAL1003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Yellow_RAL1003",
+      "parameters": {
+        "Riferimento del produttore": "F30_Yellow_RAL1003",
+        "Descrizione": "F30 Industrial rapid door - F30 - Yellow - RAL1003",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Navy",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Navy",
+      "parameters": {
+        "Riferimento del produttore": "F30_Navy",
+        "Descrizione": "F30 Industrial rapid door - F30 - Navy",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Grey_RAL7030",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Grey_RAL7030",
+      "parameters": {
+        "Riferimento del produttore": "F30_Grey_RAL7030",
+        "Descrizione": "F30 Industrial rapid door - F30 - Grey - RAL7030",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Blue_RAL5002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Blue_RAL5002",
+      "parameters": {
+        "Riferimento del produttore": "F30_Blue_RAL5002",
+        "Descrizione": "F30 Industrial rapid door - F30 - Blue - RAL5002",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Green_RAL6026",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Green_RAL6026",
+      "parameters": {
+        "Riferimento del produttore": "F30_Green_RAL6026",
+        "Descrizione": "F30 Industrial rapid door - F30 - Green - RAL6026",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_Ivory_RAL1014",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_Ivory_RAL1014",
+      "parameters": {
+        "Riferimento del produttore": "F30_Ivory_RAL1014",
+        "Descrizione": "F30 Industrial rapid door - F30 - Ivory - RAL1014",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    },
+    {
+      "reference": "F30_White_RAL1013",
+      "url": "https://www.traceparts.cn/en/product/apostoli-f30?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059945&PartNumber=F30_White_RAL1013",
+      "parameters": {
+        "Riferimento del produttore": "F30_White_RAL1013",
+        "Descrizione": "F30 Industrial rapid door - F30 - White - RAL1013",
+        "Altezza totale porta (mm)": "7100",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "3350"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:43:56",
+  "base_product": {
+    "name": "pitzl-109201103-post-base-right-left-threaded-with-thread-m30",
+    "id": "90-05092024-038361",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109201103-post-base-right-left-threaded-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038361"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10920.1103",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109201103-post-base-right-left-threaded-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038361&PartNumber=10920.1103",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "10920.1103",
+        "Description": "10920.1103 - Post base Right / left threaded with thread M30",
+        "Upper plate mm": "100 x 100 x 10",
+        "Lower plate mm": "160 x 100 x 10",
+        "Thread low.": "M30 x 90",
+        "Borehole bottom": "Ø 13 mm x 4",
+        "Borehole top": "Ø 12 mm x 4",
+        "Installation height mm": "175 - 235"
+      }
+    }
+  ]
+}

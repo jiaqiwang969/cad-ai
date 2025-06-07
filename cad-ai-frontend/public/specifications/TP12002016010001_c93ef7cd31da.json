@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:47:14",
+  "base_product": {
+    "name": "polypiu-greca-piu-6-80-12",
+    "id": "10-03062015-084323",
+    "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-6-80-12?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084323"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Greca_Piu_6_80_12",
+      "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-6-80-12?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084323&PartNumber=Greca_Piu_6_80_12",
+      "parameters": {
+        "Part Number": "Greca_Piu_6_80_12"
+      }
+    },
+    {
+      "reference": "23.17.13.00",
+      "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-6-80-12?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084323&PartNumber=23.17.13.00",
+      "parameters": {
+        "Omniclass number": "23.17.13.00"
+      }
+    }
+  ]
+}

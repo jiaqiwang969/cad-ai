@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:32",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-frame-profile-seal-10x48",
+    "id": "30-23012023-089528",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-seal-10x48?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-23012023-089528"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.702.57",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-seal-10x48?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-23012023-089528&PartNumber=0.0.702.57",
+      "parameters": {
+        "Part Number": "0.0.702.57",
+        "Description": "Frame Profile Seal 10x4.8, Delivery unit: 1 pce., length 3000 mm"
+      }
+    }
+  ]
+}

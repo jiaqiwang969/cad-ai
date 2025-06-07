@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:38",
+  "base_product": {
+    "name": "sab-serrature-srl-series-2800-k20",
+    "id": "10-11052015-113318",
+    "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-2800-k20?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113318"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Series 2800 K20",
+      "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-2800-k20?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113318&PartNumber=Series+2800+K20",
+      "parameters": {
+        "Part Number": "Series 2800 K20",
+        "Description": "HookyZERO consists of a new lock and an advanced kit. All components are mounted on the door without any tools and fastening screws.The elements are placed in their seats manually and automatically adapt to the thickness of the door"
+      }
+    }
+  ]
+}

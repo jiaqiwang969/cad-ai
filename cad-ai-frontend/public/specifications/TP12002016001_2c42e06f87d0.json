@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:45:42",
+  "base_product": {
+    "name": "marley-alutec-balcony-outlet-with-flat-grate",
+    "id": "90-07012021-032260",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-balcony-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032260"
+  },
+  "table_headers": [
+    "Part Number",
+    "Pipe connection size (O.D)",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "Max. Flow rate (l/s)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "AB01",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-balcony-outlet-with-flat-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032260&PartNumber=AB01",
+      "parameters": {
+        "Part Number": "AB01",
+        "Pipe connection size (O.D)": "76, 72x72, 82 and 110mm",
+        "A": "234",
+        "B": "196",
+        "C": "77",
+        "D": "45",
+        "E": "82",
+        "F": "110",
+        "G": "158",
+        "Max. Flow rate (l/s)": "4.7"
+      }
+    }
+  ]
+}

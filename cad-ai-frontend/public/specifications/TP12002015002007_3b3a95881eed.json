@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:39",
+  "base_product": {
+    "name": "smeg-oven-sf585x",
+    "id": "90-14122022-050437",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf585x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050437"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF585X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf585x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050437&PartNumber=SF585X",
+      "parameters": {
+        "Part Number": "SF585X",
+        "Description": "Oven : SF585X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

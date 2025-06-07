@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 22:15:00",
+  "base_product": {
+    "name": "traceparts-book-height-20-cm-thickness-2-cm",
+    "id": "10-15022017-094096",
+    "url": "https://www.traceparts.cn/en/product/traceparts-book-height-20-cm-thickness-2-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-15022017-094096"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Book - Height 20 cm, thickness 2 cm, color Red",
+      "url": "https://www.traceparts.cn/en/product/traceparts-book-height-20-cm-thickness-2-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-15022017-094096&PartNumber=Book+-+Height+20+cm%2C+thickness+2+cm%2C+color+Red",
+      "parameters": {
+        "Description": "Book - Height 20 cm, thickness 2 cm, color Red"
+      }
+    },
+    {
+      "reference": "23.19.11.15",
+      "url": "https://www.traceparts.cn/en/product/traceparts-book-height-20-cm-thickness-2-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-15022017-094096&PartNumber=23.19.11.15",
+      "parameters": {
+        "Omniclass number": "23.19.11.15"
+      }
+    }
+  ]
+}

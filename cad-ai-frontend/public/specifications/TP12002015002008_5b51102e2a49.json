@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:56",
+  "base_product": {
+    "name": "smeg-hob-srv532gh3",
+    "id": "90-14122022-064052",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv532gh3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064052"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV532GH3",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv532gh3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064052&PartNumber=SRV532GH3",
+      "parameters": {
+        "Part Number": "SRV532GH3",
+        "Description": "Hob : SRV532GH3",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "306"
+      }
+    }
+  ]
+}

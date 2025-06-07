@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:15:41",
+  "base_product": {
+    "name": "italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-black",
+    "id": "90-01092023-045995",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-black?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045995"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "23008010EA",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cover-cap-for-cams-o15-peg-o4-black?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045995&PartNumber=23008010EA",
+      "parameters": {
+        "Manufacturer Part Number": "23008010EA",
+        "Description": "Cover cap for cams Ø15 peg Ø4 black",
+        "FINISH": "Black"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:51",
+  "base_product": {
+    "name": "smeg-hob-px7502nlk",
+    "id": "90-14122022-060060",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px7502nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060060"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX7502NLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px7502nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060060&PartNumber=PX7502NLK",
+      "parameters": {
+        "Part Number": "PX7502NLK",
+        "Description": "Hob : PX7502NLK",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "56",
+        "Overall Width (mm)": "740"
+      }
+    }
+  ]
+}

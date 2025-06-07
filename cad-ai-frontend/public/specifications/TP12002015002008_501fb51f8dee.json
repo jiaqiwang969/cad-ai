@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:00",
+  "base_product": {
+    "name": "smeg-hob-sim631wldx",
+    "id": "90-14122022-063530",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sim631wldx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063530"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SIM631WLDX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sim631wldx?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063530&PartNumber=SIM631WLDX",
+      "parameters": {
+        "Part Number": "SIM631WLDX",
+        "Description": "Hob : SIM631WLDX",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "53",
+        "Overall Width (mm)": "380"
+      }
+    }
+  ]
+}

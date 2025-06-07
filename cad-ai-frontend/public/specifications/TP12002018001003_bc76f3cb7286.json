@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:18",
+  "base_product": {
+    "name": "cherubini-7326",
+    "id": "70-19072022-124786",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7326?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-19072022-124786"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7326",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7326?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-19072022-124786&PartNumber=7326",
+      "parameters": {
+        "Item Number": "7326",
+        "Description": "Bracket for gear 7330"
+      }
+    }
+  ]
+}

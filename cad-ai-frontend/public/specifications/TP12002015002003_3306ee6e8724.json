@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:49:57",
+  "base_product": {
+    "name": "smeg-dishwasher-di613pnh",
+    "id": "90-14122022-046981",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di613pnh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046981"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DI613PNH",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-di613pnh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046981&PartNumber=DI613PNH",
+      "parameters": {
+        "Part Number": "DI613PNH",
+        "Description": "Dishwasher : DI613PNH",
+        "Color": "Black",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "448"
+      }
+    }
+  ]
+}

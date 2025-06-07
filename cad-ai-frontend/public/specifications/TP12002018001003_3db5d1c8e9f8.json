@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:18",
+  "base_product": {
+    "name": "cherubini-7240f",
+    "id": "70-01042016-136105",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7240f?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136105"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7240F",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7240f?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136105&PartNumber=7240F",
+      "parameters": {
+        "Item Number": "7240F",
+        "Description": "Bevel gear with clutch, ratio 2,6:1"
+      }
+    }
+  ]
+}

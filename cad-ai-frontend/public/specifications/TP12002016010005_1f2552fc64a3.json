@@ -1,0 +1,72 @@
+{
+  "extraction_time": "2025-06-07 21:47:54",
+  "base_product": {
+    "name": "falk-falk-1000-tr-eko",
+    "id": "90-30112023-947625",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-eko?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-947625"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Core thickness [mm]",
+    "U-Value [m²K/W]",
+    "Weight [kg/m²]",
+    "Fire class",
+    "Total height [mm]"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "Falk 1000 TR EKO 30-65mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-eko?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-947625&PartNumber=Falk+1000+TR+EKO+30-65mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR EKO 30-65mm",
+        "Description": "Trapezoidal roofing panel with aluminium foil Falk 1000 TR EKO 30-65mm",
+        "Core thickness [mm]": "30*",
+        "U-Value [m²K/W]": "0.545",
+        "Weight [kg/m²]": "6.9",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "65"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR EKO 40-75mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-eko?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-947625&PartNumber=Falk+1000+TR+EKO+40-75mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR EKO 40-75mm",
+        "Description": "Trapezoidal roofing panel with aluminium foil Falk 1000 TR EKO 40-75mm",
+        "Core thickness [mm]": "40",
+        "U-Value [m²K/W]": "0.438",
+        "Weight [kg/m²]": "7.3",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "75"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR EKO 50-85mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-eko?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-947625&PartNumber=Falk+1000+TR+EKO+50-85mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR EKO 50-85mm",
+        "Description": "Trapezoidal roofing panel with aluminium foil Falk 1000 TR EKO 50-85mm",
+        "Core thickness [mm]": "50*",
+        "U-Value [m²K/W]": "0.359",
+        "Weight [kg/m²]": "7.7",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "85"
+      }
+    },
+    {
+      "reference": "Falk 1000 TR EKO 60-95mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-tr-eko?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-947625&PartNumber=Falk+1000+TR+EKO+60-95mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 TR EKO 60-95mm",
+        "Description": "Trapezoidal roofing panel with aluminium foil Falk 1000 TR EKO 60-95mm",
+        "Core thickness [mm]": "60",
+        "U-Value [m²K/W]": "0.307",
+        "Weight [kg/m²]": "8.1",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "95"
+      }
+    }
+  ]
+}

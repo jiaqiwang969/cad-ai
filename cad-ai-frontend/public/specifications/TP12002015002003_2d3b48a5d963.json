@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:04",
+  "base_product": {
+    "name": "smeg-dishwasher-st5241a",
+    "id": "90-14122022-047654",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5241a?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047654"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST5241A",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st5241a?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047654&PartNumber=ST5241A",
+      "parameters": {
+        "Part Number": "ST5241A",
+        "Description": "Dishwasher : ST5241A",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

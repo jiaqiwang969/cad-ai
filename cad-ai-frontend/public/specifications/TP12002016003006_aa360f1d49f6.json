@@ -1,0 +1,98 @@
+{
+  "extraction_time": "2025-06-07 21:48:55",
+  "base_product": {
+    "name": "falk-falk-1100-tr3-wall",
+    "id": "90-30112023-947569",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Core thickness [mm]",
+    "U-Value [m²K/W]",
+    "Weight [kg/m²]",
+    "Fire class",
+    "Total height [mm]"
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "Falk 1100 TR3+ 40-70mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+40-70mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 40-70mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 40-70mm",
+        "Core thickness [mm]": "40",
+        "U-Value [m²K/W]": "0.447",
+        "Weight [kg/m²]": "9.8",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "70"
+      }
+    },
+    {
+      "reference": "Falk 1100 TR3+ 60-90mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+60-90mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 60-90mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 60-90mm",
+        "Core thickness [mm]": "60",
+        "U-Value [m²K/W]": "0.313",
+        "Weight [kg/m²]": "10.6",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "90"
+      }
+    },
+    {
+      "reference": "Falk 1100 TR3+ 80-110mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+80-110mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 80-110mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 80-110mm",
+        "Core thickness [mm]": "80",
+        "U-Value [m²K/W]": "0.24",
+        "Weight [kg/m²]": "11.4",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "110"
+      }
+    },
+    {
+      "reference": "Falk 1100 TR3+ 100-130mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+100-130mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 100-130mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 100-130mm",
+        "Core thickness [mm]": "100",
+        "U-Value [m²K/W]": "0.196",
+        "Weight [kg/m²]": "12.2",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "130"
+      }
+    },
+    {
+      "reference": "Falk 1100 TR3+ 130-160mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+130-160mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 130-160mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 130-160mm",
+        "Core thickness [mm]": "130",
+        "U-Value [m²K/W]": "0.153",
+        "Weight [kg/m²]": "13.4",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "160"
+      }
+    },
+    {
+      "reference": "Falk 1100 TR3+ 150-180mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1100-tr3-wall?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-947569&PartNumber=Falk+1100+TR3%2B+150-180mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1100 TR3+ 150-180mm",
+        "Description": "FALK 1100 TR3+ wall panel Falk 1100 TR3+ 150-180mm",
+        "Core thickness [mm]": "150",
+        "U-Value [m²K/W]": "0.134",
+        "Weight [kg/m²]": "14.2",
+        "Fire class": "B-s2,d0 **",
+        "Total height [mm]": "180"
+      }
+    }
+  ]
+}

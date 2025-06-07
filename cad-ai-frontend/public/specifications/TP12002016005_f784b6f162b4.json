@@ -1,0 +1,122 @@
+{
+  "extraction_time": "2025-06-07 21:45:48",
+  "base_product": {
+    "name": "nvent-caddy-125-weldable-insulation-shield",
+    "id": "90-16062020-046161",
+    "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Article Number",
+    "Finish",
+    "Material"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "1250150EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250150EG",
+      "parameters": {
+        "Part Number": "1250150EG",
+        "Description": "125 Insulation Shield, 1 1/2\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250200EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250200EG",
+      "parameters": {
+        "Part Number": "1250200EG",
+        "Description": "125 Insulation Shield, 2\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250250EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250250EG",
+      "parameters": {
+        "Part Number": "1250250EG",
+        "Description": "125 Insulation Shield, 2 1/2\" Shield",
+        "Article Number": "182767",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250300EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250300EG",
+      "parameters": {
+        "Part Number": "1250300EG",
+        "Description": "125 Insulation Shield, 3\" Shield",
+        "Article Number": "182768",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250350EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250350EG",
+      "parameters": {
+        "Part Number": "1250350EG",
+        "Description": "125 Insulation Shield, 3 1/2\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250400EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250400EG",
+      "parameters": {
+        "Part Number": "1250400EG",
+        "Description": "125 Insulation Shield, 4\" Shield",
+        "Article Number": "182769",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250500EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250500EG",
+      "parameters": {
+        "Part Number": "1250500EG",
+        "Description": "125 Insulation Shield, 5\" Shield",
+        "Article Number": "182770",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250600EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250600EG",
+      "parameters": {
+        "Part Number": "1250600EG",
+        "Description": "125 Insulation Shield, 6\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1250800EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1250800EG",
+      "parameters": {
+        "Part Number": "1250800EG",
+        "Description": "125 Insulation Shield, 8\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    },
+    {
+      "reference": "1251000EG",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-125-weldable-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-16062020-046161&PartNumber=1251000EG",
+      "parameters": {
+        "Part Number": "1251000EG",
+        "Description": "125 Insulation Shield, 10\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:24",
+  "base_product": {
+    "name": "sirap-insulation-stirobit-xps",
+    "id": "90-10062022-053149",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirobit-xps?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053149"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIROBIT XPS",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-stirobit-xps?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-10062022-053149&PartNumber=STIROBIT+XPS",
+      "parameters": {
+        "Manufacturer Part Number": "STIROBIT XPS",
+        "Description": "System in rools or boards for thermal insulation of coverings"
+      }
+    }
+  ]
+}

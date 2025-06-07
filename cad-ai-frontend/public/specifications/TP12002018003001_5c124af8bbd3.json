@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:40:17",
+  "base_product": {
+    "name": "puertas-gismero-sliding-door-single-ei120",
+    "id": "90-24112020-056772",
+    "url": "https://www.traceparts.cn/en/product/puertas-gismero-sliding-door-single-ei120?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056772"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height",
+    "Panel Thickness",
+    "Width"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "sld1_ei120",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-sliding-door-single-ei120?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056772&PartNumber=sld1_ei120",
+      "parameters": {
+        "Part Number": "sld1_ei120",
+        "Height": "3000",
+        "Panel Thickness": "100",
+        "Width": "2500"
+      }
+    }
+  ]
+}

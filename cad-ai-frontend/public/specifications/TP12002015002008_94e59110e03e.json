@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:22",
+  "base_product": {
+    "name": "smeg-hob-gke641nlk",
+    "id": "90-14122022-058967",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-gke641nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058967"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "GKE64-1NLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-gke641nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058967&PartNumber=GKE64-1NLK",
+      "parameters": {
+        "Part Number": "GKE64-1NLK",
+        "Description": "Hob : GKE64-1NLK",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "585"
+      }
+    }
+  ]
+}

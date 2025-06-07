@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:46",
+  "base_product": {
+    "name": "smeg-dishwasher-stl7233l",
+    "id": "90-14122022-047911",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl7233l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047911"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL7233L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl7233l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047911&PartNumber=STL7233L",
+      "parameters": {
+        "Part Number": "STL7233L",
+        "Description": "Dishwasher : STL7233L",
+        "Color": "Stainless steel",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "578",
+        "Overall Width (mm)": "860"
+      }
+    }
+  ]
+}

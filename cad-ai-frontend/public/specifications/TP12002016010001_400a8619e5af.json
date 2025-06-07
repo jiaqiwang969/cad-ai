@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:18",
+  "base_product": {
+    "name": "wierer-coppo-di-francia",
+    "id": "10-27042015-071939",
+    "url": "https://www.traceparts.cn/en/product/wierer-coppo-di-francia?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-27042015-071939"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Coppo di Francia",
+      "url": "https://www.traceparts.cn/en/product/wierer-coppo-di-francia?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-27042015-071939&PartNumber=Coppo+di+Francia",
+      "parameters": {
+        "Part Number": "Coppo di Francia",
+        "Description": "Tile with intermediate curvature which gives a rounded , typical of traditional roofs ."
+      }
+    }
+  ]
+}

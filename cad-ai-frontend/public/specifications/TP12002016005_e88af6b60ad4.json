@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:31",
+  "base_product": {
+    "name": "stiferite-stiferite-gte",
+    "id": "10-14092015-078753",
+    "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-gte?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-14092015-078753"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIFERITE - GTE",
+      "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-gte?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-14092015-078753&PartNumber=STIFERITE+-+GTE",
+      "parameters": {
+        "Part Number": "STIFERITE - GTE",
+        "Description": "STIFERITE GTE is a sandwich panel consisting of an insulating component in polyiso foam, expanded without the use of CFC or HCFC, with a gas impermeable coating of aluminum reinforced multilayer on one of the two faces with glass net."
+      }
+    }
+  ]
+}

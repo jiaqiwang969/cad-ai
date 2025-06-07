@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:46",
+  "base_product": {
+    "name": "smeg-hood-ksec66xe",
+    "id": "90-14122022-054116",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksec66xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054116"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEC66XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksec66xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054116&PartNumber=KSEC66XE",
+      "parameters": {
+        "Part Number": "KSEC66XE",
+        "Description": "Hood : KSEC66XE",
+        "Electric Power (W)": "133",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "72",
+        "EU Energy Label": "E",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "498",
+        "Overall Height (mm)": "150",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

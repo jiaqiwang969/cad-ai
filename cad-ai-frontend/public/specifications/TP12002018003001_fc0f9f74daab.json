@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:39:18",
+  "base_product": {
+    "name": "apostoli-flapinoxmono",
+    "id": "90-23112023-060410",
+    "url": "https://www.traceparts.cn/en/product/apostoli-flapinoxmono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060410"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza (mm)",
+    "Larghezza (mm)",
+    "Altezza massima (mm)",
+    "Larghezza massima (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "FlapInox_Mono",
+      "url": "https://www.traceparts.cn/en/product/apostoli-flapinoxmono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060410&PartNumber=FlapInox_Mono",
+      "parameters": {
+        "Riferimento del produttore": "FlapInox_Mono",
+        "Descrizione": "Industrial door FlapInox Mono - FlapInox - Mono",
+        "Altezza (mm)": "1999.99999999998",
+        "Larghezza (mm)": "900",
+        "Altezza massima (mm)": "2150",
+        "Larghezza massima (mm)": "910"
+      }
+    }
+  ]
+}

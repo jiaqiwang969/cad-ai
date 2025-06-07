@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:20",
+  "base_product": {
+    "name": "smeg-dishwasher-dwafi6d15po",
+    "id": "90-14122022-047106",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwafi6d15po?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047106"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DWAFI6D15PO",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dwafi6d15po?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047106&PartNumber=DWAFI6D15PO",
+      "parameters": {
+        "Part Number": "DWAFI6D15PO",
+        "Description": "Dishwasher : DWAFI6D15PO",
+        "Color": "Stainless steel",
+        "Overall Depth (mm)": "547",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:13",
+  "base_product": {
+    "name": "smeg-hood-kc19ote",
+    "id": "90-14122022-053291",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kc19ote?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053291"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KC19OTE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kc19ote?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053291&PartNumber=KC19OTE",
+      "parameters": {
+        "Part Number": "KC19OTE",
+        "Description": "Hood : KC19OTE",
+        "Electric Power (W)": "277",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "62",
+        "EU Energy Label": "A",
+        "Color": "Brass",
+        "Material": "Heat-moulded",
+        "Overall Depth (mm)": "520",
+        "Overall Height (mm)": "722",
+        "Overall Width (mm)": "895"
+      }
+    }
+  ]
+}

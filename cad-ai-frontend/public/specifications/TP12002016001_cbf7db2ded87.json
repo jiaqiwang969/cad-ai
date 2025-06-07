@@ -1,0 +1,87 @@
+{
+  "extraction_time": "2025-06-07 21:45:42",
+  "base_product": {
+    "name": "marley-alutec-evoke-soffit-system-unvented",
+    "id": "90-07012021-033576",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576"
+  },
+  "table_headers": [
+    "Part Number",
+    "Thickness",
+    "Length",
+    "Depth A (mm)"
+  ],
+  "total_specifications": 7,
+  "specifications": [
+    {
+      "reference": "FF1110",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1110",
+      "parameters": {
+        "Part Number": "FF1110",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "110"
+      }
+    },
+    {
+      "reference": "FF1190",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1190",
+      "parameters": {
+        "Part Number": "FF1190",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "190"
+      }
+    },
+    {
+      "reference": "FF1255",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1255",
+      "parameters": {
+        "Part Number": "FF1255",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "255"
+      }
+    },
+    {
+      "reference": "FF1310",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1310",
+      "parameters": {
+        "Part Number": "FF1310",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "310"
+      }
+    },
+    {
+      "reference": "FF1380",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1380",
+      "parameters": {
+        "Part Number": "FF1380",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "380"
+      }
+    },
+    {
+      "reference": "FF1510",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1510",
+      "parameters": {
+        "Part Number": "FF1510",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "510"
+      }
+    },
+    {
+      "reference": "FF1775",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-unvented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033576&PartNumber=FF1775",
+      "parameters": {
+        "Part Number": "FF1775",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "775"
+      }
+    }
+  ]
+}

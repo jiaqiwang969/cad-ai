@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:13",
+  "base_product": {
+    "name": "italiana-ferramenta-assembled-leveller-whexagonal-black-cap",
+    "id": "90-01092023-047221",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-assembled-leveller-whexagonal-black-cap?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-047221"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "30501010EA",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-assembled-leveller-whexagonal-black-cap?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-047221&PartNumber=30501010EA",
+      "parameters": {
+        "Manufacturer Part Number": "30501010EA",
+        "Description": "Assembled leveller w/hexagonal black cap",
+        "FINISH": "Black"
+      }
+    }
+  ]
+}

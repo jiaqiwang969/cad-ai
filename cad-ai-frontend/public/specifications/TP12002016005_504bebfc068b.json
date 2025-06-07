@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:45:56",
+  "base_product": {
+    "name": "edilteco-spa-dbred-f5",
+    "id": "10-28042015-108424",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-dbred-f5?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108424"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Dbred F5",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-dbred-f5?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108424&PartNumber=Dbred+F5",
+      "parameters": {
+        "Part Number": "Dbred F5",
+        "Description": "dBred F5 is an acoustic insulator in rotoli made of granules and fibres of selected SBR rubber bound with polyurethane resins (MDI). It can be used for all applications of acoustic insulation for stepfoot noise in the building."
+      }
+    }
+  ]
+}

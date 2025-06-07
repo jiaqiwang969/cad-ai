@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:14",
+  "base_product": {
+    "name": "palagina-window-1-door-rollout-magnum",
+    "id": "10-08042015-119187",
+    "url": "https://www.traceparts.cn/en/product/palagina-window-1-door-rollout-magnum?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119187"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Fin 1Anta_Rollout Magnum",
+      "url": "https://www.traceparts.cn/en/product/palagina-window-1-door-rollout-magnum?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119187&PartNumber=Fin+1Anta_Rollout+Magnum",
+      "parameters": {
+        "Part Number": "Fin 1Anta_Rollout Magnum",
+        "Description": "Insect screen ROLLOUT MAGNUM"
+      }
+    }
+  ]
+}

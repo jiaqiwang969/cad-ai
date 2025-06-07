@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:34",
+  "base_product": {
+    "name": "smeg-hood-kci19aoe",
+    "id": "90-14122022-053321",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kci19aoe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053321"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KCI19AOE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kci19aoe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053321&PartNumber=KCI19AOE",
+      "parameters": {
+        "Part Number": "KCI19AOE",
+        "Description": "Hood : KCI19AOE"
+      }
+    }
+  ]
+}

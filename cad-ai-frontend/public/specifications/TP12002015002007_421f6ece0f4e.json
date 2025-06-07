@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:00",
+  "base_product": {
+    "name": "smeg-oven-sf64m3dx",
+    "id": "90-14122022-050654",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3dx?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050654"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF64M3DX",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3dx?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050654&PartNumber=SF64M3DX",
+      "parameters": {
+        "Part Number": "SF64M3DX",
+        "Description": "Oven : SF64M3DX",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

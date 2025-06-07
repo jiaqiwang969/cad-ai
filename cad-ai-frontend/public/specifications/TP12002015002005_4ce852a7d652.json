@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:57",
+  "base_product": {
+    "name": "smeg-hood-kseg58pxe",
+    "id": "90-14122022-054266",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg58pxe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054266"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEG58PXE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg58pxe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054266&PartNumber=KSEG58PXE",
+      "parameters": {
+        "Part Number": "KSEG58PXE",
+        "Description": "Hood : KSEG58PXE"
+      }
+    }
+  ]
+}

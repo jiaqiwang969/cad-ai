@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:31",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-antislip-tape-sa-black",
+    "id": "30-12112020-084398",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-antislip-tape-sa-black?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084398"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.651.00",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-antislip-tape-sa-black?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084398&PartNumber=0.0.651.00",
+      "parameters": {
+        "Part Number": "0.0.651.00",
+        "Description": "Anti-Slip Tape SA, black, Delivery unit: 1 roll, length 6 m"
+      }
+    }
+  ]
+}

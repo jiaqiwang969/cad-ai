@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:50",
+  "base_product": {
+    "name": "smeg-hob-s64sd",
+    "id": "90-14122022-062914",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-s64sd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062914"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S64SD",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-s64sd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062914&PartNumber=S64SD",
+      "parameters": {
+        "Part Number": "S64SD",
+        "Description": "Hob : S64SD",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "585"
+      }
+    }
+  ]
+}

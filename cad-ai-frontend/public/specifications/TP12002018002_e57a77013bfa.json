@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:37",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-handrail-cap",
+    "id": "30-12112020-082918",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-handrail-cap?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082918"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.19",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-handrail-cap?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082918&PartNumber=0.0.620.19",
+      "parameters": {
+        "Part Number": "0.0.620.19",
+        "Description": "Hand-Rail Cap, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

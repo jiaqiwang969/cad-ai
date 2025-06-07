@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:04",
+  "base_product": {
+    "name": "smeg-oven-sfp6603nre",
+    "id": "90-14122022-051444",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp6603nre?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051444"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP6603NRE",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp6603nre?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051444&PartNumber=SFP6603NRE",
+      "parameters": {
+        "Part Number": "SFP6603NRE",
+        "Description": "Oven : SFP6603NRE",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "592",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

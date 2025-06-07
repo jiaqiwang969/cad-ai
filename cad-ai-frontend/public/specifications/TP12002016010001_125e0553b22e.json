@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:05",
+  "base_product": {
+    "name": "polypiu-coverbain-piu",
+    "id": "10-03062015-084336",
+    "url": "https://www.traceparts.cn/en/product/polypiu-coverbain-piu?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084336"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Coverbain_Piu",
+      "url": "https://www.traceparts.cn/en/product/polypiu-coverbain-piu?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084336&PartNumber=Coverbain_Piu",
+      "parameters": {
+        "Part Number": "Coverbain_Piu",
+        "Description": "CoverbanPIÙ, the only dome made of polycarbonate, with four-chamber structure, with variable thickness (mm. 20 and mm at both ends. 30 center) and reinforced outer walls"
+      }
+    }
+  ]
+}

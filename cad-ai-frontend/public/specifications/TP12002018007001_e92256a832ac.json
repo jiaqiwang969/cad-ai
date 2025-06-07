@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:42:45",
+  "base_product": {
+    "name": "haas-hoco-hx9p-with-pvc-insulated-chamber-passive-system-certificate-2-swings-and-sash-overlaps-1900x2300",
+    "id": "10-12052015-106733",
+    "url": "https://www.traceparts.cn/en/product/haas-hoco-hx9p-with-pvc-insulated-chamber-passive-system-certificate-2-swings-and-sash-overlaps-1900x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106733"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVC_HX9P_con_camera_coibentata_(sistema_certificato_passivo)_2ante_con_scambiobattuta_1900x2300",
+      "url": "https://www.traceparts.cn/en/product/haas-hoco-hx9p-with-pvc-insulated-chamber-passive-system-certificate-2-swings-and-sash-overlaps-1900x2300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106733&PartNumber=PVC_HX9P_con_camera_coibentata_%28sistema_certificato_passivo%29_2ante_con_scambiobattuta_1900x2300",
+      "parameters": {
+        "Part Number": "PVC_HX9P_con_camera_coibentata_(sistema_certificato_passivo)_2ante_con_scambiobattuta_1900x2300",
+        "Description": "HX9P with PVC insulated chamber (passive system certificate) 2 swings and sash overlaps 1900x2300"
+      }
+    }
+  ]
+}

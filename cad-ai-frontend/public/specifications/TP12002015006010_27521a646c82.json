@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:10:00",
+  "base_product": {
+    "name": "italiana-ferramenta-adaptor-milled-alum-profile-kraby-nk",
+    "id": "90-01092023-046630",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-adaptor-milled-alum-profile-kraby-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046630"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "42903010YC",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-adaptor-milled-alum-profile-kraby-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046630&PartNumber=42903010YC",
+      "parameters": {
+        "Manufacturer Part Number": "42903010YC",
+        "Description": "Adaptor milled alum. profile KRABY Nk",
+        "FINISH": "Matt Nickel-plated"
+      }
+    }
+  ]
+}

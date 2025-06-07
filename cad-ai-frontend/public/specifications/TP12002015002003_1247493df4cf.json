@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:39",
+  "base_product": {
+    "name": "smeg-dishwasher-lsa4525n",
+    "id": "90-14122022-047213",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsa4525n?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047213"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LSA4525N",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsa4525n?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047213&PartNumber=LSA4525N",
+      "parameters": {
+        "Part Number": "LSA4525N",
+        "Description": "Dishwasher : LSA4525N",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

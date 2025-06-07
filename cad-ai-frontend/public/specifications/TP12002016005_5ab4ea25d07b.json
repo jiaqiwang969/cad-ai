@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:45:56",
+  "base_product": {
+    "name": "isover-saintgobain-ppc-italia-spa-coverage-unventilated-cement-mix-with-superbac-roofiner-g3",
+    "id": "10-29042015-067697",
+    "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-coverage-unventilated-cement-mix-with-superbac-roofiner-g3?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067697"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Copertura_non_ventilata_in_latero-cemento_con_SUPERBAC_Roofine®_G3",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-coverage-unventilated-cement-mix-with-superbac-roofiner-g3?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067697&PartNumber=Copertura_non_ventilata_in_latero-cemento_con_SUPERBAC_Roofine%C2%AE_G3",
+      "parameters": {
+        "Part Number": "Copertura_non_ventilata_in_latero-cemento_con_SUPERBAC_Roofine®_G3",
+        "Description": "Coverage unventilated cement mix with SUPERBAC Roofine® G3"
+      }
+    }
+  ]
+}

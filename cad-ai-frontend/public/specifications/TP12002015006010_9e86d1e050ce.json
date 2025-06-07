@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 22:15:01",
+  "base_product": {
+    "name": "traceparts-book-height-25-cm-thickness-5-cm",
+    "id": "10-06022017-103505",
+    "url": "https://www.traceparts.cn/en/product/traceparts-book-height-25-cm-thickness-5-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-06022017-103505"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Book - Height 25 cm, thickness 5 cm, color Red",
+      "url": "https://www.traceparts.cn/en/product/traceparts-book-height-25-cm-thickness-5-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-06022017-103505&PartNumber=Book+-+Height+25+cm%2C+thickness+5+cm%2C+color+Red",
+      "parameters": {
+        "Description": "Book - Height 25 cm, thickness 5 cm, color Red"
+      }
+    },
+    {
+      "reference": "23.19.11.15",
+      "url": "https://www.traceparts.cn/en/product/traceparts-book-height-25-cm-thickness-5-cm?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-06022017-103505&PartNumber=23.19.11.15",
+      "parameters": {
+        "Omniclass number": "23.19.11.15"
+      }
+    }
+  ]
+}

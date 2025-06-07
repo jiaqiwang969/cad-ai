@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:15:09",
+  "base_product": {
+    "name": "italiana-ferramenta-cobra-glass-support-810mm-pin-o3-black-nk",
+    "id": "90-01092023-044737",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobra-glass-support-810mm-pin-o3-black-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044737"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "MATERIAL",
+    "PHILLIPS / POZIDRIV",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16014060YQ",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobra-glass-support-810mm-pin-o3-black-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044737&PartNumber=16014060YQ",
+      "parameters": {
+        "Manufacturer Part Number": "16014060YQ",
+        "Description": "COBRA glass support 8/10mm pin Ø3 black Nk",
+        "BOX QUANTITY": "2.500 PCS",
+        "FINISH": "Black Nickel",
+        "WOOD / GLASS THICKNESS": "8 - 10 mm",
+        "MATERIAL": "Zinc Alloy / Natural Engineering Plastic",
+        "PHILLIPS / POZIDRIV": "PZ2",
+        "HOLE DIAMETER": "Ø 5 mm"
+      }
+    }
+  ]
+}

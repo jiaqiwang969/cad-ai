@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:21",
+  "base_product": {
+    "name": "sirap-insulation-siraplus",
+    "id": "90-10062022-053714",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-siraplus?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053714"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SIRAPLUS",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-siraplus?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053714&PartNumber=SIRAPLUS",
+      "parameters": {
+        "Manufacturer Part Number": "SIRAPLUS",
+        "Description": "Expanded polystyrene insulating boards with grooved surface"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:41:09",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-step-spacer-profile-24x8",
+    "id": "30-12112020-084378",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-spacer-profile-24x8?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084378"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.650.75",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-spacer-profile-24x8?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084378&PartNumber=0.0.650.75",
+      "parameters": {
+        "Part Number": "0.0.650.75",
+        "Description": "Step Spacer Profile 24x8, Delivery unit: 1 pce., length 3000 mm"
+      }
+    }
+  ]
+}

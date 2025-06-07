@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:05",
+  "base_product": {
+    "name": "smeg-oven-sf4140mcn",
+    "id": "90-14122022-049991",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4140mcn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049991"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4140MCN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4140mcn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049991&PartNumber=SF4140MCN",
+      "parameters": {
+        "Part Number": "SF4140MCN",
+        "Description": "Oven : SF4140MCN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

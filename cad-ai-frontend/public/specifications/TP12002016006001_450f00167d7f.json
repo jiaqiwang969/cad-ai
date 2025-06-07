@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:45:44",
+  "base_product": {
+    "name": "pitzl-9000020025-hole-plate-for-thread-m-20-with-locking-latch",
+    "id": "90-05092024-038781",
+    "url": "https://www.traceparts.cn/en/product/pitzl-9000020025-hole-plate-for-thread-m-20-with-locking-latch?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038781"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Plate mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "90000.2002",
+      "url": "https://www.traceparts.cn/en/product/pitzl-9000020025-hole-plate-for-thread-m-20-with-locking-latch?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038781&PartNumber=90000.2002",
+      "parameters": {
+        "Manufacturer Part Number": "90000.2002",
+        "Description": "90000.20025 - hole plate for thread M 20 with locking latch",
+        "Plate mm": "M20 / 100 x 100 x 6"
+      }
+    }
+  ]
+}

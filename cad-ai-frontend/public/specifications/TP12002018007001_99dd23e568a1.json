@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:01",
+  "base_product": {
+    "name": "roverplastik-spa-rover-wood-blok-bls-franch-window-mosquito-net",
+    "id": "10-06112015-101628",
+    "url": "https://www.traceparts.cn/en/product/roverplastik-spa-rover-wood-blok-bls-franch-window-mosquito-net?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-06112015-101628"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Rover Wood Blok - BLS - Franch Window - Mosquito net",
+      "url": "https://www.traceparts.cn/en/product/roverplastik-spa-rover-wood-blok-bls-franch-window-mosquito-net?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-06112015-101628&PartNumber=Rover+Wood+Blok+-+BLS+-+Franch+Window+-+Mosquito+net",
+      "parameters": {
+        "Part Number": "Rover Wood Blok - BLS - Franch Window - Mosquito net",
+        "Description": "Isolated subframe energy efficient for creating finite compartment window and franch window for WOOD structure"
+      }
+    }
+  ]
+}

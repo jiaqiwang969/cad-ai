@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:48",
+  "base_product": {
+    "name": "gyproc-saintgobain-habitomaxima",
+    "id": "10-24042015-081613",
+    "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-habitomaxima?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081613"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Habito_Maxima",
+      "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-habitomaxima?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081613&PartNumber=Habito_Maxima",
+      "parameters": {
+        "Part Number": "Habito_Maxima",
+        "Description": "Partition of the total thickness of about 215 mm"
+      }
+    }
+  ]
+}

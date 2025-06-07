@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:04",
+  "base_product": {
+    "name": "smeg-oven-sf4390vcx1c",
+    "id": "90-14122022-050074",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4390vcx1c?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050074"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4390VCX1C",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4390vcx1c?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050074&PartNumber=SF4390VCX1C",
+      "parameters": {
+        "Part Number": "SF4390VCX1C",
+        "Description": "Oven : SF4390VCX1C",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

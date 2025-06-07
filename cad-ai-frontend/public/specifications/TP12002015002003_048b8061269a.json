@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:02",
+  "base_product": {
+    "name": "smeg-dishwasher-lvfabor",
+    "id": "90-14122022-047288",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvfabor?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047288"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVFABOR",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvfabor?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047288&PartNumber=LVFABOR",
+      "parameters": {
+        "Part Number": "LVFABOR",
+        "Description": "Dishwasher : LVFABOR",
+        "Color": "Orange",
+        "Overall Depth (mm)": "627",
+        "Overall Height (mm)": "885",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

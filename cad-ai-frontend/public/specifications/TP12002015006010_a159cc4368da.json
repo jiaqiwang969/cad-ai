@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:15:07",
+  "base_product": {
+    "name": "italiana-ferramenta-bolt-for-flipper-o3-x-l-77-zk",
+    "id": "90-01092023-043924",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-o3-x-l-77-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043924"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "MATERIAL",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10605030ZN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bolt-for-flipper-o3-x-l-77-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-043924&PartNumber=10605030ZN",
+      "parameters": {
+        "Manufacturer Part Number": "10605030ZN",
+        "Description": "Bolt for FLIPPER Ø3 x L. 7,7 Zk",
+        "BOX QUANTITY": "5.000 PCS",
+        "FINISH": "Zinc-plated",
+        "MATERIAL": "Steel",
+        "HOLE DIAMETER": "Ø 3 mm"
+      }
+    }
+  ]
+}

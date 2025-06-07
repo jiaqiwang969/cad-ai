@@ -1,0 +1,91 @@
+{
+  "extraction_time": "2025-06-07 21:47:58",
+  "base_product": {
+    "name": "fibrotubi-fibrotek-plus",
+    "id": "90-04092023-050415",
+    "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Model",
+    "Height (mm)",
+    "Width (mm)",
+    "Standard Length (mm)"
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "FIBROTEK3940X100",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X100",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X100",
+        "Description": "Fibrotek Plus : 3940 x 100",
+        "Model": "Fibrotek",
+        "Height (mm)": "100",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    },
+    {
+      "reference": "FIBROTEK3940X120",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X120",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X120",
+        "Description": "Fibrotek Plus : 3940 x 120",
+        "Model": "Fibrotek",
+        "Height (mm)": "120",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    },
+    {
+      "reference": "FIBROTEK3940X140",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X140",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X140",
+        "Description": "Fibrotek Plus : 3940 x 140",
+        "Model": "Fibrotek",
+        "Height (mm)": "140",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    },
+    {
+      "reference": "FIBROTEK3940X160",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X160",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X160",
+        "Description": "Fibrotek Plus : 3940 x 160",
+        "Model": "Fibrotek",
+        "Height (mm)": "160",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    },
+    {
+      "reference": "FIBROTEK3940X60",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X60",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X60",
+        "Description": "Fibrotek Plus : 3940 x 60",
+        "Model": "Fibrotek",
+        "Height (mm)": "60",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    },
+    {
+      "reference": "FIBROTEK3940X80",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-fibrotek-plus?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-04092023-050415&PartNumber=FIBROTEK3940X80",
+      "parameters": {
+        "Part Number": "FIBROTEK3940X80",
+        "Description": "Fibrotek Plus : 3940 x 80",
+        "Model": "Fibrotek",
+        "Height (mm)": "80",
+        "Width (mm)": "246",
+        "Standard Length (mm)": "3940"
+      }
+    }
+  ]
+}

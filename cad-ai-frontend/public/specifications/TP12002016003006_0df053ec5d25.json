@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:28",
+  "base_product": {
+    "name": "viero-viero-vieroclima-sw",
+    "id": "10-30092015-121021",
+    "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-sw?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121021"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VIERO - Vieroclima SW",
+      "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-sw?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121021&PartNumber=VIERO+-+Vieroclima+SW",
+      "parameters": {
+        "Part Number": "VIERO - Vieroclima SW",
+        "Description": "The system VIEROCLIMA SW , system EPS insulation with paste adhesive , is designed specifically to provide a solution with high performance , cost and reliability on wooden substrates . Expanded polystyrene ( EPS ) combines outstanding insulation properties with a great simplicity of manufacture ; is lightweight , flame-retardant , imputriscibile , perfectly weatherproof ."
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:19",
+  "base_product": {
+    "name": "smeg-hood-ks6500xe",
+    "id": "90-14122022-053877",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks6500xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053877"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS6500XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks6500xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053877&PartNumber=KS6500XE",
+      "parameters": {
+        "Part Number": "KS6500XE",
+        "Description": "Hood : KS6500XE"
+      }
+    }
+  ]
+}

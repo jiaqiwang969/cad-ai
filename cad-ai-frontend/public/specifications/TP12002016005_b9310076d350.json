@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:04",
+  "base_product": {
+    "name": "edilteco-spa-ecap-l",
+    "id": "10-28042015-108401",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-l?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108401"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ECAP L",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-l?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108401&PartNumber=ECAP+L",
+      "parameters": {
+        "Part Number": "ECAP L",
+        "Description": "Prefabricated thermal insulating board.Internal thermal insulation for walls and ceilings"
+      }
+    }
+  ]
+}

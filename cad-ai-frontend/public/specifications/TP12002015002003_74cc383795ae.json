@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:50",
+  "base_product": {
+    "name": "smeg-dishwasher-stl62335l",
+    "id": "90-14122022-047878",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62335l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047878"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL62335L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62335l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047878&PartNumber=STL62335L",
+      "parameters": {
+        "Part Number": "STL62335L",
+        "Description": "Dishwasher : STL62335L",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

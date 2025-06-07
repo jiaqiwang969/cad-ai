@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:04",
+  "base_product": {
+    "name": "smeg-hood-kir37xe",
+    "id": "90-14122022-053668",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kir37xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053668"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KIR37XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kir37xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053668&PartNumber=KIR37XE",
+      "parameters": {
+        "Part Number": "KIR37XE",
+        "Description": "Hood : KIR37XE"
+      }
+    }
+  ]
+}

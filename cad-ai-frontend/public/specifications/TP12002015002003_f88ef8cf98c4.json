@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:47",
+  "base_product": {
+    "name": "smeg-dishwasher-lsap8648x",
+    "id": "90-14122022-047227",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsap8648x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047227"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LSAP8648X",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsap8648x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047227&PartNumber=LSAP8648X",
+      "parameters": {
+        "Part Number": "LSAP8648X",
+        "Description": "Dishwasher : LSAP8648X",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

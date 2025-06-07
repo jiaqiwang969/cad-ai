@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:03:51",
+  "base_product": {
+    "name": "smeg-professional-oven-alfa1035ehds",
+    "id": "90-05012023-046680",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa1035ehds?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046680"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ALFA1035EHDS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa1035ehds?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046680&PartNumber=ALFA1035EHDS",
+      "parameters": {
+        "Part Number": "ALFA1035EHDS",
+        "Description": "Professional oven : ALFA1035EHDS",
+        "Color": "Stainless Steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "772",
+        "Overall Height (mm)": "1100",
+        "Overall Width (mm)": "798",
+        "Space Requirement (mm)": "1536"
+      }
+    }
+  ]
+}

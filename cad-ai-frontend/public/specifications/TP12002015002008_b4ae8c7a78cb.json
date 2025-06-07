@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:34",
+  "base_product": {
+    "name": "smeg-hob-gkc755nlk",
+    "id": "90-14122022-058960",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-gkc755nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058960"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "GKC755NLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-gkc755nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058960&PartNumber=GKC755NLK",
+      "parameters": {
+        "Part Number": "GKC755NLK",
+        "Description": "Hob : GKC755NLK",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

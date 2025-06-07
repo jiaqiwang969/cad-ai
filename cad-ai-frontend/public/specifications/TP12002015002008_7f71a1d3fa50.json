@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:32",
+  "base_product": {
+    "name": "smeg-hob-sr775px",
+    "id": "90-14122022-063815",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775px?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063815"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR775PX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775px?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063815&PartNumber=SR775PX",
+      "parameters": {
+        "Part Number": "SR775PX",
+        "Description": "Hob : SR775PX",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

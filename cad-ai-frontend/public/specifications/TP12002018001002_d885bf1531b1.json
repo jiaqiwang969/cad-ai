@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:25",
+  "base_product": {
+    "name": "sab-serrature-srl-series-156128",
+    "id": "10-11052015-113310",
+    "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-156128?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113310"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Series 1561_28",
+      "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-156128?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113310&PartNumber=Series+1561_28",
+      "parameters": {
+        "Part Number": "Series 1561_28",
+        "Description": "Available for mortise or apply version, these locks are operated from double bitted key with a total combinations for more than 1.6 millions. For the double lock type, they have an arrangement with double bitted key and cylinder (not included) that amplify the safety level. All can be provided with service key or limited access function."
+      }
+    }
+  ]
+}

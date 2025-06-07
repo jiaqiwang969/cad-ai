@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:35",
+  "base_product": {
+    "name": "smeg-oven-sfpa6925x2",
+    "id": "90-14122022-051626",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6925x2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051626"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPA6925X2",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6925x2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051626&PartNumber=SFPA6925X2",
+      "parameters": {
+        "Part Number": "SFPA6925X2",
+        "Description": "Oven : SFPA6925X2",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

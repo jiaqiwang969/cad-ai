@@ -1,0 +1,55 @@
+{
+  "extraction_time": "2025-06-07 22:16:05",
+  "base_product": {
+    "name": "bs-rollen-gmbh-d802-druckkugellager",
+    "id": "90-12082021-027698",
+    "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d802-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027698"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Ø Schraubloch",
+    "Tragkraft",
+    "Schraublochentf.",
+    "Größe",
+    "EAN-Code",
+    "Bestelleinheit",
+    "Inhaltseinheit",
+    "Verpackungsmenge"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "D80.115",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d802-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027698&PartNumber=D80.115",
+      "parameters": {
+        "Bestellnummer": "D80.115",
+        "Bezeichnung": "Druckkugellager",
+        "Ø Schraubloch": "9",
+        "Tragkraft": "500",
+        "Schraublochentf.": "80x60",
+        "Größe": "105x85",
+        "EAN-Code": "4021885000783",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    },
+    {
+      "reference": "D80.138",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d802-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027698&PartNumber=D80.138",
+      "parameters": {
+        "Bestellnummer": "D80.138",
+        "Bezeichnung": "Druckkugellager",
+        "Ø Schraubloch": "11",
+        "Tragkraft": "600",
+        "Schraublochentf.": "105x75/80",
+        "Größe": "138x109",
+        "EAN-Code": "4021885008369",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    }
+  ]
+}

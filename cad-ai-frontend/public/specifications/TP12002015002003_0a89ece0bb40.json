@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:30",
+  "base_product": {
+    "name": "smeg-dishwasher-stl2323de",
+    "id": "90-14122022-047844",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl2323de?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047844"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL2323DE",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl2323de?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047844&PartNumber=STL2323DE",
+      "parameters": {
+        "Part Number": "STL2323DE",
+        "Description": "Dishwasher : STL2323DE",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

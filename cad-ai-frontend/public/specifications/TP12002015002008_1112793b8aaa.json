@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:36",
+  "base_product": {
+    "name": "smeg-hob-ps60ghc",
+    "id": "90-14122022-059470",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-ps60ghc?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059470"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PS60GHC",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-ps60ghc?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059470&PartNumber=PS60GHC",
+      "parameters": {
+        "Part Number": "PS60GHC",
+        "Description": "Hob : PS60GHC",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "585"
+      }
+    }
+  ]
+}

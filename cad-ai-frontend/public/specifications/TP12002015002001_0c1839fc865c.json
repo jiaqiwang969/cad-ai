@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:09:39",
+  "base_product": {
+    "name": "smeg-washing-machine-wmf1472",
+    "id": "90-28102022-039301",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-wmf1472?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039301"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Current (A)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "WMF147-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-wmf1472?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039301&PartNumber=WMF147-2",
+      "parameters": {
+        "Part Number": "WMF147-2",
+        "Description": "Washing Machine : WMF147-2",
+        "Electric Power (W)": "2200",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Current (A)": "10",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "75",
+        "Color": "White"
+      }
+    }
+  ]
+}

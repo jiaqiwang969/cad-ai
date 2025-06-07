@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:28",
+  "base_product": {
+    "name": "polypiu-panel-piu-500-40mm",
+    "id": "10-03062015-084340",
+    "url": "https://www.traceparts.cn/en/product/polypiu-panel-piu-500-40mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084340"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Panel_Più_500_40mm",
+      "url": "https://www.traceparts.cn/en/product/polypiu-panel-piu-500-40mm?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084340&PartNumber=Panel_Pi%C3%B9_500_40mm",
+      "parameters": {
+        "Part Number": "Panel_Più_500_40mm",
+        "Description": "PanelPIÙ 500. It is a modular system polycarbonate, interlocking, extruded in different types of thickness (mm. 16/20/40), ideal for the realization of vertical glazing and windows industrial"
+      }
+    }
+  ]
+}

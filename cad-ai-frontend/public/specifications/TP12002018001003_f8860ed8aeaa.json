@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:48",
+  "base_product": {
+    "name": "serisolar-srl-sb341exsr-courtain",
+    "id": "10-27042015-105234",
+    "url": "https://www.traceparts.cn/en/product/serisolar-srl-sb341exsr-courtain?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-27042015-105234"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SB341EXSR - Courtain",
+      "url": "https://www.traceparts.cn/en/product/serisolar-srl-sb341exsr-courtain?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-27042015-105234&PartNumber=SB341EXSR+-+Courtain",
+      "parameters": {
+        "Part Number": "SB341EXSR - Courtain",
+        "Description": "Films that drastically reduce the heat produced by solar energy. For windows"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:58",
+  "base_product": {
+    "name": "wierer-tegola-innotech",
+    "id": "10-27042015-071949",
+    "url": "https://www.traceparts.cn/en/product/wierer-tegola-innotech?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-27042015-071949"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Tegola Innotech",
+      "url": "https://www.traceparts.cn/en/product/wierer-tegola-innotech?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-27042015-071949&PartNumber=Tegola+Innotech",
+      "parameters": {
+        "Part Number": "Tegola Innotech",
+        "Description": "Geometry and simple, perfectly flat surface , reminiscent of the stone slabs ."
+      }
+    }
+  ]
+}

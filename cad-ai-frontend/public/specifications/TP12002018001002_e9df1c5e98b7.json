@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:28",
+  "base_product": {
+    "name": "sab-serrature-srl-series-226090",
+    "id": "10-11052015-113314",
+    "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-226090?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113314"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Series 2260_90",
+      "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-226090?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113314&PartNumber=Series+2260_90",
+      "parameters": {
+        "Part Number": "Series 2260_90",
+        "Description": "Locks for series 2200 have a wide range of models, finishings and functions. Realized with solid brass frontal plate, bolt and latch, they can be produced in more than 15 different finishings to match with furthers door’s accessories such as lever handles and hinges."
+      }
+    }
+  ]
+}

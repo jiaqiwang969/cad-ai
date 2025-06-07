@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 21:39:07",
+  "base_product": {
+    "name": "profholod-double-leaf-industrial-door",
+    "id": "90-04052021-050412",
+    "url": "https://www.traceparts.cn/en/product/profholod-double-leaf-industrial-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050412"
+  },
+  "table_headers": [
+    "Part Number",
+    "Door leaf thickness, mm",
+    "Core insulation",
+    "Opening height, mm",
+    "Opening width, mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "IDD",
+      "url": "https://www.traceparts.cn/en/product/profholod-double-leaf-industrial-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050412&PartNumber=IDD",
+      "parameters": {
+        "Part Number": "IDD",
+        "Door leaf thickness, mm": "40",
+        "Core insulation": "polyurethane",
+        "Opening height, mm": "up to 2400",
+        "Opening width, mm": "up to 2320"
+      }
+    }
+  ]
+}

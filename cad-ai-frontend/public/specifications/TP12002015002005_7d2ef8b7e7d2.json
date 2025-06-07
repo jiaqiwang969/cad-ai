@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:52",
+  "base_product": {
+    "name": "smeg-hood-kfv92dne",
+    "id": "90-14122022-053623",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kfv92dne?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053623"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KFV92DNE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kfv92dne?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053623&PartNumber=KFV92DNE",
+      "parameters": {
+        "Part Number": "KFV92DNE",
+        "Description": "Hood : KFV92DNE",
+        "Electric Power (W)": "272",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50/60",
+        "Sound power max (dB(A))": "67",
+        "EU Energy Label": "B",
+        "Color": "Steel / Black Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "360",
+        "Overall Height (mm)": "725",
+        "Overall Width (mm)": "898"
+      }
+    }
+  ]
+}

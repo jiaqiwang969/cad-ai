@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 22:14:47",
+  "base_product": {
+    "name": "rs-group-blank-printer-label-0830657",
+    "id": "90-01022024-042975",
+    "url": "https://www.traceparts.cn/en/product/rs-group-blank-printer-label-0830657?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-042975"
+  },
+  "table_headers": [
+    "Description",
+    "Part Number",
+    "Manufacturer",
+    "RS Stock Number"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "8603373",
+      "url": "https://www.traceparts.cn/en/product/rs-group-blank-printer-label-0830657?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-042975&PartNumber=8603373",
+      "parameters": {
+        "Description": "Blank Printer Label 0830657",
+        "Part Number": "8603373",
+        "Manufacturer": "Phoenix Contact",
+        "RS Stock Number": "8603373"
+      }
+    }
+  ]
+}

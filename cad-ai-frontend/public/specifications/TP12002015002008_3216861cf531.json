@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:59",
+  "base_product": {
+    "name": "smeg-hob-srv864avogh2",
+    "id": "90-14122022-064139",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864avogh2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064139"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV864AVOGH2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864avogh2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064139&PartNumber=SRV864AVOGH2",
+      "parameters": {
+        "Part Number": "SRV864AVOGH2",
+        "Description": "Hob : SRV864AVOGH2",
+        "Color": "Beige",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

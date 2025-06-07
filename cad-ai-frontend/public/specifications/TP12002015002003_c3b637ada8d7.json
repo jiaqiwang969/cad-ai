@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:13",
+  "base_product": {
+    "name": "smeg-dishwasher-lvs222bit",
+    "id": "90-14122022-047359",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs222bit?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047359"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVS222BIT",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs222bit?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047359&PartNumber=LVS222BIT",
+      "parameters": {
+        "Part Number": "LVS222BIT",
+        "Description": "Dishwasher : LVS222BIT",
+        "Color": "White",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

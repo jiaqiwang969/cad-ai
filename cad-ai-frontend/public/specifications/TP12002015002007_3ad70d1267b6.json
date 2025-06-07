@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:57:48",
+  "base_product": {
+    "name": "smeg-oven-dusf400s",
+    "id": "90-14122022-049661",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf400s?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049661"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DUSF400S",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-dusf400s?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049661&PartNumber=DUSF400S",
+      "parameters": {
+        "Part Number": "DUSF400S",
+        "Description": "Oven : DUSF400S",
+        "Color": "Silver Glass",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "719",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

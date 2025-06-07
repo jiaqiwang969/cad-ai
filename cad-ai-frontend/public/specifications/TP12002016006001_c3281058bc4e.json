@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:45:07",
+  "base_product": {
+    "name": "pitzl-109507053-post-base-system-for-embedding-in-concrete",
+    "id": "90-05092024-038698",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109507053-post-base-system-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038698"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10950.7053",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109507053-post-base-system-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038698&PartNumber=10950.7053",
+      "parameters": {
+        "Manufacturer Part Number": "10950.7053",
+        "Description": "10950.7053 - Post base system for embedding in concrete",
+        "Upper plate mm": "Ø 100 x 6",
+        "Lower plate mm": "70 x 60 x 5",
+        "Tube Ø mm": "48,3 x 3,25",
+        "Borehole top": "Ø12x4",
+        "Installation height mm": "311",
+        "Tube mandrel": "M44 x 130",
+        "max. characteristic pressure bearing capacity (kN) *": "100,0"
+      }
+    }
+  ]
+}

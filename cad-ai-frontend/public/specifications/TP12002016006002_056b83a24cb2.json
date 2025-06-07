@@ -1,0 +1,63 @@
+{
+  "extraction_time": "2025-06-07 21:43:29",
+  "base_product": {
+    "name": "isel-germany-gmbh-profile-connection-cubes",
+    "id": "32-09092015-098597",
+    "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597"
+  },
+  "table_headers": [
+    "Description (mm)",
+    "Part no."
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "209104 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209104+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 2-fold",
+        "Part no.": "209104 0002"
+      }
+    },
+    {
+      "reference": "209103 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209103+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 3-fold",
+        "Part no.": "209103 0002"
+      }
+    },
+    {
+      "reference": "209106 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209106+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 3-fold",
+        "Part no.": "209106 0002"
+      }
+    },
+    {
+      "reference": "209107 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209107+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 4-fold",
+        "Part no.": "209107 0002"
+      }
+    },
+    {
+      "reference": "209108 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209108+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 4-fold",
+        "Part no.": "209108 0002"
+      }
+    },
+    {
+      "reference": "209109 0002",
+      "url": "https://www.traceparts.cn/en/product/isel-germany-gmbh-profile-connection-cubes?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=32-09092015-098597&PartNumber=209109+0002",
+      "parameters": {
+        "Description (mm)": "Profile connection cubes, black, for PU 25, 5-fold",
+        "Part no.": "209109 0002"
+      }
+    }
+  ]
+}

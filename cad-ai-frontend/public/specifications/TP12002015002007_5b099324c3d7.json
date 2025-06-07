@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:39",
+  "base_product": {
+    "name": "smeg-oven-sf855ra",
+    "id": "90-14122022-050910",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf855ra?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050910"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF855RA",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf855ra?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050910&PartNumber=SF855RA",
+      "parameters": {
+        "Part Number": "SF855RA",
+        "Description": "Oven : SF855RA",
+        "Color": "Copper",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

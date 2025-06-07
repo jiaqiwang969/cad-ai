@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:01",
+  "base_product": {
+    "name": "smeg-oven-sfp6401tvx1",
+    "id": "90-14122022-051428",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp6401tvx1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051428"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP6401TVX1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp6401tvx1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051428&PartNumber=SFP6401TVX1",
+      "parameters": {
+        "Part Number": "SFP6401TVX1",
+        "Description": "Oven : SFP6401TVX1",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

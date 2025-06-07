@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:23",
+  "base_product": {
+    "name": "smeg-oven-sf64m3pzn",
+    "id": "90-14122022-050659",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3pzn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050659"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF64M3PZN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3pzn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050659&PartNumber=SF64M3PZN",
+      "parameters": {
+        "Part Number": "SF64M3PZN",
+        "Description": "Oven : SF64M3PZN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

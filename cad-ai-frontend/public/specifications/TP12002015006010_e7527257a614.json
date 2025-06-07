@@ -1,0 +1,72 @@
+{
+  "extraction_time": "2025-06-07 22:15:59",
+  "base_product": {
+    "name": "bs-rollen-gmbh-d801-druckkugellager",
+    "id": "90-12082021-027694",
+    "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d801-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027694"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Ø Schraubloch",
+    "Tragkraft",
+    "Schraublochentf.",
+    "Ø Schraubloch",
+    "Größe",
+    "EAN-Code",
+    "Bestelleinheit",
+    "Inhaltseinheit",
+    "Verpackungsmenge"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "D80.081",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d801-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027694&PartNumber=D80.081",
+      "parameters": {
+        "Bestellnummer": "D80.081",
+        "Bezeichnung": "Druckkugellager",
+        "Ø Schraubloch": "4",
+        "Tragkraft": "80",
+        "Schraublochentf.": "67x67",
+        "Größe": "81x81",
+        "EAN-Code": "4021885060275",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    },
+    {
+      "reference": "D80.155",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d801-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027694&PartNumber=D80.155",
+      "parameters": {
+        "Bestellnummer": "D80.155",
+        "Bezeichnung": "Druckkugellager",
+        "Ø Schraubloch": "5",
+        "Tragkraft": "150",
+        "Schraublochentf.": "128x128/116x116",
+        "Größe": "155x155",
+        "EAN-Code": "4021885060282",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    },
+    {
+      "reference": "D80.175",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d801-druckkugellager?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027694&PartNumber=D80.175",
+      "parameters": {
+        "Bestellnummer": "D80.175",
+        "Bezeichnung": "Druckkugellager",
+        "Ø Schraubloch": "7",
+        "Tragkraft": "250",
+        "Schraublochentf.": "134x134",
+        "Größe": "165x165",
+        "EAN-Code": "4021885050245",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    }
+  ]
+}

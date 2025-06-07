@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:44",
+  "base_product": {
+    "name": "smeg-hob-pvl675lcnnlk",
+    "id": "90-14122022-059968",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl675lcnnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059968"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVL675LCNNLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl675lcnnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059968&PartNumber=PVL675LCNNLK",
+      "parameters": {
+        "Part Number": "PVL675LCNNLK",
+        "Description": "Hob : PVL675LCNNLK",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "92",
+        "Overall Width (mm)": "750"
+      }
+    }
+  ]
+}

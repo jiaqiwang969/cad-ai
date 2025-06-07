@@ -1,0 +1,71 @@
+{
+  "extraction_time": "2025-06-07 21:45:53",
+  "base_product": {
+    "name": "marley-alutec-roof-outlet-with-extended-grate",
+    "id": "90-07012021-033565",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-extended-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033565"
+  },
+  "table_headers": [
+    "Part Number",
+    "Pipe connection size (O.D)",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G Max. (cut down to requierement)",
+    "Max. Flow rate (l/s)"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "AR82TG",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-extended-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033565&PartNumber=AR82TG",
+      "parameters": {
+        "Part Number": "AR82TG",
+        "Pipe connection size (O.D)": "82mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "82",
+        "D": "255",
+        "E": "200",
+        "F": "10",
+        "G Max. (cut down to requierement)": "255",
+        "Max. Flow rate (l/s)": "5"
+      }
+    },
+    {
+      "reference": "AR110TG",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-extended-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033565&PartNumber=AR110TG",
+      "parameters": {
+        "Part Number": "AR110TG",
+        "Pipe connection size (O.D)": "110mmØ",
+        "A": "377",
+        "B": "136",
+        "C": "110",
+        "D": "255",
+        "E": "200",
+        "F": "10",
+        "G Max. (cut down to requierement)": "255",
+        "Max. Flow rate (l/s)": "10.7"
+      }
+    },
+    {
+      "reference": "AR160TG",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-roof-outlet-with-extended-grate?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-033565&PartNumber=AR160TG",
+      "parameters": {
+        "Part Number": "AR160TG",
+        "Pipe connection size (O.D)": "160mmØ",
+        "A": "377",
+        "B": "111",
+        "C": "160",
+        "D": "255",
+        "E": "200",
+        "F": "10",
+        "G Max. (cut down to requierement)": "255",
+        "Max. Flow rate (l/s)": "19"
+      }
+    }
+  ]
+}

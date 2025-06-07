@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:53",
+  "base_product": {
+    "name": "smeg-oven-sf485x",
+    "id": "90-14122022-050313",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf485x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050313"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF485X",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf485x?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050313&PartNumber=SF485X",
+      "parameters": {
+        "Part Number": "SF485X",
+        "Description": "Oven : SF485X",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

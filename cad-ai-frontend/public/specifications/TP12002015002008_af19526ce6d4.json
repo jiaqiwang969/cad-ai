@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:04",
+  "base_product": {
+    "name": "smeg-hob-sim693wldr",
+    "id": "90-14122022-063545",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sim693wldr?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063545"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SIM693WLDR",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sim693wldr?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063545&PartNumber=SIM693WLDR",
+      "parameters": {
+        "Part Number": "SIM693WLDR",
+        "Description": "Hob : SIM693WLDR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "53",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

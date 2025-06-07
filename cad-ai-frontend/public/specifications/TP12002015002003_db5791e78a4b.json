@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:45",
+  "base_product": {
+    "name": "smeg-dishwasher-st2fabwh",
+    "id": "90-14122022-047574",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabwh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047574"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST2FABWH",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabwh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047574&PartNumber=ST2FABWH",
+      "parameters": {
+        "Part Number": "ST2FABWH",
+        "Description": "Dishwasher : ST2FABWH",
+        "Color": "White",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

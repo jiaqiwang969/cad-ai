@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:03",
+  "base_product": {
+    "name": "edilteco-spa-ecap-stif",
+    "id": "10-28042015-108414",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-stif?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108414"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ECAP STIF",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-stif?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108414&PartNumber=ECAP+STIF",
+      "parameters": {
+        "Part Number": "ECAP STIF",
+        "Description": "Prefinished system for thermo-insulating panels in Stiferite Class SK"
+      }
+    }
+  ]
+}

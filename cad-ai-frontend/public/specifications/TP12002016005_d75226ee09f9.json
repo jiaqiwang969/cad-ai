@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:46:05",
+  "base_product": {
+    "name": "rs-group-heat-conducting-disc-02mm-to247",
+    "id": "90-20112024-078431",
+    "url": "https://www.traceparts.cn/en/product/rs-group-heat-conducting-disc-02mm-to247?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-20112024-078431"
+  },
+  "table_headers": [
+    "Description",
+    "Part Number",
+    "Manufacturer",
+    "RS Stock Number"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "2835256",
+      "url": "https://www.traceparts.cn/en/product/rs-group-heat-conducting-disc-02mm-to247?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-20112024-078431&PartNumber=2835256",
+      "parameters": {
+        "Description": "Heat conducting disc 0.2mm TO-247",
+        "Part Number": "2835256",
+        "Manufacturer": "Fischer Elektronik",
+        "RS Stock Number": "2835256"
+      }
+    }
+  ]
+}

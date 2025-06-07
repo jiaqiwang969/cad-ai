@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:35",
+  "base_product": {
+    "name": "smeg-dishwasher-stl62327l",
+    "id": "90-14122022-047873",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62327l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047873"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL62327L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl62327l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047873&PartNumber=STL62327L",
+      "parameters": {
+        "Part Number": "STL62327L",
+        "Description": "Dishwasher : STL62327L",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

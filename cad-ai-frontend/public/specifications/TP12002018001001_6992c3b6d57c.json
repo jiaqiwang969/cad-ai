@@ -1,0 +1,133 @@
+{
+  "extraction_time": "2025-06-07 21:38:34",
+  "base_product": {
+    "name": "acton-62322-square-bend-screw-hooks",
+    "id": "10-27012020-095444",
+    "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444"
+  },
+  "table_headers": [
+    "CAD",
+    "Part number",
+    "d x L (mm)",
+    "h (mm)",
+    "b (mm)",
+    "GENCOD",
+    "Poids (kg/100)",
+    "Carton"
+  ],
+  "total_specifications": 8,
+  "specifications": [
+    {
+      "reference": "623222,5X20",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623222%2C5X20",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623222,5X20",
+        "d x L (mm)": "2,5X20",
+        "h (mm)": "10",
+        "b (mm)": "9",
+        "GENCOD": "3604880104062",
+        "Poids (kg/100)": "0,092",
+        "Carton": "7600"
+      }
+    },
+    {
+      "reference": "623223X25",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623223X25",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623223X25",
+        "d x L (mm)": "3X25",
+        "h (mm)": "11",
+        "b (mm)": "10",
+        "GENCOD": "3604880104079",
+        "Poids (kg/100)": "0,178",
+        "Carton": "7600"
+      }
+    },
+    {
+      "reference": "623223X30",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623223X30",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623223X30",
+        "d x L (mm)": "3X30",
+        "h (mm)": "11",
+        "b (mm)": "14",
+        "GENCOD": "3604880104086",
+        "Poids (kg/100)": "0,204",
+        "Carton": "7600"
+      }
+    },
+    {
+      "reference": "623223,5X35",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623223%2C5X35",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623223,5X35",
+        "d x L (mm)": "3,5X35",
+        "h (mm)": "12",
+        "b (mm)": "15",
+        "GENCOD": "3604880104420",
+        "Poids (kg/100)": "0,308",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623224X40",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623224X40",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623224X40",
+        "d x L (mm)": "4X40",
+        "h (mm)": "14",
+        "b (mm)": "18",
+        "GENCOD": "3604880104437",
+        "Poids (kg/100)": "0,434",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623224,5X45",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623224%2C5X45",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623224,5X45",
+        "d x L (mm)": "4,5X45",
+        "h (mm)": "14",
+        "b (mm)": "18",
+        "GENCOD": "3604880104444",
+        "Poids (kg/100)": "0,648",
+        "Carton": "1800"
+      }
+    },
+    {
+      "reference": "623225X50",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623225X50",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623225X50",
+        "d x L (mm)": "5X50",
+        "h (mm)": "17",
+        "b (mm)": "21",
+        "GENCOD": "3604880104451",
+        "Poids (kg/100)": "0,870",
+        "Carton": "800"
+      }
+    },
+    {
+      "reference": "623225X60",
+      "url": "https://www.traceparts.cn/en/product/acton-62322-square-bend-screw-hooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095444&PartNumber=623225X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623225X60",
+        "d x L (mm)": "5X60",
+        "h (mm)": "18",
+        "b (mm)": "26",
+        "GENCOD": "3604880104468",
+        "Poids (kg/100)": "1,006",
+        "Carton": "800"
+      }
+    }
+  ]
+}

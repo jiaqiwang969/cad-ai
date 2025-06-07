@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:26",
+  "base_product": {
+    "name": "cherubini-8071",
+    "id": "70-01042016-136133",
+    "url": "https://www.traceparts.cn/en/product/cherubini-8071?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136133"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "8071",
+      "url": "https://www.traceparts.cn/en/product/cherubini-8071?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136133&PartNumber=8071",
+      "parameters": {
+        "Item Number": "8071",
+        "Description": "Offset universal joint 30°. 30x30 plate, driving rod hex.7x120 mm, connector F Ø 13 mm with screw. RAL 9016."
+      }
+    }
+  ]
+}

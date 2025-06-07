@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:37",
+  "base_product": {
+    "name": "smeg-hob-pv175cn2au",
+    "id": "90-14122022-059627",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv175cn2au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059627"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV175CN2AU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv175cn2au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059627&PartNumber=PV175CN2AU",
+      "parameters": {
+        "Part Number": "PV175CN2AU",
+        "Description": "Hob : PV175CN2AU",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "48",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

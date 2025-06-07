@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 21:44:51",
+  "base_product": {
+    "name": "pitzl-109342302-post-base-system-for-embedding-in-concrete-with-thread-m30",
+    "id": "90-05092024-038633",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109342302-post-base-system-for-embedding-in-concrete-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038633"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Thread low.",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10934.2302",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109342302-post-base-system-for-embedding-in-concrete-with-thread-m30?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038633&PartNumber=10934.2302",
+      "parameters": {
+        "Manufacturer Part Number": "10934.2302",
+        "Description": "10934.2302 - Post base system for embedding in concrete with thread M30",
+        "Upper plate mm": "Ø 100 x 10",
+        "Thread low.": "M30x250",
+        "Borehole top": "Ø12x4",
+        "Installation height mm": "110",
+        "Tube mandrel": "Ø42,4 x 130",
+        "max. characteristic pressure bearing capacity (kN) *": "122,8"
+      }
+    }
+  ]
+}

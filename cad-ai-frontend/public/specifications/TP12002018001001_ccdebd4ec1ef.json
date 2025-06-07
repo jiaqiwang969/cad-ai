@@ -1,0 +1,172 @@
+{
+  "extraction_time": "2025-06-07 21:38:33",
+  "base_product": {
+    "name": "acton-62321-screwhooks",
+    "id": "10-27012020-095440",
+    "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440"
+  },
+  "table_headers": [
+    "CAD",
+    "Part number",
+    "d x L (mm)",
+    "L1 (mm)",
+    "D (mm)",
+    "b (mm)",
+    "GENCOD",
+    "Poids (kg/100)",
+    "Carton"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "623212,5X10",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623212%2C5X10",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623212,5X10",
+        "d x L (mm)": "2,5X10",
+        "L1 (mm)": "23",
+        "D (mm)": "8",
+        "b (mm)": "6",
+        "GENCOD": "3604880103959",
+        "Poids (kg/100)": "0,103",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623212,5X12",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623212%2C5X12",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623212,5X12",
+        "d x L (mm)": "2,5X12",
+        "L1 (mm)": "25",
+        "D (mm)": "8",
+        "b (mm)": "7",
+        "GENCOD": "3604880103966",
+        "Poids (kg/100)": "0,118",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623213X16",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623213X16",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623213X16",
+        "d x L (mm)": "3X16",
+        "L1 (mm)": "32",
+        "D (mm)": "10",
+        "b (mm)": "10",
+        "GENCOD": "3604880103980",
+        "Poids (kg/100)": "0,241",
+        "Carton": "3600"
+      }
+    },
+    {
+      "reference": "623213,5X20",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623213%2C5X20",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623213,5X20",
+        "d x L (mm)": "3,5X20",
+        "L1 (mm)": "43",
+        "D (mm)": "16",
+        "b (mm)": "12",
+        "GENCOD": "3604880103997",
+        "Poids (kg/100)": "0,390",
+        "Carton": "1600"
+      }
+    },
+    {
+      "reference": "623213,5X25",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623213%2C5X25",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623213,5X25",
+        "d x L (mm)": "3,5X25",
+        "L1 (mm)": "48",
+        "D (mm)": "16",
+        "b (mm)": "15",
+        "GENCOD": "3604880104000",
+        "Poids (kg/100)": "0,430",
+        "Carton": "1800"
+      }
+    },
+    {
+      "reference": "623214X30",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623214X30",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623214X30",
+        "d x L (mm)": "4X30",
+        "L1 (mm)": "54",
+        "D (mm)": "16",
+        "b (mm)": "18",
+        "GENCOD": "3604880104017",
+        "Poids (kg/100)": "0,690",
+        "Carton": "800"
+      }
+    },
+    {
+      "reference": "623214,5X30",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623214%2C5X30",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623214,5X30",
+        "d x L (mm)": "4,5X30",
+        "L1 (mm)": "59",
+        "D (mm)": "20",
+        "b (mm)": "15",
+        "GENCOD": "3604880104024",
+        "Poids (kg/100)": "1,076",
+        "Carton": "800"
+      }
+    },
+    {
+      "reference": "623215X35",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623215X35",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623215X35",
+        "d x L (mm)": "5X35",
+        "L1 (mm)": "70",
+        "D (mm)": "25",
+        "b (mm)": "18",
+        "GENCOD": "3604880104031",
+        "Poids (kg/100)": "1,444",
+        "Carton": "400"
+      }
+    },
+    {
+      "reference": "623215X40",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623215X40",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623215X40",
+        "d x L (mm)": "5X40",
+        "L1 (mm)": "75",
+        "D (mm)": "25",
+        "b (mm)": "25",
+        "GENCOD": "3604880104048",
+        "Poids (kg/100)": "1,468",
+        "Carton": "400"
+      }
+    },
+    {
+      "reference": "623216X60",
+      "url": "https://www.traceparts.cn/en/product/acton-62321-screwhooks?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095440&PartNumber=623216X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623216X60",
+        "d x L (mm)": "6X60",
+        "L1 (mm)": "101",
+        "D (mm)": "29",
+        "b (mm)": "30",
+        "GENCOD": "3604880104055",
+        "Poids (kg/100)": "2,842",
+        "Carton": "200"
+      }
+    }
+  ]
+}

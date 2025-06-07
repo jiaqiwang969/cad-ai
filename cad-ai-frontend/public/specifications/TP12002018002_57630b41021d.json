@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:32",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-glide-tape-15x015-sa",
+    "id": "30-12112020-084630",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-glide-tape-15x015-sa?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084630"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.655.28",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-glide-tape-15x015-sa?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084630&PartNumber=0.0.655.28",
+      "parameters": {
+        "Part Number": "0.0.655.28",
+        "Description": "Glide Tape 15x0.15 SA, Delivery unit: 1 roll, length 33 m"
+      }
+    }
+  ]
+}

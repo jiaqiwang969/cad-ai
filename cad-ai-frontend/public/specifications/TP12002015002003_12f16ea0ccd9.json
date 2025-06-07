@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:02",
+  "base_product": {
+    "name": "smeg-dishwasher-stx3cl",
+    "id": "90-14122022-047979",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stx3cl?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047979"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STX3CL",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stx3cl?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047979&PartNumber=STX3CL",
+      "parameters": {
+        "Part Number": "STX3CL",
+        "Description": "Dishwasher : STX3CL",
+        "Color": "Stainless steel",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

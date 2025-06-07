@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:12",
+  "base_product": {
+    "name": "lmc-bouton-decoratif",
+    "id": "10-21042009-084791",
+    "url": "https://www.traceparts.cn/en/product/lmc-bouton-decoratif?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-21042009-084791"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "BOU8902",
+      "url": "https://www.traceparts.cn/en/product/lmc-bouton-decoratif?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-21042009-084791&PartNumber=BOU8902",
+      "parameters": {
+        "Présentation": "Nickelé mat",
+        "Référence": "BOU8902"
+      }
+    }
+  ]
+}

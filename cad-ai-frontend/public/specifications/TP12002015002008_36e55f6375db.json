@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:30",
+  "base_product": {
+    "name": "smeg-hob-ps64",
+    "id": "90-14122022-059480",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-ps64?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059480"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PS64",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-ps64?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059480&PartNumber=PS64",
+      "parameters": {
+        "Part Number": "PS64",
+        "Description": "Hob : PS64",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "72",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

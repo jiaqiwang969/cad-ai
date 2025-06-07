@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:50",
+  "base_product": {
+    "name": "smeg-dishwasher-lsa4513x",
+    "id": "90-14122022-047209",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsa4513x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047209"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LSA4513X",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lsa4513x?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047209&PartNumber=LSA4513X",
+      "parameters": {
+        "Part Number": "LSA4513X",
+        "Description": "Dishwasher : LSA4513X",
+        "Color": "Black",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

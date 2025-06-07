@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:48",
+  "base_product": {
+    "name": "smeg-dishwasher-stl7621l",
+    "id": "90-14122022-047920",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl7621l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047920"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL7621L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl7621l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047920&PartNumber=STL7621L",
+      "parameters": {
+        "Part Number": "STL7621L",
+        "Description": "Dishwasher : STL7621L",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

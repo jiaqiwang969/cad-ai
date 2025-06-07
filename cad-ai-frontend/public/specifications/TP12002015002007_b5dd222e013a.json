@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:02:12",
+  "base_product": {
+    "name": "smeg-oven-sfc6100vnfr",
+    "id": "90-14122022-051140",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfc6100vnfr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051140"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFC6100VNFR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfc6100vnfr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051140&PartNumber=SFC6100VNFR",
+      "parameters": {
+        "Part Number": "SFC6100VNFR",
+        "Description": "Oven : SFC6100VNFR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:46",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-stairway-assembly-set-gp-45deg",
+    "id": "30-12112020-084488",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-gp-45deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084488"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.653.12",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-gp-45deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084488&PartNumber=0.0.653.12",
+      "parameters": {
+        "Part Number": "0.0.653.12",
+        "Description": "Stairway Assembly Set GP 45°, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

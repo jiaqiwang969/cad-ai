@@ -1,0 +1,41 @@
+{
+  "extraction_time": "2025-06-07 21:55:43",
+  "base_product": {
+    "name": "smeg-hood-kdiam90ax",
+    "id": "90-14122022-053490",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kdiam90ax?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053490"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KDIAM90AX",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kdiam90ax?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053490&PartNumber=KDIAM90AX",
+      "parameters": {
+        "Part Number": "KDIAM90AX",
+        "Description": "Hood : KDIAM90AX",
+        "Electric Power (W)": "555",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "295",
+        "Overall Height (mm)": "315",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

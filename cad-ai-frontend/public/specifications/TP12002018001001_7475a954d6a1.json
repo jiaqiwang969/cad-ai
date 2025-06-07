@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:38:40",
+  "base_product": {
+    "name": "hopper-group-poignees-de-fenetre-amsterdam",
+    "id": "34-21012025-096143",
+    "url": "https://www.traceparts.cn/en/product/hopper-group-poignees-de-fenetre-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-21012025-096143"
+  },
+  "table_headers": [
+    "Modèle",
+    "Numéro d’article",
+    "F9 alu aspect inox"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10819263",
+      "url": "https://www.traceparts.cn/en/product/hopper-group-poignees-de-fenetre-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-21012025-096143&PartNumber=10819263",
+      "parameters": {
+        "Modèle": "E0499/US956 150/150",
+        "Numéro d’article": "10819263",
+        "F9 alu aspect inox": "F69 inox mat"
+      }
+    }
+  ]
+}

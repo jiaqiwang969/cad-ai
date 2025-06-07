@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:28",
+  "base_product": {
+    "name": "smeg-hood-ks951nxe2",
+    "id": "90-14122022-053981",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks951nxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053981"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS951NXE2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks951nxe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053981&PartNumber=KS951NXE2",
+      "parameters": {
+        "Part Number": "KS951NXE2",
+        "Description": "Hood : KS951NXE2"
+      }
+    }
+  ]
+}

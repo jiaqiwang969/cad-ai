@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:47",
+  "base_product": {
+    "name": "smeg-oven-sf6390xpze",
+    "id": "90-14122022-050606",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6390xpze?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050606"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF6390XPZE",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6390xpze?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050606&PartNumber=SF6390XPZE",
+      "parameters": {
+        "Part Number": "SF6390XPZE",
+        "Description": "Oven : SF6390XPZE",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

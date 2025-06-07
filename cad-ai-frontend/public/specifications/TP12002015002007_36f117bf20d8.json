@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:57:44",
+  "base_product": {
+    "name": "smeg-oven-dosf6920p1",
+    "id": "90-14122022-049653",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-dosf6920p1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049653"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DOSF6920P1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-dosf6920p1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049653&PartNumber=DOSF6920P1",
+      "parameters": {
+        "Part Number": "DOSF6920P1",
+        "Description": "Oven : DOSF6920P1",
+        "Color": "Cream",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "884",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

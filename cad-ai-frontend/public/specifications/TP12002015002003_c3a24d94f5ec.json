@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:50:33",
+  "base_product": {
+    "name": "smeg-dishwasher-lbb14rok",
+    "id": "90-14122022-047167",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lbb14rok?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047167"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LBB14ROK",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lbb14rok?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047167&PartNumber=LBB14ROK",
+      "parameters": {
+        "Part Number": "LBB14ROK",
+        "Description": "Dishwasher : LBB14ROK",
+        "Color": "Pink",
+        "Overall Depth (mm)": "650",
+        "Overall Height (mm)": "890",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

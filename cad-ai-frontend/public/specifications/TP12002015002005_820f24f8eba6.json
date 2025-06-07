@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:57:49",
+  "base_product": {
+    "name": "smeg-hood-ktr90xe",
+    "id": "90-14122022-054565",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ktr90xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054565"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KTR90XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ktr90xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054565&PartNumber=KTR90XE",
+      "parameters": {
+        "Part Number": "KTR90XE",
+        "Description": "Hood : KTR90XE",
+        "Electric Power (W)": "278",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "61",
+        "EU Energy Label": "A",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "530",
+        "Overall Height (mm)": "740",
+        "Overall Width (mm)": "895"
+      }
+    }
+  ]
+}

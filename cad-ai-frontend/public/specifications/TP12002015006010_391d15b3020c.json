@@ -1,0 +1,97 @@
+{
+  "extraction_time": "2025-06-07 22:10:06",
+  "base_product": {
+    "name": "danese-milano-archivio-vivo",
+    "id": "90-22072021-030992",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color"
+  ],
+  "total_specifications": 9,
+  "specifications": [
+    {
+      "reference": "DI6000C00",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000C00",
+      "parameters": {
+        "Part Number": "DI6000C00",
+        "Description": "S (22.5)",
+        "Color": "silver"
+      }
+    },
+    {
+      "reference": "DI6000C50",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000C50",
+      "parameters": {
+        "Part Number": "DI6000C50",
+        "Description": "S (22.5)",
+        "Color": "white"
+      }
+    },
+    {
+      "reference": "DI6000C14",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000C14",
+      "parameters": {
+        "Part Number": "DI6000C14",
+        "Description": "S (22.5)",
+        "Color": "blue"
+      }
+    },
+    {
+      "reference": "DI6000A00",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000A00",
+      "parameters": {
+        "Part Number": "DI6000A00",
+        "Description": "M (45)",
+        "Color": "silver"
+      }
+    },
+    {
+      "reference": "DI6000A50",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000A50",
+      "parameters": {
+        "Part Number": "DI6000A50",
+        "Description": "M (45)",
+        "Color": "white"
+      }
+    },
+    {
+      "reference": "DI6000A14",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000A14",
+      "parameters": {
+        "Part Number": "DI6000A14",
+        "Description": "M (45)",
+        "Color": "blue"
+      }
+    },
+    {
+      "reference": "DI6000B00",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000B00",
+      "parameters": {
+        "Part Number": "DI6000B00",
+        "Description": "L (90)",
+        "Color": "silver"
+      }
+    },
+    {
+      "reference": "DI6000B50",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000B50",
+      "parameters": {
+        "Part Number": "DI6000B50",
+        "Description": "L (90)",
+        "Color": "white"
+      }
+    },
+    {
+      "reference": "DI6000B14",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-archivio-vivo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-030992&PartNumber=DI6000B14",
+      "parameters": {
+        "Part Number": "DI6000B14",
+        "Description": "L (90)",
+        "Color": "blue"
+      }
+    }
+  ]
+}

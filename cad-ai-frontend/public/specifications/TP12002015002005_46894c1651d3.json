@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:47",
+  "base_product": {
+    "name": "smeg-hood-ksed72xe",
+    "id": "90-14122022-054161",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed72xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054161"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSED72XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed72xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054161&PartNumber=KSED72XE",
+      "parameters": {
+        "Part Number": "KSED72XE",
+        "Description": "Hood : KSED72XE",
+        "Electric Power (W)": "240",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "63",
+        "EU Energy Label": "C",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "645",
+        "Overall Width (mm)": "700"
+      }
+    }
+  ]
+}

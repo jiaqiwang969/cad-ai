@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 21:40:22",
+  "base_product": {
+    "name": "profholod-single-leaf-industrial-door",
+    "id": "90-04052021-050418",
+    "url": "https://www.traceparts.cn/en/product/profholod-single-leaf-industrial-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050418"
+  },
+  "table_headers": [
+    "Part Number",
+    "Door leaf thickness, mm",
+    "Core insulation",
+    "Opening height, mm",
+    "Opening width, mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ISD",
+      "url": "https://www.traceparts.cn/en/product/profholod-single-leaf-industrial-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050418&PartNumber=ISD",
+      "parameters": {
+        "Part Number": "ISD",
+        "Door leaf thickness, mm": "40",
+        "Core insulation": "polyurethane",
+        "Opening height, mm": "up to 2400",
+        "Opening width, mm": "up to 1200"
+      }
+    }
+  ]
+}

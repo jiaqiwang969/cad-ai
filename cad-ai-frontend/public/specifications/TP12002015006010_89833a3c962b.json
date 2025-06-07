@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:37",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-castor-rail-8-40x40-transfer-gate-right",
+    "id": "30-12112020-083342",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-rail-8-40x40-transfer-gate-right?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-083342"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.630.87",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-rail-8-40x40-transfer-gate-right?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-083342&PartNumber=0.0.630.87",
+      "parameters": {
+        "Part Number": "0.0.630.87",
+        "Description": "Castor Rail 8 40x40, Transfer Gate, right, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

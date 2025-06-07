@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:25",
+  "base_product": {
+    "name": "isotex-srl-hb-2516",
+    "id": "10-28042015-103123",
+    "url": "https://www.traceparts.cn/en/product/isotex-srl-hb-2516?CatalogPath=TRACEPARTS%3ATP12002016003005001001&Product=10-28042015-103123"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HB_25_16",
+      "url": "https://www.traceparts.cn/en/product/isotex-srl-hb-2516?CatalogPath=TRACEPARTS%3ATP12002016003005001001&Product=10-28042015-103123&PartNumber=HB_25_16",
+      "parameters": {
+        "Part Number": "HB_25_16",
+        "Description": "walls in blocks of wood and concrete"
+      }
+    }
+  ]
+}

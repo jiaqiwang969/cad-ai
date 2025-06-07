@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:09:52",
+  "base_product": {
+    "name": "smeg-washing-machine-wdi14c7",
+    "id": "90-28102022-039381",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-wdi14c7?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039381"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Current (A)",
+    "Nominal Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "WDI14C7",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-wdi14c7?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039381&PartNumber=WDI14C7",
+      "parameters": {
+        "Part Number": "WDI14C7",
+        "Description": "Washing Machine : WDI14C7",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Current (A)": "10",
+        "Nominal Voltage (V)": "240",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "72",
+        "Color": "White"
+      }
+    }
+  ]
+}

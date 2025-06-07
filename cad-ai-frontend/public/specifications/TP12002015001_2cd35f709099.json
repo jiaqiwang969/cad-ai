@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:09:53",
+  "base_product": {
+    "name": "danese-milano-surface-border-no-1",
+    "id": "90-22072021-031306",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-surface-border-no-1?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031306"
+  },
+  "table_headers": [
+    "Part Number",
+    "Color"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "DRG8630A16",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-surface-border-no-1?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031306&PartNumber=DRG8630A16",
+      "parameters": {
+        "Part Number": "DRG8630A16",
+        "Color": "red"
+      }
+    },
+    {
+      "reference": "DRG8630A09",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-surface-border-no-1?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031306&PartNumber=DRG8630A09",
+      "parameters": {
+        "Part Number": "DRG8630A09",
+        "Color": "black"
+      }
+    }
+  ]
+}

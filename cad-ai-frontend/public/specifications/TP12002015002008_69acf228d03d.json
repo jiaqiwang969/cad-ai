@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:28",
+  "base_product": {
+    "name": "smeg-hob-sr264xgh",
+    "id": "90-14122022-063660",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr264xgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063660"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR264XGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr264xgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063660&PartNumber=SR264XGH",
+      "parameters": {
+        "Part Number": "SR264XGH",
+        "Description": "Hob : SR264XGH",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

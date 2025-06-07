@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:05",
+  "base_product": {
+    "name": "smeg-hob-slr64sgh",
+    "id": "90-14122022-063557",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-slr64sgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063557"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SLR64SGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-slr64sgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063557&PartNumber=SLR64SGH",
+      "parameters": {
+        "Part Number": "SLR64SGH",
+        "Description": "Hob : SLR64SGH",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "42",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

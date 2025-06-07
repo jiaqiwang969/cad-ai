@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:16:02",
+  "base_product": {
+    "name": "italiana-ferramenta-dream-glass-support-l105-o3-black-nk",
+    "id": "90-01092023-044582",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-dream-glass-support-l105-o3-black-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044582"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "MATERIAL",
+    "HOLE DIAMETER",
+    "L"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16002040YA",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-dream-glass-support-l105-o3-black-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044582&PartNumber=16002040YA",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "16002040YA",
+        "Description": "DREAM glass support L=10.5 Ø3 black Nk",
+        "BOX QUANTITY": "5.000 PCS",
+        "FINISH": "Nickel-plated",
+        "MATERIAL": "Zinc Alloy / Black Soft Rubber",
+        "HOLE DIAMETER": "Ø 3 mm",
+        "L": "10,5"
+      }
+    }
+  ]
+}

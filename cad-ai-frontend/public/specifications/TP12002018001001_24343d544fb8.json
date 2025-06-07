@@ -1,0 +1,119 @@
+{
+  "extraction_time": "2025-06-07 21:38:33",
+  "base_product": {
+    "name": "acton-62323-gate-hook-with-screw-eyes",
+    "id": "10-27012020-095447",
+    "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447"
+  },
+  "table_headers": [
+    "CAD",
+    "Part number",
+    "d x L (mm)",
+    "h1 (mm)",
+    "h2 (mm)",
+    "e (mm)",
+    "d2 (mm)",
+    "GENCOD",
+    "Poids (kg/100)",
+    "Carton"
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "623233X40",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623233X40",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623233X40",
+        "d x L (mm)": "3X40",
+        "h1 (mm)": "21,5",
+        "h2 (mm)": "7",
+        "e (mm)": "3,5",
+        "d2 (mm)": "4,5",
+        "GENCOD": "3604880104475",
+        "Poids (kg/100)": "0,874",
+        "Carton": "1800"
+      }
+    },
+    {
+      "reference": "623233,5X50",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623233%2C5X50",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623233,5X50",
+        "d x L (mm)": "3,5X50",
+        "h1 (mm)": "21,5",
+        "h2 (mm)": "13",
+        "e (mm)": "5",
+        "d2 (mm)": "6,5",
+        "GENCOD": "3604880104482",
+        "Poids (kg/100)": "1,066",
+        "Carton": "900"
+      }
+    },
+    {
+      "reference": "623234X60",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623234X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623234X60",
+        "d x L (mm)": "4X60",
+        "h1 (mm)": "25",
+        "h2 (mm)": "13",
+        "e (mm)": "6",
+        "d2 (mm)": "6,5",
+        "GENCOD": "3604880104499",
+        "Poids (kg/100)": "1,586",
+        "Carton": "400"
+      }
+    },
+    {
+      "reference": "623234X80",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623234X80",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623234X80",
+        "d x L (mm)": "4X80",
+        "h1 (mm)": "24",
+        "h2 (mm)": "9",
+        "e (mm)": "10",
+        "d2 (mm)": "10",
+        "GENCOD": "3604882625336",
+        "Poids (kg/100)": "1,650",
+        "Carton": "200"
+      }
+    },
+    {
+      "reference": "623234,5X120",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623234%2C5X120",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623234,5X120",
+        "d x L (mm)": "4,5X120",
+        "h1 (mm)": "24",
+        "h2 (mm)": "9",
+        "e (mm)": "12",
+        "d2 (mm)": "10",
+        "GENCOD": "3604882625350",
+        "Poids (kg/100)": "3,200",
+        "Carton": "100"
+      }
+    },
+    {
+      "reference": "623236X200",
+      "url": "https://www.traceparts.cn/en/product/acton-62323-gate-hook-with-screw-eyes?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-095447&PartNumber=623236X200",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "623236X200",
+        "d x L (mm)": "6X200",
+        "h1 (mm)": "34",
+        "h2 (mm)": "14",
+        "e (mm)": "12",
+        "d2 (mm)": "14",
+        "GENCOD": "3604882625367",
+        "Poids (kg/100)": "7,300",
+        "Carton": "20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:32",
+  "base_product": {
+    "name": "smeg-hob-ptv64es",
+    "id": "90-14122022-059519",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-ptv64es?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059519"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PTV64ES",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-ptv64es?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059519&PartNumber=PTV64ES",
+      "parameters": {
+        "Part Number": "PTV64ES",
+        "Description": "Hob : PTV64ES",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "65",
+        "Overall Width (mm)": "596"
+      }
+    }
+  ]
+}

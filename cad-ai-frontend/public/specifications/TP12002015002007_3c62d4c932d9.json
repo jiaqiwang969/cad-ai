@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:20",
+  "base_product": {
+    "name": "smeg-oven-sf4102vcs",
+    "id": "90-14122022-049825",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4102vcs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049825"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4102VCS",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4102vcs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049825&PartNumber=SF4102VCS",
+      "parameters": {
+        "Part Number": "SF4102VCS",
+        "Description": "Oven : SF4102VCS",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

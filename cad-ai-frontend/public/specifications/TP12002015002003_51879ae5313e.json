@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:43",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug425d",
+    "id": "90-14122022-038257",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug425d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038257"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG425D",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug425d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038257&PartNumber=UG425D",
+      "parameters": {
+        "Part Number": "UG425D",
+        "Description": "Professional Dishwasher : UG425D",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "705",
+        "Overall Width (mm)": "460"
+      }
+    }
+  ]
+}

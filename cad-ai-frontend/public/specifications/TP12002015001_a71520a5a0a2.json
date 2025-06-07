@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 22:10:06",
+  "base_product": {
+    "name": "danese-milano-putrella",
+    "id": "90-22072021-031235",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-putrella?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031235"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Putrella - Centrepiece",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-putrella?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031235&PartNumber=Putrella+-+Centrepiece",
+      "parameters": {
+        "Description": "Putrella - Centrepiece"
+      }
+    },
+    {
+      "reference": "DE3013A",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-putrella?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031235&PartNumber=DE3013A",
+      "parameters": {
+        "Part Number": "DE3013A"
+      }
+    }
+  ]
+}

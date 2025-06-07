@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:02:14",
+  "base_product": {
+    "name": "smeg-oven-sfa6102tvs",
+    "id": "90-14122022-051106",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa6102tvs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051106"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFA6102TVS",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa6102tvs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051106&PartNumber=SFA6102TVS",
+      "parameters": {
+        "Part Number": "SFA6102TVS",
+        "Description": "Oven : SFA6102TVS",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

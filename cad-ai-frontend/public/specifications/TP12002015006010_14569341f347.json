@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 22:16:01",
+  "base_product": {
+    "name": "bs-rollen-gmbh-d81306-drehkranze",
+    "id": "90-12082021-027701",
+    "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d81306-drehkranze?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027701"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Tragkraft",
+    "Ø Außen",
+    "Stärke",
+    "Hinweis",
+    "EAN-Code",
+    "Bestelleinheit",
+    "Inhaltseinheit",
+    "Verpackungsmenge"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "D81.306",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-d81306-drehkranze?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027701&PartNumber=D81.306",
+      "parameters": {
+        "Bestellnummer": "D81.306",
+        "Bezeichnung": "Drehkranz",
+        "Tragkraft": "300",
+        "Ø Außen": "306",
+        "Stärke": "8",
+        "Hinweis": "Elektroverzinktes Blech",
+        "EAN-Code": "4021885050160",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:13",
+  "base_product": {
+    "name": "smeg-hob-srv864ragh",
+    "id": "90-14122022-064154",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864ragh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064154"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV864RAGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv864ragh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064154&PartNumber=SRV864RAGH",
+      "parameters": {
+        "Part Number": "SRV864RAGH",
+        "Description": "Hob : SRV864RAGH",
+        "Color": "Copper",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

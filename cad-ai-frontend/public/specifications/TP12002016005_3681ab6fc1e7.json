@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:25",
+  "base_product": {
+    "name": "sirap-insulation-neostir",
+    "id": "90-10062022-052934",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-neostir?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-10062022-052934"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "NEOSTIR",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-neostir?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-10062022-052934&PartNumber=NEOSTIR",
+      "parameters": {
+        "Manufacturer Part Number": "NEOSTIR",
+        "Description": "Are expanded polystyrene insulation board with additives to improve lambda, gray, with CE marking in accordance with the UNI EN 13163."
+      }
+    }
+  ]
+}

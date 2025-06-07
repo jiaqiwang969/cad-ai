@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:18",
+  "base_product": {
+    "name": "cherubini-7245f",
+    "id": "70-10062022-127742",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7245f?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-10062022-127742"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7245F",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7245f?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-10062022-127742&PartNumber=7245F",
+      "parameters": {
+        "Item Number": "7245F",
+        "Description": "Bevel Gear With Clutch Ratio 3,6:1"
+      }
+    }
+  ]
+}

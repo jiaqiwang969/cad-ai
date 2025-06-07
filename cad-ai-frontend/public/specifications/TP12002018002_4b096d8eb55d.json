@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:51",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-stanchion-angle-fastener",
+    "id": "30-12112020-082925",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stanchion-angle-fastener?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082925"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.24",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stanchion-angle-fastener?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-082925&PartNumber=0.0.620.24",
+      "parameters": {
+        "Part Number": "0.0.620.24",
+        "Description": "Stanchion Angle Fastener, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

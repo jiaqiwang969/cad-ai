@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:49",
+  "base_product": {
+    "name": "smeg-hob-si1m7743b",
+    "id": "90-14122022-063314",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si1m7743b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063314"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI1M7743B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si1m7743b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063314&PartNumber=SI1M7743B",
+      "parameters": {
+        "Part Number": "SI1M7743B",
+        "Description": "Hob : SI1M7743B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "49",
+        "Overall Width (mm)": "700"
+      }
+    }
+  ]
+}

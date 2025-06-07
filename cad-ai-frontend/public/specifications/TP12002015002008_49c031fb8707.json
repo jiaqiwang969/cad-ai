@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:56",
+  "base_product": {
+    "name": "smeg-hob-sra964xgh",
+    "id": "90-14122022-063991",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sra964xgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063991"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRA964XGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sra964xgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063991&PartNumber=SRA964XGH",
+      "parameters": {
+        "Part Number": "SRA964XGH",
+        "Description": "Hob : SRA964XGH",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

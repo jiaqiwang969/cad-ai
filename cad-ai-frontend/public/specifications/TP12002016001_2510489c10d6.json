@@ -1,0 +1,87 @@
+{
+  "extraction_time": "2025-06-07 21:45:42",
+  "base_product": {
+    "name": "marley-alutec-evoke-soffit-system-vented",
+    "id": "90-07012021-032288",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288"
+  },
+  "table_headers": [
+    "Part Number",
+    "Thickness",
+    "Length",
+    "Depth A (mm)"
+  ],
+  "total_specifications": 7,
+  "specifications": [
+    {
+      "reference": "FV1110",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1110",
+      "parameters": {
+        "Part Number": "FV1110",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "110"
+      }
+    },
+    {
+      "reference": "FV1190",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1190",
+      "parameters": {
+        "Part Number": "FV1190",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "190"
+      }
+    },
+    {
+      "reference": "FV1255",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1255",
+      "parameters": {
+        "Part Number": "FV1255",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "255"
+      }
+    },
+    {
+      "reference": "FV1310",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1310",
+      "parameters": {
+        "Part Number": "FV1310",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "310"
+      }
+    },
+    {
+      "reference": "FV1380",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1380",
+      "parameters": {
+        "Part Number": "FV1380",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "380"
+      }
+    },
+    {
+      "reference": "FV1510",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1510",
+      "parameters": {
+        "Part Number": "FV1510",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "510"
+      }
+    },
+    {
+      "reference": "FV1775",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-evoke-soffit-system-vented?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032288&PartNumber=FV1775",
+      "parameters": {
+        "Part Number": "FV1775",
+        "Thickness": "4",
+        "Length": "3000",
+        "Depth A (mm)": "775"
+      }
+    }
+  ]
+}

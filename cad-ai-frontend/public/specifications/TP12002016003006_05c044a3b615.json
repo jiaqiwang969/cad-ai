@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:28",
+  "base_product": {
+    "name": "viero-viero-vieroclima-s",
+    "id": "10-30092015-121017",
+    "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-s?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121017"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VIERO - Vieroclima S",
+      "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-s?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121017&PartNumber=VIERO+-+Vieroclima+S",
+      "parameters": {
+        "Part Number": "VIERO - Vieroclima S",
+        "Description": "Il sistema VIEROCLIMA S con sughero espanso agglomerato consente di ottenere un isolamento ottimale in inverno e in estate, con una scelta a basso impatto ambientale. Il sughero espanso agglomerato e autocollato è un materiale naturale e privo di sostanze estranee, certificato per la bioedilizia. Il sistema rappresenta quindi la soluzione ideale per coloro che vogliono costruire in modo ecologico, isolando dal freddo e dal caldo, ricercando come priorità il confort grazie ad un clima interno ideale."
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:33",
+  "base_product": {
+    "name": "smeg-hood-kd150xe",
+    "id": "90-14122022-053423",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kd150xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053423"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KD150XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kd150xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053423&PartNumber=KD150XE",
+      "parameters": {
+        "Part Number": "KD150XE",
+        "Description": "Hood : KD150XE",
+        "Electric Power (W)": "284",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50/60",
+        "Sound power max (dB(A))": "60",
+        "EU Energy Label": "A",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "539",
+        "Overall Height (mm)": "800",
+        "Overall Width (mm)": "1500"
+      }
+    }
+  ]
+}

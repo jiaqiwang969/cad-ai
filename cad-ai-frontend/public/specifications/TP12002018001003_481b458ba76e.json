@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:04",
+  "base_product": {
+    "name": "roverplastik-spa-veloblok-energy-shutter-taa-1-shutter",
+    "id": "10-16042015-106796",
+    "url": "https://www.traceparts.cn/en/product/roverplastik-spa-veloblok-energy-shutter-taa-1-shutter?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-16042015-106796"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Veloblok Energy Shutter TAA - 1 Shutter",
+      "url": "https://www.traceparts.cn/en/product/roverplastik-spa-veloblok-energy-shutter-taa-1-shutter?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=10-16042015-106796&PartNumber=Veloblok+Energy+Shutter+TAA+-+1+Shutter",
+      "parameters": {
+        "Part Number": "Veloblok Energy Shutter TAA - 1 Shutter",
+        "Description": "Isolated subframe energy efficient for creating finite compartment window and franch window"
+      }
+    }
+  ]
+}

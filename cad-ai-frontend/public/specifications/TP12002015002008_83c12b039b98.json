@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:06",
+  "base_product": {
+    "name": "smeg-hob-pgf75sa",
+    "id": "90-14122022-059292",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf75sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059292"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF75SA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf75sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059292&PartNumber=PGF75SA",
+      "parameters": {
+        "Part Number": "PGF75SA",
+        "Description": "Hob : PGF75SA",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "511",
+        "Overall Height (mm)": "78",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

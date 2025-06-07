@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:09:52",
+  "base_product": {
+    "name": "actiu-360-freestanding-screen",
+    "id": "90-04012021-050638",
+    "url": "https://www.traceparts.cn/en/product/actiu-360-freestanding-screen?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-04012021-050638"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "D360",
+      "url": "https://www.traceparts.cn/en/product/actiu-360-freestanding-screen?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-04012021-050638&PartNumber=D360",
+      "parameters": {
+        "Part Number": "D360",
+        "Description": "360 freestanding screen"
+      }
+    }
+  ]
+}

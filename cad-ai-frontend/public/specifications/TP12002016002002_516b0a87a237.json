@@ -1,0 +1,187 @@
+{
+  "extraction_time": "2025-06-07 21:48:28",
+  "base_product": {
+    "name": "peikko-weldar-anchor-plate-for-welded-connections-between-structures",
+    "id": "90-02122021-036683",
+    "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683"
+  },
+  "table_headers": [
+    "Part Number",
+    "t (mm)",
+    "B (mm)",
+    "H (mm)",
+    "hef (mm)",
+    "Ød (mm)",
+    "Weight (kg)",
+    "L (mm)",
+    "s1 (mm)",
+    "s2 (mm)",
+    "ny",
+    "nx"
+  ],
+  "total_specifications": 9,
+  "specifications": [
+    {
+      "reference": "WELDA 150x150-70",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+150x150-70",
+      "parameters": {
+        "Part Number": "WELDA 150x150-70",
+        "t (mm)": "10",
+        "B (mm)": "150",
+        "H (mm)": "70",
+        "hef (mm)": "63",
+        "Ød (mm)": "10",
+        "Weight (kg)": "2",
+        "L (mm)": "150",
+        "s1 (mm)": "90",
+        "s2 (mm)": "90",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 150x150-110",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+150x150-110",
+      "parameters": {
+        "Part Number": "WELDA 150x150-110",
+        "t (mm)": "10",
+        "B (mm)": "150",
+        "H (mm)": "110",
+        "hef (mm)": "103",
+        "Ød (mm)": "10",
+        "Weight (kg)": "2.1",
+        "L (mm)": "150",
+        "s1 (mm)": "90",
+        "s2 (mm)": "90",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 150x150-162",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+150x150-162",
+      "parameters": {
+        "Part Number": "WELDA 150x150-162",
+        "t (mm)": "12",
+        "B (mm)": "150",
+        "H (mm)": "162",
+        "hef (mm)": "154",
+        "Ød (mm)": "13",
+        "Weight (kg)": "2.9",
+        "L (mm)": "150",
+        "s1 (mm)": "90",
+        "s2 (mm)": "90",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 200x200-72",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+200x200-72",
+      "parameters": {
+        "Part Number": "WELDA 200x200-72",
+        "t (mm)": "12",
+        "B (mm)": "200",
+        "H (mm)": "72",
+        "hef (mm)": "64",
+        "Ød (mm)": "13",
+        "Weight (kg)": "3.9",
+        "L (mm)": "200",
+        "s1 (mm)": "120",
+        "s2 (mm)": "120",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 200x200-112",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+200x200-112",
+      "parameters": {
+        "Part Number": "WELDA 200x200-112",
+        "t (mm)": "12",
+        "B (mm)": "200",
+        "H (mm)": "112",
+        "hef (mm)": "104",
+        "Ød (mm)": "16",
+        "Weight (kg)": "4.3",
+        "L (mm)": "200",
+        "s1 (mm)": "120",
+        "s2 (mm)": "120",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 200x200-162",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+200x200-162",
+      "parameters": {
+        "Part Number": "WELDA 200x200-162",
+        "t (mm)": "12",
+        "B (mm)": "200",
+        "H (mm)": "162",
+        "hef (mm)": "154",
+        "Ød (mm)": "16",
+        "Weight (kg)": "4.1",
+        "L (mm)": "200",
+        "s1 (mm)": "120",
+        "s2 (mm)": "120",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 200x300-165",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+200x300-165",
+      "parameters": {
+        "Part Number": "WELDA 200x300-165",
+        "t (mm)": "15",
+        "B (mm)": "200",
+        "H (mm)": "165",
+        "hef (mm)": "157",
+        "Ød (mm)": "16",
+        "Weight (kg)": "8.5",
+        "L (mm)": "300",
+        "s1 (mm)": "120",
+        "s2 (mm)": "180",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 250x250-165",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+250x250-165",
+      "parameters": {
+        "Part Number": "WELDA 250x250-165",
+        "t (mm)": "15",
+        "B (mm)": "250",
+        "H (mm)": "165",
+        "hef (mm)": "157",
+        "Ød (mm)": "16",
+        "Weight (kg)": "4.9",
+        "L (mm)": "250",
+        "s1 (mm)": "170",
+        "s2 (mm)": "170",
+        "ny": "2",
+        "nx": "2"
+      }
+    },
+    {
+      "reference": "WELDA 300x300-165",
+      "url": "https://www.traceparts.cn/en/product/peikko-weldar-anchor-plate-for-welded-connections-between-structures?CatalogPath=TRACEPARTS%3ATP12002016002002&Product=90-02122021-036683&PartNumber=WELDA+300x300-165",
+      "parameters": {
+        "Part Number": "WELDA 300x300-165",
+        "t (mm)": "15",
+        "B (mm)": "300",
+        "H (mm)": "165",
+        "hef (mm)": "157",
+        "Ød (mm)": "16",
+        "Weight (kg)": "11.7",
+        "L (mm)": "300",
+        "s1 (mm)": "180",
+        "s2 (mm)": "180",
+        "ny": "2",
+        "nx": "2"
+      }
+    }
+  ]
+}

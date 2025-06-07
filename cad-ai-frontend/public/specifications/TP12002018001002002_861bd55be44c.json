@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:38:37",
+  "base_product": {
+    "name": "hopper-group-knopfgarnituren-amsterdam",
+    "id": "34-21012025-094743",
+    "url": "https://www.traceparts.cn/en/product/hopper-group-knopfgarnituren-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001002002&Product=34-21012025-094743"
+  },
+  "table_headers": [
+    "Modell",
+    "Artikelnummer",
+    "Farbe"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "58/42KV/42KVS/1400",
+      "url": "https://www.traceparts.cn/en/product/hopper-group-knopfgarnituren-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001002002&Product=34-21012025-094743&PartNumber=58%2F42KV%2F42KVS%2F1400",
+      "parameters": {
+        "Modell": "58/42KV/42KVS/1400",
+        "Artikelnummer": "3390454",
+        "Farbe": "F1 Aluminium silberfarben"
+      }
+    }
+  ]
+}

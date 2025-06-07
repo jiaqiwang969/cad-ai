@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:03",
+  "base_product": {
+    "name": "smeg-hob-se363etbtw",
+    "id": "90-14122022-063041",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-se363etbtw?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063041"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SE363ETBTW",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-se363etbtw?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063041&PartNumber=SE363ETBTW",
+      "parameters": {
+        "Part Number": "SE363ETBTW",
+        "Description": "Hob : SE363ETBTW",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "50",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

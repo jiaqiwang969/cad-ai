@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:28",
+  "base_product": {
+    "name": "smeg-hob-sr764as",
+    "id": "90-14122022-063730",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764as?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063730"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR764AS",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764as?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063730&PartNumber=SR764AS",
+      "parameters": {
+        "Part Number": "SR764AS",
+        "Description": "Hob : SR764AS",
+        "Color": "Anthracite",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "504",
+        "Overall Height (mm)": "74",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

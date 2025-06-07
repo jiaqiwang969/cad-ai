@@ -1,0 +1,62 @@
+{
+  "extraction_time": "2025-06-07 21:38:37",
+  "base_product": {
+    "name": "owlettjaton-pvc-door-stop",
+    "id": "33-02102023-055242",
+    "url": "https://www.traceparts.cn/en/product/owlettjaton-pvc-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-02102023-055242"
+  },
+  "table_headers": [
+    "Article number",
+    "Product code",
+    "Description",
+    "Size (mm)",
+    "Finish"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "9TQIBDS/010",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-pvc-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-02102023-055242&PartNumber=9TQIBDS%2F010",
+      "parameters": {
+        "Article number": "737BL S",
+        "Product code": "9TQIBDS/010",
+        "Description": "Black PVC Door Stop Black 28mm / 1 1/8\" - 737",
+        "Size (mm)": "28",
+        "Finish": "Black"
+      }
+    },
+    {
+      "reference": "9TQIWDS/010",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-pvc-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-02102023-055242&PartNumber=9TQIWDS%2F010",
+      "parameters": {
+        "Article number": "737WH S",
+        "Product code": "9TQIWDS/010",
+        "Description": "White PVC Door Stop White 28mm / 1 1/8\" - 737",
+        "Size (mm)": "28",
+        "Finish": "White"
+      }
+    },
+    {
+      "reference": "9TQIBDS/005",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-pvc-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-02102023-055242&PartNumber=9TQIBDS%2F005",
+      "parameters": {
+        "Article number": "381H",
+        "Product code": "9TQIBDS/005",
+        "Description": "Black PVC Door Stop Black 35mm / 1 3/8\" - 737",
+        "Size (mm)": "35",
+        "Finish": "Black"
+      }
+    },
+    {
+      "reference": "9TQIWDS/005",
+      "url": "https://www.traceparts.cn/en/product/owlettjaton-pvc-door-stop?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=33-02102023-055242&PartNumber=9TQIWDS%2F005",
+      "parameters": {
+        "Article number": "733H",
+        "Product code": "9TQIWDS/005",
+        "Description": "White PVC Door Stop White 35mm / 1 3/8\" - 737",
+        "Size (mm)": "35",
+        "Finish": "White"
+      }
+    }
+  ]
+}

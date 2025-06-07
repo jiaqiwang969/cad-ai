@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:47",
+  "base_product": {
+    "name": "gyproc-saintgobain-aquarocprima",
+    "id": "10-24042015-081607",
+    "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocprima?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081607"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Aquaroc_Prima",
+      "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocprima?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081607&PartNumber=Aquaroc_Prima",
+      "parameters": {
+        "Part Number": "Aquaroc_Prima",
+        "Description": "Basic solution for external walls with good thermal performance and excellent sound insulation, certified burglary."
+      }
+    }
+  ]
+}

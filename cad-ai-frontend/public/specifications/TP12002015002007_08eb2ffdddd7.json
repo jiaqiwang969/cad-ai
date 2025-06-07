@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:02:14",
+  "base_product": {
+    "name": "smeg-oven-sfp109b",
+    "id": "90-14122022-051171",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp109b?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051171"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP109B",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp109b?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051171&PartNumber=SFP109B",
+      "parameters": {
+        "Part Number": "SFP109B",
+        "Description": "Oven : SFP109B",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

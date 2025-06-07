@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:17",
+  "base_product": {
+    "name": "smeg-oven-sf750ao",
+    "id": "90-14122022-050785",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf750ao?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050785"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF750AO",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf750ao?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050785&PartNumber=SF750AO",
+      "parameters": {
+        "Part Number": "SF750AO",
+        "Description": "Oven : SF750AO",
+        "Color": "Anthracite",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:29",
+  "base_product": {
+    "name": "sirap-insulation-sirapor",
+    "id": "90-14062022-034796",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-sirapor?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-14062022-034796"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SIRAPOR",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-sirapor?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-14062022-034796&PartNumber=SIRAPOR",
+      "parameters": {
+        "Manufacturer Part Number": "SIRAPOR",
+        "Description": "Are expanded polystyrene insulation panels in white, with UNI-IIP mark of conformity, CE marking in accordance with the UNI EN 13163, Environmental Statement with EPD based on an analysis of the life cycle LCA and Climate Declaration."
+      }
+    }
+  ]
+}

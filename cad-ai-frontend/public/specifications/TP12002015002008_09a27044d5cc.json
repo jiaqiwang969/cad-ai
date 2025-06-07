@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:31",
+  "base_product": {
+    "name": "smeg-hob-psf906d4",
+    "id": "90-14122022-059511",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-psf906d4?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059511"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PSF906D-4",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-psf906d4?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059511&PartNumber=PSF906D-4",
+      "parameters": {
+        "Part Number": "PSF906D-4",
+        "Description": "Hob : PSF906D-4",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

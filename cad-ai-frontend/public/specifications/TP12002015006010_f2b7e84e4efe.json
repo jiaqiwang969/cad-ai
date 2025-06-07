@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:05",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-brush-set-esd",
+    "id": "30-10082021-065591",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-brush-set-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-10082021-065591"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.622.24",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-brush-set-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-10082021-065591&PartNumber=0.0.622.24",
+      "parameters": {
+        "Part Number": "0.0.622.24",
+        "Description": "Brush Set ESD, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

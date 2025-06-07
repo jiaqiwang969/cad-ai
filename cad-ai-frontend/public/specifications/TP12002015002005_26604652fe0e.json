@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:57:14",
+  "base_product": {
+    "name": "smeg-hood-kset600hxe",
+    "id": "90-14122022-054384",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kset600hxe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054384"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSET600HXE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kset600hxe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054384&PartNumber=KSET600HXE",
+      "parameters": {
+        "Part Number": "KSET600HXE",
+        "Description": "Hood : KSET600HXE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:30",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-hty511dsh",
+    "id": "90-14122022-037808",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty511dsh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037808"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HTY511DSH",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty511dsh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037808&PartNumber=HTY511DSH",
+      "parameters": {
+        "Part Number": "HTY511DSH",
+        "Description": "Professional Dishwasher : HTY511DSH",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "745",
+        "Overall Height (mm)": "1530",
+        "Overall Width (mm)": "620"
+      }
+    }
+  ]
+}

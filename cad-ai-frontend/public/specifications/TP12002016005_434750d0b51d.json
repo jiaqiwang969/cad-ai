@@ -1,0 +1,40 @@
+{
+  "extraction_time": "2025-06-07 21:46:38",
+  "base_product": {
+    "name": "isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas",
+    "id": "10-29042015-067656",
+    "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067656"
+  },
+  "table_headers": [],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "ISOVER Saint-Gobain PPC Italia S.p.A.",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067656&PartNumber=ISOVER+Saint-Gobain+PPC+Italia+S.p.A.",
+      "parameters": {
+        "Manufacturer": "ISOVER Saint-Gobain PPC Italia S.p.A."
+      }
+    },
+    {
+      "reference": "Slab cement mix with floating floor with 31 fonas",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067656&PartNumber=Slab+cement+mix+with+floating+floor+with+31+fonas",
+      "parameters": {
+        "Description": "Slab cement mix with floating floor with 31 fonas"
+      }
+    },
+    {
+      "reference": "Solaio_in_latero-cemento_con_pavimento_galleggiante_con_FONAS_31",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067656&PartNumber=Solaio_in_latero-cemento_con_pavimento_galleggiante_con_FONAS_31",
+      "parameters": {
+        "Part Number": "Solaio_in_latero-cemento_con_pavimento_galleggiante_con_FONAS_31"
+      }
+    },
+    {
+      "reference": "23.15.13.19",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-slab-cement-mix-with-floating-floor-with-31-fonas?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067656&PartNumber=23.15.13.19",
+      "parameters": {
+        "Omniclass number": "23.15.13.19"
+      }
+    }
+  ]
+}

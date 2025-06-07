@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 22:04:15",
+  "base_product": {
+    "name": "smeg-professional-oven-alfa420mfh2",
+    "id": "90-05012023-046727",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa420mfh2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046727"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ALFA420MFH-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-oven-alfa420mfh2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-05012023-046727&PartNumber=ALFA420MFH-2",
+      "parameters": {
+        "Part Number": "ALFA420MFH-2",
+        "Description": "Professional oven : ALFA420MFH-2",
+        "Color": "Stainless Steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "747",
+        "Overall Height (mm)": "563",
+        "Overall Width (mm)": "798",
+        "Space Requirement (mm)": "1145"
+      }
+    }
+  ]
+}

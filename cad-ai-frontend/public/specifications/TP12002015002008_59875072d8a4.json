@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:44",
+  "base_product": {
+    "name": "smeg-hob-s264av",
+    "id": "90-14122022-062823",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-s264av?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062823"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "S264AV",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-s264av?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062823&PartNumber=S264AV",
+      "parameters": {
+        "Part Number": "S264AV",
+        "Description": "Hob : S264AV",
+        "Color": "Beige",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

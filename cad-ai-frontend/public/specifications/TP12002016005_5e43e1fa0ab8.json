@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:27",
+  "base_product": {
+    "name": "edilteco-spa-isolcap-max",
+    "id": "10-28042015-108410",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-max?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108410"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolcap Max",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-max?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108410&PartNumber=Isolcap+Max",
+      "parameters": {
+        "Part Number": "Isolcap Max",
+        "Description": "Special water binders and selected aggregates prebatched for 800 Kg/m3. Perfectly spherical virgin expanded polystyrene beads with high thermal insulation power (2 mm Ø), mixed with special E.I.A. additive which allows a perfect mix, excellent pumping and homogeneous distribution of the beads in the mix - special additives"
+      }
+    }
+  ]
+}

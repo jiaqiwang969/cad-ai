@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:15:06",
+  "base_product": {
+    "name": "italiana-ferramenta-cobra-glass-support-56mm-o3-tras-grub-nk",
+    "id": "90-01092023-044743",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobra-glass-support-56mm-o3-tras-grub-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044743"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "BOX QUANTITY",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "MATERIAL",
+    "PHILLIPS / POZIDRIV",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16014090YA",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cobra-glass-support-56mm-o3-tras-grub-nk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-044743&PartNumber=16014090YA",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "16014090YA",
+        "Description": "COBRA glass support 5-6mm Ø3 tras. grub Nk",
+        "BOX QUANTITY": "2.500 PCS",
+        "FINISH": "Nickel-plated",
+        "WOOD / GLASS THICKNESS": "5 - 6 mm",
+        "MATERIAL": "Zinc Alloy / Natural Engineering Plastic",
+        "PHILLIPS / POZIDRIV": "PZ2",
+        "HOLE DIAMETER": "Ø 3 mm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:46:26",
+  "base_product": {
+    "name": "ape-technologies-refo-protect-30-160",
+    "id": "10-15012015-106587",
+    "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-30-160?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-106587"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Model REFO PROTECT 30 160",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-30-160?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-106587&PartNumber=Model+REFO+PROTECT+30+160",
+      "parameters": {
+        "Description": "Model REFO PROTECT 30 160"
+      }
+    },
+    {
+      "reference": "Agglomeration of PE foam , grooved and drilled with application to a side of non-woven fabric ( TNT ) , 160 gr",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-30-160?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-106587&PartNumber=Agglomeration+of+PE+foam+%2C+grooved+and+drilled+with+application+to+a+side+of+non-woven+fabric+%28+TNT+%29+%2C+160+gr",
+      "parameters": {
+        "Object details": "Agglomeration of PE foam , grooved and drilled with application to a side of non-woven fabric ( TNT ) , 160 gr"
+      }
+    }
+  ]
+}

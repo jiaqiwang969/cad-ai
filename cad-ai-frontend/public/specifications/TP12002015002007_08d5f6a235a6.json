@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:02:37",
+  "base_product": {
+    "name": "smeg-oven-sfp4390xpz",
+    "id": "90-14122022-051217",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp4390xpz?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051217"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP4390XPZ",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp4390xpz?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051217&PartNumber=SFP4390XPZ",
+      "parameters": {
+        "Part Number": "SFP4390XPZ",
+        "Description": "Oven : SFP4390XPZ",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

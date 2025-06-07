@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:26",
+  "base_product": {
+    "name": "smeg-hob-sr764ot",
+    "id": "90-14122022-063741",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764ot?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063741"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR764OT",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr764ot?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063741&PartNumber=SR764OT",
+      "parameters": {
+        "Part Number": "SR764OT",
+        "Description": "Hob : SR764OT",
+        "Color": "Brass",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

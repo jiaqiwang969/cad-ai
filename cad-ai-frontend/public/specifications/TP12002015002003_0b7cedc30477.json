@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:21",
+  "base_product": {
+    "name": "smeg-dishwasher-st649",
+    "id": "90-14122022-047704",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st649?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047704"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST649",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st649?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047704&PartNumber=ST649",
+      "parameters": {
+        "Part Number": "ST649",
+        "Description": "Dishwasher : ST649",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

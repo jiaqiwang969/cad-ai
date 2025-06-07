@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:13",
+  "base_product": {
+    "name": "smeg-dishwasher-sta4505",
+    "id": "90-14122022-047722",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4505?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047722"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STA4505",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4505?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047722&PartNumber=STA4505",
+      "parameters": {
+        "Part Number": "STA4505",
+        "Description": "Dishwasher : STA4505",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "448"
+      }
+    }
+  ]
+}

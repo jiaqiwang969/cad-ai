@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:14:07",
+  "base_product": {
+    "name": "rs-group-blank-adhesive-label-1014291",
+    "id": "90-01022024-044967",
+    "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014291?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-044967"
+  },
+  "table_headers": [],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "Blank Adhesive Label 1014291",
+      "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014291?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-044967&PartNumber=Blank+Adhesive+Label+1014291",
+      "parameters": {
+        "Description": "Blank Adhesive Label 1014291"
+      }
+    },
+    {
+      "reference": "1014291",
+      "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014291?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-044967&PartNumber=1014291",
+      "parameters": {
+        "Part Number": "1014291"
+      }
+    },
+    {
+      "reference": "8603102",
+      "url": "https://www.traceparts.cn/en/product/rs-group-blank-adhesive-label-1014291?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01022024-044967&PartNumber=8603102",
+      "parameters": {
+        "RS Stock Number": "8603102"
+      }
+    }
+  ]
+}

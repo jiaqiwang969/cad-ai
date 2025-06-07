@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:14",
+  "base_product": {
+    "name": "edilteco-spa-isolcap-fein",
+    "id": "10-28042015-108408",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-fein?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108408"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolcap Fein",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-fein?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108408&PartNumber=Isolcap+Fein",
+      "parameters": {
+        "Part Number": "Isolcap Fein",
+        "Description": "Readymix thermal insulating mortar containing superlight aggregates made of virgin expanded polystyrene beads with curved grain size (ø 2 mm.), with controlled density, precoated bead by bead with E.I.A. additive in the production phase. Pre-batched at 300 kg/mc cement. It is recommended also for the realization of mortars for lightweight single-layer substrates with Piano Zero system for direct gluing of floor coverings (see technical data sheet and the application manual)."
+      }
+    }
+  ]
+}

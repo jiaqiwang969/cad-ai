@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 21:40:15",
+  "base_product": {
+    "name": "profholod-sliding-door",
+    "id": "90-04052021-050428",
+    "url": "https://www.traceparts.cn/en/product/profholod-sliding-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050428"
+  },
+  "table_headers": [
+    "Part Number",
+    "Width, mm",
+    "Core insulation",
+    "Opening height, mm",
+    "Opening width, mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SD",
+      "url": "https://www.traceparts.cn/en/product/profholod-sliding-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050428&PartNumber=SD",
+      "parameters": {
+        "Part Number": "SD",
+        "Width, mm": "80, 100, 120, 150",
+        "Core insulation": "PUR",
+        "Opening height, mm": "up to 3000",
+        "Opening width, mm": "up to 3000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:29",
+  "base_product": {
+    "name": "smeg-hob-sr775ra",
+    "id": "90-14122022-063830",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775ra?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063830"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR775RA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775ra?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063830&PartNumber=SR775RA",
+      "parameters": {
+        "Part Number": "SR775RA",
+        "Description": "Hob : SR775RA",
+        "Color": "Copper",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

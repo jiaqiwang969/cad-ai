@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:57:30",
+  "base_product": {
+    "name": "smeg-hood-kset900xe",
+    "id": "90-14122022-054477",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kset900xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054477"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSET900XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kset900xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054477&PartNumber=KSET900XE",
+      "parameters": {
+        "Part Number": "KSET900XE",
+        "Description": "Hood : KSET900XE",
+        "Electric Power (W)": "215",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50/60",
+        "Sound power max (dB(A))": "65",
+        "EU Energy Label": "C",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "300",
+        "Overall Height (mm)": "324",
+        "Overall Width (mm)": "898"
+      }
+    }
+  ]
+}

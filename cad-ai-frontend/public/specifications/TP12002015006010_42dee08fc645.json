@@ -1,0 +1,51 @@
+{
+  "extraction_time": "2025-06-07 22:09:58",
+  "base_product": {
+    "name": "bs-rollen-gmbh-a210a80-mobelrollen",
+    "id": "90-12082021-027661",
+    "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-a210a80-mobelrollen?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027661"
+  },
+  "table_headers": [
+    "Bestellnummer",
+    "Bezeichnung",
+    "Ø Rad",
+    "Tragkraft",
+    "Lauffläche",
+    "Gesamte Bauhöhe",
+    "Lager",
+    "Schraublochentf.",
+    "Plattengröße",
+    "Ø Schraubloch",
+    "Radbreite",
+    "Radkörper",
+    "EAN-Code",
+    "Bestelleinheit",
+    "Inhaltseinheit",
+    "Verpackungsmenge"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "A210.A80.080",
+      "url": "https://www.traceparts.cn/en/product/bs-rollen-gmbh-a210a80-mobelrollen?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-12082021-027661&PartNumber=A210.A80.080",
+      "parameters": {
+        "Bestellnummer": "A210.A80.080",
+        "Bezeichnung": "Bockrolle",
+        "Ø Rad": "80",
+        "Tragkraft": "50",
+        "Lauffläche": "thermoplastischer Gummi grau",
+        "Gesamte Bauhöhe": "99",
+        "Lager": "Gleitlager",
+        "Schraublochentf.": "33x33",
+        "Plattengröße": "47x47",
+        "Ø Schraubloch": "5.3",
+        "Radbreite": "21",
+        "Radkörper": "Kunststoff",
+        "EAN-Code": "4021885040093",
+        "Bestelleinheit": "Stück (C62)",
+        "Inhaltseinheit": "Stück (C62)",
+        "Verpackungsmenge": "1"
+      }
+    }
+  ]
+}

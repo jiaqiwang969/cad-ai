@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:36",
+  "base_product": {
+    "name": "smeg-hob-pv164cn2au",
+    "id": "90-14122022-059570",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv164cn2au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059570"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV164CN2AU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv164cn2au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059570&PartNumber=PV164CN2AU",
+      "parameters": {
+        "Part Number": "PV164CN2AU",
+        "Description": "Hob : PV164CN2AU",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "48",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

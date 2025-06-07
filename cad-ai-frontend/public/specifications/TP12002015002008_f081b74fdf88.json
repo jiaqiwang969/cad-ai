@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:20",
+  "base_product": {
+    "name": "smeg-hob-px1402au",
+    "id": "90-14122022-059982",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px1402au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059982"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX1402AU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px1402au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059982&PartNumber=PX1402AU",
+      "parameters": {
+        "Part Number": "PX1402AU",
+        "Description": "Hob : PX1402AU",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "395",
+        "Overall Height (mm)": "53",
+        "Overall Width (mm)": "1000"
+      }
+    }
+  ]
+}

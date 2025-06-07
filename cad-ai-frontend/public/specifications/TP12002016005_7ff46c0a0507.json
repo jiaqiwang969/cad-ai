@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:26",
+  "base_product": {
+    "name": "edilteco-spa-politerm-wall",
+    "id": "10-28042015-108420",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-politerm-wall?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108420"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Politerm Wall",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-politerm-wall?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108420&PartNumber=Politerm+Wall",
+      "parameters": {
+        "Part Number": "Politerm Wall",
+        "Description": "Aggregate made of closed‐cell expanded virgin polystyrene beads, with constant grain‐size in curve (∅ 3‐6 mm.), perfectly spherical, with controlled density, non‐toxic, non‐absorbent, rot proof, dimensionally stable over time, chlorofluorocarbon free production, free of nutritional values able to sustain the growth of fungi and bacteria. It is used for thermal insulations and fillings of air spaces and closed volumes in general."
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:10",
+  "base_product": {
+    "name": "smeg-hob-slr75sgh",
+    "id": "90-14122022-063563",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-slr75sgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063563"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SLR75SGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-slr75sgh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063563&PartNumber=SLR75SGH",
+      "parameters": {
+        "Part Number": "SLR75SGH",
+        "Description": "Hob : SLR75SGH",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "42",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

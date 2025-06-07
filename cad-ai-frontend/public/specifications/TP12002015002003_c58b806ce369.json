@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:49:56",
+  "base_product": {
+    "name": "smeg-dishwasher-dfd613s",
+    "id": "90-14122022-046929",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dfd613s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046929"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DFD613S",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-dfd613s?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046929&PartNumber=DFD613S",
+      "parameters": {
+        "Part Number": "DFD613S",
+        "Description": "Dishwasher : DFD613S",
+        "Color": "Silver",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "448"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:23",
+  "base_product": {
+    "name": "smeg-dishwasher-lvs2323bin",
+    "id": "90-14122022-047374",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs2323bin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047374"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVS2323BIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs2323bin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047374&PartNumber=LVS2323BIN",
+      "parameters": {
+        "Part Number": "LVS2323BIN",
+        "Description": "Dishwasher : LVS2323BIN",
+        "Color": "White",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

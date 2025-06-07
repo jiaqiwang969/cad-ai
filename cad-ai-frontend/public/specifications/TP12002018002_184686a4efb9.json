@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:42",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-stairway-assembly-set-gp-38deg",
+    "id": "30-12112020-084441",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-gp-38deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084441"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.652.32",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-gp-38deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084441&PartNumber=0.0.652.32",
+      "parameters": {
+        "Part Number": "0.0.652.32",
+        "Description": "Stairway Assembly Set GP 38°, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

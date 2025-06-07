@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:21",
+  "base_product": {
+    "name": "smeg-hood-kcl900poe",
+    "id": "90-14122022-053345",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kcl900poe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053345"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KCL900POE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kcl900poe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053345&PartNumber=KCL900POE",
+      "parameters": {
+        "Part Number": "KCL900POE",
+        "Description": "Hood : KCL900POE"
+      }
+    }
+  ]
+}

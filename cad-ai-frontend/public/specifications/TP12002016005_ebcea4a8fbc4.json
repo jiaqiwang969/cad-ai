@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:02",
+  "base_product": {
+    "name": "sirap-insulation-fonobel-400",
+    "id": "90-10062022-053091",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-fonobel-400?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-10062022-053091"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "FONOBEL 400",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-fonobel-400?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-10062022-053091&PartNumber=FONOBEL+400",
+      "parameters": {
+        "Manufacturer Part Number": "FONOBEL 400",
+        "Description": "Multilayer acoustic insulating boards for underfloor"
+      }
+    }
+  ]
+}

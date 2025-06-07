@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:06",
+  "base_product": {
+    "name": "smeg-oven-sf6922xpze1",
+    "id": "90-14122022-050757",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6922xpze1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050757"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF6922XPZE1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6922xpze1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050757&PartNumber=SF6922XPZE1",
+      "parameters": {
+        "Part Number": "SF6922XPZE1",
+        "Description": "Oven : SF6922XPZE1",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

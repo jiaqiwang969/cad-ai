@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 22:09:51",
+  "base_product": {
+    "name": "traceparts-carpet-with-range-patterns-150-cm-x-150-cm",
+    "id": "10-20022010-081264",
+    "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-range-patterns-150-cm-x-150-cm?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-20022010-081264"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Carpet with range patterns, 150 cm x 150 cm, tints: Shades of blue",
+      "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-range-patterns-150-cm-x-150-cm?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-20022010-081264&PartNumber=Carpet+with+range+patterns%2C+150+cm+x+150+cm%2C+tints%3A+Shades+of+blue",
+      "parameters": {
+        "Description": "Carpet with range patterns, 150 cm x 150 cm, tints: Shades of blue"
+      }
+    },
+    {
+      "reference": "23.21.23.00",
+      "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-range-patterns-150-cm-x-150-cm?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-20022010-081264&PartNumber=23.21.23.00",
+      "parameters": {
+        "Omniclass number": "23.21.23.00"
+      }
+    }
+  ]
+}

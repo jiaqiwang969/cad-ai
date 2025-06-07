@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:32",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug405dmsr",
+    "id": "90-14122022-038149",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug405dmsr?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038149"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG405DMSR",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug405dmsr?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038149&PartNumber=UG405DMSR",
+      "parameters": {
+        "Part Number": "UG405DMSR",
+        "Description": "Professional Dishwasher : UG405DMSR",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "530",
+        "Overall Height (mm)": "710",
+        "Overall Width (mm)": "440"
+      }
+    }
+  ]
+}

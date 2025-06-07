@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:00",
+  "base_product": {
+    "name": "smeg-dishwasher-sto9051",
+    "id": "90-14122022-047956",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sto9051?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047956"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STO905-1",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sto9051?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047956&PartNumber=STO905-1",
+      "parameters": {
+        "Part Number": "STO905-1",
+        "Description": "Dishwasher : STO905-1",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "578",
+        "Overall Width (mm)": "860"
+      }
+    }
+  ]
+}

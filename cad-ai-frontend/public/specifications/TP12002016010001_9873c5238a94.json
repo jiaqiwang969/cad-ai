@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:03",
+  "base_product": {
+    "name": "polypiu-apertura-a-sporgere",
+    "id": "10-03062015-084337",
+    "url": "https://www.traceparts.cn/en/product/polypiu-apertura-a-sporgere?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084337"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Apertura_a_sporgere",
+      "url": "https://www.traceparts.cn/en/product/polypiu-apertura-a-sporgere?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084337&PartNumber=Apertura_a_sporgere",
+      "parameters": {
+        "Part Number": "Apertura_a_sporgere",
+        "Description": "System PIU, with a series of finishing accessories, involves the insertion of opening windows with mechanisms manual or electric"
+      }
+    }
+  ]
+}

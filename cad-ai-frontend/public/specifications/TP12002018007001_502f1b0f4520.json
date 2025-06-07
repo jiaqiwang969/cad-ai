@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:42:45",
+  "base_product": {
+    "name": "haas-hoco-pvc-restructuring-h290-1-swing-1100x1300",
+    "id": "10-12052015-106713",
+    "url": "https://www.traceparts.cn/en/product/haas-hoco-pvc-restructuring-h290-1-swing-1100x1300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106713"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVC_da_ristrutturazione_H290_1anta_1100x1300",
+      "url": "https://www.traceparts.cn/en/product/haas-hoco-pvc-restructuring-h290-1-swing-1100x1300?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-12052015-106713&PartNumber=PVC_da_ristrutturazione_H290_1anta_1100x1300",
+      "parameters": {
+        "Part Number": "PVC_da_ristrutturazione_H290_1anta_1100x1300",
+        "Description": "PVC restructuring H290 1 swing 1100x1300"
+      }
+    }
+  ]
+}

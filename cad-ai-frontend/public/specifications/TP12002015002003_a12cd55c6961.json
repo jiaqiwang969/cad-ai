@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:55",
+  "base_product": {
+    "name": "smeg-dishwasher-pl4325xin",
+    "id": "90-14122022-047503",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl4325xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047503"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PL4325XIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl4325xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047503&PartNumber=PL4325XIN",
+      "parameters": {
+        "Part Number": "PL4325XIN",
+        "Description": "Dishwasher : PL4325XIN",
+        "Color": "Black",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

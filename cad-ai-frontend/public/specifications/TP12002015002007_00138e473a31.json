@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:59",
+  "base_product": {
+    "name": "smeg-oven-sf4301mcx",
+    "id": "90-14122022-050013",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4301mcx?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050013"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4301MCX",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4301mcx?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050013&PartNumber=SF4301MCX",
+      "parameters": {
+        "Part Number": "SF4301MCX",
+        "Description": "Oven : SF4301MCX",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

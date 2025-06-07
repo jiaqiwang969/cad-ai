@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:06",
+  "base_product": {
+    "name": "smeg-hood-ki90xe",
+    "id": "90-14122022-053652",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ki90xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053652"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KI90XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ki90xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053652&PartNumber=KI90XE",
+      "parameters": {
+        "Part Number": "KI90XE",
+        "Description": "Hood : KI90XE",
+        "Electric Power (W)": "279",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "63",
+        "EU Energy Label": "B",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "880",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "extraction_time": "2025-06-07 21:40:19",
+  "base_product": {
+    "name": "apostoli-mavifood",
+    "id": "90-23112023-059874",
+    "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza totale porta (mm)",
+    "Altezza di apertura (mm)",
+    "Larghezza di apertura (mm)",
+    "VA motore elettrico"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "Mavifood_Yellow_RAL1021",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Yellow_RAL1021",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Yellow_RAL1021",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Yellow - RAL1021",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_White_RAL1013",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_White_RAL1013",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_White_RAL1013",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - White - RAL1013",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Navy",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Navy",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Navy",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Navy",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Blue_RAL5002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Blue_RAL5002",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Blue_RAL5002",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Blue - RAL5002",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Black_RAL9005",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Black_RAL9005",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Black_RAL9005",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Black - RAL9005",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Grey_RAL7035",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Grey_RAL7035",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Grey_RAL7035",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Grey - RAL7035",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_White_RAL9016",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_White_RAL9016",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_White_RAL9016",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - White - RAL9016",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Blue_RAL5010",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Blue_RAL5010",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Blue_RAL5010",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Blue - RAL5010",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Orange_RAL2004",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Orange_RAL2004",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Orange_RAL2004",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Orange - RAL2004",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    },
+    {
+      "reference": "Mavifood_Grey_RAL7038",
+      "url": "https://www.traceparts.cn/en/product/apostoli-mavifood?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059874&PartNumber=Mavifood_Grey_RAL7038",
+      "parameters": {
+        "Riferimento del produttore": "Mavifood_Grey_RAL7038",
+        "Descrizione": "Mavifood Industrial rapid door - Mavifood - Grey - RAL7038",
+        "Altezza totale porta (mm)": "2450",
+        "Altezza di apertura (mm)": "2000",
+        "Larghezza di apertura (mm)": "3000",
+        "VA motore elettrico": "750"
+      }
+    }
+  ]
+}

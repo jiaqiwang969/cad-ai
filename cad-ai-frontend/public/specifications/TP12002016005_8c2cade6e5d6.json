@@ -1,0 +1,47 @@
+{
+  "extraction_time": "2025-06-07 21:46:46",
+  "base_product": {
+    "name": "jlcmc-thermal-insulation-materials-customizable",
+    "id": "90-22012025-025440",
+    "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025440"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Manufacturer",
+    "Description",
+    "Product Page"
+  ],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "HRBG-W-K-4K-A190-B130-T15-F170-G110-N4",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025440&PartNumber=HRBG-W-K-4K-A190-B130-T15-F170-G110-N4",
+      "parameters": {
+        "Manufacturer Part Number": "HRBG-W-K-4K-A190-B130-T15-F170-G110-N4",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBG-W-K-4K-A190-B130-T15-F170-G110-N4",
+        "Product Page": "Purchasing Links"
+      }
+    },
+    {
+      "reference": "HRBG-W-K-4K-A90-B44-T3-F50-G24-N6",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025440&PartNumber=HRBG-W-K-4K-A90-B44-T3-F50-G24-N6",
+      "parameters": {
+        "Manufacturer Part Number": "HRBG-W-K-4K-A90-B44-T3-F50-G24-N6",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBG-W-K-4K-A90-B44-T3-F50-G24-N6",
+        "Product Page": "Purchasing Links"
+      }
+    },
+    {
+      "reference": "HRBG-W-K-4K-A90-B45-T10-F80-G35-Z4",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-025440&PartNumber=HRBG-W-K-4K-A90-B45-T10-F80-G35-Z4",
+      "parameters": {
+        "Manufacturer Part Number": "HRBG-W-K-4K-A90-B45-T10-F80-G35-Z4",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBG-W-K-4K-A90-B45-T10-F80-G35-Z4",
+        "Product Page": "Purchasing Links"
+      }
+    }
+  ]
+}

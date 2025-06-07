@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:38",
+  "base_product": {
+    "name": "smeg-hob-pxl6106au",
+    "id": "90-14122022-062406",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pxl6106au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062406"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PXL6106AU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pxl6106au?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-062406&PartNumber=PXL6106AU",
+      "parameters": {
+        "Part Number": "PXL6106AU",
+        "Description": "Hob : PXL6106AU",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "92",
+        "Overall Width (mm)": "1000"
+      }
+    }
+  ]
+}

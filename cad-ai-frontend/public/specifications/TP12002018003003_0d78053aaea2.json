@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:38:55",
+  "base_product": {
+    "name": "go-pannello-dogato-2-oblo-clower-900-vi-dx",
+    "id": "10-01082014-100123",
+    "url": "https://www.traceparts.cn/en/product/go-pannello-dogato-2-oblo-clower-900-vi-dx?CatalogPath=TRACEPARTS%3ATP12002018003003&Product=10-01082014-100123"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Pannello Dogato 2 OBLO C-LOWER 900 VI DX",
+      "url": "https://www.traceparts.cn/en/product/go-pannello-dogato-2-oblo-clower-900-vi-dx?CatalogPath=TRACEPARTS%3ATP12002018003003&Product=10-01082014-100123&PartNumber=Pannello+Dogato+2+OBLO+C-LOWER+900+VI+DX",
+      "parameters": {
+        "Désignation": "Pannello Dogato 2 OBLO C-LOWER 900 VI DX"
+      }
+    },
+    {
+      "reference": "23.17.13.00",
+      "url": "https://www.traceparts.cn/en/product/go-pannello-dogato-2-oblo-clower-900-vi-dx?CatalogPath=TRACEPARTS%3ATP12002018003003&Product=10-01082014-100123&PartNumber=23.17.13.00",
+      "parameters": {
+        "Numéro Omniclass": "23.17.13.00"
+      }
+    }
+  ]
+}

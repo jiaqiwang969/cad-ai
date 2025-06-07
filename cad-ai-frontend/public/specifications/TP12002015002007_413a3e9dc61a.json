@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:09",
+  "base_product": {
+    "name": "smeg-oven-sf561b",
+    "id": "90-14122022-050401",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf561b?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050401"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF561B",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf561b?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050401&PartNumber=SF561B",
+      "parameters": {
+        "Part Number": "SF561B",
+        "Description": "Oven : SF561B",
+        "Color": "White",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

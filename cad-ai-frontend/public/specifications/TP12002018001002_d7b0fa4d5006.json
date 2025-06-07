@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:38:25",
+  "base_product": {
+    "name": "sab-serrature-srl-series-1089",
+    "id": "10-11052015-113307",
+    "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-1089?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113307"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Series 1089",
+      "url": "https://www.traceparts.cn/en/product/sab-serrature-srl-series-1089?CatalogPath=TRACEPARTS%3ATP12002018001002&Product=10-11052015-113307&PartNumber=Series+1089",
+      "parameters": {
+        "Part Number": "Series 1089",
+        "Description": "Same for Series 580 this is a development for a multipoint lock with cylinder movement. The particular gear kinematics motion permits to reduce the effort on all the locking points, but it is extremely effective for the door alignment and isolation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:22",
+  "base_product": {
+    "name": "stiferite-stiferite-class-sk",
+    "id": "10-14092015-078745",
+    "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-sk?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-14092015-078745"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STIFERITE - CLASS SK",
+      "url": "https://www.traceparts.cn/en/product/stiferite-stiferite-class-sk?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-14092015-078745&PartNumber=STIFERITE+-+CLASS+SK",
+      "parameters": {
+        "Part Number": "STIFERITE - CLASS SK",
+        "Description": "STIFERITE Class SK is a sandwich panel consisting of an insulating component in polyiso, blowing without CFC or HCFC, coverd on both side with saturated fiber glass."
+      }
+    }
+  ]
+}

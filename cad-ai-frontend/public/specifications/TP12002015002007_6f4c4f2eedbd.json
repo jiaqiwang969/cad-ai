@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:14",
+  "base_product": {
+    "name": "smeg-oven-sf64m3vb",
+    "id": "90-14122022-050692",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3vb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050692"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF64M3VB",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf64m3vb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050692&PartNumber=SF64M3VB",
+      "parameters": {
+        "Part Number": "SF64M3VB",
+        "Description": "Oven : SF64M3VB",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

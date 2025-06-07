@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:55:08",
+  "base_product": {
+    "name": "smeg-hood-ka1vpe",
+    "id": "90-14122022-053246",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ka1vpe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053246"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KA1VPE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ka1vpe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053246&PartNumber=KA1VPE",
+      "parameters": {
+        "Part Number": "KA1VPE",
+        "Description": "Hood : KA1VPE"
+      }
+    }
+  ]
+}

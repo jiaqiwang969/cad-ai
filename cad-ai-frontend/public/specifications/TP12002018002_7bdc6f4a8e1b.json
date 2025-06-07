@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:59",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-step-profile-bracket-set-8-160",
+    "id": "30-12112020-084123",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-profile-bracket-set-8-160?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084123"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.647.13",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-step-profile-bracket-set-8-160?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084123&PartNumber=0.0.647.13",
+      "parameters": {
+        "Part Number": "0.0.647.13",
+        "Description": "Step Profile Bracket Set 8 160, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

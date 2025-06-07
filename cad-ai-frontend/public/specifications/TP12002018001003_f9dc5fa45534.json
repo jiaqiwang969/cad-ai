@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:36",
+  "base_product": {
+    "name": "cherubini-7345",
+    "id": "70-01042016-136113",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7345?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136113"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7345",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7345?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136113&PartNumber=7345",
+      "parameters": {
+        "Item Number": "7345",
+        "Description": "Worm gear, ratio 5,5:1"
+      }
+    }
+  ]
+}

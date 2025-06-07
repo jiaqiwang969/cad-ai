@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:51",
+  "base_product": {
+    "name": "sirap-insulation-gematherm-xcw",
+    "id": "90-10062022-053651",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-gematherm-xcw?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053651"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "GEMATHERM XCW",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-gematherm-xcw?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053651&PartNumber=GEMATHERM+XCW",
+      "parameters": {
+        "Manufacturer Part Number": "GEMATHERM XCW",
+        "Description": "Extruded polystyrene insulating boards"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 21:43:47",
+  "base_product": {
+    "name": "pitzl-108320000-cover-sleeve-for-thread-m20",
+    "id": "90-05092024-038710",
+    "url": "https://www.traceparts.cn/en/product/pitzl-108320000-cover-sleeve-for-thread-m20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038710"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Adjustment range mm",
+    "For threads"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10832.0000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-108320000-cover-sleeve-for-thread-m20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038710&PartNumber=10832.0000",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "10832.0000",
+        "Description": "10832.0000 - Cover sleeve for thread M20",
+        "Adjustment range mm": "100 - 185",
+        "For threads": "M20"
+      }
+    }
+  ]
+}

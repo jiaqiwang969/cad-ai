@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:59",
+  "base_product": {
+    "name": "smeg-oven-sfa562x2",
+    "id": "90-14122022-051072",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa562x2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051072"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFA562X2",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa562x2?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051072&PartNumber=SFA562X2",
+      "parameters": {
+        "Part Number": "SFA562X2",
+        "Description": "Oven : SFA562X2",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

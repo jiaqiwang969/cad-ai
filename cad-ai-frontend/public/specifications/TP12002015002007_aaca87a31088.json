@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:44",
+  "base_product": {
+    "name": "smeg-oven-sfa4104vcb",
+    "id": "90-14122022-050951",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4104vcb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050951"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFA4104VCB",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4104vcb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050951&PartNumber=SFA4104VCB",
+      "parameters": {
+        "Part Number": "SFA4104VCB",
+        "Description": "Oven : SFA4104VCB",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

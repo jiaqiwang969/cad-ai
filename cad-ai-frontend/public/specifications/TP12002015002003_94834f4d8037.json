@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:20",
+  "base_product": {
+    "name": "smeg-dishwasher-lvs4322bin",
+    "id": "90-14122022-047404",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs4322bin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047404"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVS4322BIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvs4322bin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047404&PartNumber=LVS4322BIN",
+      "parameters": {
+        "Part Number": "LVS4322BIN",
+        "Description": "Dishwasher : LVS4322BIN",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "848",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

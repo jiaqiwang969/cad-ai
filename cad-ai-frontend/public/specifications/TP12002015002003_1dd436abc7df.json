@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:49",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-hty630deh",
+    "id": "90-14122022-037937",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty630deh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037937"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HTY630DEH",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty630deh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037937&PartNumber=HTY630DEH",
+      "parameters": {
+        "Part Number": "HTY630DEH",
+        "Description": "Professional Dishwasher : HTY630DEH",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "836",
+        "Overall Height (mm)": "1520",
+        "Overall Width (mm)": "716"
+      }
+    }
+  ]
+}

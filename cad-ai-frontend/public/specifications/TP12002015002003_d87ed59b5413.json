@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:40",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-hty615ds",
+    "id": "90-14122022-037891",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty615ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037891"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HTY615DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty615ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037891&PartNumber=HTY615DS",
+      "parameters": {
+        "Part Number": "HTY615DS",
+        "Description": "Professional Dishwasher : HTY615DS",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "760",
+        "Overall Height (mm)": "1520",
+        "Overall Width (mm)": "716"
+      }
+    }
+  ]
+}

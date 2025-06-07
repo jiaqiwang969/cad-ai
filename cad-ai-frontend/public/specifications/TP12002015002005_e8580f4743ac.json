@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:56:06",
+  "base_product": {
+    "name": "smeg-hood-ki52e",
+    "id": "90-14122022-053637",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ki52e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053637"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KI52E",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ki52e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053637&PartNumber=KI52E",
+      "parameters": {
+        "Part Number": "KI52E",
+        "Description": "Hood : KI52E",
+        "Electric Power (W)": "181",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "64",
+        "EU Energy Label": "E",
+        "Color": "Silver",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "284",
+        "Overall Height (mm)": "174",
+        "Overall Width (mm)": "522"
+      }
+    }
+  ]
+}

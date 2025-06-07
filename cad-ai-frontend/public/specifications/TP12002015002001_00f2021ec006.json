@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:09:26",
+  "base_product": {
+    "name": "smeg-washing-machine-lsta147s",
+    "id": "90-28102022-039225",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lsta147s?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039225"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Current (A)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LSTA147S",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lsta147s?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039225&PartNumber=LSTA147S",
+      "parameters": {
+        "Part Number": "LSTA147S",
+        "Description": "Washing Machine : LSTA147S",
+        "Electric Power (W)": "2200",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Current (A)": "10",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "72",
+        "Color": "White"
+      }
+    }
+  ]
+}

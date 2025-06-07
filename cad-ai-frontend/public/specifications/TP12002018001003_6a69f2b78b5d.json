@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:24",
+  "base_product": {
+    "name": "cherubini-9001",
+    "id": "70-01042016-136117",
+    "url": "https://www.traceparts.cn/en/product/cherubini-9001?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136117"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "9001",
+      "url": "https://www.traceparts.cn/en/product/cherubini-9001?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136117&PartNumber=9001",
+      "parameters": {
+        "Item Number": "9001",
+        "Description": "Worm gear, ratio 3,3:1"
+      }
+    }
+  ]
+}

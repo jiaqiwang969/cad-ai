@@ -1,0 +1,183 @@
+{
+  "extraction_time": "2025-06-07 21:43:30",
+  "base_product": {
+    "name": "peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections",
+    "id": "90-02122021-036189",
+    "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189"
+  },
+  "table_headers": [
+    "Part Number",
+    "k (mm)",
+    "M",
+    "lrb (mm)",
+    "Lc0 (mm)",
+    "ØC (mm)",
+    "dh (mm)",
+    "Ø (mm)",
+    "spanner size (mm)",
+    "Color code"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "COPRA16H-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA16H-L-Le",
+      "parameters": {
+        "Part Number": "COPRA16H-L-Le",
+        "k (mm)": "10",
+        "M": "M16",
+        "lrb (mm)": "130",
+        "Lc0 (mm)": "48",
+        "ØC (mm)": "25",
+        "dh (mm)": "38",
+        "Ø (mm)": "Ø16",
+        "spanner size (mm)": "24",
+        "Color code": "Yellow"
+      }
+    },
+    {
+      "reference": "COPRA20H-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA20H-L-Le",
+      "parameters": {
+        "Part Number": "COPRA20H-L-Le",
+        "k (mm)": "12",
+        "M": "M20",
+        "lrb (mm)": "145",
+        "Lc0 (mm)": "60",
+        "ØC (mm)": "30",
+        "dh (mm)": "46",
+        "Ø (mm)": "Ø20",
+        "spanner size (mm)": "30",
+        "Color code": "Blue"
+      }
+    },
+    {
+      "reference": "COPRA24H-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA24H-L-Le",
+      "parameters": {
+        "Part Number": "COPRA24H-L-Le",
+        "k (mm)": "13",
+        "M": "M24",
+        "lrb (mm)": "166",
+        "Lc0 (mm)": "72",
+        "ØC (mm)": "35",
+        "dh (mm)": "55",
+        "Ø (mm)": "Ø25",
+        "spanner size (mm)": "36",
+        "Color code": "Gray"
+      }
+    },
+    {
+      "reference": "COPRA30H-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA30H-L-Le",
+      "parameters": {
+        "Part Number": "COPRA30H-L-Le",
+        "k (mm)": "15",
+        "M": "M30",
+        "lrb (mm)": "195",
+        "Lc0 (mm)": "90",
+        "ØC (mm)": "50",
+        "dh (mm)": "70",
+        "Ø (mm)": "Ø32",
+        "spanner size (mm)": "46",
+        "Color code": "Green"
+      }
+    },
+    {
+      "reference": "COPRA39H-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA39H-L-Le",
+      "parameters": {
+        "Part Number": "COPRA39H-L-Le",
+        "k (mm)": "18",
+        "M": "M39",
+        "lrb (mm)": "245",
+        "Lc0 (mm)": "120",
+        "ØC (mm)": "65",
+        "dh (mm)": "90",
+        "Ø (mm)": "Ø40",
+        "spanner size (mm)": "60",
+        "Color code": "Orange"
+      }
+    },
+    {
+      "reference": "COPRA30P-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA30P-L-Le",
+      "parameters": {
+        "Part Number": "COPRA30P-L-Le",
+        "k (mm)": "13",
+        "M": "M30",
+        "lrb (mm)": "195",
+        "Lc0 (mm)": "90",
+        "ØC (mm)": "50",
+        "dh (mm)": "55",
+        "Ø (mm)": "2Ø25",
+        "spanner size (mm)": "46",
+        "Color code": "Black"
+      }
+    },
+    {
+      "reference": "COPRA36P-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA36P-L-Le",
+      "parameters": {
+        "Part Number": "COPRA36P-L-Le",
+        "k (mm)": "20",
+        "M": "M36",
+        "lrb (mm)": "220",
+        "Lc0 (mm)": "108",
+        "ØC (mm)": "60",
+        "dh (mm)": "84",
+        "Ø (mm)": "2Ø28",
+        "spanner size (mm)": "55",
+        "Color code": "Red"
+      }
+    },
+    {
+      "reference": "COPRA39P-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA39P-L-Le",
+      "parameters": {
+        "Part Number": "COPRA39P-L-Le",
+        "k (mm)": "20",
+        "M": "M39",
+        "lrb (mm)": "245",
+        "Lc0 (mm)": "120",
+        "ØC (mm)": "65",
+        "dh (mm)": "84",
+        "Ø (mm)": "2Ø28",
+        "spanner size (mm)": "60",
+        "Color code": "Brown"
+      }
+    },
+    {
+      "reference": "COPRA45P-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA45P-L-Le",
+      "parameters": {
+        "Part Number": "COPRA45P-L-Le",
+        "k (mm)": "15",
+        "M": "M45",
+        "lrb (mm)": "263",
+        "Lc0 (mm)": "135",
+        "ØC (mm)": "75",
+        "dh (mm)": "70",
+        "Ø (mm)": "2Ø32",
+        "spanner size (mm)": "70",
+        "Color code": "Purple"
+      }
+    },
+    {
+      "reference": "COPRA52P-L-Le",
+      "url": "https://www.traceparts.cn/en/product/peikko-coprar-l-anchoring-coupler-for-smart-bolted-connections?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036189&PartNumber=COPRA52P-L-Le",
+      "parameters": {
+        "Part Number": "COPRA52P-L-Le",
+        "k (mm)": "15",
+        "M": "M52",
+        "lrb (mm)": "320",
+        "Lc0 (mm)": "160",
+        "ØC (mm)": "90",
+        "dh (mm)": "70",
+        "Ø (mm)": "4Ø32",
+        "spanner size (mm)": "80",
+        "Color code": "White"
+      }
+    }
+  ]
+}

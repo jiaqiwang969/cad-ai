@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:54:22",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ud522ds",
+    "id": "90-14122022-038048",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud522ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038048"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UD522DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ud522ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038048&PartNumber=UD522DS",
+      "parameters": {
+        "Part Number": "UD522DS",
+        "Description": "Professional Dishwasher : UD522DS",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "820",
+        "Overall Width (mm)": "600",
+        "Space Requirement (mm)": "1022"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:06",
+  "base_product": {
+    "name": "smeg-hob-se364etb",
+    "id": "90-14122022-063055",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-se364etb?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063055"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SE364ETB",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-se364etb?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063055&PartNumber=SE364ETB",
+      "parameters": {
+        "Part Number": "SE364ETB",
+        "Description": "Hob : SE364ETB",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "50",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:47:29",
+  "base_product": {
+    "name": "apostoli-pensilinasunhailmonodouble",
+    "id": "90-23112023-060494",
+    "url": "https://www.traceparts.cn/en/product/apostoli-pensilinasunhailmonodouble?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-23112023-060494"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Pensilina_Sunhail_RAL9007",
+      "url": "https://www.traceparts.cn/en/product/apostoli-pensilinasunhailmonodouble?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=90-23112023-060494&PartNumber=Pensilina_Sunhail_RAL9007",
+      "parameters": {
+        "Riferimento del produttore": "Pensilina_Sunhail_RAL9007",
+        "Descrizione": "Parking carport Sunhail Model - Pensilina - Sunhail - RAL9007"
+      }
+    }
+  ]
+}

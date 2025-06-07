@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:36",
+  "base_product": {
+    "name": "smeg-oven-sfpa6102tvn",
+    "id": "90-14122022-051535",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6102tvn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051535"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPA6102TVN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6102tvn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051535&PartNumber=SFPA6102TVN",
+      "parameters": {
+        "Part Number": "SFPA6102TVN",
+        "Description": "Oven : SFPA6102TVN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

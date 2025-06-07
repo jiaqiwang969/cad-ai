@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:14",
+  "base_product": {
+    "name": "edilteco-spa-isolcap-light",
+    "id": "10-28042015-108405",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-light?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108405"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolcap Light",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap-light?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108405&PartNumber=Isolcap+Light",
+      "parameters": {
+        "Part Number": "Isolcap Light",
+        "Description": "Selected water binder prebatched for 110 Kg/m³ - perfectly spherical virgin expanded polystyrene beads with high thermal insulation power (2 mm Ø), mixed with special E.I.A. additive which allows a perfect mix, excellent pumping and homogeneous distribution of the beads in the mix - special additives. Thermal insulating fluid mortar, also applicable to variable thickness on horizontal, inclined surface and interspaces."
+      }
+    }
+  ]
+}

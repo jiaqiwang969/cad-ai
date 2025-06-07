@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:53",
+  "base_product": {
+    "name": "smeg-dishwasher-stla825b2",
+    "id": "90-14122022-047946",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stla825b2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047946"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STLA825B-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stla825b2?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047946&PartNumber=STLA825B-2",
+      "parameters": {
+        "Part Number": "STLA825B-2",
+        "Description": "Dishwasher : STLA825B-2",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

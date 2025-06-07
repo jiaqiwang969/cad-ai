@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:15",
+  "base_product": {
+    "name": "smeg-washing-machine-lbs147xnl",
+    "id": "90-28102022-039179",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbs147xnl?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039179"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LBS147XNL",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbs147xnl?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039179&PartNumber=LBS147XNL",
+      "parameters": {
+        "Part Number": "LBS147XNL",
+        "Description": "Washing Machine : LBS147XNL",
+        "Electric Power (W)": "2000",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50",
+        "Color": "Finger friendly stainless steel"
+      }
+    }
+  ]
+}

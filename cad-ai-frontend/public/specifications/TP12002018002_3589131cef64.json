@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:48",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-stairway-assembly-set-pp-45deg",
+    "id": "30-12112020-084497",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-pp-45deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084497"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.653.16",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-pp-45deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084497&PartNumber=0.0.653.16",
+      "parameters": {
+        "Part Number": "0.0.653.16",
+        "Description": "Stairway Assembly Set PP 45°, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

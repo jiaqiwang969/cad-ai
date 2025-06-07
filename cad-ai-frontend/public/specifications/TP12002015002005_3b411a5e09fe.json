@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:57:09",
+  "base_product": {
+    "name": "smeg-hood-kseg90xe2",
+    "id": "90-14122022-054342",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg90xe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054342"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEG90XE-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kseg90xe2?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054342&PartNumber=KSEG90XE-2",
+      "parameters": {
+        "Part Number": "KSEG90XE-2",
+        "Description": "Hood : KSEG90XE-2"
+      }
+    }
+  ]
+}

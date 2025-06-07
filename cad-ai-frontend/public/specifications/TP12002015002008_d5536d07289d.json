@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:29",
+  "base_product": {
+    "name": "smeg-hob-pm3621wldnlk",
+    "id": "90-14122022-059333",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3621wldnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059333"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PM3621WLDNLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3621wldnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059333&PartNumber=PM3621WLDNLK",
+      "parameters": {
+        "Part Number": "PM3621WLDNLK",
+        "Description": "Hob : PM3621WLDNLK",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "45",
+        "Overall Width (mm)": "650"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:05",
+  "base_product": {
+    "name": "edilteco-spa-ecap-gt",
+    "id": "10-28042015-108412",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-gt?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108412"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ECAP GT",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-ecap-gt?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108412&PartNumber=ECAP+GT",
+      "parameters": {
+        "Part Number": "ECAP GT",
+        "Description": "Prefinished thermal insulating board with expanded synterized polystyrene with graphite additive"
+      }
+    }
+  ]
+}

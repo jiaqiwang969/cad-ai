@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:27",
+  "base_product": {
+    "name": "smeg-dishwasher-pl2123nin",
+    "id": "90-14122022-047468",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl2123nin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047468"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PL2123NIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl2123nin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047468&PartNumber=PL2123NIN",
+      "parameters": {
+        "Part Number": "PL2123NIN",
+        "Description": "Dishwasher : PL2123NIN",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

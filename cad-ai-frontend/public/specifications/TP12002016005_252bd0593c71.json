@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:45:54",
+  "base_product": {
+    "name": "isover-saintgobain-ppc-italia-spa-cover-with-corrugated-steel-superbac-roofiner-g3-and-bituminous",
+    "id": "10-29042015-067647",
+    "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-cover-with-corrugated-steel-superbac-roofiner-g3-and-bituminous?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067647"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Copertura_in_lamiera_grecata_con_SUPERBAC_Roofine®_G3_e_guaina_bituminosa",
+      "url": "https://www.traceparts.cn/en/product/isover-saintgobain-ppc-italia-spa-cover-with-corrugated-steel-superbac-roofiner-g3-and-bituminous?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-29042015-067647&PartNumber=Copertura_in_lamiera_grecata_con_SUPERBAC_Roofine%C2%AE_G3_e_guaina_bituminosa",
+      "parameters": {
+        "Part Number": "Copertura_in_lamiera_grecata_con_SUPERBAC_Roofine®_G3_e_guaina_bituminosa",
+        "Description": "Cover with corrugated steel SUPERBAC Roofine® G3 and bituminous"
+      }
+    }
+  ]
+}

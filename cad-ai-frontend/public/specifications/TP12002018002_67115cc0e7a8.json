@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:37",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-platform-cleat",
+    "id": "30-12112020-084429",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-platform-cleat?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084429"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.651.74",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-platform-cleat?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084429&PartNumber=0.0.651.74",
+      "parameters": {
+        "Part Number": "0.0.651.74",
+        "Description": "Platform Cleat, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

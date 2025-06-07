@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:09:49",
+  "base_product": {
+    "name": "danese-milano-fruit-bowl-no-9",
+    "id": "90-22072021-031273",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-fruit-bowl-no-9?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031273"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "DRG8230A0L",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-fruit-bowl-no-9?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031273&PartNumber=DRG8230A0L",
+      "parameters": {
+        "Part Number": "DRG8230A0L",
+        "Description": "beech wood"
+      }
+    }
+  ]
+}

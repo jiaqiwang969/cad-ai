@@ -1,0 +1,147 @@
+{
+  "extraction_time": "2025-06-07 21:43:24",
+  "base_product": {
+    "name": "peikko-pcsr-corbel-hidden-corbel-for-supporting-beams",
+    "id": "90-02122021-036385",
+    "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385"
+  },
+  "table_headers": [
+    "Part Number",
+    "H1 (mm)",
+    "bs (mm)",
+    "Weight (kg)",
+    "Color code",
+    "B2 (mm)",
+    "B1 (mm)",
+    "H2 (mm)",
+    "H3 (mm)",
+    "Δ (mm)",
+    "Bolts",
+    "d3 (mm)",
+    "L3 (mm)",
+    "L1 (mm)"
+  ],
+  "total_specifications": 6,
+  "specifications": [
+    {
+      "reference": "PCs 2",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+2",
+      "parameters": {
+        "Part Number": "PCs 2",
+        "H1 (mm)": "155",
+        "bs (mm)": "85",
+        "Weight (kg)": "12.7",
+        "Color code": "Red",
+        "B2 (mm)": "116",
+        "B1 (mm)": "60",
+        "H2 (mm)": "210",
+        "H3 (mm)": "397",
+        "Δ (mm)": "27.5",
+        "Bolts": "M16 x 100",
+        "d3 (mm)": "16",
+        "L3 (mm)": "125",
+        "L1 (mm)": "76"
+      }
+    },
+    {
+      "reference": "PCs 3",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+3",
+      "parameters": {
+        "Part Number": "PCs 3",
+        "H1 (mm)": "155",
+        "bs (mm)": "67",
+        "Weight (kg)": "21.1",
+        "Color code": "Gray",
+        "B2 (mm)": "135",
+        "B1 (mm)": "80",
+        "H2 (mm)": "235",
+        "H3 (mm)": "386",
+        "Δ (mm)": "40",
+        "Bolts": "M24 x 120",
+        "d3 (mm)": "20",
+        "L3 (mm)": "140",
+        "L1 (mm)": "92"
+      }
+    },
+    {
+      "reference": "PCs 5",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+5",
+      "parameters": {
+        "Part Number": "PCs 5",
+        "H1 (mm)": "205",
+        "bs (mm)": "111",
+        "Weight (kg)": "37.6",
+        "Color code": "Yellow",
+        "B2 (mm)": "150",
+        "B1 (mm)": "90",
+        "H2 (mm)": "315",
+        "H3 (mm)": "430",
+        "Δ (mm)": "55",
+        "Bolts": "M30 x 145",
+        "d3 (mm)": "25",
+        "L3 (mm)": "150",
+        "L1 (mm)": "112"
+      }
+    },
+    {
+      "reference": "PCs 7",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+7",
+      "parameters": {
+        "Part Number": "PCs 7",
+        "H1 (mm)": "225",
+        "bs (mm)": "131",
+        "Weight (kg)": "57.9",
+        "Color code": "Green",
+        "B2 (mm)": "212",
+        "B1 (mm)": "110",
+        "H2 (mm)": "350",
+        "H3 (mm)": "423",
+        "Δ (mm)": "62.5",
+        "Bolts": "M30 x 145",
+        "d3 (mm)": "32",
+        "L3 (mm)": "145",
+        "L1 (mm)": "112"
+      }
+    },
+    {
+      "reference": "PCs 10",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+10",
+      "parameters": {
+        "Part Number": "PCs 10",
+        "H1 (mm)": "280",
+        "bs (mm)": "186",
+        "Weight (kg)": "84.9",
+        "Color code": "Blue",
+        "B2 (mm)": "222",
+        "B1 (mm)": "145",
+        "H2 (mm)": "380",
+        "H3 (mm)": "578",
+        "Δ (mm)": "50",
+        "Bolts": "M30 x 150",
+        "d3 (mm)": "32",
+        "L3 (mm)": "160",
+        "L1 (mm)": "119"
+      }
+    },
+    {
+      "reference": "PCs 15",
+      "url": "https://www.traceparts.cn/en/product/peikko-pcsr-corbel-hidden-corbel-for-supporting-beams?CatalogPath=TRACEPARTS%3ATP12002016004&Product=90-02122021-036385&PartNumber=PCs+15",
+      "parameters": {
+        "Part Number": "PCs 15",
+        "H1 (mm)": "280",
+        "bs (mm)": "150",
+        "Weight (kg)": "124.4",
+        "Color code": "Black",
+        "B2 (mm)": "282",
+        "B1 (mm)": "220",
+        "H2 (mm)": "380",
+        "H3 (mm)": "578",
+        "Δ (mm)": "58",
+        "Bolts": "M30 x 155",
+        "d3 (mm)": "32",
+        "L3 (mm)": "260",
+        "L1 (mm)": "122"
+      }
+    }
+  ]
+}

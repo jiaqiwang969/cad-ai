@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:20",
+  "base_product": {
+    "name": "smeg-oven-sfp805p",
+    "id": "90-14122022-051512",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp805p?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051512"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFP805P",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfp805p?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051512&PartNumber=SFP805P",
+      "parameters": {
+        "Part Number": "SFP805P",
+        "Description": "Oven : SFP805P",
+        "Color": "Cream",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

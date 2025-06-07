@@ -1,0 +1,41 @@
+{
+  "extraction_time": "2025-06-07 21:56:54",
+  "base_product": {
+    "name": "smeg-hood-ksec61xsm",
+    "id": "90-14122022-054107",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksec61xsm?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054107"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEC61XSM",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksec61xsm?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054107&PartNumber=KSEC61XSM",
+      "parameters": {
+        "Part Number": "KSEC61XSM",
+        "Description": "Hood : KSEC61XSM",
+        "Electric Power (W)": "28",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "490",
+        "Overall Height (mm)": "150",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

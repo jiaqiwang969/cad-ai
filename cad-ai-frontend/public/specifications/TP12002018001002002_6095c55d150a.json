@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:38:32",
+  "base_product": {
+    "name": "hopper-group-poignees-pour-portes-interieures-paris",
+    "id": "34-21012025-101908",
+    "url": "https://www.traceparts.cn/en/product/hopper-group-poignees-pour-portes-interieures-paris?CatalogPath=TRACEPARTS%3ATP12002018001002002&Product=34-21012025-101908"
+  },
+  "table_headers": [
+    "Modèle",
+    "Numéro d’article",
+    "F9 alu aspect inox"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "3080392",
+      "url": "https://www.traceparts.cn/en/product/hopper-group-poignees-pour-portes-interieures-paris?CatalogPath=TRACEPARTS%3ATP12002018001002002&Product=34-21012025-101908&PartNumber=3080392",
+      "parameters": {
+        "Modèle": "E138F4/42/42KVS",
+        "Numéro d’article": "3080392",
+        "F9 alu aspect inox": "F69 inox mat"
+      }
+    }
+  ]
+}

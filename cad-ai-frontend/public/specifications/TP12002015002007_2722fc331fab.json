@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:00",
+  "base_product": {
+    "name": "smeg-oven-sf4920mcn1",
+    "id": "90-14122022-050343",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4920mcn1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050343"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4920MCN1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4920mcn1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050343&PartNumber=SF4920MCN1",
+      "parameters": {
+        "Part Number": "SF4920MCN1",
+        "Description": "Oven : SF4920MCN1",
+        "Color": "Black",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

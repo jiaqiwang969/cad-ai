@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:38",
+  "base_product": {
+    "name": "lmc-contreplaque-pour-loqueteau-geant",
+    "id": "10-27042009-088619",
+    "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-pour-loqueteau-geant?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27042009-088619"
+  },
+  "table_headers": [
+    "Fixation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "CON3M",
+      "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-pour-loqueteau-geant?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-27042009-088619&PartNumber=CON3M",
+      "parameters": {
+        "Fixation": "à visser",
+        "Référence": "CON3M"
+      }
+    }
+  ]
+}

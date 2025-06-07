@@ -1,0 +1,79 @@
+{
+  "extraction_time": "2025-06-07 21:39:03",
+  "base_product": {
+    "name": "apostoli-dapleafpiccolamono",
+    "id": "90-23112023-060487",
+    "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza (mm)",
+    "Larghezza (mm)",
+    "Altezza massima (mm)",
+    "Larghezza massima (mm)"
+  ],
+  "total_specifications": 5,
+  "specifications": [
+    {
+      "reference": "Dapleaf_Piccola_Inox",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487&PartNumber=Dapleaf_Piccola_Inox",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Piccola_Inox",
+        "Descrizione": "Insustrial door Dapleaf - Dapleaf - Piccola - Inox",
+        "Altezza (mm)": "2000",
+        "Larghezza (mm)": "800",
+        "Altezza massima (mm)": "2350",
+        "Larghezza massima (mm)": "850"
+      }
+    },
+    {
+      "reference": "Dapleaf_Piccola_Zincata",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487&PartNumber=Dapleaf_Piccola_Zincata",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Piccola_Zincata",
+        "Descrizione": "Insustrial door Dapleaf - Dapleaf - Piccola - Zincata",
+        "Altezza (mm)": "2000",
+        "Larghezza (mm)": "800",
+        "Altezza massima (mm)": "2350",
+        "Larghezza massima (mm)": "850"
+      }
+    },
+    {
+      "reference": "Dapleaf_Piccola_RAL1003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487&PartNumber=Dapleaf_Piccola_RAL1003",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Piccola_RAL1003",
+        "Descrizione": "Insustrial door Dapleaf - Dapleaf - Piccola - RAL1003",
+        "Altezza (mm)": "2000",
+        "Larghezza (mm)": "800",
+        "Altezza massima (mm)": "2350",
+        "Larghezza massima (mm)": "850"
+      }
+    },
+    {
+      "reference": "Dapleaf_Piccola_RAL7035",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487&PartNumber=Dapleaf_Piccola_RAL7035",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Piccola_RAL7035",
+        "Descrizione": "Insustrial door Dapleaf - Dapleaf - Piccola - RAL7035",
+        "Altezza (mm)": "2000",
+        "Larghezza (mm)": "800",
+        "Altezza massima (mm)": "2350",
+        "Larghezza massima (mm)": "850"
+      }
+    },
+    {
+      "reference": "Dapleaf_Piccola_RAL2003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-dapleafpiccolamono?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-060487&PartNumber=Dapleaf_Piccola_RAL2003",
+      "parameters": {
+        "Riferimento del produttore": "Dapleaf_Piccola_RAL2003",
+        "Descrizione": "Insustrial door Dapleaf - Dapleaf - Piccola - RAL2003",
+        "Altezza (mm)": "2000",
+        "Larghezza (mm)": "800",
+        "Altezza massima (mm)": "2350",
+        "Larghezza massima (mm)": "850"
+      }
+    }
+  ]
+}

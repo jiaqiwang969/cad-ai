@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:17",
+  "base_product": {
+    "name": "sirap-insulation-styrholz-h",
+    "id": "90-10062022-053773",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-styrholz-h?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053773"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STYRHOLZ H",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-styrholz-h?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-053773&PartNumber=STYRHOLZ+H",
+      "parameters": {
+        "Manufacturer Part Number": "STYRHOLZ H",
+        "Description": "Wood-fiber boards for thermal and acoustic insulation"
+      }
+    }
+  ]
+}

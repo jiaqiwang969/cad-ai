@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:38:37",
+  "base_product": {
+    "name": "hopper-group-parallelschiebekippturgriffe-amsterdam",
+    "id": "34-21012025-098370",
+    "url": "https://www.traceparts.cn/en/product/hopper-group-parallelschiebekippturgriffe-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-21012025-098370"
+  },
+  "table_headers": [
+    "Modell",
+    "Artikelnummer",
+    "Farbe"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PSK-E0400Z/US956",
+      "url": "https://www.traceparts.cn/en/product/hopper-group-parallelschiebekippturgriffe-amsterdam?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=34-21012025-098370&PartNumber=PSK-E0400Z%2FUS956",
+      "parameters": {
+        "Modell": "PSK-E0400Z/US956",
+        "Artikelnummer": "11544405",
+        "Farbe": "F69 Edelstahl matt"
+      }
+    }
+  ]
+}

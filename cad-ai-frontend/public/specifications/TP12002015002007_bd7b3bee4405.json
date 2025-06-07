@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:32",
+  "base_product": {
+    "name": "smeg-oven-sfpa6925n",
+    "id": "90-14122022-051594",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6925n?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051594"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPA6925N",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6925n?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051594&PartNumber=SFPA6925N",
+      "parameters": {
+        "Part Number": "SFPA6925N",
+        "Description": "Oven : SFPA6925N",
+        "Color": "Black",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "extraction_time": "2025-06-07 21:48:19",
+  "base_product": {
+    "name": "falk-falk-1000-gl-roof",
+    "id": "90-30112023-047592",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-1000-gl-roof?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-047592"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Core thickness [mm]",
+    "U-Value [m²K/W]",
+    "Weight [kg/m²]",
+    "Fire class",
+    "Total height [mm]"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "Falk 1000 GL 43-83mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-gl-roof?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-047592&PartNumber=Falk+1000+GL+43-83mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 GL 43-83mm",
+        "Description": "Insulated corrugated panel Falk 1000 GL 43-83mm",
+        "Core thickness [mm]": "43",
+        "U-Value [m²K/W]": "0.371",
+        "Weight [kg/m²]": "10.9",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "83"
+      }
+    },
+    {
+      "reference": "Falk 1000 GL 60-100mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-gl-roof?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-047592&PartNumber=Falk+1000+GL+60-100mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 GL 60-100mm",
+        "Description": "Insulated corrugated panel Falk 1000 GL 60-100mm",
+        "Core thickness [mm]": "60",
+        "U-Value [m²K/W]": "0.285",
+        "Weight [kg/m²]": "11.6",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "100"
+      }
+    },
+    {
+      "reference": "Falk 1000 GL 90-130mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-gl-roof?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-047592&PartNumber=Falk+1000+GL+90-130mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 GL 90-130mm",
+        "Description": "Insulated corrugated panel Falk 1000 GL 90-130mm",
+        "Core thickness [mm]": "90",
+        "U-Value [m²K/W]": "0.203",
+        "Weight [kg/m²]": "12.8",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "130"
+      }
+    },
+    {
+      "reference": "Falk 1000 GL 120-160mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1000-gl-roof?CatalogPath=TRACEPARTS%3ATP12002016010005&Product=90-30112023-047592&PartNumber=Falk+1000+GL+120-160mm",
+      "parameters": {
+        "Manufacturer Part Number": "Falk 1000 GL 120-160mm",
+        "Description": "Insulated corrugated panel Falk 1000 GL 120-160mm",
+        "Core thickness [mm]": "120",
+        "U-Value [m²K/W]": "0.154",
+        "Weight [kg/m²]": "14",
+        "Fire class": "B-s2,d0",
+        "Total height [mm]": "160"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 21:43:29",
+  "base_product": {
+    "name": "pitzl-105291090-post-base-plugin-system-z-with-thread-m24",
+    "id": "90-05092024-038064",
+    "url": "https://www.traceparts.cn/en/product/pitzl-105291090-post-base-plugin-system-z-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038064"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10529.1090",
+      "url": "https://www.traceparts.cn/en/product/pitzl-105291090-post-base-plugin-system-z-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038064&PartNumber=10529.1090",
+      "parameters": {
+        "Manufacturer Part Number": "10529.1090",
+        "Description": "10529.1090 - Post base plug-in system Z with thread M24",
+        "Upper plate mm": "Ø 96 x 8",
+        "Lower plate mm": "160 x 100 x 8",
+        "Thread low.": "M24 x 90",
+        "Borehole bottom": "Ø13 x 4",
+        "Borehole top": "Ø10,5 x 4",
+        "Installation height mm": "141 - 201",
+        "max. characteristic pressure bearing capacity (kN) *": "140,0"
+      }
+    }
+  ]
+}

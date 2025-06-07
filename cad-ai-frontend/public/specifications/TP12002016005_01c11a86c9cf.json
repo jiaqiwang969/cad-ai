@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:46:46",
+  "base_product": {
+    "name": "jlcmc-thermal-insulation-materials-customizable",
+    "id": "90-22012025-925429",
+    "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-925429"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Manufacturer",
+    "Description",
+    "Product Page"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HRBF-R-K-10-6K-A350-B175-T10-F125-G150-Z6",
+      "url": "https://www.traceparts.cn/en/product/jlcmc-thermal-insulation-materials-customizable?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-22012025-925429&PartNumber=HRBF-R-K-10-6K-A350-B175-T10-F125-G150-Z6",
+      "parameters": {
+        "Manufacturer Part Number": "HRBF-R-K-10-6K-A350-B175-T10-F125-G150-Z6",
+        "Manufacturer": "JLCMC",
+        "Description": "Thermal Insulation Materials - HRBF-R-K-10-6K-A350-B175-T10-F125-G150-Z6",
+        "Product Page": "Purchasing Links"
+      }
+    }
+  ]
+}

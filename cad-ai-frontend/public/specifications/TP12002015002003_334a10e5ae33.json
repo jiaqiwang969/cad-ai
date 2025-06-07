@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:17",
+  "base_product": {
+    "name": "smeg-dishwasher-sta4523",
+    "id": "90-14122022-047745",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4523?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047745"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STA4523",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta4523?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047745&PartNumber=STA4523",
+      "parameters": {
+        "Part Number": "STA4523",
+        "Description": "Dishwasher : STA4523",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

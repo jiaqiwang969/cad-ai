@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:39",
+  "base_product": {
+    "name": "smeg-hob-px364lde",
+    "id": "90-14122022-060013",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px364lde?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060013"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX364LDE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px364lde?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060013&PartNumber=PX364LDE",
+      "parameters": {
+        "Part Number": "PX364LDE",
+        "Description": "Hob : PX364LDE",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

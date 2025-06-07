@@ -1,0 +1,47 @@
+{
+  "extraction_time": "2025-06-07 21:41:12",
+  "base_product": {
+    "name": "gpl-vertical-ladder-for-shipbuilding",
+    "id": "40-14102009-062979",
+    "url": "https://www.traceparts.cn/en/product/gpl-vertical-ladder-for-shipbuilding?CatalogPath=TRACEPARTS%3ATP12002018002&Product=40-14102009-062979"
+  },
+  "table_headers": [
+    "Type",
+    "Definition"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "VF 1",
+      "url": "https://www.traceparts.cn/en/product/gpl-vertical-ladder-for-shipbuilding?CatalogPath=TRACEPARTS%3ATP12002018002&Product=40-14102009-062979&PartNumber=VF+1",
+      "parameters": {
+        "Type": "VF 1",
+        "Definition": "Fixed, fixed to a bulkhead."
+      }
+    },
+    {
+      "reference": "VF 2",
+      "url": "https://www.traceparts.cn/en/product/gpl-vertical-ladder-for-shipbuilding?CatalogPath=TRACEPARTS%3ATP12002018002&Product=40-14102009-062979&PartNumber=VF+2",
+      "parameters": {
+        "Type": "VF 2",
+        "Definition": "Fixed, fixed to a deck and a bulkhead."
+      }
+    },
+    {
+      "reference": "VR 1",
+      "url": "https://www.traceparts.cn/en/product/gpl-vertical-ladder-for-shipbuilding?CatalogPath=TRACEPARTS%3ATP12002018002&Product=40-14102009-062979&PartNumber=VR+1",
+      "parameters": {
+        "Type": "VR 1",
+        "Definition": "Removable, fixed to a bulkhead."
+      }
+    },
+    {
+      "reference": "VR 2",
+      "url": "https://www.traceparts.cn/en/product/gpl-vertical-ladder-for-shipbuilding?CatalogPath=TRACEPARTS%3ATP12002018002&Product=40-14102009-062979&PartNumber=VR+2",
+      "parameters": {
+        "Type": "VR 2",
+        "Definition": "Removable, fixed to a deck and a bulkhead."
+      }
+    }
+  ]
+}

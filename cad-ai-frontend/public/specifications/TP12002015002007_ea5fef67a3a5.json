@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:42",
+  "base_product": {
+    "name": "smeg-oven-sf4120vc1",
+    "id": "90-14122022-049945",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4120vc1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049945"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4120VC1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4120vc1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049945&PartNumber=SF4120VC1",
+      "parameters": {
+        "Part Number": "SF4120VC1",
+        "Description": "Oven : SF4120VC1",
+        "Color": "Steel and Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

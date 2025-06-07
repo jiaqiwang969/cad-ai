@@ -1,0 +1,117 @@
+{
+  "extraction_time": "2025-06-07 21:40:06",
+  "base_product": {
+    "name": "scrigno-spa-s-tech-4-12-plasterboard-usa",
+    "id": "90-29112023-056257",
+    "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Height (mm)",
+    "Width (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "28\" x 90”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=28%22+x+90%E2%80%9D",
+      "parameters": {
+        "Part Number": "28\" x 90”",
+        "Description": "S tech 28\"x90\"/ 3 5/8\" (700x2276 L=681/115) US",
+        "Height (mm)": "2286",
+        "Width (mm)": "711"
+      }
+    },
+    {
+      "reference": "46\" x 80”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=46%22+x+80%E2%80%9D",
+      "parameters": {
+        "Part Number": "46\" x 80”",
+        "Description": "S tech 46\"x80\"/ 3 5/8\" (1150x2020 L=1138/115) US",
+        "Height (mm)": "2030",
+        "Width (mm)": "1168"
+      }
+    },
+    {
+      "reference": "38\" x 80”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=38%22+x+80%E2%80%9D",
+      "parameters": {
+        "Part Number": "38\" x 80”",
+        "Description": "S tech 38\"x80\"/ 3 5/8\" (950x2020 L=935/115) US",
+        "Height (mm)": "2030",
+        "Width (mm)": "965"
+      }
+    },
+    {
+      "reference": "32\" x 80”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=32%22+x+80%E2%80%9D",
+      "parameters": {
+        "Part Number": "32\" x 80”",
+        "Description": "S tech 32\"x80\"/ 3 5/8\" (800x2020 L=782/115) US",
+        "Height (mm)": "2030",
+        "Width (mm)": "813"
+      }
+    },
+    {
+      "reference": "36\" x 90”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=36%22+x+90%E2%80%9D",
+      "parameters": {
+        "Part Number": "36\" x 90”",
+        "Description": "S tech 36\"x90\"/ 3 5/8\" (900x2276 L=884/115) US",
+        "Height (mm)": "2286",
+        "Width (mm)": "914"
+      }
+    },
+    {
+      "reference": "44\" x 84”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=44%22+x+84%E2%80%9D",
+      "parameters": {
+        "Part Number": "44\" x 84”",
+        "Description": "S tech 44\"x84\"/ 3 5/8\" (1100x2123 L=1087/115) US",
+        "Height (mm)": "2134",
+        "Width (mm)": "1118"
+      }
+    },
+    {
+      "reference": "28\" x 80”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=28%22+x+80%E2%80%9D",
+      "parameters": {
+        "Part Number": "28\" x 80”",
+        "Description": "S tech 28\"x80\"/ 3 5/8\" (700x2020 L=681/115) US",
+        "Height (mm)": "2030",
+        "Width (mm)": "711"
+      }
+    },
+    {
+      "reference": "42\" x 84”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=42%22+x+84%E2%80%9D",
+      "parameters": {
+        "Part Number": "42\" x 84”",
+        "Description": "S tech 42\"x84\"/ 3 5/8\" (1050x2123 L=1036/115) US",
+        "Height (mm)": "2134",
+        "Width (mm)": "1067"
+      }
+    },
+    {
+      "reference": "48\" x 90”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=48%22+x+90%E2%80%9D",
+      "parameters": {
+        "Part Number": "48\" x 90”",
+        "Description": "S tech 48\"x90\"/ 3 5/8\" (1200x2276 L=1189/115) US",
+        "Height (mm)": "2286",
+        "Width (mm)": "1219"
+      }
+    },
+    {
+      "reference": "30\" x 90”",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-4-12-plasterboard-usa?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-056257&PartNumber=30%22+x+90%E2%80%9D",
+      "parameters": {
+        "Part Number": "30\" x 90”",
+        "Description": "S tech 30\"x90\"/ 3 5/8\" (750x2276 L=732/115) US",
+        "Height (mm)": "2286",
+        "Width (mm)": "762"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:34",
+  "base_product": {
+    "name": "gyproc-saintgobain-aquarocperfecta",
+    "id": "10-24042015-081611",
+    "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocperfecta?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081611"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Aquaroc_Perfecta",
+      "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocperfecta?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081611&PartNumber=Aquaroc_Perfecta",
+      "parameters": {
+        "Part Number": "Aquaroc_Perfecta",
+        "Description": "Extra-performance solution for external walls with excellent performance of thermal and acoustic insulation."
+      }
+    }
+  ]
+}

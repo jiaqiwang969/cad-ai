@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:17",
+  "base_product": {
+    "name": "palagina-window-1-door-kzip-105-fitting-system",
+    "id": "10-08042015-119137",
+    "url": "https://www.traceparts.cn/en/product/palagina-window-1-door-kzip-105-fitting-system?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119137"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Fin 1Anta_KZIP 105 incasso",
+      "url": "https://www.traceparts.cn/en/product/palagina-window-1-door-kzip-105-fitting-system?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119137&PartNumber=Fin+1Anta_KZIP+105+incasso",
+      "parameters": {
+        "Part Number": "Fin 1Anta_KZIP 105 incasso",
+        "Description": "Curtain K-Zip 105 fitting system"
+      }
+    }
+  ]
+}

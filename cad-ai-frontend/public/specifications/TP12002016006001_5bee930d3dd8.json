@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:45:24",
+  "base_product": {
+    "name": "pitzl-110220000-post-base-rigid-version-for-embedding-in-concrete",
+    "id": "90-05092024-038569",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110220000-post-base-rigid-version-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038569"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Tube Ø mm",
+    "Borehole top",
+    "Installation height mm",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11022.0000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110220000-post-base-rigid-version-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038569&PartNumber=11022.0000",
+      "parameters": {
+        "Manufacturer Part Number": "11022.0000",
+        "Description": "11022.0000 - Post base rigid version for embedding in concrete",
+        "Upper plate mm": "100 x 100 x 6",
+        "Tube Ø mm": "Ø42 x 200",
+        "Borehole top": "Ø12 x 4",
+        "Installation height mm": "56",
+        "max. characteristic pressure bearing capacity (kN) *": "90,0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:47",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-stairway-assembly-set-pp-30deg",
+    "id": "30-12112020-084493",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-pp-30deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084493"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.653.14",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-stairway-assembly-set-pp-30deg?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-12112020-084493&PartNumber=0.0.653.14",
+      "parameters": {
+        "Part Number": "0.0.653.14",
+        "Description": "Stairway Assembly Set PP 30°, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

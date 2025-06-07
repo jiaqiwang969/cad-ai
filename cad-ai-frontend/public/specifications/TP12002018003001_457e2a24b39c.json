@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:40:24",
+  "base_product": {
+    "name": "profholod-traffic-swinging-double-leaf-door",
+    "id": "90-04052021-050434",
+    "url": "https://www.traceparts.cn/en/product/profholod-traffic-swinging-double-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050434"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height",
+    "Width"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "TDD",
+      "url": "https://www.traceparts.cn/en/product/profholod-traffic-swinging-double-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050434&PartNumber=TDD",
+      "parameters": {
+        "Part Number": "TDD",
+        "Height": "2400",
+        "Width": "1600"
+      }
+    }
+  ]
+}

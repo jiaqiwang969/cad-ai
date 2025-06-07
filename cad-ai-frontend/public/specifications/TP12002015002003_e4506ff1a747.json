@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:45",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug411duk",
+    "id": "90-14122022-038226",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug411duk?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038226"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG411DUK",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug411duk?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038226&PartNumber=UG411DUK",
+      "parameters": {
+        "Part Number": "UG411DUK",
+        "Description": "Professional Dishwasher : UG411DUK",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "532",
+        "Overall Height (mm)": "705",
+        "Overall Width (mm)": "488"
+      }
+    }
+  ]
+}

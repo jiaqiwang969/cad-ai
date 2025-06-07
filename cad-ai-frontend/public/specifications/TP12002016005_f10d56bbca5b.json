@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:45:44",
+  "base_product": {
+    "name": "nvent-caddy-119-strut-mounted-insulation-shield",
+    "id": "90-28052020-033716",
+    "url": "https://www.traceparts.cn/en/product/nvent-caddy-119-strut-mounted-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-28052020-033716"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Finish",
+    "Material"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "1190300",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-119-strut-mounted-insulation-shield?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-28052020-033716&PartNumber=1190300",
+      "parameters": {
+        "Part Number": "1190300",
+        "Description": "119 Strut Mounted Insulation Shield, 3\" Shield",
+        "Finish": "Pregalvanized",
+        "Material": "Steel"
+      }
+    }
+  ]
+}

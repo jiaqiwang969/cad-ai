@@ -1,0 +1,43 @@
+{
+  "extraction_time": "2025-06-07 21:45:42",
+  "base_product": {
+    "name": "marley-alutec-balcony-outlet-with-terrace-grate-assembly",
+    "id": "90-07012021-032264",
+    "url": "https://www.traceparts.cn/en/product/marley-alutec-balcony-outlet-with-terrace-grate-assembly?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032264"
+  },
+  "table_headers": [
+    "Part Number",
+    "Pipe connection size (O.D)",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I (cut down to requierement)",
+    "Max. Flow rate (l/s)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "AB01TG",
+      "url": "https://www.traceparts.cn/en/product/marley-alutec-balcony-outlet-with-terrace-grate-assembly?CatalogPath=TRACEPARTS%3ATP12002016001&Product=90-07012021-032264&PartNumber=AB01TG",
+      "parameters": {
+        "Part Number": "AB01TG",
+        "Pipe connection size (O.D)": "76mm, 72x72mm, 82mm and 110mm",
+        "A": "234",
+        "B": "196",
+        "C": "77",
+        "D": "45",
+        "E": "82",
+        "F": "110",
+        "G": "158",
+        "H": "150",
+        "I (cut down to requierement)": "260",
+        "Max. Flow rate (l/s)": "4.7"
+      }
+    }
+  ]
+}

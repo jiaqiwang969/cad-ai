@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:01",
+  "base_product": {
+    "name": "smeg-hob-sra975ngh",
+    "id": "90-14122022-064006",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sra975ngh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064006"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRA975NGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sra975ngh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064006&PartNumber=SRA975NGH",
+      "parameters": {
+        "Part Number": "SRA975NGH",
+        "Description": "Hob : SRA975NGH",
+        "Color": "Black",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "74",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

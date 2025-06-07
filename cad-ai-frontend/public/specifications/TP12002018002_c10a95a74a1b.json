@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:40:33",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-frame-profile-8-31x20-natural",
+    "id": "30-23012023-089607",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-8-31x20-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-23012023-089607"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.707.73",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-frame-profile-8-31x20-natural?CatalogPath=TRACEPARTS%3ATP12002018002&Product=30-23012023-089607&PartNumber=0.0.707.73",
+      "parameters": {
+        "Part Number": "0.0.707.73",
+        "Description": "Frame Profile 8 31x20, natural, Delivery unit: cut-off max. 6000 mm"
+      }
+    }
+  ]
+}

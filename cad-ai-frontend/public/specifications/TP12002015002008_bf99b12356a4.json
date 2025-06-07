@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:52",
+  "base_product": {
+    "name": "smeg-hob-sim592b",
+    "id": "90-14122022-063506",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sim592b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063506"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SIM592B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sim592b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063506&PartNumber=SIM592B",
+      "parameters": {
+        "Part Number": "SIM592B",
+        "Description": "Hob : SIM592B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "52",
+        "Overall Width (mm)": "860"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:25",
+  "base_product": {
+    "name": "smeg-hob-si1f7955b",
+    "id": "90-14122022-063285",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si1f7955b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063285"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI1F7955B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si1f7955b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063285&PartNumber=SI1F7955B",
+      "parameters": {
+        "Part Number": "SI1F7955B",
+        "Description": "Hob : SI1F7955B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "49",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

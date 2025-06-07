@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:56",
+  "base_product": {
+    "name": "smeg-hob-pgf75k4",
+    "id": "90-14122022-059277",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf75k4?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059277"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF75K-4",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf75k4?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059277&PartNumber=PGF75K-4",
+      "parameters": {
+        "Part Number": "PGF75K-4",
+        "Description": "Hob : PGF75K-4",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "511",
+        "Overall Height (mm)": "78",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "extraction_time": "2025-06-07 21:43:36",
+  "base_product": {
+    "name": "pitzl-105299090-post-base-plugin-system-z-with-thread-m24-for-screwin-foundations",
+    "id": "90-05092024-038595",
+    "url": "https://www.traceparts.cn/en/product/pitzl-105299090-post-base-plugin-system-z-with-thread-m24-for-screwin-foundations?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038595"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Oblong hole bottom mm",
+    "Borehole top",
+    "Installation height mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10529.9090",
+      "url": "https://www.traceparts.cn/en/product/pitzl-105299090-post-base-plugin-system-z-with-thread-m24-for-screwin-foundations?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038595&PartNumber=10529.9090",
+      "parameters": {
+        "Manufacturer Part Number": "10529.9090",
+        "Description": "10529.9090 - Post base plug-in system Z with thread M24 for screw-in foundations",
+        "Upper plate mm": "Ø 96 x 8",
+        "Lower plate mm": "140 x 189 x 6",
+        "Thread low.": "M24 x 90",
+        "Oblong hole bottom mm": "11 x 60 mm x4",
+        "Borehole top": "4x Ø 10,5 mm",
+        "Installation height mm": "139 - 199"
+      }
+    }
+  ]
+}

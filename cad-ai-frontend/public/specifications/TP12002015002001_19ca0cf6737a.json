@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:09:19",
+  "base_product": {
+    "name": "smeg-washing-machine-lse147es",
+    "id": "90-28102022-039194",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lse147es?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039194"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Current (A)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LSE147ES",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lse147es?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039194&PartNumber=LSE147ES",
+      "parameters": {
+        "Part Number": "LSE147ES",
+        "Description": "Washing Machine : LSE147ES",
+        "Electric Power (W)": "2000",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Current (A)": "10",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "75",
+        "Color": "White"
+      }
+    }
+  ]
+}

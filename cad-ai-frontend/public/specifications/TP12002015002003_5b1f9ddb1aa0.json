@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:41",
+  "base_product": {
+    "name": "smeg-dishwasher-stl66337l",
+    "id": "90-14122022-047887",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl66337l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047887"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STL66337L",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-stl66337l?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047887&PartNumber=STL66337L",
+      "parameters": {
+        "Part Number": "STL66337L",
+        "Description": "Dishwasher : STL66337L",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "547",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

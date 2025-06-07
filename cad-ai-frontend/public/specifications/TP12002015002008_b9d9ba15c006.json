@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:41",
+  "base_product": {
+    "name": "smeg-hob-p272xghd",
+    "id": "90-14122022-059004",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-p272xghd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059004"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "P272XGHD",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-p272xghd?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059004&PartNumber=P272XGHD",
+      "parameters": {
+        "Part Number": "P272XGHD",
+        "Description": "Hob : P272XGHD",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "42",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

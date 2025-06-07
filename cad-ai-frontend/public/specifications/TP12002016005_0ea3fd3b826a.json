@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:26",
+  "base_product": {
+    "name": "edilteco-spa-isolteco-rasante-monocap",
+    "id": "10-28042015-108418",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolteco-rasante-monocap?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108418"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolteco Rasante Monocap",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolteco-rasante-monocap?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108418&PartNumber=Isolteco+Rasante+Monocap",
+      "parameters": {
+        "Part Number": "Isolteco Rasante Monocap",
+        "Description": "Leveller permeable to water vapour, with good workability. Suitable for: rough surface, lime and cement based surfaces and thermal insulating plaster (type Isolteco), thermal dehumidifying plaster (type Isolsan) and restoration cycles (type Drymix)."
+      }
+    }
+  ]
+}

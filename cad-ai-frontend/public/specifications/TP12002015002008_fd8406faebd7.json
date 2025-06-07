@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:18",
+  "base_product": {
+    "name": "smeg-hob-se60sgh3",
+    "id": "90-14122022-063188",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-se60sgh3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063188"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SE60SGH3",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-se60sgh3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063188&PartNumber=SE60SGH3",
+      "parameters": {
+        "Part Number": "SE60SGH3",
+        "Description": "Hob : SE60SGH3",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "30",
+        "Overall Width (mm)": "595"
+      }
+    }
+  ]
+}

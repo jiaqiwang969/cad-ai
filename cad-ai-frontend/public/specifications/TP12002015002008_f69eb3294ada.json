@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:07",
+  "base_product": {
+    "name": "smeg-hob-pgf95sa",
+    "id": "90-14122022-059322",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf95sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059322"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF95SA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf95sa?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059322&PartNumber=PGF95SA",
+      "parameters": {
+        "Part Number": "PGF95SA",
+        "Description": "Hob : PGF95SA",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "509",
+        "Overall Height (mm)": "78",
+        "Overall Width (mm)": "864"
+      }
+    }
+  ]
+}

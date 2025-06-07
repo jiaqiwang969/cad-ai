@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:23",
+  "base_product": {
+    "name": "isospan-srl-iw25",
+    "id": "10-27042015-087453",
+    "url": "https://www.traceparts.cn/en/product/isospan-srl-iw25?CatalogPath=TRACEPARTS%3ATP12002016003005001002&Product=10-27042015-087453"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "IW 25",
+      "url": "https://www.traceparts.cn/en/product/isospan-srl-iw25?CatalogPath=TRACEPARTS%3ATP12002016003005001002&Product=10-27042015-087453&PartNumber=IW+25",
+      "parameters": {
+        "Part Number": "IW 25",
+        "Description": "Block quarterdeck Isospan - 25 cm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:45:54",
+  "base_product": {
+    "name": "pitzl-980240002-lock-nut-m-24-righthand-thread",
+    "id": "90-05092024-038826",
+    "url": "https://www.traceparts.cn/en/product/pitzl-980240002-lock-nut-m-24-righthand-thread?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038826"
+  },
+  "table_headers": [
+    "CAD",
+    "Manufacturer Part Number",
+    "Description",
+    "Borehole bottom"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "98024.0002",
+      "url": "https://www.traceparts.cn/en/product/pitzl-980240002-lock-nut-m-24-righthand-thread?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038826&PartNumber=98024.0002",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Manufacturer Part Number": "98024.0002",
+        "Description": "98024.0002 - Lock nut M 24 right-hand thread",
+        "Borehole bottom": "Ø12x4"
+      }
+    }
+  ]
+}

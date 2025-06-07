@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:19",
+  "base_product": {
+    "name": "smeg-hood-ks1250xe",
+    "id": "90-14122022-053783",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks1250xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053783"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS1250XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks1250xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053783&PartNumber=KS1250XE",
+      "parameters": {
+        "Part Number": "KS1250XE",
+        "Description": "Hood : KS1250XE"
+      }
+    }
+  ]
+}

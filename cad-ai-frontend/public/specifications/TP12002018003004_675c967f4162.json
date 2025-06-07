@@ -1,0 +1,139 @@
+{
+  "extraction_time": "2025-06-07 21:40:29",
+  "base_product": {
+    "name": "apostoli-e12",
+    "id": "90-23112023-060010",
+    "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza totale porta (mm)",
+    "Altezza di apertura (mm)",
+    "Larghezza di apertura (mm)",
+    "VA motore elettrico"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "E12_Blue_RAL5002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Blue_RAL5002",
+      "parameters": {
+        "Riferimento del produttore": "E12_Blue_RAL5002",
+        "Descrizione": "E12 Industrial rapid door - E12 - Blue - RAL5002",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Grey_RAL7004",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Grey_RAL7004",
+      "parameters": {
+        "Riferimento del produttore": "E12_Grey_RAL7004",
+        "Descrizione": "E12 Industrial rapid door - E12 - Grey - RAL7004",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Yellow_RAL1003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Yellow_RAL1003",
+      "parameters": {
+        "Riferimento del produttore": "E12_Yellow_RAL1003",
+        "Descrizione": "E12 Industrial rapid door - E12 - Yellow - RAL1003",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Green_RAL6026",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Green_RAL6026",
+      "parameters": {
+        "Riferimento del produttore": "E12_Green_RAL6026",
+        "Descrizione": "E12 Industrial rapid door - E12 - Green - RAL6026",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_White_RAL1013",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_White_RAL1013",
+      "parameters": {
+        "Riferimento del produttore": "E12_White_RAL1013",
+        "Descrizione": "E12 Industrial rapid door - E12 - White - RAL1013",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Black_RAL9005",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Black_RAL9005",
+      "parameters": {
+        "Riferimento del produttore": "E12_Black_RAL9005",
+        "Descrizione": "E12 Industrial rapid door - E12 - Black - RAL9005",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Ivory_RAL1014",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Ivory_RAL1014",
+      "parameters": {
+        "Riferimento del produttore": "E12_Ivory_RAL1014",
+        "Descrizione": "E12 Industrial rapid door - E12 - Ivory - RAL1014",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Orange_RAL2004",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Orange_RAL2004",
+      "parameters": {
+        "Riferimento del produttore": "E12_Orange_RAL2004",
+        "Descrizione": "E12 Industrial rapid door - E12 - Orange - RAL2004",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_White_RAL9016",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_White_RAL9016",
+      "parameters": {
+        "Riferimento del produttore": "E12_White_RAL9016",
+        "Descrizione": "E12 Industrial rapid door - E12 - White - RAL9016",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    },
+    {
+      "reference": "E12_Red_RAL3002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e12?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-060010&PartNumber=E12_Red_RAL3002",
+      "parameters": {
+        "Riferimento del produttore": "E12_Red_RAL3002",
+        "Descrizione": "E12 Industrial rapid door - E12 - Red - RAL3002",
+        "Altezza totale porta (mm)": "4900",
+        "Altezza di apertura (mm)": "4000",
+        "Larghezza di apertura (mm)": "4000",
+        "VA motore elettrico": "1000"
+      }
+    }
+  ]
+}

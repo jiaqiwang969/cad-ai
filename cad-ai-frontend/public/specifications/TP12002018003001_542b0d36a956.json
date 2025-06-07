@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:38:56",
+  "base_product": {
+    "name": "accessafe-door-configurator",
+    "id": "70-06042021-114617",
+    "url": "https://www.traceparts.cn/en/product/accessafe-door-configurator?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=70-06042021-114617"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "VFDA.BSC0A02.07002020",
+      "url": "https://www.traceparts.cn/en/product/accessafe-door-configurator?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=70-06042021-114617&PartNumber=VFDA.BSC0A02.07002020",
+      "parameters": {
+        "Item Number": "VFDA.BSC0A02.07002020"
+      }
+    },
+    {
+      "reference": "23.17.11.00",
+      "url": "https://www.traceparts.cn/en/product/accessafe-door-configurator?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=70-06042021-114617&PartNumber=23.17.11.00",
+      "parameters": {
+        "Omniclass number": "23.17.11.00"
+      }
+    }
+  ]
+}

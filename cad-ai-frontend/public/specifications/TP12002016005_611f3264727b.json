@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:46:07",
+  "base_product": {
+    "name": "rs-group-heat-conducting-film-03mm-to220",
+    "id": "90-20112024-078435",
+    "url": "https://www.traceparts.cn/en/product/rs-group-heat-conducting-film-03mm-to220?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-20112024-078435"
+  },
+  "table_headers": [
+    "Description",
+    "Part Number",
+    "Manufacturer",
+    "RS Stock Number"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "2835257",
+      "url": "https://www.traceparts.cn/en/product/rs-group-heat-conducting-film-03mm-to220?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-20112024-078435&PartNumber=2835257",
+      "parameters": {
+        "Description": "Heat conducting film 0.3mm TO-220",
+        "Part Number": "2835257",
+        "Manufacturer": "Fischer Elektronik",
+        "RS Stock Number": "2835257"
+      }
+    }
+  ]
+}

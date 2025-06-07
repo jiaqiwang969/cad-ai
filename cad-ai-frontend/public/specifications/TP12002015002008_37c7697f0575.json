@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:54",
+  "base_product": {
+    "name": "smeg-hob-srv575gh5",
+    "id": "90-14122022-064107",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-srv575gh5?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064107"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRV575GH5",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-srv575gh5?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-064107&PartNumber=SRV575GH5",
+      "parameters": {
+        "Part Number": "SRV575GH5",
+        "Description": "Hob : SRV575GH5",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

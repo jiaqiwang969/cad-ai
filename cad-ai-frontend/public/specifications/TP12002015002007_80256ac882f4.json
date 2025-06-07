@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:35",
+  "base_product": {
+    "name": "smeg-oven-sf6101vb",
+    "id": "90-14122022-050497",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6101vb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050497"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF6101VB",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6101vb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050497&PartNumber=SF6101VB",
+      "parameters": {
+        "Part Number": "SF6101VB",
+        "Description": "Oven : SF6101VB",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

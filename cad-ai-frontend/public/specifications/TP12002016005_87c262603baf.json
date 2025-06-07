@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:21",
+  "base_product": {
+    "name": "edilteco-spa-isolcap",
+    "id": "10-28042015-108426",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108426"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Isolcap",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-isolcap?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108426&PartNumber=Isolcap",
+      "parameters": {
+        "Part Number": "Isolcap",
+        "Description": "Selected binders prebatched for 250 Kg/m3 - perfectly spherical virgin expanded polystyrene beads with high thermal insulating power (3 - 6 mm Ø), mixed with special E.I.A. additive which allows a perfect mix, excellent pumping and homogeneous distribution of the beads in the mix - special additives."
+      }
+    }
+  ]
+}

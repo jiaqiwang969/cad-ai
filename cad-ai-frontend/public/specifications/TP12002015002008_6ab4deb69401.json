@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:53",
+  "base_product": {
+    "name": "smeg-hob-si5643b",
+    "id": "90-14122022-063450",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si5643b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063450"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI5643B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si5643b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063450&PartNumber=SI5643B",
+      "parameters": {
+        "Part Number": "SI5643B",
+        "Description": "Hob : SI5643B",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "515",
+        "Overall Height (mm)": "56",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

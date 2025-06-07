@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:48:47",
+  "base_product": {
+    "name": "gyproc-saintgobain-aquarocperforma",
+    "id": "10-24042015-081610",
+    "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocperforma?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081610"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Aquaroc_Performa",
+      "url": "https://www.traceparts.cn/en/product/gyproc-saintgobain-aquarocperforma?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-24042015-081610&PartNumber=Aquaroc_Performa",
+      "parameters": {
+        "Part Number": "Aquaroc_Performa",
+        "Description": "Solution for external walls, high thermal performance and excellent sound insulation, certified burglary."
+      }
+    }
+  ]
+}

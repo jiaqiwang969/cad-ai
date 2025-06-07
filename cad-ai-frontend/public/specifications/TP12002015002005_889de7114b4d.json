@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:35",
+  "base_product": {
+    "name": "smeg-hood-kdc91xe",
+    "id": "90-14122022-053476",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kdc91xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053476"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KDC91XE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kdc91xe?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053476&PartNumber=KDC91XE",
+      "parameters": {
+        "Part Number": "KDC91XE",
+        "Description": "Hood : KDC91XE",
+        "Electric Power (W)": "196",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "71",
+        "EU Energy Label": "D",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "502",
+        "Overall Height (mm)": "740",
+        "Overall Width (mm)": "898"
+      }
+    }
+  ]
+}

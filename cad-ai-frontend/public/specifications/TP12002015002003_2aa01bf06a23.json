@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:14",
+  "base_product": {
+    "name": "smeg-dishwasher-st86473",
+    "id": "90-14122022-046976",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st86473?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046976"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST8647-3",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st86473?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-046976&PartNumber=ST8647-3",
+      "parameters": {
+        "Part Number": "ST8647-3",
+        "Description": "Dishwasher : ST8647-3",
+        "Color": "Silver",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "448"
+      }
+    }
+  ]
+}

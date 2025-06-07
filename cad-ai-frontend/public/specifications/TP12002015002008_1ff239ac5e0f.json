@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:11",
+  "base_product": {
+    "name": "smeg-hob-cir93axs3",
+    "id": "90-14122022-058952",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-cir93axs3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058952"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "CIR93AXS3",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-cir93axs3?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058952&PartNumber=CIR93AXS3",
+      "parameters": {
+        "Part Number": "CIR93AXS3",
+        "Description": "Hob : CIR93AXS3",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "858"
+      }
+    }
+  ]
+}

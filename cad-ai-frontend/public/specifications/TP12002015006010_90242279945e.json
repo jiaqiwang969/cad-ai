@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:37",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-castor-ball-insert-esd",
+    "id": "30-12112020-082927",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-ball-insert-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082927"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.26",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-ball-insert-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082927&PartNumber=0.0.620.26",
+      "parameters": {
+        "Part Number": "0.0.620.26",
+        "Description": "Castor Ball Insert ESD, Delivery unit: 1 pce."
+      }
+    }
+  ]
+}

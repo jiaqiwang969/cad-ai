@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 22:15:12",
+  "base_product": {
+    "name": "italiana-ferramenta-buffer-with-lines-o5-neutral",
+    "id": "90-01092023-046106",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-buffer-with-lines-o5-neutral?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046106"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "23203020AA",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-buffer-with-lines-o5-neutral?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-046106&PartNumber=23203020AA",
+      "parameters": {
+        "Manufacturer Part Number": "23203020AA",
+        "Description": "Buffer with lines Ø5 neutral",
+        "FINISH": "Natural",
+        "HOLE DIAMETER": "Ø 5 mm"
+      }
+    }
+  ]
+}

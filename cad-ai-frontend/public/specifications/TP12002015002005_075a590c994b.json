@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:57:13",
+  "base_product": {
+    "name": "smeg-hood-kseir62e",
+    "id": "90-14122022-054363",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kseir62e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054363"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSEIR62E",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kseir62e?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054363&PartNumber=KSEIR62E",
+      "parameters": {
+        "Part Number": "KSEIR62E",
+        "Description": "Hood : KSEIR62E"
+      }
+    }
+  ]
+}

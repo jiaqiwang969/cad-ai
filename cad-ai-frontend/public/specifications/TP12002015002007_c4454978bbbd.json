@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:00:36",
+  "base_product": {
+    "name": "smeg-oven-sf6341gvxd",
+    "id": "90-14122022-050567",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6341gvxd?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050567"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF6341GVXD",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf6341gvxd?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050567&PartNumber=SF6341GVXD",
+      "parameters": {
+        "Part Number": "SF6341GVXD",
+        "Description": "Oven : SF6341GVXD",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

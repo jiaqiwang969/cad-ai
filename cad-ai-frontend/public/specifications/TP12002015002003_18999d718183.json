@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:47",
+  "base_product": {
+    "name": "smeg-dishwasher-st2fabbl",
+    "id": "90-14122022-047566",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabbl?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047566"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST2FABBL",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabbl?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047566&PartNumber=ST2FABBL",
+      "parameters": {
+        "Part Number": "ST2FABBL",
+        "Description": "Dishwasher : ST2FABBL",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

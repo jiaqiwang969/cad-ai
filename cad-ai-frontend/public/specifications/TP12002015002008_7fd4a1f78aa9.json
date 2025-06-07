@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:32",
+  "base_product": {
+    "name": "smeg-hob-pc31gno",
+    "id": "90-14122022-059097",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pc31gno?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059097"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PC31GNO",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pc31gno?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059097&PartNumber=PC31GNO",
+      "parameters": {
+        "Part Number": "PC31GNO",
+        "Description": "Hob : PC31GNO",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "102",
+        "Overall Width (mm)": "300"
+      }
+    }
+  ]
+}

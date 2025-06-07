@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:31",
+  "base_product": {
+    "name": "smeg-dishwasher-pl4123xin",
+    "id": "90-14122022-047490",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl4123xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047490"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PL4123XIN",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-pl4123xin?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047490&PartNumber=PL4123XIN",
+      "parameters": {
+        "Part Number": "PL4123XIN",
+        "Description": "Dishwasher : PL4123XIN",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "570",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

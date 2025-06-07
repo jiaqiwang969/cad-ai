@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:31",
+  "base_product": {
+    "name": "smeg-hob-px164lau",
+    "id": "90-14122022-059993",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px164lau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059993"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX164LAU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px164lau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059993&PartNumber=PX164LAU",
+      "parameters": {
+        "Part Number": "PX164LAU",
+        "Description": "Hob : PX164LAU",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

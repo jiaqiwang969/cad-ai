@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:27",
+  "base_product": {
+    "name": "smeg-dishwasher-sta6539l3",
+    "id": "90-14122022-047783",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta6539l3?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047783"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STA6539L3",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-sta6539l3?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047783&PartNumber=STA6539L3",
+      "parameters": {
+        "Part Number": "STA6539L3",
+        "Description": "Dishwasher : STA6539L3",
+        "Color": "Finger friendly stainless steel",
+        "Overall Depth (mm)": "550",
+        "Overall Height (mm)": "858",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

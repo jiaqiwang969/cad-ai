@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:42",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-castor-ball-set",
+    "id": "30-12112020-082956",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-ball-set?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082956"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.620.93",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-ball-set?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-082956&PartNumber=0.0.620.93",
+      "parameters": {
+        "Part Number": "0.0.620.93",
+        "Description": "Castor Ball Set, Delivery unit: 1 set"
+      }
+    }
+  ]
+}

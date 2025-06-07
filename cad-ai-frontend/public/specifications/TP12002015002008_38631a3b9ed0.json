@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:19",
+  "base_product": {
+    "name": "smeg-hob-p864ao",
+    "id": "90-14122022-059047",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-p864ao?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059047"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "P864AO",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-p864ao?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059047&PartNumber=P864AO",
+      "parameters": {
+        "Part Number": "P864AO",
+        "Description": "Hob : P864AO",
+        "Color": "Anthracite",
+        "Material": "Verniciato",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "51",
+        "Overall Width (mm)": "596"
+      }
+    }
+  ]
+}

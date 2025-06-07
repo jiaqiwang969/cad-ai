@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:47:22",
+  "base_product": {
+    "name": "polypiu-greca-piu-5-40-8",
+    "id": "10-03062015-084317",
+    "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-5-40-8?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084317"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Greca_Piu_5_40_8",
+      "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-5-40-8?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084317&PartNumber=Greca_Piu_5_40_8",
+      "parameters": {
+        "Part Number": "Greca_Piu_5_40_8"
+      }
+    },
+    {
+      "reference": "23.17.13.00",
+      "url": "https://www.traceparts.cn/en/product/polypiu-greca-piu-5-40-8?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084317&PartNumber=23.17.13.00",
+      "parameters": {
+        "Omniclass number": "23.17.13.00"
+      }
+    }
+  ]
+}

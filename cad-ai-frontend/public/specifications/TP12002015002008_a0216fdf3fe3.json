@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:07:47",
+  "base_product": {
+    "name": "smeg-hob-si2m7953dw",
+    "id": "90-14122022-063373",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-si2m7953dw?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063373"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SI2M7953DW",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-si2m7953dw?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063373&PartNumber=SI2M7953DW",
+      "parameters": {
+        "Part Number": "SI2M7953DW",
+        "Description": "Hob : SI2M7953DW",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "49",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

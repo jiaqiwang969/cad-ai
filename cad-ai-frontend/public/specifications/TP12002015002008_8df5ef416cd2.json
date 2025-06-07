@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:48",
+  "base_product": {
+    "name": "smeg-hob-pgf30b",
+    "id": "90-14122022-059187",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf30b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059187"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF30B",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf30b?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059187&PartNumber=PGF30B",
+      "parameters": {
+        "Part Number": "PGF30B",
+        "Description": "Hob : PGF30B",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "70",
+        "Overall Width (mm)": "310"
+      }
+    }
+  ]
+}

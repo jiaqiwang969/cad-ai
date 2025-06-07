@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:57:27",
+  "base_product": {
+    "name": "smeg-hood-ksvv90nra",
+    "id": "90-14122022-054507",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksvv90nra?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054507"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSVV90NRA",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksvv90nra?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054507&PartNumber=KSVV90NRA",
+      "parameters": {
+        "Part Number": "KSVV90NRA",
+        "Description": "Hood : KSVV90NRA"
+      }
+    }
+  ]
+}

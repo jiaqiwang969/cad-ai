@@ -1,0 +1,41 @@
+{
+  "extraction_time": "2025-06-07 21:44:48",
+  "base_product": {
+    "name": "pitzl-109307008-post-base-right-left-threaded-with-thread-m24",
+    "id": "90-05092024-043923",
+    "url": "https://www.traceparts.cn/en/product/pitzl-109307008-post-base-right-left-threaded-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-043923"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Thread low.",
+    "Thread upp.",
+    "Borehole bottom",
+    "Borehole top",
+    "Installation height mm",
+    "Tube mandrel",
+    "max. characteristic pressure bearing capacity (kN) *"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "10930.7008",
+      "url": "https://www.traceparts.cn/en/product/pitzl-109307008-post-base-right-left-threaded-with-thread-m24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-043923&PartNumber=10930.7008",
+      "parameters": {
+        "Manufacturer Part Number": "10930.7008",
+        "Description": "10930.7008 - Post base Right / left threaded with thread M24",
+        "Upper plate mm": "Ø 100 x 8",
+        "Lower plate mm": "110 x 110 x 6",
+        "Thread low.": "M24 x 65",
+        "Thread upp.": "M24 x 150",
+        "Borehole bottom": "Ø 12 x 4",
+        "Borehole top": "Ø 12 x 4",
+        "Installation height mm": "204 - 319",
+        "Tube mandrel": "Ø42,4 x 130",
+        "max. characteristic pressure bearing capacity (kN) *": "41,3 **"
+      }
+    }
+  ]
+}

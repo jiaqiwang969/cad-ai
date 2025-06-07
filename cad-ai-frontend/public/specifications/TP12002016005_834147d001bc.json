@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:46:07",
+  "base_product": {
+    "name": "edilteco-spa-dbred-duetto",
+    "id": "10-28042015-108422",
+    "url": "https://www.traceparts.cn/en/product/edilteco-spa-dbred-duetto?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108422"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "Dbred Duetto",
+      "url": "https://www.traceparts.cn/en/product/edilteco-spa-dbred-duetto?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-28042015-108422&PartNumber=Dbred+Duetto",
+      "parameters": {
+        "Part Number": "Dbred Duetto",
+        "Description": "Selected SBR rubber bound with polyurethane resins (MDI), thermo-joined to crosslinked polyethylene foam. Applicable under screed, under floating floor."
+      }
+    }
+  ]
+}

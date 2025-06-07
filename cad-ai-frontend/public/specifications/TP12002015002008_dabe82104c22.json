@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:54",
+  "base_product": {
+    "name": "smeg-hob-sr975pghnlk",
+    "id": "90-14122022-063925",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr975pghnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063925"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR975PGHNLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr975pghnlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063925&PartNumber=SR975PGHNLK",
+      "parameters": {
+        "Part Number": "SR975PGHNLK",
+        "Description": "Hob : SR975PGHNLK",
+        "Color": "Cream",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

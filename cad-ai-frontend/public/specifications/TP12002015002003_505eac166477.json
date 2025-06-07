@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:53:29",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-fd516ds",
+    "id": "90-14122022-037730",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd516ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037730"
+  },
+  "table_headers": [],
+  "total_specifications": 3,
+  "specifications": [
+    {
+      "reference": "Professional Dishwasher : FD516DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd516ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037730&PartNumber=Professional+Dishwasher+%3A+FD516DS",
+      "parameters": {
+        "Description": "Professional Dishwasher : FD516DS"
+      }
+    },
+    {
+      "reference": "FD516DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd516ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037730&PartNumber=FD516DS",
+      "parameters": {
+        "Part Number": "FD516DS"
+      }
+    },
+    {
+      "reference": "3.2000000000000002E-3",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd516ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037730&PartNumber=3.2000000000000002E-3",
+      "parameters": {
+        "Water Consumption (per cycle)": "3.2000000000000002E-3"
+      }
+    }
+  ]
+}

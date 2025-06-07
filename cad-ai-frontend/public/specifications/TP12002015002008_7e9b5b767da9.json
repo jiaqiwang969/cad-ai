@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:36",
+  "base_product": {
+    "name": "smeg-hob-pv175b2",
+    "id": "90-14122022-059600",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv175b2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059600"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV175B2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv175b2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059600&PartNumber=PV175B2",
+      "parameters": {
+        "Part Number": "PV175B2",
+        "Description": "Hob : PV175B2",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "48",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

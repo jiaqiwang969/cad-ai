@@ -1,0 +1,194 @@
+{
+  "extraction_time": "2025-06-07 21:43:32",
+  "base_product": {
+    "name": "peikko-sumor-wall-shoe-for-bolted-wall-connections",
+    "id": "90-02122021-036562",
+    "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562"
+  },
+  "table_headers": [
+    "Part Number",
+    "k (mm)",
+    "Ø (mm)",
+    "t (mm)",
+    "B (mm)",
+    "H (mm)",
+    "h (mm)",
+    "Weight (kg)",
+    "Color code",
+    "ay (mm)",
+    "ax (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "SUMO 16H",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+16H",
+      "parameters": {
+        "Part Number": "SUMO 16H",
+        "k (mm)": "115",
+        "Ø (mm)": "2Ø14",
+        "t (mm)": "30",
+        "B (mm)": "80",
+        "H (mm)": "580",
+        "h (mm)": "80",
+        "Weight (kg)": "3.9",
+        "Color code": "Yellow",
+        "ay (mm)": "36",
+        "ax (mm)": "76"
+      }
+    },
+    {
+      "reference": "SUMO 20H",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+20H",
+      "parameters": {
+        "Part Number": "SUMO 20H",
+        "k (mm)": "120",
+        "Ø (mm)": "2Ø16",
+        "t (mm)": "35",
+        "B (mm)": "90",
+        "H (mm)": "850",
+        "h (mm)": "90",
+        "Weight (kg)": "6",
+        "Color code": "Blue",
+        "ay (mm)": "40",
+        "ax (mm)": "80"
+      }
+    },
+    {
+      "reference": "SUMO 24H",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+24H",
+      "parameters": {
+        "Part Number": "SUMO 24H",
+        "k (mm)": "135",
+        "Ø (mm)": "2Ø20",
+        "t (mm)": "35",
+        "B (mm)": "110",
+        "H (mm)": "960",
+        "h (mm)": "100",
+        "Weight (kg)": "9.6",
+        "Color code": "Gray",
+        "ay (mm)": "49",
+        "ax (mm)": "84"
+      }
+    },
+    {
+      "reference": "SUMO 30H",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+30H",
+      "parameters": {
+        "Part Number": "SUMO 30H",
+        "k (mm)": "140",
+        "Ø (mm)": "2Ø25",
+        "t (mm)": "40",
+        "B (mm)": "120",
+        "H (mm)": "1170",
+        "h (mm)": "115",
+        "Weight (kg)": "15.2",
+        "Color code": "Green",
+        "ay (mm)": "55",
+        "ax (mm)": "90"
+      }
+    },
+    {
+      "reference": "SUMO 39H",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+39H",
+      "parameters": {
+        "Part Number": "SUMO 39H",
+        "k (mm)": "155",
+        "Ø (mm)": "2Ø28",
+        "t (mm)": "50",
+        "B (mm)": "145",
+        "H (mm)": "1590",
+        "h (mm)": "130",
+        "Weight (kg)": "26.7",
+        "Color code": "Orange",
+        "ay (mm)": "64",
+        "ax (mm)": "99"
+      }
+    },
+    {
+      "reference": "SUMO 30P",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+30P",
+      "parameters": {
+        "Part Number": "SUMO 30P",
+        "k (mm)": "145",
+        "Ø (mm)": "2Ø28",
+        "t (mm)": "45",
+        "B (mm)": "130",
+        "H (mm)": "1350",
+        "h (mm)": "120",
+        "Weight (kg)": "21.3",
+        "Color code": "Black",
+        "ay (mm)": "55",
+        "ax (mm)": "90"
+      }
+    },
+    {
+      "reference": "SUMO 36P",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+36P",
+      "parameters": {
+        "Part Number": "SUMO 36P",
+        "k (mm)": "160",
+        "Ø (mm)": "2Ø32",
+        "t (mm)": "55",
+        "B (mm)": "150",
+        "H (mm)": "1755",
+        "h (mm)": "130",
+        "Weight (kg)": "35.1",
+        "Color code": "Red",
+        "ay (mm)": "61",
+        "ax (mm)": "96"
+      }
+    },
+    {
+      "reference": "SUMO 39P",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+39P",
+      "parameters": {
+        "Part Number": "SUMO 39P",
+        "k (mm)": "165",
+        "Ø (mm)": "4Ø28",
+        "t (mm)": "60",
+        "B (mm)": "150",
+        "H (mm)": "1820",
+        "h (mm)": "145",
+        "Weight (kg)": "46.2",
+        "Color code": "Brown",
+        "ay (mm)": "64",
+        "ax (mm)": "99"
+      }
+    },
+    {
+      "reference": "SUMO 45P",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+45P",
+      "parameters": {
+        "Part Number": "SUMO 45P",
+        "k (mm)": "175",
+        "Ø (mm)": "4Ø32",
+        "t (mm)": "70",
+        "B (mm)": "180",
+        "H (mm)": "2015",
+        "h (mm)": "160",
+        "Weight (kg)": "66.9",
+        "Color code": "Purple",
+        "ay (mm)": "75",
+        "ax (mm)": "105"
+      }
+    },
+    {
+      "reference": "SUMO 52P",
+      "url": "https://www.traceparts.cn/en/product/peikko-sumor-wall-shoe-for-bolted-wall-connections?CatalogPath=TRACEPARTS%3ATP12002016006002&Product=90-02122021-036562&PartNumber=SUMO+52P",
+      "parameters": {
+        "Part Number": "SUMO 52P",
+        "k (mm)": "250",
+        "Ø (mm)": "4Ø32",
+        "t (mm)": "80",
+        "B (mm)": "230",
+        "H (mm)": "2590",
+        "h (mm)": "185",
+        "Weight (kg)": "100.4",
+        "Color code": "White",
+        "ay (mm)": "82",
+        "ax (mm)": "112"
+      }
+    }
+  ]
+}

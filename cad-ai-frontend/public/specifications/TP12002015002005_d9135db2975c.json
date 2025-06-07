@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:12",
+  "base_product": {
+    "name": "smeg-hood-kc19bse",
+    "id": "90-14122022-053287",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kc19bse?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053287"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KC19BSE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kc19bse?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053287&PartNumber=KC19BSE",
+      "parameters": {
+        "Part Number": "KC19BSE",
+        "Description": "Hood : KC19BSE",
+        "Electric Power (W)": "277",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "62",
+        "EU Energy Label": "A",
+        "Color": "White",
+        "Material": "Heat-moulded",
+        "Overall Depth (mm)": "520",
+        "Overall Height (mm)": "722",
+        "Overall Width (mm)": "895"
+      }
+    }
+  ]
+}

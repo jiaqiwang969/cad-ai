@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:33",
+  "base_product": {
+    "name": "smeg-oven-sf4102vn",
+    "id": "90-14122022-049830",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4102vn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049830"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4102VN",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4102vn?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049830&PartNumber=SF4102VN",
+      "parameters": {
+        "Part Number": "SF4102VN",
+        "Description": "Oven : SF4102VN",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

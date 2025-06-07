@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:56:27",
+  "base_product": {
+    "name": "smeg-hood-ks9500ble",
+    "id": "90-14122022-053971",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ks9500ble?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053971"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KS9500BLE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ks9500ble?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053971&PartNumber=KS9500BLE",
+      "parameters": {
+        "Part Number": "KS9500BLE",
+        "Description": "Hood : KS9500BLE"
+      }
+    }
+  ]
+}

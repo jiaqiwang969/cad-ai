@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 22:09:51",
+  "base_product": {
+    "name": "traceparts-carpet-with-square-and-rectangle-patterns-dimensions-at-choice",
+    "id": "10-14022010-164375",
+    "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-square-and-rectangle-patterns-dimensions-at-choice?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-14022010-164375"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Carpet with square and rectangle patterns, 230 cm x 170 cm, tints: Orange, Brown, Off-white",
+      "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-square-and-rectangle-patterns-dimensions-at-choice?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-14022010-164375&PartNumber=Carpet+with+square+and+rectangle+patterns%2C+230+cm+x+170+cm%2C+tints%3A+Orange%2C+Brown%2C+Off-white",
+      "parameters": {
+        "Description": "Carpet with square and rectangle patterns, 230 cm x 170 cm, tints: Orange, Brown, Off-white"
+      }
+    },
+    {
+      "reference": "23.21.23.00",
+      "url": "https://www.traceparts.cn/en/product/traceparts-carpet-with-square-and-rectangle-patterns-dimensions-at-choice?CatalogPath=TRACEPARTS%3ATP12002015001&Product=10-14022010-164375&PartNumber=23.21.23.00",
+      "parameters": {
+        "Omniclass number": "23.21.23.00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "extraction_time": "2025-06-07 21:40:11",
+  "base_product": {
+    "name": "record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder",
+    "id": "90-30082021-063717",
+    "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717"
+  },
+  "table_headers": [
+    "Description",
+    "Nominal Width",
+    "Nominal Height",
+    "Total Width",
+    "Total Height",
+    "Support Length",
+    "Side Panel Width Right",
+    "Side Panel Width Left",
+    "Side Panel Minimum Standard",
+    "Outer Panel Width Right",
+    "Outer Panel Width Left",
+    "Interlancing Profile Height",
+    "Inner Panel Width"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "D-STA 108 mm drive unit height - side panel right",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=D-STA+108+mm+drive+unit+height+-+side+panel+right",
+      "parameters": {
+        "Description": "D-STA 108 mm drive unit height - side panel right",
+        "Nominal Width": "2600",
+        "Nominal Height": "2295",
+        "Total Width": "1944",
+        "Total Height": "2295",
+        "Support Length": "2600",
+        "Side Panel Width Right": "700",
+        "Side Panel Width Left": "700",
+        "Side Panel Minimum Standard": "632",
+        "Outer Panel Width Right": "673",
+        "Outer Panel Width Left": "673",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "632"
+      }
+    },
+    {
+      "reference": "D-STA 200 mm drive unit height - without side panels",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=D-STA+200+mm+drive+unit+height+-+without+side+panels",
+      "parameters": {
+        "Description": "D-STA 200 mm drive unit height - without side panels",
+        "Nominal Width": "2600",
+        "Nominal Height": "2387",
+        "Total Width": "1309",
+        "Total Height": "2387",
+        "Support Length": "2600",
+        "Side Panel Width Right": "700",
+        "Side Panel Width Left": "700",
+        "Side Panel Minimum Standard": "632",
+        "Outer Panel Width Right": "673",
+        "Outer Panel Width Left": "673",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "632"
+      }
+    },
+    {
+      "reference": "E-STA-R 108 mm drive unit height - right - with side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-R+108+mm+drive+unit+height+-+right+-+with+side+panel",
+      "parameters": {
+        "Description": "E-STA-R 108 mm drive unit height - right - with side panel",
+        "Nominal Width": "2555",
+        "Nominal Height": "2295",
+        "Total Width": "2555",
+        "Total Height": "2295",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-R 200 mm drive unit height - right - with side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-R+200+mm+drive+unit+height+-+right+-+with+side+panel",
+      "parameters": {
+        "Description": "E-STA-R 200 mm drive unit height - right - with side panel",
+        "Nominal Width": "2555",
+        "Nominal Height": "2387",
+        "Total Width": "2555",
+        "Total Height": "2387",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-L 150 mm drive unit height - left - without side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-L+150+mm+drive+unit+height+-+left+-+without+side+panel",
+      "parameters": {
+        "Description": "E-STA-L 150 mm drive unit height - left - without side panel",
+        "Nominal Width": "1310",
+        "Nominal Height": "2337",
+        "Total Width": "1310",
+        "Total Height": "2337",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-R 200 mm drive unit height - right - without side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-R+200+mm+drive+unit+height+-+right+-+without+side+panel",
+      "parameters": {
+        "Description": "E-STA-R 200 mm drive unit height - right - without side panel",
+        "Nominal Width": "1310",
+        "Nominal Height": "2387",
+        "Total Width": "1310",
+        "Total Height": "2387",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-L 200 mm drive unit height - left - with side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-L+200+mm+drive+unit+height+-+left+-+with+side+panel",
+      "parameters": {
+        "Description": "E-STA-L 200 mm drive unit height - left - with side panel",
+        "Nominal Width": "2555",
+        "Nominal Height": "2387",
+        "Total Width": "2555",
+        "Total Height": "2387",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-R 150 mm drive unit height - right - without side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-R+150+mm+drive+unit+height+-+right+-+without+side+panel",
+      "parameters": {
+        "Description": "E-STA-R 150 mm drive unit height - right - without side panel",
+        "Nominal Width": "1310",
+        "Nominal Height": "2337",
+        "Total Width": "1310",
+        "Total Height": "2337",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-L 200 mm drive unit height - left - without side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-L+200+mm+drive+unit+height+-+left+-+without+side+panel",
+      "parameters": {
+        "Description": "E-STA-L 200 mm drive unit height - left - without side panel",
+        "Nominal Width": "1310",
+        "Nominal Height": "2387",
+        "Total Width": "1310",
+        "Total Height": "2387",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    },
+    {
+      "reference": "E-STA-R 108 mm drive unit height - right - without side panel",
+      "url": "https://www.traceparts.cn/en/product/record-revolving-doors-sta-20-classic-linear-sliding-door-the-all-rounder?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-30082021-063717&PartNumber=E-STA-R+108+mm+drive+unit+height+-+right+-+without+side+panel",
+      "parameters": {
+        "Description": "E-STA-R 108 mm drive unit height - right - without side panel",
+        "Nominal Width": "1310",
+        "Nominal Height": "2295",
+        "Total Width": "1310",
+        "Total Height": "2295",
+        "Support Length": "2493",
+        "Side Panel Width Right": "1300",
+        "Side Panel Width Left": "1300",
+        "Side Panel Minimum Standard": "1282",
+        "Outer Panel Width Right": "1273",
+        "Outer Panel Width Left": "1273",
+        "Interlancing Profile Height": "2195",
+        "Inner Panel Width": "1232"
+      }
+    }
+  ]
+}

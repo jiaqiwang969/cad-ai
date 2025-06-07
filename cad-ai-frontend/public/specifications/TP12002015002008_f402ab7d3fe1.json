@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:25",
+  "base_product": {
+    "name": "smeg-hob-pm3721wld",
+    "id": "90-14122022-059338",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3721wld?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059338"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PM3721WLD",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pm3721wld?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059338&PartNumber=PM3721WLD",
+      "parameters": {
+        "Part Number": "PM3721WLD",
+        "Description": "Hob : PM3721WLD",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "45",
+        "Overall Width (mm)": "750"
+      }
+    }
+  ]
+}

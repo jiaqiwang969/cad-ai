@@ -1,0 +1,133 @@
+{
+  "extraction_time": "2025-06-07 21:38:34",
+  "base_product": {
+    "name": "acton-64949-eye-bolt-with-wood-thread",
+    "id": "10-27012020-096688",
+    "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688"
+  },
+  "table_headers": [
+    "CAD",
+    "Part number",
+    "d x L (mm)",
+    "L1 (mm)",
+    "B (mm)",
+    "GENCOD",
+    "Poids (kg/100)",
+    "Carton"
+  ],
+  "total_specifications": 8,
+  "specifications": [
+    {
+      "reference": "649495X50",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649495X50",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649495X50",
+        "d x L (mm)": "5X50",
+        "L1 (mm)": "30",
+        "B (mm)": "11",
+        "GENCOD": "3604882306037",
+        "Poids (kg/100)": "1,700",
+        "Carton": "190"
+      }
+    },
+    {
+      "reference": "649496X40",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649496X40",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649496X40",
+        "d x L (mm)": "6X40",
+        "L1 (mm)": "25",
+        "B (mm)": "14",
+        "GENCOD": "3604882307287",
+        "Poids (kg/100)": "2,400",
+        "Carton": "190"
+      }
+    },
+    {
+      "reference": "649496X60",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649496X60",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649496X60",
+        "d x L (mm)": "6X60",
+        "L1 (mm)": "35",
+        "B (mm)": "14",
+        "GENCOD": "3604882306044",
+        "Poids (kg/100)": "2,800",
+        "Carton": "190"
+      }
+    },
+    {
+      "reference": "649496X80",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649496X80",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649496X80",
+        "d x L (mm)": "6X80",
+        "L1 (mm)": "50",
+        "B (mm)": "14",
+        "GENCOD": "3604882307294",
+        "Poids (kg/100)": "3,100",
+        "Carton": "190"
+      }
+    },
+    {
+      "reference": "649498X80",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649498X80",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649498X80",
+        "d x L (mm)": "8X80",
+        "L1 (mm)": "50",
+        "B (mm)": "18",
+        "GENCOD": "3604882306051",
+        "Poids (kg/100)": "6,500",
+        "Carton": "40"
+      }
+    },
+    {
+      "reference": "649498X100",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=649498X100",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "649498X100",
+        "d x L (mm)": "8X100",
+        "L1 (mm)": "60",
+        "B (mm)": "18",
+        "GENCOD": "3604882307300",
+        "Poids (kg/100)": "7,200",
+        "Carton": "40"
+      }
+    },
+    {
+      "reference": "6494910X100",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=6494910X100",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "6494910X100",
+        "d x L (mm)": "10X100",
+        "L1 (mm)": "60",
+        "B (mm)": "22",
+        "GENCOD": "3604882306068",
+        "Poids (kg/100)": "12,700",
+        "Carton": "20"
+      }
+    },
+    {
+      "reference": "6494912X120",
+      "url": "https://www.traceparts.cn/en/product/acton-64949-eye-bolt-with-wood-thread?CatalogPath=TRACEPARTS%3ATP12002018001001&Product=10-27012020-096688&PartNumber=6494912X120",
+      "parameters": {
+        "CAD": "No CAD available",
+        "Part number": "6494912X120",
+        "d x L (mm)": "12X120",
+        "L1 (mm)": "80",
+        "B (mm)": "25",
+        "GENCOD": "3604882307317",
+        "Poids (kg/100)": "21,400",
+        "Carton": "100"
+      }
+    }
+  ]
+}

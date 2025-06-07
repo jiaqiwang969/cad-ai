@@ -1,0 +1,37 @@
+{
+  "extraction_time": "2025-06-07 22:09:12",
+  "base_product": {
+    "name": "smeg-washing-machine-lbb14cr2",
+    "id": "90-28102022-039343",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbb14cr2?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039343"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Current (A)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LBB14CR-2",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbb14cr2?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039343&PartNumber=LBB14CR-2",
+      "parameters": {
+        "Part Number": "LBB14CR-2",
+        "Description": "Washing Machine : LBB14CR-2",
+        "Electric Power (W)": "2200",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Current (A)": "10",
+        "Nominal Frequency Range (Hz)": "50",
+        "Sound power max (dB(A))": "78",
+        "Color": "Cream"
+      }
+    }
+  ]
+}

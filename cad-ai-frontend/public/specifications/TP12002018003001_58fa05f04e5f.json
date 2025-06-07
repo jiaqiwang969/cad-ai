@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:40:13",
+  "base_product": {
+    "name": "puertas-gismero-sliding-door-double-ei120",
+    "id": "90-24112020-056787",
+    "url": "https://www.traceparts.cn/en/product/puertas-gismero-sliding-door-double-ei120?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056787"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height",
+    "Panel Thickness",
+    "Width"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "sld2_ei120",
+      "url": "https://www.traceparts.cn/en/product/puertas-gismero-sliding-door-double-ei120?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-24112020-056787&PartNumber=sld2_ei120",
+      "parameters": {
+        "Part Number": "sld2_ei120",
+        "Height": "2421",
+        "Panel Thickness": "100",
+        "Width": "5000"
+      }
+    }
+  ]
+}

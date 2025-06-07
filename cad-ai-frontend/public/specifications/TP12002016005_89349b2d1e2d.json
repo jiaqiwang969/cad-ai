@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:46:38",
+  "base_product": {
+    "name": "nvent-caddy-sound-insulation-rubber-for-strut-pipe-clamps",
+    "id": "90-28052020-033764",
+    "url": "https://www.traceparts.cn/en/product/nvent-caddy-sound-insulation-rubber-for-strut-pipe-clamps?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-28052020-033764"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Article Number",
+    "Material"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VS200000",
+      "url": "https://www.traceparts.cn/en/product/nvent-caddy-sound-insulation-rubber-for-strut-pipe-clamps?CatalogPath=TRACEPARTS%3ATP12002016005&Product=90-28052020-033764&PartNumber=VS200000",
+      "parameters": {
+        "Part Number": "VS200000",
+        "Description": "Sound Insulation Rubber for Strut Pipe Clamps",
+        "Article Number": "402268",
+        "Material": "EPDM-SBR Rubber"
+      }
+    }
+  ]
+}

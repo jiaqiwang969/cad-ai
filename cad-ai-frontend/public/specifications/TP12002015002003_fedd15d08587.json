@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:07",
+  "base_product": {
+    "name": "smeg-dishwasher-lvfabsv",
+    "id": "90-14122022-047323",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvfabsv?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047323"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LVFABSV",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-lvfabsv?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047323&PartNumber=LVFABSV",
+      "parameters": {
+        "Part Number": "LVFABSV",
+        "Description": "Dishwasher : LVFABSV",
+        "Color": "Silver",
+        "Overall Depth (mm)": "627",
+        "Overall Height (mm)": "885",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 22:15:20",
+  "base_product": {
+    "name": "italiana-ferramenta-cam-light-version-o25-plain",
+    "id": "90-01092023-045396",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-light-version-o25-plain?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045396"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "21303010GR",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-light-version-o25-plain?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045396&PartNumber=21303010GR",
+      "parameters": {
+        "Manufacturer Part Number": "21303010GR",
+        "Description": "Cam light version Ø25 plain",
+        "FINISH": "Raw",
+        "WOOD / GLASS THICKNESS": "16 mm",
+        "HOLE DIAMETER": "Ø 25 mm"
+      }
+    }
+  ]
+}

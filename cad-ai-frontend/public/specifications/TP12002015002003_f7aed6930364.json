@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:52:13",
+  "base_product": {
+    "name": "smeg-dishwasher-st532cc",
+    "id": "90-14122022-047663",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st532cc?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047663"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST532CC",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st532cc?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047663&PartNumber=ST532CC",
+      "parameters": {
+        "Part Number": "ST532CC",
+        "Description": "Dishwasher : ST532CC",
+        "Color": "Black",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

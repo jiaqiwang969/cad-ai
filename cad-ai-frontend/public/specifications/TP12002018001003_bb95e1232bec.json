@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:24",
+  "base_product": {
+    "name": "cherubini-7402",
+    "id": "70-01042016-136120",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7402?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136120"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7402",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7402?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136120&PartNumber=7402",
+      "parameters": {
+        "Item Number": "7402",
+        "Description": "Foldable crank in powder-coated aluminium with assembled tube Ø 13"
+      }
+    }
+  ]
+}

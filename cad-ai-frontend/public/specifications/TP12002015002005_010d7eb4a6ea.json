@@ -1,0 +1,39 @@
+{
+  "extraction_time": "2025-06-07 21:56:35",
+  "base_product": {
+    "name": "smeg-hood-kse90xsm3",
+    "id": "90-14122022-054050",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kse90xsm3?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054050"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSE90XSM3",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kse90xsm3?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054050&PartNumber=KSE90XSM3",
+      "parameters": {
+        "Part Number": "KSE90XSM3",
+        "Description": "Hood : KSE90XSM3",
+        "Electric Power (W)": "56",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "470",
+        "Overall Height (mm)": "600",
+        "Overall Width (mm)": "898"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:39",
+  "base_product": {
+    "name": "lmc-contreplaque-a-frapper-pour-loqueteau-gemo",
+    "id": "10-28042009-089027",
+    "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-a-frapper-pour-loqueteau-gemo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-28042009-089027"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "CONZ4",
+      "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-a-frapper-pour-loqueteau-gemo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-28042009-089027&PartNumber=CONZ4",
+      "parameters": {
+        "Présentation": "zingué",
+        "Référence": "CONZ4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:47",
+  "base_product": {
+    "name": "smeg-hob-sra964ngh",
+    "id": "90-14122022-063976",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sra964ngh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063976"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SRA964NGH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sra964ngh?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063976&PartNumber=SRA964NGH",
+      "parameters": {
+        "Part Number": "SRA964NGH",
+        "Description": "Hob : SRA964NGH",
+        "Color": "Black",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "503",
+        "Overall Height (mm)": "76",
+        "Overall Width (mm)": "600"
+      }
+    }
+  ]
+}

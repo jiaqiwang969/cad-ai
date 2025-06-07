@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:38",
+  "base_product": {
+    "name": "lmc-contreplaque-a-visser-pour-loqueteau-gemo",
+    "id": "10-28042009-062454",
+    "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-a-visser-pour-loqueteau-gemo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-28042009-062454"
+  },
+  "table_headers": [
+    "Présentation",
+    "Référence"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "CONV4",
+      "url": "https://www.traceparts.cn/en/product/lmc-contreplaque-a-visser-pour-loqueteau-gemo?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=10-28042009-062454&PartNumber=CONV4",
+      "parameters": {
+        "Présentation": "zingué",
+        "Référence": "CONV4"
+      }
+    }
+  ]
+}

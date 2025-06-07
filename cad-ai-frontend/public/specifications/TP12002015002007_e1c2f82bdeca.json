@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:25",
+  "base_product": {
+    "name": "smeg-oven-sfa4920vcp1",
+    "id": "90-14122022-051061",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4920vcp1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051061"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFA4920VCP1",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfa4920vcp1?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051061&PartNumber=SFA4920VCP1",
+      "parameters": {
+        "Part Number": "SFA4920VCP1",
+        "Description": "Oven : SFA4920VCP1",
+        "Color": "Cream",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

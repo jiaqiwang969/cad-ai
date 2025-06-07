@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:28",
+  "base_product": {
+    "name": "smeg-hob-pnlk705es",
+    "id": "90-14122022-059464",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pnlk705es?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059464"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PNLK705ES",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pnlk705es?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059464&PartNumber=PNLK705ES",
+      "parameters": {
+        "Part Number": "PNLK705ES",
+        "Description": "Hob : PNLK705ES",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "50",
+        "Overall Width (mm)": "718"
+      }
+    }
+  ]
+}

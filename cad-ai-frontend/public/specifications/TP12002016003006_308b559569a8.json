@@ -1,0 +1,161 @@
+{
+  "extraction_time": "2025-06-07 21:48:47",
+  "base_product": {
+    "name": "falk-falk-1060-wb",
+    "id": "90-30112023-047409",
+    "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Core thickness [mm]",
+    "Type",
+    "U-Value [m²K/W]",
+    "Weight [kg/m²]",
+    "Fire class",
+    "Fire resistance"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "FALK 1060 WB M16 - 60mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+60mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 60mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 60mm",
+        "Core thickness [mm]": "60",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.353",
+        "Weight [kg/m²]": "10.7",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "-"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M16 - 80mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+80mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 80mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 80mm",
+        "Core thickness [mm]": "80",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.264",
+        "Weight [kg/m²]": "11.5",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M16 - 100mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+100mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 100mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 100mm",
+        "Core thickness [mm]": "100",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.210",
+        "Weight [kg/m²]": "12.3",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW30, EI30 of EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M16 - 120mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+120mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 120mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 120mm",
+        "Core thickness [mm]": "120",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.175",
+        "Weight [kg/m²]": "13.1",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW30, EI30 of EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M16 - 140mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+140mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 140mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 140mm",
+        "Core thickness [mm]": "140",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.149",
+        "Weight [kg/m²]": "13.9",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW30, EI30 of EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M16 - 160mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M16+-+160mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M16 - 160mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M16 - 160mm",
+        "Core thickness [mm]": "160",
+        "Type": "M16",
+        "U-Value [m²K/W]": "0.130",
+        "Weight [kg/m²]": "16.0",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW60, EI60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M30 - 60mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M30+-+60mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M30 - 60mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M30 - 60mm",
+        "Core thickness [mm]": "60",
+        "Type": "M30",
+        "U-Value [m²K/W]": "0.353",
+        "Weight [kg/m²]": "10.7",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "-"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M30 - 80mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M30+-+80mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M30 - 80mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M30 - 80mm",
+        "Core thickness [mm]": "80",
+        "Type": "M30",
+        "U-Value [m²K/W]": "0.264",
+        "Weight [kg/m²]": "11.5",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M30 - 100mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M30+-+100mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M30 - 100mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M30 - 100mm",
+        "Core thickness [mm]": "100",
+        "Type": "M30",
+        "U-Value [m²K/W]": "0.210",
+        "Weight [kg/m²]": "12.3",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW30, EI30 of EW60"
+      }
+    },
+    {
+      "reference": "FALK 1060 WB M30 - 120mm",
+      "url": "https://www.traceparts.cn/en/product/falk-falk-1060-wb?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-30112023-047409&PartNumber=FALK+1060+WB+M30+-+120mm",
+      "parameters": {
+        "Manufacturer Part Number": "FALK 1060 WB M30 - 120mm",
+        "Description": "Insulated Wall Panels Falk 1060 WB M30 - 120mm",
+        "Core thickness [mm]": "120",
+        "Type": "M30",
+        "U-Value [m²K/W]": "0.175",
+        "Weight [kg/m²]": "13.1",
+        "Fire class": "B-s1,d0",
+        "Fire resistance": "EW30, EI30 of EW60"
+      }
+    }
+  ]
+}

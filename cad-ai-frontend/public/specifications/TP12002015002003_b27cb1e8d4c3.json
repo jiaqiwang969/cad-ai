@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:44",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug420ds",
+    "id": "90-14122022-038250",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug420ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038250"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG420DS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug420ds?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038250&PartNumber=UG420DS",
+      "parameters": {
+        "Part Number": "UG420DS",
+        "Description": "Professional Dishwasher : UG420DS",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "532",
+        "Overall Height (mm)": "705",
+        "Overall Width (mm)": "488"
+      }
+    }
+  ]
+}

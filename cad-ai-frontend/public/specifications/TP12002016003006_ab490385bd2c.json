@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:21",
+  "base_product": {
+    "name": "viero-viero-vieroclima-pv",
+    "id": "10-30092015-121014",
+    "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-pv?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121014"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VIERO - Vieroclima PV",
+      "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-pv?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121014&PartNumber=VIERO+-+Vieroclima+PV",
+      "parameters": {
+        "Part Number": "VIERO - Vieroclima PV",
+        "Description": "The system VIEROCLIMA PV , system EPS insulation with adhesive and leveling mineral powder , is the most used between systems SETTEF insulation of new buildings and the restoration and redevelopment of the facades of existing buildings . And ' the system recommended for those who want to use a mortar powder mineral based as a finish and does not intend to give up the advantages of a lightweight insulating material such as EPS ."
+      }
+    }
+  ]
+}

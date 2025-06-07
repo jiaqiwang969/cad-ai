@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:41:05",
+  "base_product": {
+    "name": "palagina-door-window-1-door-kzip-105-fitting-system-haas-hoco",
+    "id": "10-08042015-119224",
+    "url": "https://www.traceparts.cn/en/product/palagina-door-window-1-door-kzip-105-fitting-system-haas-hoco?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119224"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PFin 1Anta_KZIP 105_incasso Haas Hoco",
+      "url": "https://www.traceparts.cn/en/product/palagina-door-window-1-door-kzip-105-fitting-system-haas-hoco?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-08042015-119224&PartNumber=PFin+1Anta_KZIP+105_incasso+Haas+Hoco",
+      "parameters": {
+        "Part Number": "PFin 1Anta_KZIP 105_incasso Haas Hoco",
+        "Description": "Curtain K-Zip 105 fitting system"
+      }
+    }
+  ]
+}

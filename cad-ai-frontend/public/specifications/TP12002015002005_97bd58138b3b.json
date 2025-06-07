@@ -1,0 +1,43 @@
+{
+  "extraction_time": "2025-06-07 21:56:58",
+  "base_product": {
+    "name": "smeg-hood-ksed95x1",
+    "id": "90-14122022-054195",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed95x1?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054195"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KSED95X-1",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-ksed95x1?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-054195&PartNumber=KSED95X-1",
+      "parameters": {
+        "Part Number": "KSED95X-1",
+        "Description": "Hood : KSED95X-1",
+        "Electric Power (W)": "256",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "0",
+        "Color": "Stainless steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "652",
+        "Overall Width (mm)": "900"
+      }
+    }
+  ]
+}

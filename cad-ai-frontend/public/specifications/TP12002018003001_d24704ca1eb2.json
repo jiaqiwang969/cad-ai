@@ -1,0 +1,115 @@
+{
+  "extraction_time": "2025-06-07 21:39:24",
+  "base_product": {
+    "name": "fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100",
+    "id": "90-04092023-050009",
+    "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Model",
+    "Height (mm)",
+    "Width (mm)",
+    "Internal Seat Height (mm)",
+    "Internal Seat Width (mm)",
+    "Internal Seat Depth (mm)",
+    "Thickness (mm)",
+    "Door opening (cm)",
+    "Frame Width (mm)",
+    "Door Thickness (mm)"
+  ],
+  "total_specifications": 5,
+  "specifications": [
+    {
+      "reference": "BASE060X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009&PartNumber=BASE060X210",
+      "parameters": {
+        "Part Number": "BASE060X210",
+        "Description": "Orchidea EasySlide Plasterboard wall Single opening sp100 : 060 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "250",
+        "Width (mm)": "60",
+        "Internal Seat Height (mm)": "259",
+        "Internal Seat Width (mm)": "71,6",
+        "Internal Seat Depth (mm)": "5.8",
+        "Thickness (mm)": "7.7",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "8,5",
+        "Door Thickness (mm)": "4"
+      }
+    },
+    {
+      "reference": "BASE070X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009&PartNumber=BASE070X210",
+      "parameters": {
+        "Part Number": "BASE070X210",
+        "Description": "Orchidea EasySlide Plasterboard wall Single opening sp100 : 070 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "70",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "81,6",
+        "Internal Seat Depth (mm)": "5.8",
+        "Thickness (mm)": "7.7",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4"
+      }
+    },
+    {
+      "reference": "BASE080X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009&PartNumber=BASE080X210",
+      "parameters": {
+        "Part Number": "BASE080X210",
+        "Description": "Orchidea EasySlide Plasterboard wall Single opening sp100 : 080 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "80",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "91,6",
+        "Internal Seat Depth (mm)": "5.8",
+        "Thickness (mm)": "7.7",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4"
+      }
+    },
+    {
+      "reference": "BASE090X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009&PartNumber=BASE090X210",
+      "parameters": {
+        "Part Number": "BASE090X210",
+        "Description": "Orchidea EasySlide Plasterboard wall Single opening sp100 : 090 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "90",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "101,6",
+        "Internal Seat Depth (mm)": "5.8",
+        "Thickness (mm)": "7.7",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4"
+      }
+    },
+    {
+      "reference": "BASE100X210",
+      "url": "https://www.traceparts.cn/en/product/fibrotubi-orchidea-easyslide-plasterboard-wall-single-opening-sp100?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04092023-050009&PartNumber=BASE100X210",
+      "parameters": {
+        "Part Number": "BASE100X210",
+        "Description": "Orchidea EasySlide Plasterboard wall Single opening sp100 : 100 x 210",
+        "Model": "Orchidea - Base",
+        "Height (mm)": "210",
+        "Width (mm)": "100",
+        "Internal Seat Height (mm)": "219",
+        "Internal Seat Width (mm)": "111,6",
+        "Internal Seat Depth (mm)": "5.8",
+        "Thickness (mm)": "7.7",
+        "Door opening (cm)": "50",
+        "Frame Width (mm)": "7,5",
+        "Door Thickness (mm)": "4"
+      }
+    }
+  ]
+}

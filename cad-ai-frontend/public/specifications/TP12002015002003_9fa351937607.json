@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:53",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-uw5757d",
+    "id": "90-14122022-038309",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-uw5757d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038309"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UW5757D",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-uw5757d?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038309&PartNumber=UW5757D",
+      "parameters": {
+        "Part Number": "UW5757D",
+        "Description": "Professional Dishwasher : UW5757D",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "750",
+        "Overall Height (mm)": "1725",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

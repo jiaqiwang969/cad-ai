@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:45:22",
+  "base_product": {
+    "name": "pitzl-110105000-post-base-system-for-embedding-in-concrete",
+    "id": "90-05092024-038564",
+    "url": "https://www.traceparts.cn/en/product/pitzl-110105000-post-base-system-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038564"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Upper plate mm",
+    "Lower plate mm",
+    "Tube Ø mm",
+    "Borehole top"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "11010.5000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-110105000-post-base-system-for-embedding-in-concrete?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038564&PartNumber=11010.5000",
+      "parameters": {
+        "Manufacturer Part Number": "11010.5000",
+        "Description": "11010.5000 - Post base system for embedding in concrete",
+        "Upper plate mm": "Ø 100 x 8",
+        "Lower plate mm": "60 x 70 x 5",
+        "Tube Ø mm": "Ø42,4 x 500",
+        "Borehole top": "Ø13 x 4"
+      }
+    }
+  ]
+}

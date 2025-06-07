@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:15:42",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-castor-insert-d30-signal-red-similar-to-ral-3001",
+    "id": "30-12112020-083142",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-insert-d30-signal-red-similar-to-ral-3001?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-083142"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.627.06",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-castor-insert-d30-signal-red-similar-to-ral-3001?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-083142&PartNumber=0.0.627.06",
+      "parameters": {
+        "Part Number": "0.0.627.06",
+        "Description": "Castor Insert D30, signal red similar to RAL 3001, Delivery unit: 1 pce."
+      }
+    }
+  ]
+}

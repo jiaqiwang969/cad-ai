@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:00",
+  "base_product": {
+    "name": "smeg-oven-sf109",
+    "id": "90-14122022-049690",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf109?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049690"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF109",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf109?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049690&PartNumber=SF109",
+      "parameters": {
+        "Part Number": "SF109",
+        "Description": "Oven : SF109",
+        "Color": "Stainless steel",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

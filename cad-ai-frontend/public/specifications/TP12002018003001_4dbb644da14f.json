@@ -1,0 +1,117 @@
+{
+  "extraction_time": "2025-06-07 21:39:55",
+  "base_product": {
+    "name": "scrigno-spa-s-tech-90-revoque-es",
+    "id": "90-29112023-054930",
+    "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Height (mm)",
+    "Width (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "900 x 2020 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=900+x+2020+mm",
+      "parameters": {
+        "Part Number": "900 x 2020 mm",
+        "Description": "S tech 900x2020/90 INT (E)",
+        "Height (mm)": "2020",
+        "Width (mm)": "900"
+      }
+    },
+    {
+      "reference": "900 x 2100 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=900+x+2100+mm",
+      "parameters": {
+        "Part Number": "900 x 2100 mm",
+        "Description": "S tech 900x2100/90 INT (E)",
+        "Height (mm)": "2100",
+        "Width (mm)": "900"
+      }
+    },
+    {
+      "reference": "800 x 2100 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=800+x+2100+mm",
+      "parameters": {
+        "Part Number": "800 x 2100 mm",
+        "Description": "S tech 800x2100/90 INT (E)",
+        "Height (mm)": "2100",
+        "Width (mm)": "800"
+      }
+    },
+    {
+      "reference": "600 x 2100 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=600+x+2100+mm",
+      "parameters": {
+        "Part Number": "600 x 2100 mm",
+        "Description": "S tech 600x2100/90 INT (E)",
+        "Height (mm)": "2100",
+        "Width (mm)": "600"
+      }
+    },
+    {
+      "reference": "700 x 2020 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=700+x+2020+mm",
+      "parameters": {
+        "Part Number": "700 x 2020 mm",
+        "Description": "S tech 700x2020/90 INT (E)",
+        "Height (mm)": "2020",
+        "Width (mm)": "700"
+      }
+    },
+    {
+      "reference": "700 x 2100 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=700+x+2100+mm",
+      "parameters": {
+        "Part Number": "700 x 2100 mm",
+        "Description": "S tech 700x2100/90 INT (E)",
+        "Height (mm)": "2100",
+        "Width (mm)": "700"
+      }
+    },
+    {
+      "reference": "1000 x 2020 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=1000+x+2020+mm",
+      "parameters": {
+        "Part Number": "1000 x 2020 mm",
+        "Description": "S tech 1000x2020/90 INT (E)",
+        "Height (mm)": "2020",
+        "Width (mm)": "1000"
+      }
+    },
+    {
+      "reference": "600 x 2020 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=600+x+2020+mm",
+      "parameters": {
+        "Part Number": "600 x 2020 mm",
+        "Description": "S tech 600x2020/90 INT (E)",
+        "Height (mm)": "2020",
+        "Width (mm)": "600"
+      }
+    },
+    {
+      "reference": "800 x 2020 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=800+x+2020+mm",
+      "parameters": {
+        "Part Number": "800 x 2020 mm",
+        "Description": "S tech 800x2020/90 INT (E)",
+        "Height (mm)": "2020",
+        "Width (mm)": "800"
+      }
+    },
+    {
+      "reference": "1000 x 2100 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-s-tech-90-revoque-es?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054930&PartNumber=1000+x+2100+mm",
+      "parameters": {
+        "Part Number": "1000 x 2100 mm",
+        "Description": "S tech 1000x2100/90 INT (E)",
+        "Height (mm)": "2100",
+        "Width (mm)": "1000"
+      }
+    }
+  ]
+}

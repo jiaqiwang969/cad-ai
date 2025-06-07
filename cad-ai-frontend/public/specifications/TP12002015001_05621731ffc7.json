@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:09:52",
+  "base_product": {
+    "name": "danese-milano-pedestal-vase",
+    "id": "90-22072021-031254",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-pedestal-vase?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031254"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "DRG8310A10",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-pedestal-vase?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031254&PartNumber=DRG8310A10",
+      "parameters": {
+        "Part Number": "DRG8310A10",
+        "Description": "gold veined Calacatta marble"
+      }
+    },
+    {
+      "reference": "DRG8310A0L",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-pedestal-vase?CatalogPath=TRACEPARTS%3ATP12002015001&Product=90-22072021-031254&PartNumber=DRG8310A0L",
+      "parameters": {
+        "Part Number": "DRG8310A0L",
+        "Description": "beech wood"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:03:21",
+  "base_product": {
+    "name": "smeg-oven-sfpa6104tvb",
+    "id": "90-14122022-051545",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6104tvb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051545"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SFPA6104TVB",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sfpa6104tvb?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-051545&PartNumber=SFPA6104TVB",
+      "parameters": {
+        "Part Number": "SFPA6104TVB",
+        "Description": "Oven : SFPA6104TVB",
+        "Color": "White",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "592",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

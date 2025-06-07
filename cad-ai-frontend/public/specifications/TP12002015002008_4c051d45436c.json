@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:08:16",
+  "base_product": {
+    "name": "smeg-hob-sr275xgh2",
+    "id": "90-14122022-063691",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr275xgh2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063691"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR275XGH2",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr275xgh2?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063691&PartNumber=SR275XGH2",
+      "parameters": {
+        "Part Number": "SR275XGH2",
+        "Description": "Hob : SR275XGH2"
+      }
+    }
+  ]
+}

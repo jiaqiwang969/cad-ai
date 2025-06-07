@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:28",
+  "base_product": {
+    "name": "smeg-hob-pvl6106cnau",
+    "id": "90-14122022-059932",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl6106cnau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059932"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PVL6106CNAU",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pvl6106cnau?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059932&PartNumber=PVL6106CNAU",
+      "parameters": {
+        "Part Number": "PVL6106CNAU",
+        "Description": "Hob : PVL6106CNAU",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "92",
+        "Overall Width (mm)": "1000"
+      }
+    }
+  ]
+}

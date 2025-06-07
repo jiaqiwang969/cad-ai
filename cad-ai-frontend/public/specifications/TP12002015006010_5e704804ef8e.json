@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 22:15:04",
+  "base_product": {
+    "name": "rs-group-clipon-laber-hoder-d28-h38-l2000",
+    "id": "90-19112024-024498",
+    "url": "https://www.traceparts.cn/en/product/rs-group-clipon-laber-hoder-d28-h38-l2000?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-19112024-024498"
+  },
+  "table_headers": [
+    "Description",
+    "Part Number",
+    "Manufacturer",
+    "RS Stock Number"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "2776680",
+      "url": "https://www.traceparts.cn/en/product/rs-group-clipon-laber-hoder-d28-h38-l2000?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-19112024-024498&PartNumber=2776680",
+      "parameters": {
+        "Description": "CLIP-ON LABER HODER D28 H=38 L=2000",
+        "Part Number": "2776680",
+        "Manufacturer": "Bosch Rexroth",
+        "RS Stock Number": "2776680"
+      }
+    }
+  ]
+}

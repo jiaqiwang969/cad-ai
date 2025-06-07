@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:22",
+  "base_product": {
+    "name": "settef-settef-thermophon-p",
+    "id": "90-13102022-057113",
+    "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-p?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057113"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SETTEF - THERMOPHON P",
+      "url": "https://www.traceparts.cn/en/product/settef-settef-thermophon-p?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-13102022-057113&PartNumber=SETTEF+-+THERMOPHON+P",
+      "parameters": {
+        "Manufacturer Part Number": "SETTEF - THERMOPHON P",
+        "Description": "The system THERMOPHON P, with expanded polystyrene insulating panels and leveling organic glue paste, is the historical system, used successfully for over thirty years for the insulation of new buildings."
+      }
+    }
+  ]
+}

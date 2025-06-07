@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:45:42",
+  "base_product": {
+    "name": "pitzl-9000040005-hole-plate-for-thread-m-24",
+    "id": "90-05092024-038800",
+    "url": "https://www.traceparts.cn/en/product/pitzl-9000040005-hole-plate-for-thread-m-24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038800"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Borehole bottom",
+    "Plate mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "90000.4000",
+      "url": "https://www.traceparts.cn/en/product/pitzl-9000040005-hole-plate-for-thread-m-24?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038800&PartNumber=90000.4000",
+      "parameters": {
+        "Manufacturer Part Number": "90000.4000",
+        "Description": "90000.40005 - hole plate for thread M 24",
+        "Borehole bottom": "Ø12x4",
+        "Plate mm": "M24 / 100 x 100 6"
+      }
+    }
+  ]
+}

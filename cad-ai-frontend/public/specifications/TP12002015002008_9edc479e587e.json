@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:08:27",
+  "base_product": {
+    "name": "smeg-hob-sr775ot",
+    "id": "90-14122022-063794",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775ot?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063794"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SR775OT",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-sr775ot?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-063794&PartNumber=SR775OT",
+      "parameters": {
+        "Part Number": "SR775OT",
+        "Description": "Hob : SR775OT",
+        "Color": "Brass",
+        "Material": "Enamelled",
+        "Overall Depth (mm)": "500",
+        "Overall Height (mm)": "32",
+        "Overall Width (mm)": "685"
+      }
+    }
+  ]
+}

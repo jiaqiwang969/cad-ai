@@ -1,0 +1,29 @@
+{
+  "extraction_time": "2025-06-07 22:15:49",
+  "base_product": {
+    "name": "italiana-ferramenta-cam-with-cover-flange-o15-sl18-zk",
+    "id": "90-01092023-045476",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-with-cover-flange-o15-sl18-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045476"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "FINISH",
+    "WOOD / GLASS THICKNESS",
+    "HOLE DIAMETER"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "21307010ZN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-cam-with-cover-flange-o15-sl18-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045476&PartNumber=21307010ZN",
+      "parameters": {
+        "Manufacturer Part Number": "21307010ZN",
+        "Description": "Cam with cover flange Ø15 SL18 ZK",
+        "FINISH": "Zinc-plated",
+        "WOOD / GLASS THICKNESS": "18 mm",
+        "HOLE DIAMETER": "Ø 15 mm"
+      }
+    }
+  ]
+}

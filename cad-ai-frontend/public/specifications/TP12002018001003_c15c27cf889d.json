@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:33",
+  "base_product": {
+    "name": "cherubini-7457",
+    "id": "70-01042016-136122",
+    "url": "https://www.traceparts.cn/en/product/cherubini-7457?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136122"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "7457",
+      "url": "https://www.traceparts.cn/en/product/cherubini-7457?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136122&PartNumber=7457",
+      "parameters": {
+        "Item Number": "7457",
+        "Description": "Foldable crank in powder-coated Duraluminium RAL 9016 with assembled tube Ø 13, crank centre-to-centre distance 180 mm. Total length 100 cm, hole centre-to-centre distance 6 mm."
+      }
+    }
+  ]
+}

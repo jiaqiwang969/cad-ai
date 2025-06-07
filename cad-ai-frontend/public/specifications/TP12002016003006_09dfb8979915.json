@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:28",
+  "base_product": {
+    "name": "viero-viero-vieroclima-r",
+    "id": "10-30092015-121015",
+    "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-r?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121015"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "VIERO - Vieroclima R",
+      "url": "https://www.traceparts.cn/en/product/viero-viero-vieroclima-r?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=10-30092015-121015&PartNumber=VIERO+-+Vieroclima+R",
+      "parameters": {
+        "Part Number": "VIERO - Vieroclima R",
+        "Description": "The system VIEROCLIMA R panels in rock wool to double density combines qualities of thermal insulation with those of sound insulation , fire safety and good ecological characteristics . The rock wool is a mineral insulating material , highly vapor permeable , non-combustible and therefore particularly suitable for tall buildings. It ' a system of absolute reliability and durability ."
+      }
+    }
+  ]
+}

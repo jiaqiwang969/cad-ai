@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:39:12",
+  "base_product": {
+    "name": "apostoli-flapinoxdouble",
+    "id": "90-23112023-960402",
+    "url": "https://www.traceparts.cn/en/product/apostoli-flapinoxdouble?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-960402"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza (mm)",
+    "Larghezza (mm)",
+    "Altezza massima (mm)",
+    "Larghezza massima (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "FlapInox_Double",
+      "url": "https://www.traceparts.cn/en/product/apostoli-flapinoxdouble?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-23112023-960402&PartNumber=FlapInox_Double",
+      "parameters": {
+        "Riferimento del produttore": "FlapInox_Double",
+        "Descrizione": "Industrial door FlapInox Double - FlapInox - Double",
+        "Altezza (mm)": "1999.99999999998",
+        "Larghezza (mm)": "1500",
+        "Altezza massima (mm)": "2150",
+        "Larghezza massima (mm)": "1800"
+      }
+    }
+  ]
+}

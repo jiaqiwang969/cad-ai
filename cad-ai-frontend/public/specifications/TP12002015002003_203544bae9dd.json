@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:53:23",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-hty520dh",
+    "id": "90-14122022-037841",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty520dh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037841"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "HTY520DH",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-hty520dh?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037841&PartNumber=HTY520DH",
+      "parameters": {
+        "Part Number": "HTY520DH",
+        "Description": "Professional Dishwasher : HTY520DH",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "745",
+        "Overall Height (mm)": "1530",
+        "Overall Width (mm)": "620"
+      }
+    }
+  ]
+}

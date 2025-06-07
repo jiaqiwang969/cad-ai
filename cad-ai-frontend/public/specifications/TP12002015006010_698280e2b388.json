@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 22:15:11",
+  "base_product": {
+    "name": "italiana-ferramenta-bracket-for-triade-zk",
+    "id": "90-01092023-045163",
+    "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bracket-for-triade-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045163"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "MATERIAL"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "16215020ZN",
+      "url": "https://www.traceparts.cn/en/product/italiana-ferramenta-bracket-for-triade-zk?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-01092023-045163&PartNumber=16215020ZN",
+      "parameters": {
+        "Manufacturer Part Number": "16215020ZN",
+        "Description": "Bracket for TRIADE Zk",
+        "MATERIAL": "Zinc-plated"
+      }
+    }
+  ]
+}

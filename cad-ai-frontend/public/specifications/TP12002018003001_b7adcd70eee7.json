@@ -1,0 +1,25 @@
+{
+  "extraction_time": "2025-06-07 21:40:14",
+  "base_product": {
+    "name": "profholod-traffic-swinging-single-leaf-door",
+    "id": "90-04052021-050440",
+    "url": "https://www.traceparts.cn/en/product/profholod-traffic-swinging-single-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050440"
+  },
+  "table_headers": [
+    "Part Number",
+    "Height",
+    "Width"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "TSD",
+      "url": "https://www.traceparts.cn/en/product/profholod-traffic-swinging-single-leaf-door?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-04052021-050440&PartNumber=TSD",
+      "parameters": {
+        "Part Number": "TSD",
+        "Height": "2100",
+        "Width": "1100"
+      }
+    }
+  ]
+}

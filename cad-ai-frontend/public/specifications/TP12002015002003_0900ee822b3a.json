@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:51:47",
+  "base_product": {
+    "name": "smeg-dishwasher-st2fabpk",
+    "id": "90-14122022-047582",
+    "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabpk?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047582"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "ST2FABPK",
+      "url": "https://www.traceparts.cn/en/product/smeg-dishwasher-st2fabpk?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-047582&PartNumber=ST2FABPK",
+      "parameters": {
+        "Part Number": "ST2FABPK",
+        "Description": "Dishwasher : ST2FABPK",
+        "Color": "Pink",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "818",
+        "Overall Width (mm)": "598"
+      }
+    }
+  ]
+}

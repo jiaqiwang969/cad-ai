@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:49:17",
+  "base_product": {
+    "name": "sirap-insulation-styrholz-hesph",
+    "id": "90-10062022-052885",
+    "url": "https://www.traceparts.cn/en/product/sirap-insulation-styrholz-hesph?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-052885"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "STYRHOLZ HESPH",
+      "url": "https://www.traceparts.cn/en/product/sirap-insulation-styrholz-hesph?CatalogPath=TRACEPARTS%3ATP12002016003006&Product=90-10062022-052885&PartNumber=STYRHOLZ+HESPH",
+      "parameters": {
+        "Manufacturer Part Number": "STYRHOLZ HESPH",
+        "Description": "Wood-fiber boards for thermal and acoustic insulation"
+      }
+    }
+  ]
+}

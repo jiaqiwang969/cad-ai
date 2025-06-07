@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:37:23",
+  "base_product": {
+    "name": "cherubini-78407033m1016",
+    "id": "70-01042016-136126",
+    "url": "https://www.traceparts.cn/en/product/cherubini-78407033m1016?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136126"
+  },
+  "table_headers": [
+    "Item Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "78407033M1016",
+      "url": "https://www.traceparts.cn/en/product/cherubini-78407033m1016?CatalogPath=TRACEPARTS%3ATP12002018001003&Product=70-01042016-136126&PartNumber=78407033M1016",
+      "parameters": {
+        "Item Number": "78407033M1016",
+        "Description": "Universal joint 90° with 2 holes zamak plate, driving rod hex. 7x330mm, connector M Ø 10. RAL 9016."
+      }
+    }
+  ]
+}

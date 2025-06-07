@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:42",
+  "base_product": {
+    "name": "smeg-hob-pxl6106nlk",
+    "id": "90-14122022-060081",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pxl6106nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060081"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PXL6106NLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pxl6106nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060081&PartNumber=PXL6106NLK",
+      "parameters": {
+        "Part Number": "PXL6106NLK",
+        "Description": "Hob : PXL6106NLK",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "92",
+        "Overall Width (mm)": "1000"
+      }
+    }
+  ]
+}

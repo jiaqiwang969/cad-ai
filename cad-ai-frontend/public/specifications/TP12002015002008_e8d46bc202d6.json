@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:05:58",
+  "base_product": {
+    "name": "smeg-hob-pv664lcnr",
+    "id": "90-14122022-059771",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pv664lcnr?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059771"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PV664LCNR",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pv664lcnr?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059771&PartNumber=PV664LCNR",
+      "parameters": {
+        "Part Number": "PV664LCNR",
+        "Description": "Hob : PV664LCNR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "102",
+        "Overall Width (mm)": "650"
+      }
+    }
+  ]
+}

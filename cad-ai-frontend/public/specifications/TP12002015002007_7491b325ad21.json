@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:01:36",
+  "base_product": {
+    "name": "smeg-oven-sf9310xr",
+    "id": "90-14122022-050923",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf9310xr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050923"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF9310XR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf9310xr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050923&PartNumber=SF9310XR",
+      "parameters": {
+        "Part Number": "SF9310XR",
+        "Description": "Oven : SF9310XR",
+        "Color": "Fingerproof Stainless Steel",
+        "Material": "Stainless steel",
+        "Overall Depth (mm)": "545",
+        "Overall Height (mm)": "480",
+        "Overall Width (mm)": "896"
+      }
+    }
+  ]
+}

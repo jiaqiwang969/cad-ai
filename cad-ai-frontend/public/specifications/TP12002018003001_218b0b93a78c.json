@@ -1,0 +1,115 @@
+{
+  "extraction_time": "2025-06-07 21:40:19",
+  "base_product": {
+    "name": "scrigno-spa-scrigno-essential-double-125-plasterboard-cz",
+    "id": "90-29112023-054128",
+    "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Height (mm)",
+    "Width (mm)",
+    "LDB (mm)",
+    "LDH (mm)"
+  ],
+  "total_specifications": 8,
+  "specifications": [
+    {
+      "reference": "TBB 985+985 x TBH 2110 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+985%2B985+x+TBH+2110+mm",
+      "parameters": {
+        "Part Number": "TBB 985+985 x TBH 2110 mm",
+        "Description": "ESS 2FLG (TBM985X2110) 1940X2115 CW100/FWST150",
+        "Height (mm)": "2110",
+        "Width (mm)": "985",
+        "LDB (mm)": "1940",
+        "LDH (mm)": "2115"
+      }
+    },
+    {
+      "reference": "TBB 1110+1110 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+1110%2B1110+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 1110+1110 x TBH 2235 mm",
+        "Description": "ESS 2FLG (TBM1110X2235) 2190X2240 CW100/FWST150",
+        "Height (mm)": "2235",
+        "Width (mm)": "1110",
+        "LDB (mm)": "2190",
+        "LDH (mm)": "2240"
+      }
+    },
+    {
+      "reference": "TBB 610+610 x TBH 2110 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+610%2B610+x+TBH+2110+mm",
+      "parameters": {
+        "Part Number": "TBB 610+610 x TBH 2110 mm",
+        "Description": "ESS 2FLG (TBM610X2110) 1190X2115 CW100/FWST150",
+        "Height (mm)": "2110",
+        "Width (mm)": "610",
+        "LDB (mm)": "1190",
+        "LDH (mm)": "2115"
+      }
+    },
+    {
+      "reference": "TBB 1110+1110 x TBH 2110 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+1110%2B1110+x+TBH+2110+mm",
+      "parameters": {
+        "Part Number": "TBB 1110+1110 x TBH 2110 mm",
+        "Description": "ESS 2FLG (TBM1110X2110) 2190X2115 CW100/FWST150",
+        "Height (mm)": "2110",
+        "Width (mm)": "1110",
+        "LDB (mm)": "2190",
+        "LDH (mm)": "2115"
+      }
+    },
+    {
+      "reference": "TBB 1235+1235 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+1235%2B1235+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 1235+1235 x TBH 2235 mm",
+        "Description": "ESS 2FLG (TBM1235X2235) 2440X2240 CW100/FWST150",
+        "Height (mm)": "2235",
+        "Width (mm)": "1235",
+        "LDB (mm)": "2440",
+        "LDH (mm)": "2240"
+      }
+    },
+    {
+      "reference": "TBB 610+610 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+610%2B610+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 610+610 x TBH 2235 mm",
+        "Description": "ESS 2FLG (TBM610X2235) 1190X2240 CW100/FWST150",
+        "Height (mm)": "2235",
+        "Width (mm)": "610",
+        "LDB (mm)": "1190",
+        "LDH (mm)": "2240"
+      }
+    },
+    {
+      "reference": "TBB 860+860 x TBH 1985 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+860%2B860+x+TBH+1985+mm",
+      "parameters": {
+        "Part Number": "TBB 860+860 x TBH 1985 mm",
+        "Description": "ESS 2FLG (TBM860X1985) 1690X1990 CW100/FWST150",
+        "Height (mm)": "1985",
+        "Width (mm)": "860",
+        "LDB (mm)": "1690",
+        "LDH (mm)": "1990"
+      }
+    },
+    {
+      "reference": "TBB 860+860 x TBH 2235 mm",
+      "url": "https://www.traceparts.cn/en/product/scrigno-spa-scrigno-essential-double-125-plasterboard-cz?CatalogPath=TRACEPARTS%3ATP12002018003001&Product=90-29112023-054128&PartNumber=TBB+860%2B860+x+TBH+2235+mm",
+      "parameters": {
+        "Part Number": "TBB 860+860 x TBH 2235 mm",
+        "Description": "ESS 2FLG (TBM860X2235) 1690X2240 CW100/FWST150",
+        "Height (mm)": "2235",
+        "Width (mm)": "860",
+        "LDB (mm)": "1690",
+        "LDH (mm)": "2240"
+      }
+    }
+  ]
+}

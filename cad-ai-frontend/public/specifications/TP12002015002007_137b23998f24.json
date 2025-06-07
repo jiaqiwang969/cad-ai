@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:59:29",
+  "base_product": {
+    "name": "smeg-oven-sf4604mcnr",
+    "id": "90-14122022-050125",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4604mcnr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050125"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4604MCNR",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4604mcnr?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-050125&PartNumber=SF4604MCNR",
+      "parameters": {
+        "Part Number": "SF4604MCNR",
+        "Description": "Oven : SF4604MCNR",
+        "Color": "Black",
+        "Material": "Glass",
+        "Overall Depth (mm)": "450",
+        "Overall Height (mm)": "597",
+        "Overall Width (mm)": "548"
+      }
+    }
+  ]
+}

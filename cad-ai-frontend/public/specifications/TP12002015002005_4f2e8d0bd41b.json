@@ -1,0 +1,45 @@
+{
+  "extraction_time": "2025-06-07 21:55:52",
+  "base_product": {
+    "name": "smeg-hood-kfab75wh",
+    "id": "90-14122022-053597",
+    "url": "https://www.traceparts.cn/en/product/smeg-hood-kfab75wh?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053597"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Sound power max (dB(A))",
+    "EU Energy Label",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "KFAB75WH",
+      "url": "https://www.traceparts.cn/en/product/smeg-hood-kfab75wh?CatalogPath=TRACEPARTS%3ATP12002015002005&Product=90-14122022-053597&PartNumber=KFAB75WH",
+      "parameters": {
+        "Part Number": "KFAB75WH",
+        "Description": "Hood : KFAB75WH",
+        "Electric Power (W)": "282",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50-60",
+        "Sound power max (dB(A))": "67",
+        "EU Energy Label": "A+",
+        "Color": "White",
+        "Material": "Painted material",
+        "Overall Depth (mm)": "616",
+        "Overall Height (mm)": "644",
+        "Overall Width (mm)": "750"
+      }
+    }
+  ]
+}

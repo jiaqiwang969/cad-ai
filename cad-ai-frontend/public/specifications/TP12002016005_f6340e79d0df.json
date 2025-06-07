@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:46:38",
+  "base_product": {
+    "name": "ape-technologies-refo-protect-20-nd",
+    "id": "10-15012015-108254",
+    "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-20-nd?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-108254"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "Model REFO PROTECT 20 ND",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-20-nd?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-108254&PartNumber=Model+REFO+PROTECT+20+ND",
+      "parameters": {
+        "Description": "Model REFO PROTECT 20 ND"
+      }
+    },
+    {
+      "reference": "Agglomeration of PE foam , solid material without holes or grooves sp . 20 mm",
+      "url": "https://www.traceparts.cn/en/product/ape-technologies-refo-protect-20-nd?CatalogPath=TRACEPARTS%3ATP12002016005&Product=10-15012015-108254&PartNumber=Agglomeration+of+PE+foam+%2C+solid+material+without+holes+or+grooves+sp+.+20+mm",
+      "parameters": {
+        "Object details": "Agglomeration of PE foam , solid material without holes or grooves sp . 20 mm"
+      }
+    }
+  ]
+}

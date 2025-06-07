@@ -1,0 +1,183 @@
+{
+  "extraction_time": "2025-06-07 21:40:17",
+  "base_product": {
+    "name": "apostoli-e13",
+    "id": "90-23112023-059979",
+    "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979"
+  },
+  "table_headers": [
+    "Riferimento del produttore",
+    "Descrizione",
+    "Altezza totale porta (mm)",
+    "Altezza di apertura (mm)",
+    "Larghezza di apertura (mm)",
+    "VA motore elettrico",
+    "VA motore elettrico E13A",
+    "VA motore elettrico E13B",
+    "Altezza motori (mm)",
+    "Altezza pos telo (mm)"
+  ],
+  "total_specifications": 10,
+  "specifications": [
+    {
+      "reference": "E13_Green_RAL6026",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Green_RAL6026",
+      "parameters": {
+        "Riferimento del produttore": "E13_Green_RAL6026",
+        "Descrizione": "E13 Industrial rapid door - E13 - Green - RAL6026",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_White_RAL1013",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_White_RAL1013",
+      "parameters": {
+        "Riferimento del produttore": "E13_White_RAL1013",
+        "Descrizione": "E13 Industrial rapid door - E13 - White - RAL1013",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Ivory_RAL1014",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Ivory_RAL1014",
+      "parameters": {
+        "Riferimento del produttore": "E13_Ivory_RAL1014",
+        "Descrizione": "E13 Industrial rapid door - E13 - Ivory - RAL1014",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Blue_RAL5002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Blue_RAL5002",
+      "parameters": {
+        "Riferimento del produttore": "E13_Blue_RAL5002",
+        "Descrizione": "E13 Industrial rapid door - E13 - Blue - RAL5002",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_White_RAL9016",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_White_RAL9016",
+      "parameters": {
+        "Riferimento del produttore": "E13_White_RAL9016",
+        "Descrizione": "E13 Industrial rapid door - E13 - White - RAL9016",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Black_RAL9005",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Black_RAL9005",
+      "parameters": {
+        "Riferimento del produttore": "E13_Black_RAL9005",
+        "Descrizione": "E13 Industrial rapid door - E13 - Black - RAL9005",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Yellow_RAL1003",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Yellow_RAL1003",
+      "parameters": {
+        "Riferimento del produttore": "E13_Yellow_RAL1003",
+        "Descrizione": "E13 Industrial rapid door - E13 - Yellow - RAL1003",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Red_RAL3002",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Red_RAL3002",
+      "parameters": {
+        "Riferimento del produttore": "E13_Red_RAL3002",
+        "Descrizione": "E13 Industrial rapid door - E13 - Red - RAL3002",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Grey_RAL7004",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Grey_RAL7004",
+      "parameters": {
+        "Riferimento del produttore": "E13_Grey_RAL7004",
+        "Descrizione": "E13 Industrial rapid door - E13 - Grey - RAL7004",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    },
+    {
+      "reference": "E13_Orange_RAL2004",
+      "url": "https://www.traceparts.cn/en/product/apostoli-e13?CatalogPath=TRACEPARTS%3ATP12002018003004&Product=90-23112023-059979&PartNumber=E13_Orange_RAL2004",
+      "parameters": {
+        "Riferimento del produttore": "E13_Orange_RAL2004",
+        "Descrizione": "E13 Industrial rapid door - E13 - Orange - RAL2004",
+        "Altezza totale porta (mm)": "7000",
+        "Altezza di apertura (mm)": "6000",
+        "Larghezza di apertura (mm)": "6000",
+        "VA motore elettrico": "1900",
+        "VA motore elettrico E13A": "1900",
+        "VA motore elettrico E13B": "2600",
+        "Altezza motori (mm)": "747.5",
+        "Altezza pos telo (mm)": "777"
+      }
+    }
+  ]
+}

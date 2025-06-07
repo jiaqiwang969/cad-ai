@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:06:39",
+  "base_product": {
+    "name": "smeg-hob-px375lde",
+    "id": "90-14122022-060028",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-px375lde?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060028"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PX375LDE",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-px375lde?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-060028&PartNumber=PX375LDE",
+      "parameters": {
+        "Part Number": "PX375LDE",
+        "Description": "Hob : PX375LDE",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "510",
+        "Overall Height (mm)": "40",
+        "Overall Width (mm)": "725"
+      }
+    }
+  ]
+}

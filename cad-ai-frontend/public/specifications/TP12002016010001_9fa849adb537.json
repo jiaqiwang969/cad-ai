@@ -1,0 +1,26 @@
+{
+  "extraction_time": "2025-06-07 21:47:10",
+  "base_product": {
+    "name": "polypiu-gp20",
+    "id": "10-03062015-084327",
+    "url": "https://www.traceparts.cn/en/product/polypiu-gp20?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084327"
+  },
+  "table_headers": [],
+  "total_specifications": 2,
+  "specifications": [
+    {
+      "reference": "GP20",
+      "url": "https://www.traceparts.cn/en/product/polypiu-gp20?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084327&PartNumber=GP20",
+      "parameters": {
+        "Part Number": "GP20"
+      }
+    },
+    {
+      "reference": "23.17.13.00",
+      "url": "https://www.traceparts.cn/en/product/polypiu-gp20?CatalogPath=TRACEPARTS%3ATP12002016010001&Product=10-03062015-084327&PartNumber=23.17.13.00",
+      "parameters": {
+        "Omniclass number": "23.17.13.00"
+      }
+    }
+  ]
+}

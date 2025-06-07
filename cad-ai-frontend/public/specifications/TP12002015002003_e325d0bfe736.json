@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 21:54:30",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-ug403dms",
+    "id": "90-14122022-038126",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug403dms?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038126"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "UG403DMS",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-ug403dms?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-038126&PartNumber=UG403DMS",
+      "parameters": {
+        "Part Number": "UG403DMS",
+        "Description": "Professional Dishwasher : UG403DMS",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "530",
+        "Overall Height (mm)": "710",
+        "Overall Width (mm)": "440"
+      }
+    }
+  ]
+}

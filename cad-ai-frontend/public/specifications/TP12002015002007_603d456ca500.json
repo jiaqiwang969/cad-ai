@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:58:37",
+  "base_product": {
+    "name": "smeg-oven-sf4104wmcs",
+    "id": "90-14122022-049878",
+    "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4104wmcs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049878"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SF4104WMCS",
+      "url": "https://www.traceparts.cn/en/product/smeg-oven-sf4104wmcs?CatalogPath=TRACEPARTS%3ATP12002015002007&Product=90-14122022-049878&PartNumber=SF4104WMCS",
+      "parameters": {
+        "Part Number": "SF4104WMCS",
+        "Description": "Oven : SF4104WMCS",
+        "Color": "Silver Glass",
+        "Material": "Glass",
+        "Overall Depth (mm)": "548",
+        "Overall Height (mm)": "450",
+        "Overall Width (mm)": "597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "extraction_time": "2025-06-07 21:45:34",
+  "base_product": {
+    "name": "pitzl-9000020805-hole-plate-for-thread-m-20",
+    "id": "90-05092024-038786",
+    "url": "https://www.traceparts.cn/en/product/pitzl-9000020805-hole-plate-for-thread-m-20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038786"
+  },
+  "table_headers": [
+    "Manufacturer Part Number",
+    "Description",
+    "Borehole bottom",
+    "Plate mm"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "90000.2080",
+      "url": "https://www.traceparts.cn/en/product/pitzl-9000020805-hole-plate-for-thread-m-20?CatalogPath=TRACEPARTS%3ATP12002016006001&Product=90-05092024-038786&PartNumber=90000.2080",
+      "parameters": {
+        "Manufacturer Part Number": "90000.2080",
+        "Description": "90000.20805 - hole plate for thread M 20",
+        "Borehole bottom": "Ø12x4",
+        "Plate mm": "M20 / 80 x 80 x 5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 21:43:05",
+  "base_product": {
+    "name": "serisolar-srl-sb341exsr-window",
+    "id": "10-27042015-105253",
+    "url": "https://www.traceparts.cn/en/product/serisolar-srl-sb341exsr-window?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-27042015-105253"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "SB341EXSR - Window",
+      "url": "https://www.traceparts.cn/en/product/serisolar-srl-sb341exsr-window?CatalogPath=TRACEPARTS%3ATP12002018007001&Product=10-27042015-105253&PartNumber=SB341EXSR+-+Window",
+      "parameters": {
+        "Part Number": "SB341EXSR - Window",
+        "Description": "Films that drastically reduce the heat produced by solar energy. For windows"
+      }
+    }
+  ]
+}

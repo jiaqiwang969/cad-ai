@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 21:52:58",
+  "base_product": {
+    "name": "smeg-professional-dishwasher-fd511d1",
+    "id": "90-14122022-037710",
+    "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd511d1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037710"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)",
+    "Space Requirement (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "FD511D1",
+      "url": "https://www.traceparts.cn/en/product/smeg-professional-dishwasher-fd511d1?CatalogPath=TRACEPARTS%3ATP12002015002003&Product=90-14122022-037710&PartNumber=FD511D1",
+      "parameters": {
+        "Part Number": "FD511D1",
+        "Description": "Professional Dishwasher : FD511D1",
+        "Material": "Stainless steel AISI 304",
+        "Overall Depth (mm)": "600",
+        "Overall Height (mm)": "1290",
+        "Overall Width (mm)": "600",
+        "Space Requirement (mm)": "1020"
+      }
+    }
+  ]
+}

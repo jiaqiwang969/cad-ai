@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:04:15",
+  "base_product": {
+    "name": "smeg-hob-gkoc753nlk",
+    "id": "90-14122022-058980",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-gkoc753nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058980"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "GKOC75-3NLK",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-gkoc753nlk?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-058980&PartNumber=GKOC75-3NLK",
+      "parameters": {
+        "Part Number": "GKOC75-3NLK",
+        "Description": "Hob : GKOC75-3NLK",
+        "Color": "Stainless steel",
+        "Material": "Stainless Steel",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "75",
+        "Overall Width (mm)": "720"
+      }
+    }
+  ]
+}

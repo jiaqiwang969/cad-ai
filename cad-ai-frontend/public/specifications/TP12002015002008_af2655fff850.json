@@ -1,0 +1,31 @@
+{
+  "extraction_time": "2025-06-07 22:04:46",
+  "base_product": {
+    "name": "smeg-hob-pgf32c",
+    "id": "90-14122022-059227",
+    "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf32c?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059227"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Material",
+    "Overall Depth (mm)",
+    "Overall Height (mm)",
+    "Overall Width (mm)"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "PGF32C",
+      "url": "https://www.traceparts.cn/en/product/smeg-hob-pgf32c?CatalogPath=TRACEPARTS%3ATP12002015002008&Product=90-14122022-059227&PartNumber=PGF32C",
+      "parameters": {
+        "Part Number": "PGF32C",
+        "Description": "Hob : PGF32C",
+        "Material": "Glass",
+        "Overall Depth (mm)": "512",
+        "Overall Height (mm)": "70",
+        "Overall Width (mm)": "310"
+      }
+    }
+  ]
+}

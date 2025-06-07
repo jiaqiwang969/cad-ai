@@ -1,0 +1,23 @@
+{
+  "extraction_time": "2025-06-07 22:10:16",
+  "base_product": {
+    "name": "item-industrietechnik-gmbh-back-stop-insert-esd",
+    "id": "30-12112020-085899",
+    "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-back-stop-insert-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-085899"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "0.0.675.98",
+      "url": "https://www.traceparts.cn/en/product/item-industrietechnik-gmbh-back-stop-insert-esd?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=30-12112020-085899&PartNumber=0.0.675.98",
+      "parameters": {
+        "Part Number": "0.0.675.98",
+        "Description": "Back Stop Insert ESD, Delivery unit: 1 pce."
+      }
+    }
+  ]
+}

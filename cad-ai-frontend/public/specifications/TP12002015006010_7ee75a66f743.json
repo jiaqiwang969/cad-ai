@@ -1,0 +1,52 @@
+{
+  "extraction_time": "2025-06-07 22:10:24",
+  "base_product": {
+    "name": "danese-milano-bincan-portaombrelli",
+    "id": "90-22072021-031019",
+    "url": "https://www.traceparts.cn/en/product/danese-milano-bincan-portaombrelli?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-031019"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Color"
+  ],
+  "total_specifications": 4,
+  "specifications": [
+    {
+      "reference": "DX0050F09N",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-bincan-portaombrelli?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-031019&PartNumber=DX0050F09N",
+      "parameters": {
+        "Part Number": "DX0050F09N",
+        "Description": "black umbrella stand",
+        "Color": "black basket"
+      }
+    },
+    {
+      "reference": "DX0050F09B",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-bincan-portaombrelli?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-031019&PartNumber=DX0050F09B",
+      "parameters": {
+        "Part Number": "DX0050F09B",
+        "Description": "black umbrella stand",
+        "Color": "white basket"
+      }
+    },
+    {
+      "reference": "DX0050F10N",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-bincan-portaombrelli?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-031019&PartNumber=DX0050F10N",
+      "parameters": {
+        "Part Number": "DX0050F10N",
+        "Description": "white umbrella stand",
+        "Color": "black basket"
+      }
+    },
+    {
+      "reference": "DX0050F10B",
+      "url": "https://www.traceparts.cn/en/product/danese-milano-bincan-portaombrelli?CatalogPath=TRACEPARTS%3ATP12002015006010&Product=90-22072021-031019&PartNumber=DX0050F10B",
+      "parameters": {
+        "Part Number": "DX0050F10B",
+        "Description": "white umbrella stand",
+        "Color": "white basket"
+      }
+    }
+  ]
+}

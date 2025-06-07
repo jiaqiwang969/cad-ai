@@ -1,0 +1,33 @@
+{
+  "extraction_time": "2025-06-07 22:09:12",
+  "base_product": {
+    "name": "smeg-washing-machine-lbs147x",
+    "id": "90-28102022-039175",
+    "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbs147x?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039175"
+  },
+  "table_headers": [
+    "Part Number",
+    "Description",
+    "Electric Power (W)",
+    "Maximum AC Voltage (V)",
+    "Minimum AC Voltage (V)",
+    "Nominal Frequency Range (Hz)",
+    "Color"
+  ],
+  "total_specifications": 1,
+  "specifications": [
+    {
+      "reference": "LBS147X",
+      "url": "https://www.traceparts.cn/en/product/smeg-washing-machine-lbs147x?CatalogPath=TRACEPARTS%3ATP12002015002001&Product=90-28102022-039175&PartNumber=LBS147X",
+      "parameters": {
+        "Part Number": "LBS147X",
+        "Description": "Washing Machine : LBS147X",
+        "Electric Power (W)": "2000",
+        "Maximum AC Voltage (V)": "240",
+        "Minimum AC Voltage (V)": "220",
+        "Nominal Frequency Range (Hz)": "50",
+        "Color": "Finger friendly stainless steel"
+      }
+    }
+  ]
+}

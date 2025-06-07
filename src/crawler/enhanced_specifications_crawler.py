@@ -173,13 +173,15 @@ class EnhancedSpecificationsCrawler:
             else:
                 self.logger.warning(f"❌ 规格提取失败: {task.url} -> 0 规格")
             
+            # 直接返回adaptive_parser提取的规格数据（已经是test-09-1兼容格式）
             return {
                 'product_url': task.url,
-                'specifications': specifications,
+                'specifications': specifications,  # 直接使用adaptive_parser的结果
                 'count': len(specifications),
                 'success': success,
                 'vendor': task.vendor,
-                'page_type': self.adaptive_parser.detect_page_type(task.url, driver)
+                'page_type': self.adaptive_parser.detect_page_type(task.url, driver),
+                'extraction_method': 'enhanced_adaptive'
             }
             
         except Exception as e:
@@ -194,18 +196,82 @@ class EnhancedSpecificationsCrawler:
             }
     
     def extract_specifications(self, product_url: str) -> Dict[str, Any]:
-        """单产品提取接口 - 向后兼容"""
-        results = self.extract_batch_specifications([product_url])
-        
-        if results['results']:
-            return results['results'][0]
-        else:
+        """单产品提取接口 - 直接同步处理，避免双层并发冲突"""
+        try:
+            self.logger.debug(f"🔍 开始处理单个产品: {product_url}")
+            
+            # 检测供应商
+            vendor = self.anti_detection.detect_vendor_from_url(product_url)
+            
+            # 应用请求限流（同步版本）
+            self.anti_detection.apply_request_throttling(vendor)
+            
+            # 创建临时driver（简单同步模式）
+            from selenium.webdriver.chrome.options import Options
+            options = Options()
+            options.add_argument('--headless')
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            options.add_argument('--disable-gpu')
+            options.add_argument('--window-size=1920,1080')
+            options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+            
+            driver = webdriver.Chrome(options=options)
+            
+            try:
+                # 访问页面
+                driver.get(product_url)
+                
+                # 创建临时waiter
+                waiter = SmartWaiter(driver, self.logger)
+                
+                # 智能等待页面就绪
+                page_ready = waiter.wait_for_page_ready(vendor)
+                if not page_ready:
+                    self.logger.warning(f"⚠️ 页面未就绪: {product_url}")
+                
+                # 模拟人类行为
+                self.anti_detection.simulate_human_behavior(driver)
+                
+                # 等待规格数据
+                specs_ready = waiter.adaptive_wait_for_specs(vendor)
+                if not specs_ready:
+                    self.logger.warning(f"⚠️ 规格数据未就绪: {product_url}")
+                
+                # 使用自适应解析器提取规格（test-09-1逻辑）
+                specifications = self.adaptive_parser.parse_specifications(driver, product_url)
+                
+                # 记录结果
+                success = len(specifications) > 0
+                
+                if success:
+                    self.logger.debug(f"✅ 规格提取成功: {product_url} -> {len(specifications)} 规格")
+                else:
+                    self.logger.debug(f"❌ 规格提取失败: {product_url} -> 0 规格")
+                
+                # 返回与test-09-1兼容的格式
+                return {
+                    'product_url': product_url,
+                    'specifications': specifications,  # AdaptiveSpecsParser已返回test-09-1格式
+                    'count': len(specifications),
+                    'success': success,
+                    'vendor': vendor,
+                    'page_type': self.adaptive_parser.detect_page_type(product_url, driver),
+                    'extraction_method': 'enhanced_adaptive_sync'
+                }
+                
+            finally:
+                driver.quit()
+                
+        except Exception as e:
+            self.logger.error(f"❌ 单产品处理异常: {product_url} - {e}")
             return {
                 'product_url': product_url,
                 'specifications': [],
                 'count': 0,
                 'success': False,
-                'error': 'No results returned'
+                'error': str(e),
+                'vendor': self.anti_detection.detect_vendor_from_url(product_url)
             }
     
     def get_performance_summary(self) -> Dict[str, Any]:

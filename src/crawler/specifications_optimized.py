@@ -802,71 +802,9 @@ class OptimizedSpecificationsCrawler:
             # 等待页面稳定
             time.sleep(self.page_load_wait)
             
-            # 弹窗处理（同test/09-1）
-            current_domain = driver.current_url.split('/')[2]
-            if current_domain not in self._popup_handled_domains:
-                self.logger.debug("检测并处理许可协议弹窗...")
-                
-                # 查找弹窗
-                popup_selectors = [
-                    "//*[contains(@class, 'modal')]",
-                    "//*[contains(@class, 'popup')]",
-                    "//*[contains(@class, 'dialog')]",
-                    "//*[contains(@class, 'overlay')]"
-                ]
-                
-                popup_found = False
-                for selector in popup_selectors:
-                    try:
-                        elements = driver.find_elements(By.XPATH, selector)
-                        for elem in elements:
-                            if elem.is_displayed():
-                                popup_found = True
-                                break
-                        if popup_found:
-                            break
-                    except:
-                        continue
-                
-                if popup_found:
-                    # 简化的确认按钮文本列表
-                    confirm_texts = [
-                        'i understand and accept',
-                        'accept', 'agree', 'continue', 'ok'
-                    ]
-                    
-                    confirm_clicked = False
-                    for text in confirm_texts:
-                        if confirm_clicked:
-                            break
-                        
-                        button_selectors = [
-                            f"//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{text}')]",
-                            f"//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{text}')]"
-                        ]
-                        
-                        for selector in button_selectors:
-                            try:
-                                buttons = driver.find_elements(By.XPATH, selector)
-                                for button in buttons:
-                                    if button.is_displayed() and button.is_enabled():
-                                        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                        time.sleep(self.action_wait)
-                                        button.click()
-                                        confirm_clicked = True
-                                        self._popup_handled_domains.add(current_domain)
-                                        
-                                        # 动态等待弹窗消失
-                                        try:
-                                            WebDriverWait(driver, 3).until(
-                                                lambda d: not button.is_displayed()
-                                            )
-                                        except:
-                                            time.sleep(self.action_wait)
-                                        
-                                        break
-                            except:
-                                continue
+            # 🔧 FIX: 跳过弹窗处理，直接进行数据提取（性能优化）
+            # 经测试，弹窗处理可能导致卡顿，且在很多情况下不是必需的
+            self.logger.debug("⚡ 跳过弹窗处理，直接进行数据提取（性能优化）")
             
             # 滚动页面
             self._scroll_page_fully(driver)
@@ -1197,7 +1135,8 @@ class OptimizedSpecificationsCrawler:
             self.logger.debug(f"[POOL] get {product_url}")
             driver.get(product_url)
             time.sleep(2)
-            self._close_disclaimer_popup(driver)
+            # 🔧 FIX: 跳过弹窗处理（性能优化）
+            # self._close_disclaimer_popup(driver)
             self._set_items_per_page_to_all(driver)
             self._scroll_page_fully(driver)
             return self._extract_all_specifications(driver)

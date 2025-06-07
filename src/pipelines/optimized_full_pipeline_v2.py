@@ -141,24 +141,82 @@ class OptimizedFullPipelineV2:
         self.stats['total_specifications'] = metadata.get('total_specifications', 0)
     
     def _save_results(self, data: Dict, output_file: str):
-        """保存结果到指定文件"""
+        """保存结果到指定文件 - 直接调用cache_manager的test-09-1格式生成方法"""
         output_path = Path(output_file)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
-        # 添加导出元数据
-        export_data = data.copy()
-        export_data['export_metadata'] = {
-            'exported_at': datetime.now().isoformat(),
-            'export_file': str(output_path),
-            'pipeline_version': '4.0-cache-manager'
-        }
+        # 🎯 直接调用我们已经修改好的generate_test_09_1_format_outputs方法
+        self.logger.info(f"📋 使用CacheManager生成test-09-1标准格式...")
         
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(export_data, f, ensure_ascii=False, indent=2)
+        try:
+            # 调用cache_manager的方法生成标准格式JSON
+            json_results = self.cache_manager.generate_test_09_1_format_outputs(
+                data,
+                save_to_file=False,  # 我们自己保存文件
+                output_dir=None
+            )
+            
+            if not json_results:
+                self.logger.error("❌ CacheManager生成test-09-1格式失败")
+                return
+            
+            # 🎯 保存JSON文件
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(json_results, f, indent=2, ensure_ascii=False)
+            
+            # 🎯 输出摘要
+            self.logger.info(f"💾 简化结果已保存到: {output_path.absolute()}")
+            
+            # 使用JSON结果中的数据输出摘要
+            self._print_test_09_1_summary_from_json(json_results)
+            
+            self.logger.info(f"💾 文件路径: {output_path.absolute()}")
+            
+        except Exception as e:
+            self.logger.error(f"❌ 调用CacheManager生成test-09-1格式时出错: {e}", exc_info=True)
+            # 如果出错，回退到简单格式
+            simple_fallback = {
+                'extraction_time': time.strftime('%Y-%m-%d %H:%M:%S'),
+                'error': f'Failed to generate test-09-1 format: {str(e)}',
+                'fallback_data': data.get('metadata', {})
+            }
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(simple_fallback, f, indent=2, ensure_ascii=False)
+            self.logger.info(f"💾 错误回退数据已保存到: {output_path.absolute()}")
+    
+    def _print_test_09_1_summary_from_json(self, json_results: Dict):
+        """从JSON结果输出摘要（严格按照test-09-1格式）"""
+        if not json_results or not json_results.get('specifications'):
+            self.logger.info("📋 无规格数据可显示")
+            return
         
-        file_size_mb = output_path.stat().st_size / 1024 / 1024
-        self.logger.info(f"\n📄 结果已导出到: {output_path}")
-        self.logger.info(f"   文件大小: {file_size_mb:.1f} MB")
+        specifications = json_results['specifications']
+        base_product = json_results.get('base_product', {})
+        table_headers = json_results.get('table_headers', [])
+        
+        # 模拟test-09-1的详细输出
+        self.logger.info("\n" + "="*80)
+        self.logger.info("📋 提取结果摘要")
+        self.logger.info("="*80)
+        self.logger.info(f"基础产品: {base_product.get('name', 'unknown')}")
+        self.logger.info(f"产品ID: {base_product.get('id', 'unknown')}")
+        self.logger.info(f"表格表头: {table_headers}")
+        self.logger.info(f"找到规格数量: {len(specifications)}")
+        self.logger.info("\n🔗 规格列表:")
+        
+        # 显示前5个规格
+        for i, spec_data in enumerate(specifications[:5], 1):
+            self.logger.info(f"{i:2d}. {spec_data.get('reference', 'unknown')}")
+            parameters = spec_data.get('parameters', {})
+            for param_name, param_value in parameters.items():
+                self.logger.info(f"     {param_name}: {param_value}")
+        
+        if len(specifications) > 5:
+            remaining = len(specifications) - 5
+            self.logger.info(f"... 还有 {remaining} 个规格")
+        
+        self.logger.info("="*80)
+
     
     def _print_summary(self):
         """打印汇总信息"""

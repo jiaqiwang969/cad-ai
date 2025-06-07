@@ -27,7 +27,8 @@ import sys
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from src.crawler.classification_enhanced import EnhancedClassificationCrawler
-from src.crawler.ultimate_products_v2 import UltimateProductLinksCrawlerV2 as UltimateProductLinksCrawler
+from src.crawler.ultimate_products import UltimateProductLinksCrawler
+from src.crawler.specifications_optimized import OptimizedSpecificationsCrawler
 from src.utils.thread_safe_logger import ThreadSafeLogger, ProgressTracker
 
 
@@ -109,14 +110,12 @@ def _crawl_single_leaf_product_worker(args: dict) -> dict:
             if target_count > 0:
                 print(f"📊 [进程] 抓取完成度: {progress_info['progress_percentage']}% ({progress_info['extracted_count']}/{target_count})")
         
-        # 🔧 FIX: 确保所有URL都是绝对URL
-        absolute_products = [link if link.startswith("http") else f"https://www.traceparts.cn{link}" for link in products]
-        result['products'] = absolute_products
+        result['products'] = products
         
         # 保存缓存
         cache_dir.mkdir(parents=True, exist_ok=True)
         with open(cache_file, 'w', encoding='utf-8') as f:
-            json.dump(absolute_products, f, ensure_ascii=False, indent=2)
+            json.dump(products, f, ensure_ascii=False, indent=2)
         
         print(f"✅ [进程] 完成: {leaf_code} ({len(products)} 个产品)")
         
@@ -197,9 +196,7 @@ class CacheManager:
         # 使用新的v2版本，集成test-08的所有优化策略
         from ..crawler.ultimate_products_v2 import UltimateProductLinksCrawlerV2
         self.products_crawler = UltimateProductLinksCrawlerV2(headless=True)  # 使用无头模式
-        # 🎯 使用集成test-09-1逻辑的EnhancedSpecificationsCrawler
-        from ..crawler.enhanced_specifications_crawler import EnhancedSpecificationsCrawler
-        self.specifications_crawler = EnhancedSpecificationsCrawler(max_workers=max_workers, log_level=logging.INFO)
+        self.specifications_crawler = OptimizedSpecificationsCrawler(log_level=logging.INFO)
         
         # 缓存有效期（小时）
         self.cache_ttl = {
@@ -377,258 +374,8 @@ class CacheManager:
             # 清理旧版本文件（保留最近5个版本）
             self._cleanup_old_versions(level)
             
-            # 🎯 新增：如果是SPECIFICATIONS级别，生成test-09-1格式的输出
-            if level == CacheLevel.SPECIFICATIONS:
-                try:
-                    self.generate_test_09_1_format_outputs(data)
-                except Exception as e:
-                    self.logger.warning(f"⚠️ 生成test-09-1格式输出失败: {e}")
-            
         except Exception as e:
             self.logger.error(f"保存缓存失败: {e}")
-    
-    def generate_test_09_1_format_outputs(self, data: Dict):
-        """
-        生成test-09-1格式的输出文件
-        为每个产品生成单独的JSON文件，符合test-09-1的标准格式
-        """
-        self.logger.info("\n" + "="*60)
-        self.logger.info("📄 生成test-09-1格式输出文件")
-        self.logger.info("="*60)
-        
-        # 创建test-09-1格式输出目录
-        test_09_1_dir = self.cache_dir / 'test_09_1_format'
-        test_09_1_dir.mkdir(parents=True, exist_ok=True)
-        
-        # 统计信息
-        total_products = 0
-        successful_outputs = 0
-        failed_outputs = 0
-        
-        for leaf in data.get('leaves', []):
-            leaf_code = leaf.get('code', 'unknown')
-            leaf_name = leaf.get('name', 'Unknown Category')
-            
-            for product in leaf.get('products', []):
-                if not isinstance(product, dict):
-                    continue
-                
-                total_products += 1
-                product_url = product.get('product_url', '')
-                specifications = product.get('specifications', [])
-                
-                if not specifications:
-                    failed_outputs += 1
-                    continue
-                
-                try:
-                    # 提取基础产品信息（复制test-09-1逻辑）
-                    base_product_info = self._extract_base_product_info_for_output(product_url)
-                    
-                    # 🎯 1. 查找横向表格的表头 (复制test-09-1逻辑)
-                    table_headers = []
-                    horizontal_table = None
-                    
-                    # 从规格数据中查找表格信息
-                    for spec in specifications:
-                        if spec.get('table_type') == 'horizontal' and spec.get('headers'):
-                            table_headers = [h for h in spec['headers'] if h.strip()]  # 去掉空列名
-                            horizontal_table = spec
-                            break
-                    
-                    # 如果没找到，从任何规格中获取headers
-                    if not table_headers:
-                        for spec in specifications:
-                            headers = spec.get('headers', [])
-                            if headers:
-                                table_headers = [h for h in headers if h.strip()]
-                                break
-                    
-                    # 🎯 2. 构建test-09-1标准格式的JSON (完全复制test-09-1逻辑)
-                    test_09_1_output = {
-                        'extraction_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),  # 与test-09-1时间格式一致
-                        'base_product': {
-                            'name': base_product_info['base_product_name'],
-                            'id': base_product_info['product_id'],
-                            'url': product_url
-                        },
-                        'table_headers': table_headers,              # 横向表格表头
-                        'total_specifications': len(specifications), # 规格总数
-                        'specifications': []                         # 处理后的规格数组
-                    }
-                    
-                    # 🎯 3. 构建简化的规格列表 (完全复制test-09-1逻辑)
-                    for i, spec in enumerate(specifications):
-                        # 生成规格URL（复制test-09-1逻辑）
-                        spec_urls = self._generate_specification_urls_for_output(
-                            base_product_info, spec.get('reference', '')
-                        )
-                        
-                        # 🔧 完全按照test-09-1标准格式，只保留3个核心字段
-                        spec_data = {
-                            'reference': spec.get('reference', ''),
-                            'url': spec_urls[0] if spec_urls else product_url,
-                            'parameters': {}
-                        }
-                        
-                        # 4. 从原始表格数据中提取参数 (复制test-09-1逻辑)
-                        if horizontal_table and spec.get('all_cells'):
-                            all_cells = spec['all_cells']
-                            headers = horizontal_table.get('headers', table_headers)
-                            
-                            # 将单元格数据映射到表头
-                            for j, header in enumerate(headers):
-                                if header.strip() and j < len(all_cells):
-                                    # 🔧 跳过各种语言的产品编号列名 (复制test-09-1逻辑)
-                                    header_lower = header.lower()
-                                    reference_keywords = ['part number', 'référence', 'reference', 'teil nr', 'numero parte']
-                                    
-                                    if not any(keyword in header_lower for keyword in reference_keywords):
-                                        cell_value = all_cells[j].strip()
-                                        if cell_value:  # 只保存非空值
-                                            spec_data['parameters'][header] = cell_value
-                        
-                        # 如果没有all_cells，直接使用现有的parameters
-                        elif not spec_data['parameters'] and spec.get('parameters'):
-                            spec_data['parameters'] = spec.get('parameters', {})
-                        
-                        test_09_1_output['specifications'].append(spec_data)
-                    
-                    # 生成文件名（使用产品ID和hash）
-                    import hashlib
-                    url_hash = hashlib.md5(product_url.encode()).hexdigest()[:12]
-                    filename = f"{base_product_info['product_id']}_{url_hash}.json"
-                    
-                    # 保存文件
-                    output_file = test_09_1_dir / filename
-                    with open(output_file, 'w', encoding='utf-8') as f:
-                        json.dump(test_09_1_output, f, ensure_ascii=False, indent=2)
-                    
-                    successful_outputs += 1
-                    
-                    if total_products <= 5:  # 只显示前几个产品的详细信息
-                        self.logger.debug(f"✅ 生成test-09-1标准格式: {filename} ({len(specifications)} specs)")
-                    
-                    # 🎯 验证格式完全符合test-09-1标准
-                    if test_09_1_output['specifications']:
-                        sample_spec = test_09_1_output['specifications'][0]
-                        expected_keys = {'reference', 'url', 'parameters'}
-                        actual_keys = set(sample_spec.keys())
-                        if actual_keys == expected_keys:
-                            if total_products <= 3:
-                                self.logger.debug(f"🎯 格式验证通过: 完全符合test-09-1标准 (字段: {sorted(actual_keys)})")
-                        else:
-                            extra_keys = actual_keys - expected_keys
-                            missing_keys = expected_keys - actual_keys
-                            self.logger.warning(f"⚠️ 格式不符: 额外字段{extra_keys}, 缺少字段{missing_keys}")
-                    
-                    # 验证必需的顶级字段
-                    required_top_keys = {'extraction_time', 'base_product', 'table_headers', 'total_specifications', 'specifications'}
-                    actual_top_keys = set(test_09_1_output.keys())
-                    if actual_top_keys == required_top_keys:
-                        if total_products <= 2:
-                            self.logger.debug(f"🎯 顶级格式验证通过: {sorted(actual_top_keys)}")
-                    else:
-                        top_extra = actual_top_keys - required_top_keys
-                        top_missing = required_top_keys - actual_top_keys
-                        self.logger.warning(f"⚠️ 顶级格式不符: 额外{top_extra}, 缺少{top_missing}")
-                    
-                except Exception as e:
-                    self.logger.warning(f"❌ 生成test-09-1格式失败: {product_url} - {e}")
-                    failed_outputs += 1
-        
-        # 生成汇总信息文件
-        summary_file = test_09_1_dir / 'summary.json'
-        summary_data = {
-            'generated': datetime.now().isoformat(),
-            'format': 'test-09-1-standard',  # 🎯 标注为完全标准格式
-            'version': data.get('metadata', {}).get('version', 'unknown'),
-            'format_specification': {
-                'standard': 'test-09-1',
-                'required_top_fields': ['extraction_time', 'base_product', 'table_headers', 'total_specifications', 'specifications'],
-                'required_spec_fields': ['reference', 'url', 'parameters'],
-                'time_format': '%Y-%m-%d %H:%M:%S'
-            },
-            'statistics': {
-                'total_products_processed': total_products,
-                'successful_outputs': successful_outputs,
-                'failed_outputs': failed_outputs,
-                'success_rate': successful_outputs / total_products if total_products > 0 else 0,
-                'output_directory': str(test_09_1_dir)
-            },
-            'file_naming_convention': '{product_id}_{url_hash}.json',
-            'description': 'Each JSON file contains specifications for a single product in test-09-1 STANDARD format (complete replication)'
-        }
-        
-        with open(summary_file, 'w', encoding='utf-8') as f:
-            json.dump(summary_data, f, ensure_ascii=False, indent=2)
-        
-        self.logger.info(f"📄 test-09-1标准格式输出完成:")
-        self.logger.info(f"   • 格式标准: test-09-1 STANDARD (完全复制)")
-        self.logger.info(f"   • 处理产品: {total_products} 个")
-        self.logger.info(f"   • 成功输出: {successful_outputs} 个")
-        self.logger.info(f"   • 失败产品: {failed_outputs} 个")
-        if total_products > 0:
-            self.logger.info(f"   • 成功率: {successful_outputs/total_products*100:.1f}%")
-        self.logger.info(f"   • 输出目录: {test_09_1_dir}")
-        self.logger.info(f"   • 汇总文件: {summary_file}")
-        self.logger.info(f"   🎯 格式验证: 只保留3个核心字段 (reference, url, parameters)")
-    
-    def _extract_base_product_info_for_output(self, product_url: str) -> Dict[str, Any]:
-        """为输出提取基础产品信息 - 复制test-09-1逻辑"""
-        try:
-            from urllib.parse import urlparse, parse_qs
-            
-            parsed_url = urlparse(product_url)
-            path_parts = parsed_url.path.split('/')
-            query_params = parse_qs(parsed_url.query)
-            
-            # 提取产品名称（URL路径最后一部分）
-            base_product_name = path_parts[-1] if path_parts else 'unknown-product'
-            
-            # 提取产品ID（查询参数中的Product字段）
-            product_id = query_params.get('Product', ['unknown-id'])[0]
-            
-            return {
-                'base_product_name': base_product_name,
-                'product_id': product_id,
-                'query_params': query_params
-            }
-            
-        except Exception as e:
-            self.logger.debug(f"基础产品信息提取失败: {e}")
-            return {
-                'base_product_name': 'unknown-product',
-                'product_id': 'unknown-id',
-                'query_params': {}
-            }
-    
-    def _generate_specification_urls_for_output(self, base_product_info: Dict[str, Any], part_number: str) -> List[str]:
-        """为输出生成规格URL - 复制test-09-1逻辑"""
-        try:
-            from urllib.parse import urlencode
-            
-            if not part_number or part_number == 'unknown':
-                return []
-            
-            # 构建查询参数
-            query_params = base_product_info.get('query_params', {}).copy()
-            
-            # 添加PartNumber参数
-            query_params['PartNumber'] = [part_number]
-            
-            # 基础URL
-            base_url = f"https://www.traceparts.cn/en/product/{base_product_info['base_product_name']}"
-            
-            # 构建完整的查询字符串
-            query_string = urlencode(query_params, doseq=True)
-            full_url = f"{base_url}?{query_string}"
-            
-            return [full_url]
-            
-        except Exception as e:
-            self.logger.debug(f"URL生成失败: {e}")
-            return []
     
     def _cleanup_old_versions(self, level: CacheLevel, keep_versions: int = 5):
         """清理旧版本的缓存文件，只保留最近的几个版本"""
@@ -1016,8 +763,8 @@ class CacheManager:
             estimated_time_saved = total_skipped * 15 / 60  # 假设每个产品15秒，转换为分钟
             self.logger.info(f"⚡ 智能跳过节省预估时间: {estimated_time_saved:.1f} 分钟")
         
-        # 🎯 恢复原版线程池处理架构，但使用新的test-09-1解析器
-        self.logger.info(f"开始并行提取产品规格 (集成test-09-1逻辑，线程数: {min(len(all_products), self.max_workers)})")
+        # 恢复原版线程池处理，但保持实时写入优化
+        self.logger.info(f"开始并行提取产品规格 (线程数: {min(len(all_products), self.max_workers)})")
         
         # 处理结果
         product_specs = {}
@@ -1025,7 +772,7 @@ class CacheManager:
         total_specs = 0
         processed_count = 0
         
-        # 恢复线程池处理，但调用新的单个产品接口（确保test-09-1逻辑）
+        # 使用线程池并行处理，但实时处理结果
         with ThreadPoolExecutor(max_workers=min(len(all_products), self.max_workers)) as executor:
             # 提交所有任务
             future_to_product = {
@@ -1053,19 +800,25 @@ class CacheManager:
                 # 以下是原有的处理逻辑，但现在是实时执行
                 specs = result.get('specifications', [])
                 
+                # 调试：打印原始数据结构
+                if specs and len(specs) > 0:
+                    self.logger.debug(f"📊 规格数据样例: {specs[0] if isinstance(specs[0], dict) else specs[:3]}")
+                
                 # 新增: 详细日志，记录每个产品的规格提取结果
                 retry_info = ""
                 if isinstance(product_info, dict) and product_info.get('is_retry'):
                     retry_info = f" (重试{product_info.get('previous_tries', 0)}次)"
                 
-                # 只为前50个产品显示详细日志，避免日志噪音
-                if processed_count < 50:
-                    self.logger.info(
-                        f"🔍 规格提取结果 | {'✅ 成功' if specs else '⚠️ 无规格' if result.get('success') else '❌ 失败'} | "
-                        f"specs={len(specs)}{retry_info} | url={product_url}"
-                    )
-                
+                self.logger.info(
+                    f"🔍 规格提取结果 | {'✅ 成功' if specs else '⚠️ 无规格' if result.get('success') else '❌ 失败'} | "
+                    f"specs={len(specs)}{retry_info} | url={product_url}"
+                )
                 product_specs[product_url] = specs
+                
+                # 调试：如果找不到 product_info
+                if not product_info:
+                    self.logger.warning(f"⚠️ 找不到产品信息: {product_url}")
+                    self.logger.debug(f"   all_products 样本: {all_products[:2] if all_products else 'empty'}")
                 
                 if result.get('success', False):
                     success_count += 1
@@ -1085,11 +838,9 @@ class CacheManager:
                         if product_url in failed_db:
                             prev_tries = failed_db[product_url].get('tries', 0)
                             self._remove_from_failed_specs(product_url)
-                            if processed_count < 50:  # 只为前50个显示修复日志
-                                self.logger.info(f"🎉 成功修复！已从失败记录中清理: {product_url} (之前失败 {prev_tries} 次)")
+                            self.logger.info(f"🎉 成功修复！已从失败记录中清理: {product_url} (之前失败 {prev_tries} 次)")
                         else:
-                            if processed_count < 50:
-                                self.logger.debug(f"✅ 新产品成功提取规格: {len(specs)} 个")
+                            self.logger.debug(f"✅ 新产品成功提取规格: {len(specs)} 个")
                 else:
                     prev_tries = failed_db.get(product_url,{}).get('tries',0)
                     new_tries = prev_tries + 1
@@ -1102,14 +853,14 @@ class CacheManager:
                     }
                     
                     if product_url in failed_db:
-                        if processed_count < 50:  # 只为前50个显示详细失败日志
-                            self.logger.warning(f"⚠️ 重试仍失败: {product_url} (第 {new_tries} 次失败, 原因: {rec['reason']})")
+                        self.logger.warning(f"⚠️ 重试仍失败: {product_url} (第 {new_tries} 次失败, 原因: {rec['reason']})")
                     else:
-                        if processed_count < 50:
-                            self.logger.warning(f"❌ 新增失败记录: {product_url} (原因: {rec['reason']})")
+                        self.logger.warning(f"❌ 新增失败记录: {product_url} (原因: {rec['reason']})")
                     
                     self._append_failed_spec(rec)
                 
+                # END of failure branch
+
                 # === 按产品立即写入规格缓存文件（成功或失败均尝试，避免遗漏） ===
                 try:
                     import hashlib, json as _json
@@ -1118,7 +869,8 @@ class CacheManager:
                     leaf_code_tmp = 'unknown'
                     if product_info and isinstance(product_info, dict):
                         leaf_code_tmp = product_info.get('leaf_code', 'unknown')
-                    
+                    # 调试：确保我们知道 leaf_code    
+                    self.logger.debug(f"📍 产品 {product_url[:50]}... -> leaf_code={leaf_code_tmp}")
                     url_hash_tmp = hashlib.md5(product_url.encode()).hexdigest()[:12]
                     base_name = f"{leaf_code_tmp}_{url_hash_tmp}"
                     
@@ -1127,42 +879,129 @@ class CacheManager:
                         # 确保目录存在
                         self.specs_cache_dir.mkdir(parents=True, exist_ok=True)
                         
-                        # 🎯 构建 test-09-1 标准完整 JSON 并写入缓存
-                        product_output_json = self._build_single_test_09_1_output(product_url, specs)
-                        if not product_output_json:
-                            if processed_count < 50:
-                                self.logger.warning(f"⚠️ 生成单品 test-09-1 JSON 失败，使用精简备份写入: {product_url}")
-                            # 生成失败时回退到旧逻辑，仅写简化 specs list
-                            simplified_backup = [{
-                                'reference': s.get('reference',''),
-                                'url': '',
-                                'parameters': {}
-                            } for s in specs]
-                            product_output_json = {
-                                'extraction_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                                'base_product': {'name':'unknown','id':'unknown','url':product_url},
-                                'table_headers': [],
-                                'total_specifications': len(simplified_backup),
-                                'specifications': simplified_backup
+                        # === 生成多格式输出文件（模仿test-09-1） ===
+                        
+                        # 1. 解析产品URL获取基础信息
+                        parsed_url = urlparse(product_url)
+                        query_params = parse_qs(parsed_url.query)
+                        product_name = parsed_url.path.split('/')[-1] if parsed_url.path else 'unknown'
+                        
+                        # 2. 构造完整JSON格式
+                        complete_data = {
+                            "extraction_info": {
+                                "timestamp": int(time.time()),
+                                "extraction_time": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                                "base_product_url": product_url,
+                                "total_specifications_found": len(specs),
+                                "leaf_code": leaf_code_tmp,
+                                "source": "pipeline-v2"
+                            },
+                            "base_product_info": {
+                                "base_url": f"{parsed_url.scheme}://{parsed_url.netloc}",
+                                "base_path": parsed_url.path,
+                                "base_product_name": product_name,
+                                "catalog_path": query_params.get('CatalogPath', [''])[0],
+                                "product_id": query_params.get('Product', [''])[0],
+                                "query_params": query_params
+                            },
+                            "product_specifications": specs,
+                            "summary": {
+                                "series_distribution": {},
+                                "specification_samples": []
                             }
+                        }
+                        
+                        # 3. 构造简化JSON格式
+                        simplified_data = {
+                            "extraction_time": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                            "total_count": len(specs),
+                            "leaf_code": leaf_code_tmp,
+                            "base_url": product_url,
+                            "specifications": []
+                        }
+                        
+                        # 4. 构造URL列表文本
+                        url_lines = [
+                            f"# 产品规格链接列表",
+                            f"# 基础产品: {product_url}",
+                            f"# 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+                            f"# 叶节点: {leaf_code_tmp}",
+                            f"# 找到 {len(specs)} 个规格",
+                            ""
+                        ]
+                        
+                        # 处理每个规格
+                        for i, spec in enumerate(specs, 1):
+                            if isinstance(spec, dict):
+                                ref = spec.get('reference', f'spec_{i}')
+                                dims = spec.get('dimensions', '')
+                                weight = spec.get('weight', '')
+                                
+                                # 更新摘要信息
+                                series = ref.split()[0] if ref else f'series_{i}'
+                                complete_data["summary"]["series_distribution"][series] = complete_data["summary"]["series_distribution"].get(series, 0) + 1
+                                
+                                if i <= 10:  # 只保留前10个样例
+                                    complete_data["summary"]["specification_samples"].append({
+                                        "index": i,
+                                        "reference": ref,
+                                        "dimensions": dims,
+                                        "weight": weight
+                                    })
+                                
+                                # 添加到简化格式
+                                simplified_data["specifications"].append({
+                                    "id": i,
+                                    "reference": ref,
+                                    "dimensions": dims,
+                                    "weight": weight,
+                                    "series": series
+                                })
+                                
+                                # 添加到URL列表
+                                url_lines.append(f"# {ref} ({dims})")
+                                url_lines.append(f"# Spec {i}: {ref}")
+                                url_lines.append("")
+                        
+                        # 写入三种格式的文件
+                        complete_path = self.specs_cache_dir / f"{base_name}_complete.json"
+                        simplified_path = self.specs_cache_dir / f"{base_name}_list.json"
+                        urls_path = self.specs_cache_dir / f"{base_name}_urls.txt"
+                        
+                        # 保存完整JSON
+                        with open(complete_path, 'w', encoding='utf-8') as f:
+                            _json.dump(complete_data, f, ensure_ascii=False, indent=2)
+                        
+                        # 保存简化JSON
+                        with open(simplified_path, 'w', encoding='utf-8') as f:
+                            _json.dump(simplified_data, f, ensure_ascii=False, indent=2)
+                        
+                        # 保存URL文本
+                        with open(urls_path, 'w', encoding='utf-8') as f:
+                            f.write('\n'.join(url_lines))
+                        
+                        # 同时保留原始格式（向后兼容）
                         cache_path_tmp = self.specs_cache_dir / f"{base_name}.json"
                         with open(cache_path_tmp, 'w', encoding='utf-8') as f:
-                            _json.dump(product_output_json, f, ensure_ascii=False, indent=2)
+                            _json.dump(specs, f, ensure_ascii=False, indent=2)
                         
-                        if processed_count < 50:
-                            self.logger.info(f"💾 写入规格缓存文件: {base_name} (test-09-1 JSON)")
+                        self.logger.info(f"💾 写入规格缓存文件: {base_name} ({len(specs)} specs, 4 formats)")
+                        self.logger.debug(f"   • 完整格式: {complete_path.name}")
+                        self.logger.debug(f"   • 简化格式: {simplified_path.name}")
+                        self.logger.debug(f"   • URL列表: {urls_path.name}")
+                        self.logger.debug(f"   • 原始格式: {cache_path_tmp.name}")
+                        
+                        # 验证文件是否真的写入
+                        for file_path in [complete_path, simplified_path, urls_path, cache_path_tmp]:
+                            if file_path.exists():
+                                file_size = file_path.stat().st_size
+                                self.logger.debug(f"✅ {file_path.name}: {file_size} bytes")
+                            else:
+                                self.logger.error(f"❌ 文件写入后不存在！{file_path}")
                     else:
-                        if processed_count < 50:
-                            self.logger.debug(f"⚠️ 跳过空规格: {product_url}")
+                        self.logger.debug(f"⚠️ 跳过空规格: {product_url}")
                 except Exception as _e:
-                    if processed_count < 50:
-                        self.logger.error(f"❌ 写入规格缓存文件失败: {_e}")
-                
-                processed_count += 1
-                
-                # 每1000个产品显示一次进度
-                if processed_count % 1000 == 0:
-                    self.logger.info(f"📊 进度报告: {processed_count}/{len(all_products)} 产品, {success_count} 成功, {total_specs} 总规格")
+                    self.logger.error(f"❌ 写入规格缓存文件失败: {_e}", exc_info=True)
         
         # 更新数据结构
         self._update_tree_with_specifications(data, product_specs)
@@ -1390,7 +1229,39 @@ class CacheManager:
             
             return []
     
-
+    def _crawl_specs_for_product(self, product: Any) -> List[Dict]:
+        """为产品爬取规格（带缓存）"""
+        if isinstance(product, dict):
+            product_url = product['product_url']
+            leaf_code = product.get('leaf_code', 'unknown')
+        else:
+            product_url = product
+            leaf_code = 'unknown'
+        
+        # 生成缓存文件名（使用URL的hash）
+        import hashlib
+        url_hash = hashlib.md5(product_url.encode()).hexdigest()[:12]
+        cache_file = self.specs_cache_dir / f"{leaf_code}_{url_hash}.json"
+        
+        # 检查缓存
+        if cache_file.exists():
+            cache_age = time.time() - cache_file.stat().st_mtime
+            if cache_age < self.cache_ttl[CacheLevel.SPECIFICATIONS] * 3600:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    specs = json.load(f)
+                return specs
+        
+        # 爬取新数据
+        try:
+            result = self.specifications_crawler.extract_specifications(product_url)
+            specs = result.get('specifications', [])
+            # 保存缓存
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(specs, f, ensure_ascii=False, indent=2)
+            return specs
+        except Exception as e:
+            self.logger.error(f"规格爬取失败: {e}")
+            return []
     
     def _update_tree_with_products(self, data: Dict, leaf_products: Dict[str, List[str]]):
         """更新树结构，添加产品链接"""
@@ -1594,25 +1465,37 @@ class CacheManager:
             url_hash = hashlib.md5(product_url.encode()).hexdigest()[:12]
             base_name = f"{leaf_code}_{url_hash}"
             
-            # 检查原始缓存文件
-            cache_file = self.specs_cache_dir / f"{base_name}.json"
+            # 检查多种格式的缓存文件（优先检查新格式）
+            cache_files_to_check = [
+                self.specs_cache_dir / f"{base_name}_complete.json",  # 新格式：完整JSON
+                self.specs_cache_dir / f"{base_name}.json",           # 原始格式：兼容性
+            ]
             
-            if cache_file.exists():
-                file_size = cache_file.stat().st_size
-                if file_size > 10:  # 至少10字节，避免空文件
-                    # 快速验证是否为有效JSON
-                    try:
-                        with open(cache_file, 'r', encoding='utf-8') as f:
-                            data = json.load(f)
-                            
-                            # 检查是否有实际规格数据
-                            if isinstance(data, list) and len(data) > 0:
-                                self.logger.debug(f"✅ 找到缓存: {cache_file.name} ({len(data)} specs)")
-                                return True
-                    except:
-                        # 如果文件损坏，认为未缓存
-                        self.logger.debug(f"⚠️ 缓存文件损坏，将重新爬取: {cache_file}")
-                        pass
+            for cache_file in cache_files_to_check:
+                if cache_file.exists():
+                    file_size = cache_file.stat().st_size
+                    if file_size > 10:  # 至少10字节，避免空文件
+                        # 快速验证是否为有效JSON
+                        try:
+                            with open(cache_file, 'r', encoding='utf-8') as f:
+                                data = json.load(f)
+                                
+                                # 检查是否有实际规格数据
+                                if cache_file.name.endswith('_complete.json'):
+                                    # 新格式：检查 product_specifications 字段
+                                    specs = data.get('product_specifications', [])
+                                    if isinstance(specs, list) and len(specs) > 0:
+                                        self.logger.debug(f"✅ 找到新格式缓存: {cache_file.name} ({len(specs)} specs)")
+                                        return True
+                                else:
+                                    # 原始格式：直接检查数据
+                                    if isinstance(data, list) and len(data) > 0:
+                                        self.logger.debug(f"✅ 找到原格式缓存: {cache_file.name} ({len(data)} specs)")
+                                        return True
+                        except:
+                            # 如果文件损坏，认为未缓存
+                            self.logger.debug(f"⚠️ 缓存文件损坏，将重新爬取: {cache_file}")
+                            continue
             
             return False
             
@@ -1650,14 +1533,26 @@ class CacheManager:
             self.logger.warning(f"移除失败记录时出错: {e}")
     
     def _get_cached_specs_count(self) -> int:
-        """获取已缓存的规格文件数量"""
+        """获取已缓存的规格文件数量（按产品计算，不按文件格式）"""
         try:
             if not self.specs_cache_dir.exists():
                 return 0
             
-            # 统计原始格式的JSON文件
-            json_files = list(self.specs_cache_dir.glob("*.json"))
-            return len(json_files)
+            # 统计唯一的产品（通过base_name去重）
+            base_names = set()
+            
+            # 检查完整格式文件
+            for complete_file in self.specs_cache_dir.glob("*_complete.json"):
+                base_name = complete_file.name.replace('_complete.json', '')
+                base_names.add(base_name)
+            
+            # 检查原始格式文件（排除已有完整格式的）
+            for json_file in self.specs_cache_dir.glob("*.json"):
+                if not json_file.name.endswith(('_complete.json', '_list.json')):
+                    base_name = json_file.name.replace('.json', '')
+                    base_names.add(base_name)
+            
+            return len(base_names)
         except:
             return 0
     
@@ -2049,20 +1944,32 @@ class CacheManager:
             return False, 0
     
     def _parallel_verify_cache_files(self, failure_records: List[Dict]) -> List[Tuple[bool, int]]:
-        """串行验证多个缓存文件是否已修复（避免并发冲突）"""
+        """并行验证多个缓存文件是否已修复"""
         if not failure_records:
             return []
         
-        # 改为串行验证，避免ThreadPoolExecutor冲突
-        results = []
-        for record in failure_records:
-            try:
-                result = self._verify_single_cache_file(record)
-                results.append(result)
-            except Exception as e:
-                # 验证失败，当作仍然失败处理
-                self.logger.debug(f"验证缓存文件失败 {record['leaf_code']}: {e}")
-                results.append((False, 0))
+        # 使用线程池并行检查缓存文件（IO密集型任务，适合用线程）
+        max_workers = min(8, len(failure_records))  # 最多8个线程，避免过多IO竞争
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # 提交所有验证任务
+            future_to_record = {
+                executor.submit(self._verify_single_cache_file, record): record 
+                for record in failure_records
+            }
+            
+            # 收集结果，保持原始顺序
+            results = []
+            for record in failure_records:
+                # 找到对应的future
+                future = next(f for f, r in future_to_record.items() if r == record)
+                try:
+                    result = future.result(timeout=5)  # 5秒超时
+                    results.append(result)
+                except Exception as e:
+                    # 验证失败，当作仍然失败处理
+                    self.logger.debug(f"验证缓存文件失败 {record['leaf_code']}: {e}")
+                    results.append((False, 0))
         
         return results
 
@@ -2123,37 +2030,3 @@ class CacheManager:
                     self.logger.info("🔄 已恢复原始错误日志文件")
             except Exception as restore_e:
                 self.logger.error(f"❌ 恢复备份也失败: {restore_e}")
-
-    def _build_single_test_09_1_output(self, product_url: str, specifications: List[Dict]) -> Dict:
-        """基于单个产品规格列表构建 test-09-1 标准 JSON"""
-        try:
-            base_info = self._extract_base_product_info_for_output(product_url)
-            # 提取表头
-            table_headers = []
-            horizontal_spec = next((s for s in specifications if s.get('table_type') == 'horizontal' and s.get('headers')), None)
-            if horizontal_spec:
-                table_headers = [h for h in horizontal_spec.get('headers', []) if h and h.strip()]
-            # 构建简化规格
-            simplified_specs = []
-            for spec in specifications:
-                spec_data = {
-                    'reference': spec.get('reference', ''),
-                    'url': self._generate_specification_urls_for_output(base_info, spec.get('reference', ''))[0] if base_info else product_url,
-                    'parameters': spec.get('parameters', {}) if isinstance(spec.get('parameters'), dict) else {}
-                }
-                simplified_specs.append(spec_data)
-            output = {
-                'extraction_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                'base_product': {
-                    'name': base_info['base_product_name'],
-                    'id': base_info['product_id'],
-                    'url': product_url
-                },
-                'table_headers': table_headers,
-                'total_specifications': len(simplified_specs),
-                'specifications': simplified_specs
-            }
-            return output
-        except Exception as e:
-            self.logger.warning(f"_build_single_test_09_1_output failed: {e}")
-            return {}

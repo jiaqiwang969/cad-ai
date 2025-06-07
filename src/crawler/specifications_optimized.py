@@ -89,13 +89,8 @@ class OptimizedSpecificationsCrawler:
         options.add_argument('--disable-gpu')
         options.add_argument('--window-size=1920,1080')
         
-        # 随机化User-Agent
-        user_agents = [
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'
-        ]
-        options.add_argument(f'--user-agent={random.choice(user_agents)}')
+        # 使用test/09-1相同的user-agent以保持一致性
+        options.add_argument('--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
         
         options.add_argument('--disable-features=PaintHolding')  # 关闭首帧等待
         
@@ -114,8 +109,7 @@ class OptimizedSpecificationsCrawler:
         options.add_argument("--disable-extensions")
         
         driver = webdriver.Chrome(options=options)
-        driver.implicitly_wait(5)
-        driver.set_page_load_timeout(30)
+        driver.set_page_load_timeout(40)  # 使用test/09-1相同的超时时间
         
         # 通过 CDP 屏蔽额外的静态资源
         try:
@@ -133,14 +127,21 @@ class OptimizedSpecificationsCrawler:
         return driver
     
     def _scroll_page_fully(self, driver):
-        """完整滚动页面确保所有内容加载（更快）"""
-        self.logger.debug("滚动页面确保内容完全加载...")
-        for y in (driver.execute_script("return document.body.scrollHeight"), 0, driver.execute_script("return document.body.scrollHeight")//2):
-            driver.execute_script("window.scrollTo(0, arguments[0]);", y)
-            time.sleep(self.scroll_wait)
+        """完整滚动页面确保所有内容加载 - 来自test/09-1修复版本"""
+        self.logger.debug("🔄 滚动页面确保内容完全加载...")
+        
+        # 采用test/09-1的滚动策略
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(self.scroll_wait)  # 使用配置的等待时间而非固定值
+        
+        # 额外的滚动确保内容完全展示（简化版）
+        driver.execute_script("window.scrollTo(0, 0);")
+        time.sleep(self.scroll_wait * 0.5)
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
+        time.sleep(self.scroll_wait * 0.5)
     
     def _set_items_per_page_to_all(self, driver) -> bool:
-        """设置每页显示项目数为全部（基于 09-1 测试脚本）"""
+        """设置每页显示项目数为全部 - 来自test/09-1修复版本"""
         self.logger.debug("🔧 尝试设置每页显示项目数为全部...")
         
         # 首先检查是否存在分页控件
@@ -527,69 +528,6 @@ class OptimizedSpecificationsCrawler:
         self.logger.warning("❌ 所有策略都未能找到可用的分页控件")
         return False
     
-    def _is_likely_product_reference(self, text: str) -> bool:
-        """智能判断文本是否可能是产品编号（基于test-09-1）"""
-        if not text or len(text) < 3:
-            return False
-        
-        # 明显的排除项
-        exclude_patterns = [
-            r'^https?://',  # URL
-            r'^www\.',      # 网址
-            r'@',           # 邮箱
-            r'^\d{4}-\d{2}-\d{2}',  # 日期格式
-            r'^\+?\d{10,}$',  # 电话号码
-        ]
-        
-        for pattern in exclude_patterns:
-            if re.search(pattern, text, re.IGNORECASE):
-                return False
-        
-        # 排除纯描述性文本（全是常见英文单词）
-        common_words = [
-            'description', 'manufacturer', 'material', 'color', 'size',
-            'weight', 'length', 'width', 'height', 'diameter', 'thickness'
-        ]
-        
-        text_lower = text.lower()
-        if any(text_lower == word for word in common_words):
-                return False
-        
-        # 积极的指标：包含这些特征的更可能是产品编号
-        positive_indicators = 0
-        
-        # 1. 包含数字
-        if any(c.isdigit() for c in text):
-            positive_indicators += 2
-        
-        # 2. 包含连字符或下划线
-        if '-' in text or '_' in text:
-            positive_indicators += 1
-        
-        # 3. 包含大写字母（不是句子开头）
-        if any(c.isupper() for c in text[1:]):
-            positive_indicators += 1
-        
-        # 4. 长度适中（3-50个字符）
-        if 3 <= len(text) <= 50:
-            positive_indicators += 1
-        
-        # 5. 特殊格式模式
-        special_patterns = [
-            r'^\d+-\d+-\d+$',  # 5-14230-00
-            r'^[A-Z]+\d+',     # SLS50, DIN787
-            r'^\d+[A-Z]+',     # 14W, 230V
-            r'^[A-Z0-9]+[-_][A-Z0-9]+',  # QAAMC10A050S
-            r'^[A-Z]{2,}\d{2,}',  # DIN787, EN561
-        ]
-        
-        for pattern in special_patterns:
-            if re.match(pattern, text):
-                positive_indicators += 2
-                break
-        
-        # 如果积极指标足够多，认为是产品编号
-        return positive_indicators >= 3
     
     def _is_valid_product_reference(self, text: str) -> bool:
         """判断文本是否是有效的产品编号（完全复制测试脚本并扩展）"""
@@ -619,19 +557,17 @@ class OptimizedSpecificationsCrawler:
         return False
     
     def _extract_dimensions_from_cells(self, cells: List[str]) -> str:
-        """从单元格中提取尺寸信息（复制测试脚本）"""
+        """从单元格中提取尺寸信息 - 来自test/09-1精确版本"""
         for cell_text in cells:
-            if not isinstance(cell_text, str): continue # 确保是字符串
-            dimension_match = re.search(r'\b\d+([.,]\d+)?\s*[xX]\s*\d+([.,]\d+)?(\s*[xX]\s*\d+([.,]\d+)?)?\b', cell_text)
+            dimension_match = re.search(r'\d+x\d+x?\d*', cell_text)
             if dimension_match:
                 return dimension_match.group()
         return ''
     
     def _extract_weight_from_cells(self, cells: List[str]) -> str:
-        """从单元格中提取重量或长度信息（复制测试脚本）"""
+        """从单元格中提取重量或长度信息 - 来自test/09-1精确版本"""
         for cell_text in cells:
-            if not isinstance(cell_text, str): continue
-            measure_match = re.search(r'(\d+[,.]\d+|\d+)\s*(kg|g|lbs|oz|mm|cm|m|inch|feet|ft|in)\b', cell_text.lower())
+            measure_match = re.search(r'(\d+[,\.]\d+|\d+)\s*(mm|kg|m|cm)', cell_text.lower())
             if measure_match:
                 return measure_match.group()
         return ''
@@ -783,13 +719,14 @@ class OptimizedSpecificationsCrawler:
         return tables_info
 
     def _is_likely_product_reference_enhanced(self, text: str) -> bool:
-        """增强版产品编号判断 (采用test-09-1成功逻辑)"""
-        if not text or len(text) < 3: # 太短的文本不太可能是编号
+        """智能判断文本是否可能是产品编号 - 来自test/09-1修复版本"""
+        # 🔧 FIX: 放宽长度限制到2个字符，支持像'SD'这样的短产品编号
+        if not text or len(text) < 2:
             return False
         
         text = str(text) # 确保是字符串
-
-        # 明显的排除项 (简化版，与test-09-1保持一致)
+        
+        # 明显的排除项
         exclude_patterns = [
             r'^https?://',  # URL
             r'^www\.',      # 网址
@@ -800,21 +737,25 @@ class OptimizedSpecificationsCrawler:
         
         for pattern in exclude_patterns:
             if re.search(pattern, text, re.IGNORECASE):
-                self.logger.debug(f"'{text}' 被排除 (规则: {pattern})")
                 return False
         
-        # 排除纯描述性文本（与test-09-1保持一致的简化版本）
+        # 排除纯描述性文本（全是常见英文单词），但保留'N/A'等可能的产品编号
         common_words = [
             'description', 'manufacturer', 'material', 'color', 'size',
             'weight', 'length', 'width', 'height', 'diameter', 'thickness'
         ]
         
         text_lower = text.lower()
+        # 🔧 FIX: 保留 'N/A', 'TBD', 'TBA' 等可能是产品编号的值
+        special_codes = ['n/a', 'na', 'tbd', 'tba', 'pending', 'standard', 'default']
+        
+        if text_lower in special_codes:
+            return True  # 保留这些特殊编号
+        
         if any(text_lower == word for word in common_words):
-            self.logger.debug(f"'{text}' 被排除 (常见描述词)")
             return False
         
-        # 积极的指标：包含这些特征的更可能是产品编号 (与test-09-1保持一致)
+        # 积极的指标：包含这些特征的更可能是产品编号
         positive_indicators = 0
         
         # 1. 包含数字
@@ -829,28 +770,26 @@ class OptimizedSpecificationsCrawler:
         if any(c.isupper() for c in text[1:]):
             positive_indicators += 1
         
-        # 4. 长度适中（3-50个字符）
-        if 3 <= len(text) <= 50:
+        # 4. 长度适中（2-50个字符）
+        if 2 <= len(text) <= 50:
             positive_indicators += 1
         
-        # 5. 特殊格式模式 (与test-09-1保持一致)
+        # 5. 特殊格式模式
         special_patterns = [
             r'^\d+-\d+-\d+$',  # 5-14230-00
             r'^[A-Z]+\d+',     # SLS50, DIN787
             r'^\d+[A-Z]+',     # 14W, 230V
             r'^[A-Z0-9]+[-_][A-Z0-9]+',  # QAAMC10A050S
             r'^[A-Z]{2,}\d{2,}',  # DIN787, EN561
-            r'^USC\d+T\d+$',   # USC201T20, USC202T20等NTN产品编号
+            r'^USC\d+T\d+$',   # 🔧 NEW: USC201T20, USC202T20等NTN产品编号
         ]
         
         for pattern in special_patterns:
             if re.match(pattern, text):
                 positive_indicators += 2
-                self.logger.debug(f"'{text}' 匹配特殊格式模式: {pattern}")
                 break
 
-        self.logger.debug(f"'{text}' 的最终产品编号评分为: {positive_indicators}")
-        return positive_indicators >= 3  # 使用test-09-1的成功阈值
+        return positive_indicators >= 3
 
     def _extract_all_specifications(self, driver) -> List[Dict[str, Any]]:
         """提取所有产品规格——复刻 test/09-1 的完整逻辑"""
@@ -1172,189 +1111,84 @@ class OptimizedSpecificationsCrawler:
             self.logger.error(f"提取规格时发生异常: {e}")
             return specifications
 
-    def _close_disclaimer_popup(self, driver, timeout: int = 10) -> bool:
-        """检测并关闭免责声明/许可协议弹窗（基于 09-1 测试脚本）"""
+    def _close_disclaimer_popup(self, driver, timeout: int = 8) -> bool:
+        """关闭可能出现的免责声明弹窗 - 来自test/09-1修复版本"""
         # 检查域名是否已处理
         try:
             current_domain = driver.current_url.split('/')[2]
             if current_domain in self._popup_handled_domains:
-                self.logger.debug(f"[POPUP] 跳过已处理域名: {current_domain}")
                 return False
         except Exception:
             current_domain = None
         
-        self.logger.debug("[POPUP] 检测免责声明弹窗...")
-        
-        # 使用更短的超时时间
-        actual_timeout = self.popup_timeout
-        
-        # 🔧 查找可能的弹窗和确认按钮（基于 09-1）
-        popup_selectors = [
-            # 通用弹窗容器
-            "//*[contains(@class, 'modal')]",
-            "//*[contains(@class, 'popup')]", 
-            "//*[contains(@class, 'dialog')]",
-            "//*[contains(@class, 'overlay')]",
-            # 包含许可、条款、免责声明等文本的元素
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'disclaimer')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'liability')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'terms')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'license')]",
-            "//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'agree')]"
+        accept_keywords = [
+            'i understand and accept', 'i understand', 'accept', 'agree',
+            'continue', 'ok', 'yes', 'proceed',
+            '我理解并接受', '我理解', '接受', '同意', '确认', '继续'
         ]
         
-        popup_found = False
-        for selector in popup_selectors:
-            try:
-                elements = driver.find_elements(By.XPATH, selector)
-                for elem in elements:
-                    if elem.is_displayed():
-                        popup_text = elem.text.strip()[:100] + "..." if len(elem.text.strip()) > 100 else elem.text.strip()
-                        self.logger.debug(f"[POPUP] 发现弹窗元素: '{popup_text}'")
-                        popup_found = True
-                        break
-                if popup_found:
-                    break
-            except Exception:
-                continue
-        
-        if not popup_found:
-            self.logger.debug("[POPUP] 未检测到弹窗")
+        try:
+            WebDriverWait(driver, timeout).until(
+                lambda d: any(
+                    elem.is_displayed() and elem.size['width'] > 200 and elem.size['height'] > 100
+                    for elem in d.find_elements(By.XPATH, "//iframe | //div[contains(@class,'modal') or contains(@class,'popup') or contains(@class,'dialog')]")
+                )
+            )
+        except TimeoutException:
             if current_domain:
                 self._popup_handled_domains.add(current_domain)
             return False
         
-        self.logger.debug("[POPUP] 检测到弹窗，查找确认按钮...")
-        
-        # 查找确认按钮的多种可能文本（基于 09-1）
-        confirm_button_texts = [
-            # 英文
-            'i understand and accept',
-            'i understand', 
-            'accept',
-            'agree',
-            'continue', 
-            'ok'
-        ]
-        
-        confirm_clicked = False
-        
-        for button_text in confirm_button_texts:
-            if confirm_clicked:
-                break
-                
-            self.logger.debug(f"[POPUP] 搜索确认按钮: '{button_text}'")
-            
-            # 多种按钮选择器（基于 09-1）
-            button_selectors = [
-                f"//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//input[@type='button'][contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//input[@type='submit'][contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//*[@role='button'][contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}')]",
-                f"//div[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '{button_text}') and (@onclick or contains(@class, 'button') or contains(@class, 'btn'))]"
-            ]
-            
-            for selector in button_selectors:
-                try:
-                    buttons = driver.find_elements(By.XPATH, selector)
-                    for button in buttons:
-                        if button.is_displayed() and button.is_enabled():
-                            button_full_text = button.text.strip()
-                            self.logger.debug(f"[POPUP] 找到确认按钮: '{button_full_text}'")
-                            
-                            # 尝试点击按钮（基于 09-1 策略）
-                            try:
-                                # 滚动到按钮位置
-                                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                time.sleep(self.action_wait)
-                                
-                                # 点击按钮
-                                button.click()
-                                self.logger.debug(f"[POPUP] ✅ 成功点击确认按钮!")
-                                confirm_clicked = True
-                                
-                                # 等待弹窗消失（使用显式等待）
-                                try:
-                                    WebDriverWait(driver, 3).until(lambda d: not button.is_displayed())
-                                except Exception:
-                                    time.sleep(self.action_wait)
-                                
-                                # 记录已处理
-                                if current_domain:
-                                    self._popup_handled_domains.add(current_domain)
-                                
-                                # 检查弹窗是否消失
-                                try:
-                                    if not button.is_displayed():
-                                        self.logger.debug("[POPUP] ✅ 弹窗已消失")
-                                    else:
-                                        self.logger.debug("[POPUP] ⚠️ 弹窗可能仍然存在")
-                                except:
-                                    self.logger.debug("[POPUP] ✅ 按钮元素已移除，弹窗应已关闭")
-                                
-                                return True
-                                
-                            except Exception as e:
-                                self.logger.debug(f"[POPUP] ❌ 点击按钮失败: {e}")
-                                # 尝试JavaScript点击（基于 09-1）
-                                try:
-                                    driver.execute_script("arguments[0].click();", button)
-                                    self.logger.debug(f"[POPUP] ✅ JavaScript点击成功!")
-                                    confirm_clicked = True
-                                    time.sleep(3)
-                                    if current_domain:
-                                        self._popup_handled_domains.add(current_domain)
-                                    return True
-                                except Exception as e2:
-                                    self.logger.debug(f"[POPUP] ❌ JavaScript点击也失败: {e2}")
-                    
-                    if confirm_clicked:
-                        break
-                        
-                except Exception:
-                    continue
-        
-        if not confirm_clicked:
-            self.logger.debug("[POPUP] ⚠️ 未找到可点击的确认按钮，尝试通用方法...")
-            
-            # 最后尝试：查找所有可见的按钮并尝试点击（基于 09-1）
+        # 在默认内容中查找按钮
+        for kw in accept_keywords:
             try:
-                all_buttons = driver.find_elements(By.CSS_SELECTOR, "button, input[type='button'], input[type='submit'], a[role='button'], .btn, .button")
-                for button in all_buttons:
-                    if button.is_displayed() and button.is_enabled():
-                        button_text = button.text.strip().lower()
-                        button_value = (button.get_attribute('value') or '').strip().lower()
-                        
-                        # 检查是否包含确认相关的关键词
-                        confirm_keywords = ['accept', 'agree', 'understand', 'continue', 'ok', 'confirm', 'proceed']
-                        if any(keyword in button_text or keyword in button_value for keyword in confirm_keywords):
-                            self.logger.debug(f"[POPUP] 尝试通用按钮: '{button.text.strip()}'")
-                            try:
-                                # 先滚动再点击
-                                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", button)
-                                time.sleep(self.action_wait)
-                                button.click()
-                                self.logger.debug(f"[POPUP] ✅ 通用按钮点击成功!")
-                                time.sleep(3)
-                                if current_domain:
-                                    self._popup_handled_domains.add(current_domain)
-                                return True
-                            except:
-                                # 尝试 JavaScript 点击
-                                try:
-                                    driver.execute_script("arguments[0].click();", button)
-                                    self.logger.debug(f"[POPUP] ✅ 通用按钮JavaScript点击成功!")
-                                    time.sleep(3)
-                                    if current_domain:
-                                        self._popup_handled_domains.add(current_domain)
-                                    return True
-                                except:
-                                    continue
-            except Exception as e:
-                self.logger.debug(f"[POPUP] 通用方法失败: {e}")
+                btn = driver.find_element(By.XPATH, f"//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')]")
+                if btn.is_displayed() and btn.is_enabled():
+                    driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                    btn.click()
+                    self.logger.debug(f"[POPUP] ✅ 点击弹窗按钮: {btn.text.strip()}")
+                    # 等待弹窗消失
+                    try:
+                        WebDriverWait(driver, 3).until_not(EC.presence_of_element_located((By.XPATH, f"//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')]")))
+                    except:
+                        time.sleep(2)
+                    if current_domain:
+                        self._popup_handled_domains.add(current_domain)
+                    return True
+            except Exception:
+                continue
         
-        self.logger.warning("[POPUP] ❌ 无法处理免责声明弹窗")
+        # 如果未找到，检查iframe
+        iframes = driver.find_elements(By.TAG_NAME, 'iframe')
+        for iframe in iframes:
+            if not iframe.is_displayed():
+                continue
+            try:
+                driver.switch_to.frame(iframe)
+                for kw in accept_keywords:
+                    try:
+                        btn = driver.find_element(By.XPATH, f"//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')] | //a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), '{kw}')]")
+                        if btn.is_displayed() and btn.is_enabled():
+                            driver.execute_script("arguments[0].scrollIntoView({block:'center'});", btn)
+                            btn.click()
+                            self.logger.debug(f"[POPUP] ✅ 在iframe中点击按钮: {btn.text.strip()}")
+                            driver.switch_to.default_content()
+                            # 等待弹窗消失
+                            try:
+                                WebDriverWait(driver, 3).until_not(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
+                            except:
+                                time.sleep(2)
+                            if current_domain:
+                                self._popup_handled_domains.add(current_domain)
+                            return True
+                    except Exception:
+                        continue
+                driver.switch_to.default_content()
+            except Exception:
+                driver.switch_to.default_content()
+                continue
+        
+        self.logger.warning("[POPUP] ❌ 未能关闭弹窗")
         return False
 
     def _extract_specifications_with_driver(self, driver, product_url: str) -> List[Dict[str, Any]]:

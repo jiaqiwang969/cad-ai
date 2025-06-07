@@ -110,12 +110,14 @@ def _crawl_single_leaf_product_worker(args: dict) -> dict:
             if target_count > 0:
                 print(f"📊 [进程] 抓取完成度: {progress_info['progress_percentage']}% ({progress_info['extracted_count']}/{target_count})")
         
-        result['products'] = products
+        # 🔧 FIX: 确保所有URL都是绝对URL
+        absolute_products = [link if link.startswith("http") else f"https://www.traceparts.cn{link}" for link in products]
+        result['products'] = absolute_products
         
         # 保存缓存
         cache_dir.mkdir(parents=True, exist_ok=True)
         with open(cache_file, 'w', encoding='utf-8') as f:
-            json.dump(products, f, ensure_ascii=False, indent=2)
+            json.dump(absolute_products, f, ensure_ascii=False, indent=2)
         
         print(f"✅ [进程] 完成: {leaf_code} ({len(products)} 个产品)")
         
